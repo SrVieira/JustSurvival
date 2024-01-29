@@ -1,0 +1,3 @@
+<settings>
+    <setting name="*admin.securitylevel" value='[&quot;0&quot;]'></setting>
+</settings>
