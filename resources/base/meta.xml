@@ -1,6 +1,9 @@
 <meta>
     <info author="Matheus Vieira" version="1.0" name="base" description="gamemode rp base" type="gamemode" />
 
+    <!-- Variables -->
+    <script src="variables/server_variables.lua" type="server" cache="true" validate="true" />
+    
     <!-- Initializers -->
     <script src="initializers/server_initializer.lua" type="server" cache="true" validate="true" />
 </meta>
