@@ -1,0 +1,6 @@
+<meta>
+    <info author="Matheus Vieira" version="1.0" name="base" description="gamemode rp base" type="gamemode" />
+
+    <!-- Initializers -->
+    <script src="initializers/server_initializer.lua" type="server" cache="true" validate="true" />
+</meta>

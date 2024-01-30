@@ -1,0 +1,1 @@
+setGameType("RB-RP v1.0.0");
