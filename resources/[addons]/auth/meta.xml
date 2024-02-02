@@ -1,0 +1,10 @@
+<meta>
+    <info author="Matheus Vieira" version="1.0" name="auth" description="auth addon (login, register, character creation)" type="script" />
+
+    <!-- Assets -->
+    <file src="assets/images/bg.png" />
+    
+    <!-- Scripts -->
+    <script src="auth_client.lua" type="client" cache="true" validate="true" />
+    <script src="auth_server.lua" type="server" cache="true" validate="true" />
+</meta>

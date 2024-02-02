@@ -26,3 +26,403 @@
 [2024-01-30 16:59:11] Server stopped!
 [2024-01-30 16:59:11] Stopping resources....
 [2024-01-30 16:59:11] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : Just Belt Roleplay
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : .. 1.6/server/mods/deathmatch/logs/server.log
+= Maximum players  : 50
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : Medium
+==================================================================
+[2024-02-01 13:16:42] Resources: 1 loaded, 0 failed
+[2024-02-01 13:16:42] Server password set to 'xdxd123'
+[2024-02-01 13:16:42] Starting resources...
+[2024-02-01 13:16:42] ERROR: Couldn't find resource auth. Check it exists.
+[2024-02-01 13:16:42] INFO: Success: Connected to the MySQL database server
+[2024-02-01 13:16:42] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2024-02-01 13:16:42] WARNING: <owner_email_address> not set
+[2024-02-01 13:16:42] Server started and is ready to accept connections!
+[2024-02-01 13:16:42] To stop the server, type 'shutdown' or press Ctrl-C
+[2024-02-01 13:16:42] Type 'help' for a list of commands.
+[2024-02-01 13:16:43] Querying MTA master server... success! (Auto detected IP:45.234.1.37)
+[2024-02-01 16:41:48] start: Resource could not be found
+[2024-02-01 16:41:51] start: Resource could not be found
+[2024-02-01 16:42:09] New resource 'auth' loaded
+[2024-02-01 16:42:09] Resources: 2 loaded, 0 failed
+[2024-02-01 16:42:13] start: Requested by Console
+[2024-02-01 16:42:13] Starting auth
+[2024-02-01 16:42:13] start: Resource 'auth' started
+[2024-02-01 16:43:57] Server minclientversion is now 1.6.0-9.22377.0
+[2024-02-01 16:43:57] CONNECT: PastorzinBR failed to connect (Client version is below minimum) (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22364.0)
+[2024-02-01 16:43:57] QUIT: PastorzinBR left the game [Quit] 
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : Just Belt Roleplay
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : .. 1.6/server/mods/deathmatch/logs/server.log
+= Maximum players  : 50
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : Medium
+==================================================================
+[2024-02-01 16:49:56] Resources: 2 loaded, 0 failed
+[2024-02-01 16:49:56] Server password set to 'xdxd123'
+[2024-02-01 16:49:56] Starting resources....
+[2024-02-01 16:49:57] INFO: Success: Connected to the MySQL database server
+[2024-02-01 16:49:57] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2024-02-01 16:49:57] WARNING: <owner_email_address> not set
+[2024-02-01 16:49:57] Server started and is ready to accept connections!
+[2024-02-01 16:49:57] To stop the server, type 'shutdown' or press Ctrl-C
+[2024-02-01 16:49:57] Type 'help' for a list of commands.
+[2024-02-01 16:49:57] Querying MTA master server... success! (Auto detected IP:45.234.1.232)
+[2024-02-01 16:50:29] Server minclientversion is now 1.6.0-9.22377.0
+[2024-02-01 16:50:29] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22377.0)
+[2024-02-01 16:50:34] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-01 16:53:02] start: Requested by Console
+[2024-02-01 16:53:02] start: Resource is already running
+[2024-02-01 16:53:05] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 16:53:05] Stopping auth
+[2024-02-01 16:53:05] New resource 'auth' loaded
+[2024-02-01 16:53:05] Resources: 2 loaded, 0 failed
+[2024-02-01 16:53:05] Starting auth
+[2024-02-01 16:54:21] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 16:54:21] Stopping auth
+[2024-02-01 16:54:21] New resource 'auth' loaded
+[2024-02-01 16:54:21] Resources: 2 loaded, 0 failed
+[2024-02-01 16:54:21] Starting auth
+[2024-02-01 16:54:36] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 16:54:36] Stopping auth
+[2024-02-01 16:54:36] New resource 'auth' loaded
+[2024-02-01 16:54:36] Resources: 2 loaded, 0 failed
+[2024-02-01 16:54:36] Starting auth
+[2024-02-01 16:54:47] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 16:54:47] Stopping auth
+[2024-02-01 16:54:47] New resource 'auth' loaded
+[2024-02-01 16:54:47] Resources: 2 loaded, 0 failed
+[2024-02-01 16:54:47] Starting auth
+[2024-02-01 16:55:12] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 16:55:12] Stopping auth
+[2024-02-01 16:55:12] New resource 'auth' loaded
+[2024-02-01 16:55:12] Resources: 2 loaded, 0 failed
+[2024-02-01 16:55:12] Starting auth
+[2024-02-01 16:55:39] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 16:55:39] Stopping auth
+[2024-02-01 16:55:39] New resource 'auth' loaded
+[2024-02-01 16:55:39] Resources: 2 loaded, 0 failed
+[2024-02-01 16:55:39] Starting auth
+[2024-02-01 16:57:36] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 16:57:36] Stopping auth
+[2024-02-01 16:57:36] New resource 'auth' loaded
+[2024-02-01 16:57:36] Resources: 2 loaded, 0 failed
+[2024-02-01 16:57:36] Starting auth
+[2024-02-01 17:13:01] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:13:01] Stopping auth
+[2024-02-01 17:13:01] New resource 'auth' loaded
+[2024-02-01 17:13:01] New resource 'theme' loaded
+[2024-02-01 17:13:01] Resources: 3 loaded, 0 failed
+[2024-02-01 17:13:01] Starting auth
+[2024-02-01 17:13:26] start: Requested by Console
+[2024-02-01 17:13:26] Starting theme
+[2024-02-01 17:13:26] start: Resource 'theme' started
+[2024-02-01 17:17:25] start: Requested by Console
+[2024-02-01 17:17:25] start: Resource is already running
+[2024-02-01 17:17:27] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:17:27] Stopping auth
+[2024-02-01 17:17:27] New resource 'auth' loaded
+[2024-02-01 17:17:27] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:17:27] Stopping theme
+[2024-02-01 17:17:27] New resource 'theme' loaded
+[2024-02-01 17:17:27] Resources: 3 loaded, 0 failed
+[2024-02-01 17:17:27] Starting auth
+[2024-02-01 17:17:27] Starting theme
+[2024-02-01 17:17:40] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:17:40] Stopping auth
+[2024-02-01 17:17:40] New resource 'auth' loaded
+[2024-02-01 17:17:40] Resources: 3 loaded, 0 failed
+[2024-02-01 17:17:40] Starting auth
+[2024-02-01 17:17:53] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:17:53] Stopping auth
+[2024-02-01 17:17:53] New resource 'auth' loaded
+[2024-02-01 17:17:53] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:17:53] Stopping theme
+[2024-02-01 17:17:53] New resource 'theme' loaded
+[2024-02-01 17:17:53] Resources: 3 loaded, 0 failed
+[2024-02-01 17:17:53] Starting auth
+[2024-02-01 17:17:53] Starting theme
+[2024-02-01 17:18:03] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:18:03] Stopping theme
+[2024-02-01 17:18:03] New resource 'theme' loaded
+[2024-02-01 17:18:03] Resources: 3 loaded, 0 failed
+[2024-02-01 17:18:03] Starting theme
+[2024-02-01 17:20:51] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:20:51] Stopping theme
+[2024-02-01 17:20:51] New resource 'theme' loaded
+[2024-02-01 17:20:51] Resources: 3 loaded, 0 failed
+[2024-02-01 17:20:51] Starting theme
+[2024-02-01 17:21:11] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:21:11] Stopping theme
+[2024-02-01 17:21:11] New resource 'theme' loaded
+[2024-02-01 17:21:11] Resources: 3 loaded, 0 failed
+[2024-02-01 17:21:11] Starting theme
+[2024-02-01 17:21:31] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:21:31] Stopping theme
+[2024-02-01 17:21:31] New resource 'theme' loaded
+[2024-02-01 17:21:31] Resources: 3 loaded, 0 failed
+[2024-02-01 17:21:31] Starting theme
+[2024-02-01 17:22:33] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:22:33] Stopping theme
+[2024-02-01 17:22:33] New resource 'theme' loaded
+[2024-02-01 17:22:33] Resources: 3 loaded, 0 failed
+[2024-02-01 17:22:33] Starting theme
+[2024-02-01 17:24:54] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:24:54] Stopping theme
+[2024-02-01 17:24:54] New resource 'theme' loaded
+[2024-02-01 17:24:54] Resources: 3 loaded, 0 failed
+[2024-02-01 17:24:54] Starting theme
+[2024-02-01 17:26:05] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:26:05] Stopping auth
+[2024-02-01 17:26:05] New resource 'auth' loaded
+[2024-02-01 17:26:05] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:26:05] Stopping theme
+[2024-02-01 17:26:05] New resource 'theme' loaded
+[2024-02-01 17:26:05] Resources: 3 loaded, 0 failed
+[2024-02-01 17:26:05] Starting auth
+[2024-02-01 17:26:05] Starting theme
+[2024-02-01 17:26:23] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:26:23] Stopping theme
+[2024-02-01 17:26:23] New resource 'theme' loaded
+[2024-02-01 17:26:23] Resources: 3 loaded, 0 failed
+[2024-02-01 17:26:23] Starting theme
+[2024-02-01 17:26:46] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:26:46] Stopping auth
+[2024-02-01 17:26:46] New resource 'auth' loaded
+[2024-02-01 17:26:46] Resources: 3 loaded, 0 failed
+[2024-02-01 17:26:46] Starting auth
+[2024-02-01 17:26:52] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:26:52] Stopping auth
+[2024-02-01 17:26:52] New resource 'auth' loaded
+[2024-02-01 17:26:53] Resources: 3 loaded, 0 failed
+[2024-02-01 17:26:53] Starting auth
+[2024-02-01 17:27:22] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:27:22] Stopping auth
+[2024-02-01 17:27:22] New resource 'auth' loaded
+[2024-02-01 17:27:22] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:27:22] Stopping theme
+[2024-02-01 17:27:22] New resource 'theme' loaded
+[2024-02-01 17:27:22] Resources: 3 loaded, 0 failed
+[2024-02-01 17:27:22] Starting auth
+[2024-02-01 17:27:22] Starting theme
+[2024-02-01 17:27:35] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:27:35] Stopping theme
+[2024-02-01 17:27:35] New resource 'theme' loaded
+[2024-02-01 17:27:35] Resources: 3 loaded, 0 failed
+[2024-02-01 17:27:35] Starting theme
+[2024-02-01 17:27:51] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:27:51] Stopping theme
+[2024-02-01 17:27:51] New resource 'theme' loaded
+[2024-02-01 17:27:51] Resources: 3 loaded, 0 failed
+[2024-02-01 17:27:51] Starting theme
+[2024-02-01 17:28:09] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:28:09] Stopping auth
+[2024-02-01 17:28:09] New resource 'auth' loaded
+[2024-02-01 17:28:09] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:28:09] Stopping theme
+[2024-02-01 17:28:09] New resource 'theme' loaded
+[2024-02-01 17:28:09] Resources: 3 loaded, 0 failed
+[2024-02-01 17:28:09] Starting auth
+[2024-02-01 17:28:09] Starting theme
+[2024-02-01 17:28:32] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:28:32] Stopping auth
+[2024-02-01 17:28:32] New resource 'auth' loaded
+[2024-02-01 17:28:32] Resources: 3 loaded, 0 failed
+[2024-02-01 17:28:32] Starting auth
+[2024-02-01 17:29:13] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:29:13] Stopping auth
+[2024-02-01 17:29:13] New resource 'auth' loaded
+[2024-02-01 17:29:13] Resources: 3 loaded, 0 failed
+[2024-02-01 17:29:13] Starting auth
+[2024-02-01 17:29:40] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:29:40] Stopping theme
+[2024-02-01 17:29:40] New resource 'theme' loaded
+[2024-02-01 17:29:40] Resources: 3 loaded, 0 failed
+[2024-02-01 17:29:40] Starting theme
+[2024-02-01 17:30:13] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:30:13] Stopping theme
+[2024-02-01 17:30:13] New resource 'theme' loaded
+[2024-02-01 17:30:13] Resources: 3 loaded, 0 failed
+[2024-02-01 17:30:13] Starting theme
+[2024-02-01 17:31:10] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:31:10] Stopping auth
+[2024-02-01 17:31:10] New resource 'auth' loaded
+[2024-02-01 17:31:10] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:31:10] Stopping theme
+[2024-02-01 17:31:10] New resource 'theme' loaded
+[2024-02-01 17:31:10] Resources: 3 loaded, 0 failed
+[2024-02-01 17:31:10] Starting auth
+[2024-02-01 17:31:10] Starting theme
+[2024-02-01 17:32:47] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:32:47] Stopping theme
+[2024-02-01 17:32:47] New resource 'theme' loaded
+[2024-02-01 17:32:47] Resources: 3 loaded, 0 failed
+[2024-02-01 17:32:47] Starting theme
+[2024-02-01 17:34:27] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:34:27] Stopping auth
+[2024-02-01 17:34:27] New resource 'auth' loaded
+[2024-02-01 17:34:27] Resources: 3 loaded, 0 failed
+[2024-02-01 17:34:27] Starting auth
+[2024-02-01 17:34:50] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:34:50] Stopping auth
+[2024-02-01 17:34:50] New resource 'auth' loaded
+[2024-02-01 17:34:50] Resources: 3 loaded, 0 failed
+[2024-02-01 17:34:50] Starting auth
+[2024-02-01 17:35:00] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:35:00] Stopping auth
+[2024-02-01 17:35:00] New resource 'auth' loaded
+[2024-02-01 17:35:00] Resources: 3 loaded, 0 failed
+[2024-02-01 17:35:00] Starting auth
+[2024-02-01 17:35:25] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:35:25] Stopping auth
+[2024-02-01 17:35:25] New resource 'auth' loaded
+[2024-02-01 17:35:25] Resources: 3 loaded, 0 failed
+[2024-02-01 17:35:25] Starting auth
+[2024-02-01 17:35:52] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:35:52] Stopping auth
+[2024-02-01 17:35:52] New resource 'auth' loaded
+[2024-02-01 17:35:52] Resources: 3 loaded, 0 failed
+[2024-02-01 17:35:52] Starting auth
+[2024-02-01 17:35:59] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:35:59] Stopping auth
+[2024-02-01 17:35:59] New resource 'auth' loaded
+[2024-02-01 17:35:59] Resources: 3 loaded, 0 failed
+[2024-02-01 17:35:59] Starting auth
+[2024-02-01 17:36:13] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:36:13] Stopping auth
+[2024-02-01 17:36:13] New resource 'auth' loaded
+[2024-02-01 17:36:13] Resources: 3 loaded, 0 failed
+[2024-02-01 17:36:13] Starting auth
+[2024-02-01 17:36:33] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:36:33] Stopping theme
+[2024-02-01 17:36:33] New resource 'theme' loaded
+[2024-02-01 17:36:33] Resources: 3 loaded, 0 failed
+[2024-02-01 17:36:33] Starting theme
+[2024-02-01 17:39:24] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:39:24] Stopping auth
+[2024-02-01 17:39:24] New resource 'auth' loaded
+[2024-02-01 17:39:24] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:39:24] Stopping theme
+[2024-02-01 17:39:24] New resource 'theme' loaded
+[2024-02-01 17:39:24] Resources: 3 loaded, 0 failed
+[2024-02-01 17:39:24] Starting auth
+[2024-02-01 17:39:24] Starting theme
+[2024-02-01 17:39:58] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:39:58] Stopping auth
+[2024-02-01 17:39:58] New resource 'auth' loaded
+[2024-02-01 17:39:58] Resources: 3 loaded, 0 failed
+[2024-02-01 17:39:58] Starting auth
+[2024-02-01 17:46:31] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:46:31] Stopping auth
+[2024-02-01 17:46:31] New resource 'auth' loaded
+[2024-02-01 17:46:31] Resources: 3 loaded, 0 failed
+[2024-02-01 17:46:31] Starting auth
+[2024-02-01 17:47:02] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:47:02] Stopping auth
+[2024-02-01 17:47:02] New resource 'auth' loaded
+[2024-02-01 17:47:02] Resources: 3 loaded, 0 failed
+[2024-02-01 17:47:02] Starting auth
+[2024-02-01 17:47:09] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:47:09] Stopping auth
+[2024-02-01 17:47:09] New resource 'auth' loaded
+[2024-02-01 17:47:09] Resources: 3 loaded, 0 failed
+[2024-02-01 17:47:09] Starting auth
+[2024-02-01 17:47:44] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:47:44] Stopping auth
+[2024-02-01 17:47:44] New resource 'auth' loaded
+[2024-02-01 17:47:45] Resources: 3 loaded, 0 failed
+[2024-02-01 17:47:45] Starting auth
+[2024-02-01 17:51:07] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:51:07] Stopping auth
+[2024-02-01 17:51:07] New resource 'auth' loaded
+[2024-02-01 17:51:07] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:51:07] Stopping theme
+[2024-02-01 17:51:07] New resource 'theme' loaded
+[2024-02-01 17:51:07] Resources: 3 loaded, 0 failed
+[2024-02-01 17:51:07] Starting auth
+[2024-02-01 17:51:07] Starting theme
+[2024-02-01 17:51:27] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:51:27] Stopping auth
+[2024-02-01 17:51:27] New resource 'auth' loaded
+[2024-02-01 17:51:27] Resources: 3 loaded, 0 failed
+[2024-02-01 17:51:27] Starting auth
+[2024-02-01 17:51:53] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:51:53] Stopping auth
+[2024-02-01 17:51:53] New resource 'auth' loaded
+[2024-02-01 17:51:53] Resources: 3 loaded, 0 failed
+[2024-02-01 17:51:53] Starting auth
+[2024-02-01 17:52:13] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:52:13] Stopping theme
+[2024-02-01 17:52:13] New resource 'theme' loaded
+[2024-02-01 17:52:13] Resources: 3 loaded, 0 failed
+[2024-02-01 17:52:13] Starting theme
+[2024-02-01 17:52:56] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:52:56] Stopping theme
+[2024-02-01 17:52:56] New resource 'theme' loaded
+[2024-02-01 17:52:56] Resources: 3 loaded, 0 failed
+[2024-02-01 17:52:56] Starting theme
+[2024-02-01 17:53:29] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:53:29] Stopping theme
+[2024-02-01 17:53:29] New resource 'theme' loaded
+[2024-02-01 17:53:29] Resources: 3 loaded, 0 failed
+[2024-02-01 17:53:29] Starting theme
+[2024-02-01 17:53:49] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:53:49] Stopping theme
+[2024-02-01 17:53:49] New resource 'theme' loaded
+[2024-02-01 17:53:49] Resources: 3 loaded, 0 failed
+[2024-02-01 17:53:49] Starting theme
+[2024-02-01 17:54:04] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:54:04] Stopping theme
+[2024-02-01 17:54:04] New resource 'theme' loaded
+[2024-02-01 17:54:04] Resources: 3 loaded, 0 failed
+[2024-02-01 17:54:04] Starting theme
+[2024-02-01 17:54:27] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:54:27] Stopping theme
+[2024-02-01 17:54:27] New resource 'theme' loaded
+[2024-02-01 17:54:27] Resources: 3 loaded, 0 failed
+[2024-02-01 17:54:27] Starting theme
+[2024-02-01 17:54:40] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:54:40] Stopping theme
+[2024-02-01 17:54:40] New resource 'theme' loaded
+[2024-02-01 17:54:40] Resources: 3 loaded, 0 failed
+[2024-02-01 17:54:40] Starting theme
+[2024-02-01 17:54:56] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:54:56] Stopping auth
+[2024-02-01 17:54:56] New resource 'auth' loaded
+[2024-02-01 17:54:56] Resources: 3 loaded, 0 failed
+[2024-02-01 17:54:56] Starting auth
+[2024-02-01 17:56:06] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:56:06] Stopping auth
+[2024-02-01 17:56:06] New resource 'auth' loaded
+[2024-02-01 17:56:06] Resources: 3 loaded, 0 failed
+[2024-02-01 17:56:06] Starting auth
+[2024-02-01 17:56:14] Resource 'theme' changed while running, reloading and restarting
+[2024-02-01 17:56:14] Stopping theme
+[2024-02-01 17:56:14] New resource 'theme' loaded
+[2024-02-01 17:56:14] Resources: 3 loaded, 0 failed
+[2024-02-01 17:56:14] Starting theme
+[2024-02-01 17:56:44] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:56:44] Stopping auth
+[2024-02-01 17:56:44] New resource 'auth' loaded
+[2024-02-01 17:56:44] Resources: 3 loaded, 0 failed
+[2024-02-01 17:56:44] Starting auth
+[2024-02-01 17:57:20] Resource 'auth' changed while running, reloading and restarting
+[2024-02-01 17:57:20] Stopping auth
+[2024-02-01 17:57:20] New resource 'auth' loaded
+[2024-02-01 17:57:20] Resources: 3 loaded, 0 failed
+[2024-02-01 17:57:20] Starting auth

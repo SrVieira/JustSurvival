@@ -1,0 +1,26 @@
+<meta>
+    <info author="Matheus Vieira" version="1.0" name="theme" description="theme lib (fonts, colors and other theme variables)" type="script" />
+
+    <!-- Fonts -->
+    <file src="fonts/Inter-Black.ttf" />
+    <file src="fonts/Inter-Bold.ttf" />
+    <file src="fonts/Inter-ExtraBold.ttf" />
+    <file src="fonts/Inter-ExtraLight.ttf" />
+    <file src="fonts/Inter-Light.ttf" />
+    <file src="fonts/Inter-Medium.ttf" />
+    <file src="fonts/Inter-Regular.ttf" />
+    <file src="fonts/Inter-SemiBold.ttf" />
+    <file src="fonts/Inter-Thin.ttf" />
+
+    <!-- Icons -->
+    <file src="icons/join.png" />
+
+    <!-- Scripts -->
+    <script src="theme_client.lua" type="client" cache="true" validate="true" />
+
+    <!-- Exports -->
+    <export function="dxDrawTextCustom" type="client" http="true" />
+    <export function="dxDrawRoundedRectangle" type="client" http="true" />
+    <export function="dxDrawInputField" type="client" http="true" />
+    <export function="dxDrawButton" type="client" http="true" />
+</meta>
