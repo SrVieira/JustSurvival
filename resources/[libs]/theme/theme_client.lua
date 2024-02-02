@@ -1,4 +1,4 @@
-local ceil = math.ceil;
+local ceil, min = math.ceil, math.min;
 
 function createDynamicFont(fontPath, baseSize)
     local screenWidth, screenHeight = guiGetScreenSize();
@@ -12,9 +12,12 @@ local fonts = {
     ['head1'] = createDynamicFont("fonts/Inter-Bold.ttf", 28);
     ['body1'] = createDynamicFont("fonts/Inter-Regular.ttf", 16);
     ['body2'] = createDynamicFont("fonts/Inter-Bold.ttf", 18);
+    ['body3'] = createDynamicFont("fonts/Inter-Medium.ttf", 14);
 };
 
 function dxDrawRoundedRectangle(x, y, width, height, radius, color, postGUI, subPixelPositioning)
+    radius = min(radius, width / 2, height / 2);
+
     dxDrawRectangle(x+radius, y+radius, width-(radius*2), height-(radius*2), color, postGUI, subPixelPositioning);
     dxDrawCircle(x+radius, y+radius, radius, 180, 270, color, color, 16, 1, postGUI);
     dxDrawCircle(x+radius, (y+height)-radius, radius, 90, 180, color, color, 16, 1, postGUI);
@@ -42,4 +45,9 @@ function dxDrawButton(label, x, y, width, height, color, fontColor, icon)
     dxDrawRoundedRectangle(x, y, width, height, 6, color, false, false);
     dxDrawImage(x + (width - 45), y + (height / 2) - 18, 35, 35, "icons/"..icon..".png");
     dxDrawTextCustom(label, x + 15, y + (height / 2), x, y + (height / 2), fontColor, 'body2', nil, "center");
+end
+
+function dxDrawCheckbox(label, x, y, color, fontColor)
+    dxDrawRoundedRectangle(x, y, 16, 16, 6, color, false, false);
+    dxDrawTextCustom(label, x + 20, y + 20, x, y, fontColor, 'body3', nil, "center");
 end

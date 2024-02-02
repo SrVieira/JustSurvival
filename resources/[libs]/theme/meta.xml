@@ -23,4 +23,5 @@
     <export function="dxDrawRoundedRectangle" type="client" http="true" />
     <export function="dxDrawInputField" type="client" http="true" />
     <export function="dxDrawButton" type="client" http="true" />
+    <export function="dxDrawCheckbox" type="client" http="true" />
 </meta>
