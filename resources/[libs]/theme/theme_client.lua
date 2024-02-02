@@ -14,7 +14,6 @@ local fonts = {
     ['body2'] = createDynamicFont("fonts/Inter-Bold.ttf", 18);
 };
 
-
 function dxDrawRoundedRectangle(x, y, width, height, radius, color, postGUI, subPixelPositioning)
     dxDrawRectangle(x+radius, y+radius, width-(radius*2), height-(radius*2), color, postGUI, subPixelPositioning);
     dxDrawCircle(x+radius, y+radius, radius, 180, 270, color, color, 16, 1, postGUI);
