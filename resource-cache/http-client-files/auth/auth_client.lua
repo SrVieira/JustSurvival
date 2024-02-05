@@ -10,6 +10,7 @@ function handleRenderScreen()
         exports.theme:dxDrawInputField('Senha', screenWidth * 0.1, screenHeight * 0.460, screenWidth * 0.280, screenHeight * 0.07, tocolor(255, 255, 255, 25), tocolor(255, 255, 255));
         exports.theme:dxDrawButton('Entrar na Cidade', screenWidth * 0.1, screenHeight * 0.545, screenWidth * 0.280, screenHeight * 0.07, tocolor(218, 0, 39, 255), tocolor(255, 255, 255), "join");
         exports.theme:dxDrawCheckbox('Lembrar login', screenWidth * 0.1, screenHeight * 0.630, tocolor(118, 118, 118, 255), tocolor(255, 255, 255));
+        exports.theme:dxDrawTextCustom('Esqueci a minha senha', screenWidth * 0.1, screenHeight * 0.675, 35, screenHeight * 0.675, tocolor(255, 255, 255), 'body2', 'center', 'center');
     elseif currentPage == "register" then
 
     elseif currentPage == "recoverPassword" then
