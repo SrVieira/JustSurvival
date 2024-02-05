@@ -13,6 +13,7 @@ local fonts = {
     ['body1'] = createDynamicFont("fonts/Inter-Regular.ttf", 16);
     ['body2'] = createDynamicFont("fonts/Inter-Bold.ttf", 18);
     ['body3'] = createDynamicFont("fonts/Inter-Medium.ttf", 14);
+    ['body4'] = createDynamicFont("fonts/Inter-Medium.ttf", 18);
 };
 
 function dxDrawRoundedRectangle(x, y, width, height, radius, color, postGUI, subPixelPositioning)
@@ -33,7 +34,7 @@ function dxDrawTextCustom(label, leftX, topY, rightX, bottomY, color, font, alig
     alignX = alignX or 'left';
     alignY = alignY or 'top';
 
-    dxDrawText(label, leftX, topY, rightX, bottomY, color, 1, fonts[font], alignX, alignY);
+    dxDrawText(label, leftX, topY, rightX, bottomY, color, 1, fonts[font], alignX, alignY, false, true, false, true);
 end
 
 function dxDrawInputField(label, x, y, width, height, color, fontColor)
