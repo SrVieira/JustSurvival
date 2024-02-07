@@ -669,15 +669,15 @@ gameplayVariables["tents"] = {
 }
 
 gameplayVariables["world_items"] = {
-	{"Transfusor de sangre"},
+	{"Transfusor de Sangue"},
 	{"Analgésicos"},
 	{"Antibioticos"},
-	{"Esteroides"},
+	{"Esteróides"},
 	{"Morfina"},
-	{"Botiquin"},
+	{"Kit de Primeiros Socorros"},
 	{"Curativo"},
 	{"Flecha"},
-	{"Bolsa de sangre"},
+	{"Bolsa de Sangue"},
 	-- ARMAS
 	{"Bizon PP-19 SD"},
 	{"CZ 550"},
@@ -771,7 +771,7 @@ gameplayVariables["world_items"] = {
 	{"Garrafa de Água vacia"},	
 	{"Mapa"},
 	{"Pila de madera"},
-	{"Bolsa termica"},
+	{"Bolsa Térmica"},
 	{"GPS"},
 	{"Caja de herramientas"},
 	{"Cerillos"},

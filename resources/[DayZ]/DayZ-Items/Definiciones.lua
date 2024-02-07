@@ -99,11 +99,11 @@ Items = {
 	"Bengala",
 	"Bidón vacio",
 	"Bidón con gasolina",
-	"Botiquin",
-	"Bolsa termica",
+	"Kit de Primeiros Socorros",
+	"Bolsa Térmica",
 	"Analgésicos",
 	"Morfina",
-	"Bolsa de sangre",
+	"Bolsa de Sangue",
 	"Valla de alambre",
 	"Carne cruda",
 	"Botella vacia",
@@ -185,22 +185,22 @@ Items['Police Suit'] = {1870, 1.30}
 Items['Veterano Suit'] = {1870, 1.30}
 Items['Camo Suit'] = {1870, 1.30}
 Items['Survivor Suit'] = {1870, 1.30}
-Items['Transfusor de sangre'] = {1867, 1.30}
-Items['Esteroides'] = {1938, 1.30}
+Items['Transfusor de Sangue'] = {1867, 1.30}
+Items['Esteróides'] = {1938, 1.30}
 Items['Analgésicos'] = {2709, 1.30}
 Items['Antibioticos'] = {330, 1.30}
 Items['Morfina'] = {958, 1.30}
-Items['Botiquin'] = {2891, 1.30}
+Items['Kit de Primeiros Socorros'] = {2891, 1.30}
 Items['Curativo'] = {1578, 1.30}
 Items['Flecha'] = {1247, 1.30}
-Items['Bolsa de sangre (A+)'] = {1580, 1.30}
-Items['Bolsa de sangre (A-)'] = {1580, 1.30}
-Items['Bolsa de sangre (B+)'] = {1580, 1.30}
-Items['Bolsa de sangre (B-)'] = {1580, 1.30}
-Items['Bolsa de sangre (AB+)'] = {1580, 1.30}
-Items['Bolsa de sangre (AB-)'] = {1580, 1.30}
-Items['Bolsa de sangre (O+)'] = {1580, 1.30}
-Items['Bolsa de sangre (O-)'] = {1580, 1.30}	
+Items['Bolsa de Sangue (A+)'] = {1580, 1.30}
+Items['Bolsa de Sangue (A-)'] = {1580, 1.30}
+Items['Bolsa de Sangue (B+)'] = {1580, 1.30}
+Items['Bolsa de Sangue (B-)'] = {1580, 1.30}
+Items['Bolsa de Sangue (AB+)'] = {1580, 1.30}
+Items['Bolsa de Sangue (AB-)'] = {1580, 1.30}
+Items['Bolsa de Sangue (O+)'] = {1580, 1.30}
+Items['Bolsa de Sangue (O-)'] = {1580, 1.30}	
 
 	-- MUNICIONES
 Items['M203'] = {2824, 1.30}	
@@ -229,7 +229,7 @@ Items['Bengala'] = {324, 1.30}
 Items['Garrafa de Água vacia'] = {2683, 1.30}	
 Items['Mapa'] = {1277, 1.30}
 Items['Pila de madera'] = {1.30}
-Items['Bolsa termica'] = {1579, 1.30}
+Items['Bolsa Térmica'] = {1579, 1.30}
 Items['GPS'] = {2976, 1.30}
 Items['Compass'] = {1937, 1.30}
 Items['Caja de herramientas'] = {2969, 1.30}

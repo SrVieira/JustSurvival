@@ -39,8 +39,8 @@ local dropPositions = {
 }
 
 local lootTable = {
-	{"Transfusor de sangre"},
-	{"Bolsa termica"},
+	{"Transfusor de Sangue"},
+	{"Bolsa Térmica"},
 	{"Curativo"},
 	{"Analgésicos"},
 	{"Remington 870"},

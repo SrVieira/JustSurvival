@@ -10,8 +10,8 @@ ZombieLoot = {
 zombieLootType = {
 	["runner"] = {
 		{"Mina",0.12},
-		{"Botiquin",0.28},
-		{"Esteroides",0.12},
+		{"Kit de Primeiros Socorros",0.28},
+		{"Esteróides",0.12},
 		{"Revolver",1.28},
 		{"Frijoles",2.28},
 		{"Puerco",2.28},
@@ -48,7 +48,7 @@ zombieLootType = {
 		{".308 Winchester",13.89},
 		{"Garrafa de Água vacia",5.56},
 		{"9x18mm",27.78},
-		{"Bolsa termica",5.56},
+		{"Bolsa Térmica",5.56},
 	},
 
 	["generic"] = {
@@ -73,7 +73,7 @@ zombieLootType = {
 		{"Revolver",4},
 		{"Bengala",7},
 		{"Analgésicos",2},
-		{"Bolsa termica",4},
+		{"Bolsa Térmica",4},
 		{"Mochila Asalto",6},
 	},
 
@@ -81,8 +81,8 @@ zombieLootType = {
 		{"Curativo",43.48},
 		{"Analgésicos",21.74},
 		{"Morfina",21.74},
-		{"Bolsa termica",4.35},
-		{"Botiquin",0.12},
+		{"Bolsa Térmica",4.35},
+		{"Kit de Primeiros Socorros",0.12},
 	},
 
 	["military"] = {
@@ -104,7 +104,7 @@ zombieLootType = {
 		{"Bengala",4},
 		{"Valla de alambre",1},
 		{"Granada",0.99},
-		{"Bolsa termica",3.96},
+		{"Bolsa Térmica",3.96},
 	},
 }
 

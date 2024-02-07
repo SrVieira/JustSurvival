@@ -7,7 +7,7 @@ local inventory = {
 	header3 = "Arma secundaria",
 	header4 = "Comida e Bebidas",
 	header5 = "Medicamentos",
-	header6 = "Inventário",
+	header6 = "Inventario",
 	header7 = "Slot",
 	header8 = "Atalhos",
 	filepathIcon = "images/inventory/icons/",
@@ -745,11 +745,11 @@ function requestUseItem(itemName)
 		useItem(itemName, "cloth")
 	end
 	-- # Blood Bags.
-	if string.find(itemName, "Bolsa de sangre") then
-		local theStr = string.gsub(itemName, "Bolsa de sangre ", "")
+	if string.find(itemName, "Bolsa de Sangue") then
+		local theStr = string.gsub(itemName, "Bolsa de Sangue ", "")
 		local bloodbagType = string.sub(theStr, 2, #theStr-1)
 		local myBloodType = getElementData(localPlayer, "bloodType")
-		--if getElementData(localPlayer, "Transfusor de sangre") and getElementData(localPlayer, "Transfusor de sangre") > 0 then
+		--if getElementData(localPlayer, "Transfusor de Sangue") and getElementData(localPlayer, "Transfusor de Sangue") > 0 then
 		--	if myBloodType and myBloodType == bloodbagType then
 				if (getElementData(localPlayer, "blood") < 12000) then
 					if (getElementData(localPlayer, "blood") + 4000 < 12000) then
@@ -758,11 +758,11 @@ function requestUseItem(itemName)
 						setElementData(localPlayer, "blood", 12000)
 					end
 		
-					setElementData(localPlayer, "Bolsa de sangre ("..tostring(bloodbagType)..")", getElementData(localPlayer, "Bolsa de sangre ("..tostring(bloodbagType)..")") - 1)	
+					setElementData(localPlayer, "Bolsa de Sangue ("..tostring(bloodbagType)..")", getElementData(localPlayer, "Bolsa de Sangue ("..tostring(bloodbagType)..")") - 1)	
 					triggerEvent("displayClientInfo", localPlayer, "Transfusion realizada.", {0, 255, 0})
 
-					if getElementData(localPlayer, "Bolsa de sangre ("..tostring(bloodbagType)..")") <= 0 then
-						removeItemFromInventory("Bolsa de sangre ("..tostring(bloodbagType)..")")
+					if getElementData(localPlayer, "Bolsa de Sangue ("..tostring(bloodbagType)..")") <= 0 then
+						removeItemFromInventory("Bolsa de Sangue ("..tostring(bloodbagType)..")")
 					end
 				else
 					triggerEvent("displayClientInfo", localPlayer, "No puedes hacer mas transfusiones.", {255, 0, 0})
@@ -775,10 +775,10 @@ function requestUseItem(itemName)
 		--end
 	end
 	-- # Blood Transfusor.
-	if itemName == "Transfusor de sangre" then
+	if itemName == "Transfusor de Sangue" then
 		if (getElementData(localPlayer, "blood") - 4000 >= 4000) then
 			local myBloodType = getElementData(localPlayer, "bloodType")
-			setElementData(localPlayer, "Bolsa de sangre ("..tostring(myBloodType)..")", (getElementData(localPlayer, "Bolsa de sangre ("..tostring(myBloodType)..")") or 0) + 1)
+			setElementData(localPlayer, "Bolsa de Sangue ("..tostring(myBloodType)..")", (getElementData(localPlayer, "Bolsa de Sangue ("..tostring(myBloodType)..")") or 0) + 1)
 			setElementData(localPlayer, "blood", getElementData(localPlayer, "blood") - 4000)
 			triggerEvent("displayClientInfo", localPlayer, "Transfusion realizada.", {0, 255, 0})
 			inventoryUpdate()
@@ -787,11 +787,11 @@ function requestUseItem(itemName)
 		end
 	end
 	-- # Steroids.
-	if itemName == "Esteroides" then
+	if itemName == "Esteróides" then
 		if not getElementData(localPlayer, "onRoids") then
 			setGameSpeed(1.2)
 			setElementData(localPlayer, "onRoids", true, false)			
-			setElementData(localPlayer, "Esteroides", getElementData(localPlayer, "Esteroides") - 1)
+			setElementData(localPlayer, "Esteróides", getElementData(localPlayer, "Esteróides") - 1)
 			setElementData(localPlayer, "blood", getElementData(localPlayer, "blood") - 2000)
 			triggerEvent("displayClientInfo", localPlayer, "Has usado esteroides.", {255, 255, 255})
 
@@ -800,7 +800,7 @@ function requestUseItem(itemName)
 				setElementData(localPlayer, "onRoids", false, false)
 			end, 30000, 1)
 
-			if getElementData(localPlayer, "Esteroides") <= 0 then
+			if getElementData(localPlayer, "Esteróides") <= 0 then
 				removeItemFromInventory(itemName)
 			end
 		end
@@ -870,13 +870,13 @@ function requestUseItem(itemName)
 		end
 		useItem(itemName, "medical")
 	end
-	if itemName == "Botiquin" then
+	if itemName == "Kit de Primeiros Socorros" then
 		if (getElementData(localPlayer, "blood") >= 12000) then
 			return
 		end
 		useItem(itemName, "medical")
 	end
-	if itemName == "Bolsa termica" then
+	if itemName == "Bolsa Térmica" then
 		if not getElementData(localPlayer, "cold") or getElementData(localPlayer, "cold") <= 0 then
 			triggerEvent("displayClientInfo", localPlayer, "No estas congelado.", {255, 0, 0})
 			return

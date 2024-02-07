@@ -306,10 +306,10 @@ function applyMedicalItem(item, itemName)
 		elseif item == "Morfina" then
 			setElementData(source, "brokenbone", 0)
 			applied = true
-		elseif item == "Botiquin" then
+		elseif item == "Kit de Primeiros Socorros" then
 			setElementData(source, "blood", 12000)
 			applied = true
-		elseif item == "Bolsa termica" then
+		elseif item == "Bolsa Térmica" then
 			setElementData(source, "temperature", 41)
 			setElementData(source, "cold", 0)
 			applied = true		

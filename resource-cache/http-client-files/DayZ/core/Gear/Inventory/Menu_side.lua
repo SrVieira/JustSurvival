@@ -321,14 +321,14 @@ function insertMenuTypeTable(menuType, col)
 				end				
 				
 				if getElementData(player, "blood") and getElementData(player, "blood") < 12000 then
-					--if getElementData(localPlayer, "Transfusor de sangre") and getElementData(localPlayer, "Transfusor de sangre") > 0 then
+					--if getElementData(localPlayer, "Transfusor de Sangue") and getElementData(localPlayer, "Transfusor de Sangue") > 0 then
 						--local hisBloodType = getElementData(player, "bloodType")
-						if getElementData(localPlayer, "Bolsa de sangre") and getElementData(localPlayer, "Bolsa de sangre") > 0 then
+						if getElementData(localPlayer, "Bolsa de Sangue") and getElementData(localPlayer, "Bolsa de Sangue") > 0 then
 							table.insert(sidemenu, {"Realizar transfusion", "make_bloodtransfusion"})
 							setNewbieMessage(col, getPlayerName(player):gsub("#%x%x%x%x%x%x", ""))
 						end
 					--end
-					if getElementData(localPlayer, "Botiquin") and getElementData(localPlayer, "Botiquin") > 0 then
+					if getElementData(localPlayer, "Kit de Primeiros Socorros") and getElementData(localPlayer, "Kit de Primeiros Socorros") > 0 then
 						table.insert(sidemenu, {"Aplicar botiquin", "medickit"})
 						setNewbieMessage(col, getPlayerName(player):gsub("#%x%x%x%x%x%x", ""))
 					end
@@ -550,7 +550,7 @@ function applySelection()
 		end
 		
 		if opt ==  "medickit" then
-			setElementData(localPlayer, "Botiquin", getElementData(localPlayer, "Botiquin") - 1)
+			setElementData(localPlayer, "Kit de Primeiros Socorros", getElementData(localPlayer, "Kit de Primeiros Socorros") - 1)
 			setElementData(getElementData(col, "parent"), "blood", 12000)
 			triggerServerEvent("onPlayerApplyMedicalAttention", localPlayer, getElementData(col, "parent"))
 			inventoryUpdate()
@@ -567,7 +567,7 @@ function applySelection()
 		end
 		
 		if opt == "make_bloodtransfusion" then
-			setElementData(localPlayer, "Bolsa de sangre ("..getElementData(getElementData(col, "parent"), "bloodType")..")", getElementData(localPlayer, "Bolsa de sangre ("..getElementData(getElementData(col, "parent"), "bloodType")..")") - 1)
+			setElementData(localPlayer, "Bolsa de Sangue ("..getElementData(getElementData(col, "parent"), "bloodType")..")", getElementData(localPlayer, "Bolsa de Sangue ("..getElementData(getElementData(col, "parent"), "bloodType")..")") - 1)
 			setElementData(getElementData(col, "parent"), "blood", (getElementData(getElementData(col, "parent"), "blood") or 0) + 6000)
 			triggerEvent("displayClientInfo", localPlayer, "Transfusion realizada", {255,255,255})
 			triggerServerEvent("onPlayerApplyMedicalAttention", localPlayer, getElementData(col, "parent"))
