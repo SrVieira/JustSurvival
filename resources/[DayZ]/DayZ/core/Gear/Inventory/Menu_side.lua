@@ -297,14 +297,14 @@ function insertMenuTypeTable(menuType, col)
 			local player = getElementData(col, "parent")
 			if isElement(player) and not getPedOccupiedVehicle(player) and player ~= localPlayer then
 				if getElementData(player, "bleeding") and getElementData(player, "bleeding") > 0 then
-					if getElementData(localPlayer, "Vendaje") and getElementData(localPlayer, "Vendaje") > 0 then
+					if getElementData(localPlayer, "Curativo") and getElementData(localPlayer, "Curativo") > 0 then
 						table.insert(sidemenu, {"Detener sangrado", "stop_bleeding"})
 						setNewbieMessage(col, getPlayerName(player):gsub("#%x%x%x%x%x%x", ""), "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")
 					end
 				end
 				
 				if getElementData(player, "pain") and getElementData(player, "pain") > 0 then
-					if getElementData(localPlayer, "Analgesicos") and getElementData(localPlayer, "Analgesicos") > 0 then
+					if getElementData(localPlayer, "Analgésicos") and getElementData(localPlayer, "Analgésicos") > 0 then
 						table.insert(sidemenu, {"Curar dolores", "stop_pain"})
 						setNewbieMessage(col, getPlayerName(player):gsub("#%x%x%x%x%x%x", ""), "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")
 					end
@@ -515,7 +515,7 @@ function applySelection()
 		local col = currentCol
 		
 		if opt == "stop_bleeding" then
-			setElementData(localPlayer, "Vendaje", getElementData(localPlayer, "Vendaje") - 1)
+			setElementData(localPlayer, "Curativo", getElementData(localPlayer, "Curativo") - 1)
 			setElementData(getElementData(col, "parent"), "bleeding", 0)
 			triggerEvent("displayClientInfo", localPlayer, "Has detenido el sangrado", {255,255,255})
 			triggerServerEvent("onPlayerApplyMedicalAttention", localPlayer, getElementData(col, "parent"))
@@ -545,7 +545,7 @@ function applySelection()
 		end
 		
 		if opt ==  "stop_pain" then	
-			setElementData(localPlayer, "Analgesicos", getElementData(localPlayer, "Analgesicos") - 1)
+			setElementData(localPlayer, "Analgésicos", getElementData(localPlayer, "Analgésicos") - 1)
 			setElementData(getElementData(col, "parent"), "pain", 0)
 			triggerEvent("displayClientInfo", localPlayer, "Has curado los dolores", {255,255,255})
 			triggerServerEvent("onPlayerApplyMedicalAttention", localPlayer, getElementData(col, "parent"))

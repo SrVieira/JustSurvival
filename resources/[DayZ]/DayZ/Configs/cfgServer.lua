@@ -517,7 +517,7 @@ gameplayVariables["world_weapons"] = {
 	-- name, cartidge, gta_id, damage, noise, object_id, mag_size, slot (1,2,3)
 	-- ARMAS CON MUNICIONES NO-FIRE
 	{"Cuchillo", "Melee", 4, 1700, 0, 2832, 1, 2},
-	{"Hacha", "Melee", 8, 5400, 0, 2849, 1, 2},
+	{"Machado", "Melee", 8, 5400, 0, 2849, 1, 2},
 	{"Palanca", "Melee", 5, 1269, 0, 2848, 1, 2},
 	{"Ballesta", "Flecha", 33, 4769, 10, 2841, 1, 1},
 	
@@ -670,12 +670,12 @@ gameplayVariables["tents"] = {
 
 gameplayVariables["world_items"] = {
 	{"Transfusor de sangre"},
-	{"Analgesicos"},
+	{"Analgésicos"},
 	{"Antibioticos"},
 	{"Esteroides"},
 	{"Morfina"},
 	{"Botiquin"},
-	{"Vendaje"},
+	{"Curativo"},
 	{"Flecha"},
 	{"Bolsa de sangre"},
 	-- ARMAS
@@ -710,7 +710,7 @@ gameplayVariables["world_items"] = {
 	{"Ballesta"},
 	{"Desert Eagle"},
 	{"Revolver"},
-	{"Hacha"},
+	{"Machado"},
 	{"Palanca"},
 	{"Cuchillo"},
 	{"M107"},
@@ -768,7 +768,7 @@ gameplayVariables["world_items"] = {
 	{"Bidon vacio"},
 	{"Tienda basica"},
 	{"Bengala"},
-	{"Botella de agua vacia"},	
+	{"Garrafa de Água vacia"},	
 	{"Mapa"},
 	{"Pila de madera"},
 	{"Bolsa termica"},
@@ -799,9 +799,9 @@ gameplayVariables["world_items"] = {
 	{"Rotador"},
 	-- ALIMENTICIOS
 	{"Doritos"},
-	{"Botella de agua"},
+	{"Garrafa de Água"},
 	{"Frijoles"},
-	{"Pasta"},
+	{"Macarrão Enlatado"},
 	{"Sardinas"},
 	{"Salchichas"},
 	{"MRE"},
@@ -886,7 +886,7 @@ gameplayVariables["backpack_table"] = {
 
 gameplayVariables["nutritions"] = {
 	{"Frijoles",100,40,40,0, "eat"},
-	{"Pasta",100,50,0,0, "eat"},
+	{"Macarrão Enlatado",100,50,0,0, "eat"},
 	{"Sardinas",100,45,40,0, "eat"},
 	{"Salchichas",100,45,40,0, "eat"},
 	{"Maiz",100,60,50,0, "eat"},
@@ -897,7 +897,7 @@ gameplayVariables["nutritions"] = {
 	{"Frutas",100,30,400,0, "eat"},
 	{"Doritos",100,10,0,0, "eat"},
 	{"MRE",300,50,50,0, "eat"},
-	{"Botella de agua",0,0,80,0, "drink"},
+	{"Garrafa de Água",0,0,80,0, "drink"},
 	{"Pepsi",0,0,80,0, "drink"},
 	{"Cola",0,0,80,0, "drink"},
 	{"Dew",0,0,80,0, "drink"},

@@ -138,15 +138,15 @@ addEventHandler("aVehiculo", root, aVehiculo)
 
 function comida(Jugador,Opcion)
 	local pizza = getElementData(Jugador, "Carne cocida")
-	local agua = getElementData(Jugador, "Botella de agua")
+	local agua = getElementData(Jugador, "Garrafa de Água")
 	if Opcion == "Pedir Comida" then
-		if (Jugador:getData('Carne cocida') and Jugador:getData('Carne cocida') > 0) or (Jugador:getData('Botella de agua') and Jugador:getData('Botella de agua') > 0) then
+		if (Jugador:getData('Carne cocida') and Jugador:getData('Carne cocida') > 0) or (Jugador:getData('Garrafa de Água') and Jugador:getData('Garrafa de Água') > 0) then
 			outputChatBox("[DayZ-VIP] Ya tienes comida en tu inventario!",Jugador, 255, 0, 0)
 			return
 		end
 
 		setElementData(Jugador, "Carne cocida", 5)
-		setElementData(Jugador, "Botella de agua", 5)
+		setElementData(Jugador, "Garrafa de Água", 5)
 		outputChatBox("[DayZ-VIP] Obtubiste comida con exito!",Jugador, 0, 255, 0)
 	end
 end

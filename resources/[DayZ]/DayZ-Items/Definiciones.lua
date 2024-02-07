@@ -41,7 +41,7 @@ Items = {
 	"PKP",
 
 	"Cuchillo",
-	"Hacha",
+	"Machado",
 	"Machete",
 	"Palanca",
 
@@ -89,13 +89,13 @@ Items = {
 	"Cargador de Mk48",
 	"Cargador de PKM",
 
-	"Botella de agua",
-	"Pasta enlatada",
+	"Garrafa de Água",
+	"Macarrão Enlatado enlatada",
 	"Frijoles enlatados",
 	"Carne cocida",
 
 	"Madera",
-	"Vendaje",
+	"Curativo",
 	"Bengala",
 	"Bidón vacio",
 	"Bidón con gasolina",
@@ -167,7 +167,7 @@ Items['M16'] = {2854, 1, 90}
 Items['Ballesta'] = {2841, 1, 90}
 Items['Desert Eagle'] = {2846, 1, 90}
 Items['Revolver'] = {2853, 1, 90}
-Items['Hacha'] = {2849, 1, 90}
+Items['Machado'] = {2849, 1, 90}
 Items['Palanca'] = {2848, 1, 90}
 Items['Cuchillo'] = {2832, 1, 90}
 Items['M107'] = {2817, 1, 90}
@@ -187,11 +187,11 @@ Items['Camo Suit'] = {1870, 1.30}
 Items['Survivor Suit'] = {1870, 1.30}
 Items['Transfusor de sangre'] = {1867, 1.30}
 Items['Esteroides'] = {1938, 1.30}
-Items['Analgesicos'] = {2709, 1.30}
+Items['Analgésicos'] = {2709, 1.30}
 Items['Antibioticos'] = {330, 1.30}
 Items['Morfina'] = {958, 1.30}
 Items['Botiquin'] = {2891, 1.30}
-Items['Vendaje'] = {1578, 1.30}
+Items['Curativo'] = {1578, 1.30}
 Items['Flecha'] = {1247, 1.30}
 Items['Bolsa de sangre (A+)'] = {1580, 1.30}
 Items['Bolsa de sangre (A-)'] = {1580, 1.30}
@@ -226,7 +226,7 @@ Items['Bidon de gasolina'] = {1650, 1.30}
 Items['Bidon vacio'] = {1650, 1.30}
 Items['Tienda basica'] = {1279, 1.30}
 Items['Bengala'] = {324, 1.30}
-Items['Botella de agua vacia'] = {2683, 1.30}	
+Items['Garrafa de Água vacia'] = {2683, 1.30}	
 Items['Mapa'] = {1277, 1.30}
 Items['Pila de madera'] = {1.30}
 Items['Bolsa termica'] = {1579, 1.30}
@@ -255,9 +255,9 @@ Items['Neumatico'] = {1852, 1.30}
 Items['Rotador'] = {2056, 1.30}
 	-- ALIMENTICIOS
 Items['Doritos'] = {2407, 1.30}
-Items['Botella de agua'] = {2683, 1.30}
+Items['Garrafa de Água'] = {2683, 1.30}
 Items['Frijoles'] = {2601, 1.30}
-Items['Pasta'] = {2770, 1.30}
+Items['Macarrão Enlatado'] = {2770, 1.30}
 Items['Sardinas'] = {2798, 1.30}
 Items['Salchichas'] = {953, 1.30}
 Items['MRE'] = {2058, 1.30}

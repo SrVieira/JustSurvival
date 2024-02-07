@@ -282,12 +282,12 @@ function destroyPedLoot(ped, col)
 end
 
 function loadDefaultItems(player)
-	setElementData(player, "Botella de agua", 1)
-	setElementData(player, "Pasta", 1)
-	setElementData(player, "Vendaje", 2)
-	setElementData(player, "Hacha", 1)
+	setElementData(player, "Garrafa de Água", 1)
+	setElementData(player, "Macarrão Enlatado", 1)
+	setElementData(player, "Curativo", 2)
+	setElementData(player, "Machado", 1)
 	setElementData(player, "Morfina", 1)
-	setElementData(player, "Analgesicos", 2)
+	setElementData(player, "Analgésicos", 2)
 	setElementData(player, "GPS", 1)
 	setElementData(player, "Survivor Suit", 1)
 end

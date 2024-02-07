@@ -239,10 +239,10 @@ function onPlayerNutrition(itemName, actionID)
 			elseif itemName == "Pepsi" or itemName == "Cola" or itemName == "Dew" then
 				--triggerClientEvent(source, "onClientHasItemBox", source, "Lata de soda vacia")
 				setElementData(source, "Lata de soda vacia", (getElementData(source, "Lata de soda vacia") or 0) + 1)
-			elseif itemName == "Botella de agua" then
-				--triggerClientEvent(source, "onClientHasItemBox", source, "Botella de agua vacia")
-				setElementData(source, "Botella de agua vacia", (getElementData(source, "Botella de agua vacia") or 0) + 1)
-			elseif itemName == "Frijoles" or itemName == "Pasta" or itemName == "Sardinas" or itemName == "Salchichas" or itemName == "Maiz" or itemName == "Guisantes" or itemName == "Puerco" or itemName == "Sopa de pescado" or itemName == "Ravioles" or itemName == "Frutas" or itemName == "Leche" then
+			elseif itemName == "Garrafa de Água" then
+				--triggerClientEvent(source, "onClientHasItemBox", source, "Garrafa de Água vacia")
+				setElementData(source, "Garrafa de Água vacia", (getElementData(source, "Garrafa de Água vacia") or 0) + 1)
+			elseif itemName == "Frijoles" or itemName == "Macarrão Enlatado" or itemName == "Sardinas" or itemName == "Salchichas" or itemName == "Maiz" or itemName == "Guisantes" or itemName == "Puerco" or itemName == "Sopa de pescado" or itemName == "Ravioles" or itemName == "Frutas" or itemName == "Leche" then
 				--triggerClientEvent(source, "onClientHasItemBox", source, "Lata vacia")
 				setElementData(source, "Lata vacia", (getElementData(source, "Lata vacia") or 0) + 1)
 			end
@@ -294,13 +294,13 @@ addEventHandler("onPlayerConsumeNutrition", root, onPlayerNutrition)
 function applyMedicalItem(item, itemName)
 	if getElementData(source, item) > 0 then
 		local applied = false
-		if item == "Analgesicos" then
+		if item == "Analgésicos" then
 			setElementData(source, "pain", 0)
 			applied = true
 		elseif item == "Antibioticos"then
 			setElementData(source, "infection", 0)
 			applied = true		
-		elseif item == "Vendaje" then
+		elseif item == "Curativo" then
 			setElementData(source, "bleeding", 0)
 			applied = true
 		elseif item == "Morfina" then

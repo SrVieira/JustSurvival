@@ -849,7 +849,7 @@ function requestUseItem(itemName)
 		useItem(itemName, "place_bengale")	
 	end
 	-- # Medication.
-	if itemName == "Vendaje" then
+	if itemName == "Curativo" then
 		if not getElementData(localPlayer, "bleeding") or getElementData(localPlayer, "bleeding") <= 0 then
 			triggerEvent("displayClientInfo", localPlayer, "No estas sangrando.", {255, 0, 0})
 			return
@@ -863,7 +863,7 @@ function requestUseItem(itemName)
 		end
 		useItem(itemName, "medical")
 	end
-	if itemName == "Analgesicos" then
+	if itemName == "Analgésicos" then
 		if not getElementData(localPlayer, "pain") or getElementData(localPlayer, "pain") <= 0 then
 			triggerEvent("displayClientInfo", localPlayer, "No tienes dolores.", {255, 0, 0})
 			return

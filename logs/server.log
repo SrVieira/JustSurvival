@@ -5468,3 +5468,109 @@
 [2024-02-07 15:38:14] ERROR: [vehicles]\[salons]\px_stock_vehicles\s_put.lua:39: exports: Call to non-running server resource (px_connect) [string "?"]
 [2024-02-07 15:38:14] ERROR: [vehicles]\[systems]\px_vehicles\server\vehicles_server.lua:494: exports: Call to non-running server resource (px_stock_vehicles) [string "?"]
 [2024-02-07 15:38:14] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : Just Belt Roleplay
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : .. 1.6/server/mods/deathmatch/logs/server.log
+= Maximum players  : 50
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : Medium
+==================================================================
+[2024-02-07 16:17:13] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2024-02-07 16:17:28] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-07 16:17:28] Resources: 54 loaded, 1 failed
+[2024-02-07 16:17:29] Starting resources...
+[2024-02-07 16:17:29] WARNING: admin/server/admin_server.lua(Line 899) [Server] doesPedHaveJetPack is deprecated and may not work in future versions. Please replace with isPedWearingJetpack.
+[2024-02-07 16:17:29] WARNING: admin/server/admin_server.lua(Line 907) [Server] givePedJetPack no longer works. Replaced with setPedWearingJetpack. Refer to the wiki for details
+[2024-02-07 16:17:29] WARNING: admin/server/admin_server.lua(Line 980) [Server] removePedJetPack no longer works. Replaced with setPedWearingJetpack. Refer to the wiki for details
+[2024-02-07 16:17:29] Some files in 'admin' use deprecated functions.
+[2024-02-07 16:17:29] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2024-02-07 16:17:29] Admin access list successfully updated 
+[2024-02-07 16:17:29] INFO: Admin added 12 missing rights
+[2024-02-07 16:17:29] Server minclientversion is now 1.6.0-9.22388.0
+[2024-02-07 16:17:30] WARNING: acpanel\s_settings.lua:202: Access denied @ 'fetchRemote'
+[2024-02-07 16:17:30] ERROR: Unable to start resource runcode; Failed to link to ajax
+[2024-02-07 16:17:30] WARNING: DayZ/core/Gear/Inventory/UI.lua(Line 90) [Client] getVehicleModel is deprecated and may not work in future versions. Please replace with getElementModel.
+[2024-02-07 16:17:30] WARNING: DayZ/core/Gear/Inventory/UI.lua(Line 91) [Client] getVehicleNameFromID is deprecated and may not work in future versions. Please replace with getVehicleNameFromModel.
+[2024-02-07 16:17:30] WARNING: DayZ/core/Gear/HUD.lua(Line 90) [Client] showPlayerHudComponent is deprecated and may not work in future versions. Please replace with setPlayerHudComponentVisible.
+[2024-02-07 16:17:30] Some files in 'DayZ' use deprecated functions.
+[2024-02-07 16:17:30] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2024-02-07 16:17:38] INFO: Error :2
+[2024-02-07 16:17:41] INFO: Error :2  [DUP x3]
+[2024-02-07 16:17:41] WARNING: [DayZ]\DayZ-Items\Items.lua:252: Bad argument @ 'createColSphere' [Expected number, got non-convertible string]
+[2024-02-07 16:17:41] ERROR: [DayZ]\DayZ-Items\Items.lua:253: attempt to index field '?' (a boolean value)
+[2024-02-07 16:17:41] ERROR: Couldn't find resource DayZ-Vipsss. Check it exists.
+[2024-02-07 16:17:41] INFO: LOADED PRIVATE VEHICLES: 0
+[2024-02-07 16:17:41] WARNING: TOP_radar/radar_client.lua(Line 153) [Client] setPedFrozen is deprecated and may not work in future versions. Please replace with setElementFrozen.
+[2024-02-07 16:17:41] Some files in 'TOP_radar' use deprecated functions.
+[2024-02-07 16:17:41] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2024-02-07 16:17:41] ERROR: Couldn't find resource TOP_top. Check it exists.
+[2024-02-07 16:17:41] INFO: [SISTEMA-GRUPAL] Se creo satisfactoriamente la tabla de registros
+[2024-02-07 16:17:41] ERROR: Couldn't find resource TOP_vip. Check it exists.
+[2024-02-07 16:17:51] WARNING: TOP_Volar/client.lua(Line 331) [Client] getControlState is deprecated and may not work in future versions. Please replace with getPedControlState.
+[2024-02-07 16:17:51] Some files in 'TOP_Volar' use deprecated functions.
+[2024-02-07 16:17:51] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2024-02-07 16:17:51] ERROR: Couldn't find resource TOP_SS. Check it exists.
+[2024-02-07 16:17:52] Creating new DB table level_system
+[2024-02-07 16:17:53] ERROR: Couldn't find resource parachute. Check it exists.
+[2024-02-07 16:17:53] INFO: Checking for Mod Downloader updates 
+[2024-02-07 16:17:54] Querying MTA master server... success! (Auto detected IP:45.234.1.232)
+[2024-02-07 16:17:54] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2024-02-07 16:17:54] WARNING: <owner_email_address> not set
+[2024-02-07 16:17:54] Server started and is ready to accept connections!
+[2024-02-07 16:17:54] To stop the server, type 'shutdown' or press Ctrl-C
+[2024-02-07 16:17:54] Type 'help' for a list of commands.
+[2024-02-07 16:17:54] INFO: ====================================
+[2024-02-07 16:17:54] INFO: = ModDownloader version doesn't match community
+[2024-02-07 16:17:54] INFO: ====================================
+[2024-02-07 16:17:54] INFO: = Your version: 1.2.1
+[2024-02-07 16:17:54] ERROR: [Extras]\moddownloader\server\sUpdater.lua:15: attempt to concatenate local 'version' (a nil value)
+[2024-02-07 16:17:55] INFO: LOADED TENTS: 0
+[2024-02-07 16:17:56] INFO: [DayZ] Los vehiculos fueron cargados desde la base de datos!
+[2024-02-07 16:17:56] INFO: Successfully loaded mod #1:1 - AMBULANCIA!
+[2024-02-07 16:17:56] INFO: Successfully loaded mod #1:2 - BARRACKS!
+[2024-02-07 16:17:56] INFO: Successfully loaded mod #1:3 - BOBCAT!
+[2024-02-07 16:17:56] INFO: Successfully loaded mod #1:4 - BUFALLO!
+[2024-02-07 16:17:56] INFO: Successfully loaded mod #1:5 - FREEWAY!
+[2024-02-07 16:17:56] INFO: Successfully loaded mod #1:6 - LIMO!
+[2024-02-07 16:17:56] INFO: Successfully loaded mod #1:7 - CUATRICICLO!
+[2024-02-07 16:17:56] INFO: Successfully loaded mod #1:8 - ALPHA!
+[2024-02-07 16:17:56] INFO: Successfully loaded mod #1:9 - Rayo Martins!
+[2024-02-07 16:17:56] INFO: Successfully loaded mod #1:10 - HUNTLEY!
+[2024-02-07 16:17:56] INFO: Successfully loaded mod #1:11 - INFERNUS!
+[2024-02-07 16:17:56] INFO: Successfully loaded mod #1:12 - MESA!
+[2024-02-07 16:17:56] INFO: Successfully loaded mod #1:13 - HELI!
+[2024-02-07 16:17:56] INFO: Successfully loaded mod #1:14 - NRG-500!
+[2024-02-07 16:17:56] INFO: Successfully loaded mod #1:15 - PATRIOT!
+[2024-02-07 16:17:56] INFO: Successfully loaded mod #1:16 - POLI LS!
+[2024-02-07 16:17:57] INFO: Successfully loaded mod #1:17 - CLOVER!
+[2024-02-07 16:17:57] INFO: Successfully loaded mod #1:18 - SANCHEZ!
+[2024-02-07 16:17:57] INFO: Successfully loaded mod #1:19 - SPARROW!
+[2024-02-07 16:17:57] INFO: Successfully loaded mod #1:20 - TAXI!
+[2024-02-07 16:17:57] INFO: Successfully loaded mod #1:21 - BULLET!
+[2024-02-07 16:17:57] INFO: Successfully loaded mod #1:22 - HELIPTERO!
+[2024-02-07 16:17:57] INFO: Successfully loaded mod #1:23 - FORTUNE!
+[2024-02-07 16:17:57] INFO: Successfully loaded mod #1:24 - PRIMO!
+[2024-02-07 16:17:57] INFO: Successfully loaded mod #1:25 - PHOENIX!
+[2024-02-07 16:17:57] INFO: Successfully loaded mod #1:26 - MOONBEAM!
+[2024-02-07 16:17:57] INFO: Successfully loaded mod #1:27 - MAFIA!
+[2024-02-07 16:17:57] INFO: Successfully loaded mod #1:28 - BANSHEE!
+[2024-02-07 16:18:13] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-07 16:18:13] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-07 16:20:50] LOGIN: (Everyone) PastorzinBR successfully logged in as 'Pastorzin' (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3)
+[2024-02-07 16:27:18] INFO: PastorzinBR has been killed himself!
+[2024-02-07 16:28:36] ERROR: slothbot\sbserver.lua:1153: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2024-02-07 16:28:36] ERROR: slothbot\sbserver.lua:1153: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2024-02-07 16:28:36] WARNING: slothbot\sbserver.lua:1133: Bad argument @ 'giveWeapon' [Expected element at argument 1]
+[2024-02-07 16:28:42] WARNING: slothbot\sbserver.lua:1133: Bad argument @ 'giveWeapon' [Expected element at argument 1]
+[2024-02-07 16:34:33] INFO: Checking for Mod Downloader updates 
+[2024-02-07 16:34:34] INFO: ====================================
+[2024-02-07 16:34:34] INFO: = ModDownloader version doesn't match community
+[2024-02-07 16:34:34] INFO: ====================================
+[2024-02-07 16:34:34] INFO: = Your version: 1.2.1
+[2024-02-07 16:34:34] ERROR: [Extras]\moddownloader\server\sUpdater.lua:15: attempt to concatenate local 'version' (a nil value)
