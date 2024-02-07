@@ -1,0 +1,7 @@
+<meta>
+	<info type="misc" name="Car replacement for: Infernus" author="Eminem" description="" version="1" />
+	<file src="blista.txd" />
+	<file src="blista.dff" />
+	<script type="client" src="replace.lua" />
+	<!-- generated with http://mta.dzek.eu/ -->
+</meta>

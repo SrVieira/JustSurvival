@@ -1,0 +1,8 @@
+<meta>
+	<info author="TheCrazy17" name="DayZ-Items" type="script" version="1.2.1" />
+	<oop>true</oop>
+
+	<script src="Modelos.lua" type="client" cache="false"/>
+	<script src="Definiciones.lua" type="server"/>
+	<script src="Items.lua" type="server"/>
+</meta>

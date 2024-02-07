@@ -1,0 +1,9 @@
+<meta>
+    <info name="DayZ Login" author="Enargy" type="script" /> 
+    <script src="c_lib.lua" type="client" cache="false"/>
+    <script src="client.lua" type="client" />
+    <script src="server.lua" type="server" />
+    <file src="img/background.jpg" />
+    <file src="img/logo.png" />
+    <file src="font/teko_medium.ttf" />
+</meta>

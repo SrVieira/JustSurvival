@@ -1,0 +1,4 @@
+﻿<meta>
+    <info author="Sukor" type="script" name="Anti Spam" version="1.0.0"/>
+    <script src="server.lua" />
+</meta>

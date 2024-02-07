@@ -1,0 +1,10 @@
+<meta>
+    <info name="Reserved Vehicle System for MTA:DayZ" author="Enargy" version="1.0.0" description="This is a usefull reserved vehicle script specially for DayZ Gamemodes." type="script" />
+	<script src="source/shared/dayzitems.lua" />
+	
+	<script src="source/client/gui.lua" type="client" />
+	<script src="source/client/manager.lua" type="client" />
+
+	<script src="source/server/manager.lua" />
+	<script src="source/server/allowedVehicles.lua" />
+</meta>

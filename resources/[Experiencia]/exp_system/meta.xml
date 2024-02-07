@@ -1,0 +1,25 @@
+<meta>
+	<info author="Castillo" type="script" name="exp/level system" description="exp/level system" version="3.6.1"/>
+	
+	<script src="client.lua" type="client"/>	
+	<script src="server.lua" type="server"/>
+	<file src="level_up.mp3" type="client" />
+	
+	<export function="getPlayerLevel" type="client" /> <!-- arguments: thePlayer -->
+	<export function="getPlayerLevel" type="server" /> <!-- arguments: thePlayer -->
+	<export function="setPlayerLevel" type="server" /> <!-- arguments: thePlayer, theLevel  -->
+	<export function="getPlayerEXP" type="client" /> <!-- arguments: thePlayer -->
+	<export function="getPlayerEXP" type="server" /> <!-- arguments: thePlayer -->
+	<export function="setPlayerEXP" type="server" /> <!-- arguments: thePlayer, theExperience  -->	
+	<export function="addPlayerEXP" type="server" /> <!-- arguments: thePlayer, theExperience  -->	
+	
+	<export function="getAccountLevel" type="server" /> <!-- arguments: theAccount -->
+	<export function="setAccountLevel" type="server" /> <!-- arguments: theAccount, theLevel  -->
+	<export function="getAccountEXP" type="server" /> <!-- arguments: theAccount -->
+	<export function="setAccountEXP" type="server" /> <!-- arguments: theAccount, theExperience  -->	
+	<export function="addAccountEXP" type="server" /> <!-- arguments: theAccount, theExperience  -->
+	<export function="getLevelData" type="client" /> <!-- arguments: theLevel -->
+	<export function="getLevelData" type="server" /> <!-- arguments: theLevel -->
+
+	<export function="loadLevelsFromXML" type="server" /> <!-- arguments: None  -->
+</meta>

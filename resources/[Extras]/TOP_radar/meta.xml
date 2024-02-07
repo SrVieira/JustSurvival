@@ -1,0 +1,4 @@
+<meta>
+	<script src="radar_client.lua" type="client" />
+	<script src="radar_server.lua" type="server" />
+</meta>

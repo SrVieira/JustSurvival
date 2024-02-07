@@ -1,0 +1,485 @@
+<meta>
+    <info name="MTA:DayZ" author="TheCrazy" version="3.2" type="gamemode" />
+    <include resource="TOP_chat" />
+    <include resource="TOP_login" />
+	
+    <map src="mapping/lobby.map" dimension="0"></map>
+    <script src="mapping/mapEditorScriptingExtension_s.lua" type="server"/>
+    <script src="mapping/mapEditorScriptingExtension_c.lua" type="client"/>
+
+	<script src="DATABASE/sql.lua" />
+
+	<!-- UTILIDADES -->
+    <script src="tools/async/async.lua" type="shared" />
+    <script src="tools/reload/reload_client.lua" type="client" />
+    <script src="tools/reload/reload_server.lua" />
+    <script src="tools/bone_attach/bone_attach.lua" />
+    <script src="tools/bone_attach/bone_attach_c.lua" type="client" />
+    <script src="tools/bone_attach/attach_func.lua" />
+    <script src="tools/bone_attach/attach_func.lua" type="client" />
+    <script src="tools/bone_attach/bone_pos_rot.lua" type="client" />
+	<script src="tools/parachute/utility.lua" type="client"/>
+	<script src="tools/parachute/parachute.lua"/>
+	<script src="tools/parachute/parachute_cl.lua" type="client"/>
+	<script src="tools/parachute/skydiving_cl.lua" type="client"/>
+	<script src="tools/parachute/openChute.lua" type="client"/>
+	<script src="tools/parachute/client_anim.lua" type="client"/>
+	<file src="tools/parachute/parachuteopen.mp3" />
+	
+	<script src="tools/notifications/display_info.lua" type="client"/>
+	
+	<script src="tools/blur_box/c_main.lua" type="client"/>
+	<script src="tools/blur_box/c_helper_functions.lua" type="client"/>
+	<script src="tools/blur_box/c_exported_functions.lua" type="client"/>
+	<!---->
+	<!-- SHADERS -->
+	<file src="shaders/texreplace.fx" />
+	<file src="shaders/fxBlurH.fx" />
+	<file src="shaders/fxBlurV.fx" />
+
+    <script src="Configs/cfgBasesDefine.lua" type="shared" />
+    <script src="Configs/cfgClient.lua" type="shared" />
+    <script src="Configs/cfgLoot.lua" type="shared" />
+    <script src="Configs/cfgServer.lua" type="shared" />
+    <script src="Configs/cfgVehicles.lua" type="shared" />
+    
+    <script src="core/Gear/Inventory/Gear_config.lua" type="shared"/>
+	
+    <script src="tools/blackwhite/blackwhite_c.lua" type="client" />
+
+    <file src="tools/blackwhite/blackwhite.fx" />		
+
+    <script src="utils/exports.lua" type="shared" />
+    <script src="utils/shared_functions.lua" type="shared" />
+
+    <script src="core/Vehicles/Vehicles.lua" />
+
+    <script src="core/Accounts/Login.lua" />
+    <script src="core/Accounts/Initializing.lua" type="client" />
+	
+	<script src="core/Gear/Inventory/Help_c.luac" type="client" />
+	<script src="core/Gear/Inventory/UI.lua" type="client" />
+    <script src="core/Gear/Inventory/Functions_ui.lua" type="client" />
+    <script src="core/Gear/Inventory/Menu_side.lua" type="client" />
+	
+	<script src="Startup.lua" />
+	<script src="Startup_c.lua" type="client" />
+	
+	<script src="core/Bots/Zombies/Zombies_c.lua" type="client" />
+	<script src="core/Bots/Zombies/Zombies.lua" type="server" />
+	
+    <script src="core/Gear/HUD.lua" type="client" />
+    <script src="core/Gear/Scopes.lua" type="client" />
+    <script src="core/Gear/Controls.lua" type="client" />
+	
+    <script src="core/PVP/PVP.lua" />
+    <script src="core/PVP/PVP_c.lua" type="client" />	
+	
+    <script src="core/Players/Backpacks.lua" />
+    <script src="core/Players/Actions.lua" />
+    <script src="core/Players/Spawns.lua" />
+    <script src="core/Players/Animations.lua" />
+    <script src="core/Players/Prone_c.lua" type="client" />
+    <script src="core/Players/Surviving.lua" />
+    <script src="core/Players/Surviving_c.lua" type="client" />
+	
+
+    <script src="core/Looting/World_loot.lua" />
+    <script src="core/Looting/Custom_Loot.lua" />
+	<script src="core/Looting/Item_data.lua" type="shared"/>
+
+	
+    <script src="core/SFX/SFX_World.lua" type="client" />
+
+    <script src="LUA/Shared/Armas.lua" type="shared" />
+
+    <file src="images/misc/compassborder.png" />
+    <file src="images/misc/compassrow.png" />
+    <file src="images/misc/background_button.png" />
+	<file src="images/misc/clean.png" />	
+	<file src="images/misc/dayz.png" />	
+    <file src="images/misc/kboard.png" />
+    <file src="images/misc/bloodscreen.png" />
+    <file src="images/misc/loot.png" />
+	
+    <file src="images/radar/gps.png" />
+    <file src="images/radar/map.jpg" />
+    <file src="images/radar/1.png" />
+    <file src="images/radar/player.png" />
+    <file src="images/radar/briefcase.png" />
+    <file src="images/radar/helicrash.png" />
+    <file src="images/radar/vehiclecrash.png" />
+    <file src="images/radar/medicalbox.png" />
+    <file src="images/radar/patrol.png" />
+    <file src="images/radar/hospital.png" />
+    <file src="images/status/brokenbone.png" />
+    <file src="images/status/helmet.png" />
+    <file src="images/status/armor.png" />
+    <file src="images/status/bleeding.png" />
+    <file src="images/status/infection.png" />
+    <file src="images/status/eye.png" />
+    <file src="images/status/volume.png" />
+    <file src="images/status/food1.png" />
+    <file src="images/status/water1.png" />
+    <file src="images/status/blood1.png" />
+    <file src="images/status/temp1.png" />
+    <file src="images/status/blood/blood_12000.png" />
+    <file src="images/status/blood/blood_10000.png" />
+    <file src="images/status/blood/blood_8000.png" />
+    <file src="images/status/blood/blood_6000.png" />
+    <file src="images/status/blood/blood_4000.png" />
+    <file src="images/status/blood/blood_2000.png" />
+    <file src="images/status/blood/blood_1000.png" />
+    <file src="images/status/blood/blood_500.png" />
+    <file src="images/status/blood/blood_0.png" />
+    <file src="images/status/humanity/0.png" />
+    <file src="images/status/humanity/1.png" />
+    <file src="images/status/humanity/2.png" />
+    <file src="images/status/humanity/3.png" />
+    <file src="images/status/humanity/4.png" />
+    <file src="images/status/humanity/5.png" />
+
+    <file src="images/status/food/food_100.png" />
+    <file src="images/status/food/food_80.png" />
+    <file src="images/status/food/food_50.png" />
+    <file src="images/status/food/food_20.png" />
+    <file src="images/status/food/food_10.png" />
+    <file src="images/status/food/food_0.png" />
+
+    <file src="images/status/water/water_100.png" />
+    <file src="images/status/water/water_80.png" />
+    <file src="images/status/water/water_60.png" />
+    <file src="images/status/water/water_40.png" />
+    <file src="images/status/water/water_20.png" />
+    <file src="images/status/water/water_10.png" />
+    <file src="images/status/water/water_0.png" />
+
+    <file src="images/status/vehicle/btry.png" />
+    <file src="images/status/vehicle/eng.png" />
+    <file src="images/status/vehicle/fl.png" />
+    <file src="images/status/vehicle/fltnk.png" />
+    <file src="images/status/vehicle/rtry.png" />
+    <file src="images/status/vehicle/trs.png" />
+    <file src="images/status/vehicle/fuel.png" />
+    <file src="images/status/temp/0.png" />
+    <file src="images/status/temp/1.png" />
+    <file src="images/status/temp/2.png" />
+    <file src="images/status/temp/3.png" />
+    <file src="images/status/temp/4.png" />
+    <file src="images/status/volume/volume_5.png" />
+    <file src="images/status/volume/volume_4.png" />
+    <file src="images/status/volume/volume_3.png" />
+    <file src="images/status/volume/volume_2.png" />
+    <file src="images/status/volume/volume_1.png" />
+    <file src="images/status/volume/volume_0.png" />
+	<file src="images/status/monitor.png" />
+
+	<file src="images/crosshair/cz500.png" />
+	<file src="images/crosshair/svd.png" />
+	<file src="images/crosshair/hecate.png" />
+	<file src="images/crosshair/as50.png" />
+	<file src="images/crosshair/g28.png" />
+	<file src="images/crosshair/m107.png" />
+	<file src="images/crosshair/barret50.png" />
+	<file src="images/crosshair/mk14ebr.png" />
+	<file src="images/crosshair/sitem16.png" />
+
+    <file src="images/inventory/ui/arrow.png" />
+    <file src="images/inventory/ui/arrow_down.png" />
+    <file src="images/inventory/ui/scroll.png" />
+	<file src="images/inventory/ui/empty_helmet.png" />
+	<file src="images/inventory/ui/empty_goggles.png" />
+	<file src="images/inventory/ui/empty_armor.png" />
+	<file src="images/inventory/ui/empty_backpack.png" />
+	<file src="images/inventory/ui/empty_compass.png" />
+	<file src="images/inventory/ui/empty_gps.png" />
+	<file src="images/inventory/ui/empty_map.png" />
+	<file src="images/inventory/ui/empty_primary.png" />
+	<file src="images/inventory/ui/empty_secondary.png" />
+	<file src="images/inventory/ui/empty_tertiary.png" />
+
+    <file src="images/inventory/icons/first-aid-kit.png" />
+    <file src="images/inventory/icons/beartramp.png" />
+    <file src="images/inventory/icons/mine.png" />
+    <file src="images/inventory/icons/clothing.png" />
+    <file src="images/inventory/icons/battery.png" />
+    <file src="images/inventory/icons/nvgoggles.png" />
+    <file src="images/inventory/icons/binoculars.png" />
+    <file src="images/inventory/icons/biofuel.png" />
+    <file src="images/inventory/icons/metal.png" />
+    <file src="images/inventory/icons/painkillers.png" />
+    <file src="images/inventory/icons/flare.png" />
+    <file src="images/inventory/icons/revolver.png" />
+    <file src="images/inventory/icons/rawmeat.png" />
+    <file src="images/inventory/icons/coockedmeat.png" />
+    <file src="images/inventory/icons/camp-fire.png" />
+    <file src="images/inventory/icons/m1911a1.png" />
+    <file src="images/inventory/icons/crossbow.png" />
+    <file src="images/inventory/icons/engine.png" />
+    <file src="images/inventory/icons/emptysoda.png" />
+    <file src="images/inventory/icons/waterbottle.png" />
+    <file src="images/inventory/icons/rucksack.png" />
+    <file src="images/inventory/icons/mk14.png" />
+    <file src="images/inventory/icons/pkm.png" />
+    <file src="images/inventory/icons/ossier.png" />
+    <file src="images/inventory/icons/krysset.png" />
+    <file src="images/inventory/icons/compass.png" />
+    <file src="images/inventory/icons/militar.png" />
+    <file src="images/inventory/icons/wirefence.png" />
+    <file src="images/inventory/icons/livie.png" />
+    <file src="images/inventory/icons/gamespot.png" />
+    <file src="images/inventory/icons/fruit.png" />
+    <file src="images/inventory/icons/map.png" />
+    <file src="images/inventory/icons/sardines.png" />
+    <file src="images/inventory/icons/spaguetti.png" />
+    <file src="images/inventory/icons/bakedbeans.png" />
+    <file src="images/inventory/icons/woodpile.png" />
+    <file src="images/inventory/icons/matchbox.png" />
+    <file src="images/inventory/icons/milkcan.png" />
+    <file src="images/inventory/icons/stew.png" />
+    <file src="images/inventory/icons/peas.png" />
+    <file src="images/inventory/icons/corn.png" />
+    <file src="images/inventory/icons/pork.png" />
+    <file src="images/inventory/icons/ravioli.png" />
+    <file src="images/inventory/icons/toolbox.png" />
+    <file src="images/inventory/icons/gps.png" />
+    <file src="images/inventory/icons/bandage.png" />
+    <file src="images/inventory/icons/mre.png" />
+    <file src="images/inventory/icons/frankbeans.png" />
+    <file src="images/inventory/icons/injection.png" />
+    <file src="images/inventory/icons/hecate.png" />
+    <file src="images/inventory/icons/aksgold.png" />
+    <file src="images/inventory/icons/m4a3cco.png" />
+    <file src="images/inventory/icons/m107.png" />
+    <file src="images/inventory/icons/mk48.png" />
+    <file src="images/inventory/icons/as50.png" />
+    <file src="images/inventory/icons/m79.png" />
+    <file src="images/inventory/icons/chowder.png" />
+    <file src="images/inventory/icons/heatpack.png" />
+    <file src="images/inventory/icons/parachute.png" />
+    <file src="images/inventory/icons/grenade.png" />
+    <file src="images/inventory/icons/transfusion.png" />
+    <file src="images/inventory/icons/pepsi.png" />
+    <file src="images/inventory/icons/tire.png" />
+    <file src="images/inventory/icons/fueltank.png" />
+    <file src="images/inventory/icons/cola.png" />
+    <file src="images/inventory/icons/dew.png" />
+    <file src="images/inventory/icons/bloodbag.png" />
+    <file src="images/inventory/icons/doritos.png" />
+    <file src="images/inventory/icons/rotary.png" />
+    <file src="images/inventory/icons/watch.png" />
+    <file src="images/inventory/icons/tent.png" />
+    <file src="images/inventory/icons/antibiotics.png" />
+    <file src="images/inventory/icons/morphine.png" />
+    <file src="images/inventory/icons/trashtincan.png" />
+    <file src="images/inventory/icons/crowbar.png" />
+    <file src="images/inventory/icons/mp5a5.png" />
+    <file src="images/inventory/icons/fnfal.png" />
+    <file src="images/inventory/icons/dragunov.png" />
+    <file src="images/inventory/icons/pdw.png" />
+    <file src="images/inventory/icons/remington.png" />
+    <file src="images/inventory/icons/bizon.png" />
+    <file src="images/inventory/icons/alice.png" />
+    <file src="images/inventory/icons/arrow.png" />
+    <file src="images/inventory/icons/coyote.png" />
+    <file src="images/inventory/icons/cz550.png" />
+    <file src="images/inventory/icons/emptybottle.png" />
+    <file src="images/inventory/icons/knife.png" />
+    <file src="images/inventory/icons/axe.png" />
+    <file src="images/inventory/icons/galil.png" />
+    <file src="images/inventory/icons/usp45sd.png" />
+    <file src="images/inventory/icons/usp45.png" />
+    <file src="images/inventory/icons/deagle.png" />
+    <file src="images/inventory/icons/beretta30.png" />
+    <file src="images/inventory/icons/m9.png" />
+    <file src="images/inventory/icons/acr.png" />
+    <file src="images/inventory/icons/benelli.png" />
+    <file src="images/inventory/icons/m16.png" />
+    <file src="images/inventory/icons/aug.png" />
+    <file src="images/inventory/icons/winchester.png" />
+    <file src="images/inventory/icons/akpso.png" />
+    <file src="images/inventory/icons/ak74.png" />
+    <file src="images/inventory/icons/akskobra.png" />
+    <file src="images/inventory/icons/barret50.png" />
+    <file src="images/inventory/icons/fnfnc.png" />
+    <file src="images/inventory/icons/g36c.png" />
+    <file src="images/inventory/icons/g28.png" />
+    <file src="images/inventory/icons/assault.png" />
+    <file src="images/inventory/icons/9x18.png" />
+    <file src="images/inventory/icons/9x19.png" />
+    <file src="images/inventory/icons/45colt.png" />
+    <file src="images/inventory/icons/ak.png" />
+    <file src="images/inventory/icons/british.png" />
+    <file src="images/inventory/icons/m4mag.png" />
+    <file src="images/inventory/icons/shotgun.png" />
+    <file src="images/inventory/icons/sniper.png" />
+    <file src="images/inventory/icons/helmet.png" />
+    <file src="images/inventory/icons/helmet_moto.png" />
+    <file src="images/inventory/icons/helmet_basic.png" />
+    <file src="images/inventory/icons/helmet_war.png" />
+    <file src="images/inventory/icons/helmet_aviator.png" />
+    <file src="images/inventory/icons/armor_war.png" />
+    <file src="images/inventory/icons/armor_basic.png" />
+    <file src="images/inventory/icons/armor_civic.png" />
+    <file src="images/inventory/icons/armor_police.png" />
+    <file src="images/inventory/icons/improvised.png" />
+    <file src="images/inventory/icons/cabo.png" />
+    <file src="images/inventory/icons/sfg_army.png" />
+    <file src="images/inventory/icons/assault_light.png" />
+    <file src="images/inventory/icons/survivor.png" />
+    <file src="images/inventory/icons/coyote_camo.png" />
+    <file src="images/inventory/icons/czech_camo.png" />
+    <file src="images/inventory/icons/schoolar.png" />
+    <file src="images/inventory/icons/mountain.png" />
+    <file src="images/inventory/icons/mountain_light.png" />
+    <file src="images/inventory/icons/camping.png" />
+    <file src="images/inventory/icons/guillie.png" />
+
+	<export function="removeParachute" type="client"/>
+	<export function="stopSkyDiving" type="client"/>
+	
+	<export function="isPlayerSkyDiving" type="client"/>
+	<export function="isPlayerParachuting" type="client"/>
+	
+	<export function="attachElementToBone" />
+	<export function="attachElementToBone" type="client" />
+	<export function="detachElementFromBone" />
+	<export function="detachElementFromBone" type="client" />
+	<export function="isElementAttachedToBone" />
+	<export function="isElementAttachedToBone" type="client" />
+	<export function="getElementBoneAttachmentDetails" />
+	<export function="getElementBoneAttachmentDetails" type="client" />
+	<export function="setElementBonePositionOffset" />
+	<export function="setElementBonePositionOffset" type="client" />
+	<export function="setElementBoneRotationOffset" />
+	<export function="setElementBoneRotationOffset" type="client" />
+	<export function="getBonePositionAndRotation" type="client" />
+
+	<export function="isWeapon" type="shared" />
+	<export function="getWeaponData" type="shared" />
+
+    <!-- fonts -->
+    <file src="fonts/teko_regular.ttf" />
+    <file src="fonts/teko_light.ttf" />
+    <file src="fonts/teko_medium.ttf" />
+    <file src="fonts/font-1.ttf" />
+    <file src="fonts/font-2.ttf" />
+    <file src="fonts/font-3.ttf" />
+    <file src="fonts/font-4.ttf" />
+    <file src="fonts/tahomab.ttf" />
+    <file src="fonts/bitstream.ttf" />
+    <file src="fonts/arialb.ttf" />
+    <file src="fonts/etelka_narrow.ttf" />
+    <file src="fonts/28dayslater.ttf" />
+    <file src="fonts/framd.ttf" />
+
+    <!-- sounds -->
+
+    <file src="sounds/effects/weaponarm.wav" />
+    <file src="sounds/effects/brokenbone.mp3" />
+    <file src="sounds/effects/explosion.mp3" />
+
+    <file src="sounds/effects/tentunpack.ogg" />
+    <file src="sounds/effects/repair.mp3" />
+    <file src="sounds/effects/drink.ogg" />
+    <file src="sounds/effects/eat.ogg" />
+    <file src="sounds/effects/action_refuel.ogg" />
+    <file src="sounds/effects/action_refill.ogg" />
+    <file src="sounds/effects/action_cook.ogg" />
+    <file src="sounds/effects/action_tentpack.ogg" />
+    <file src="sounds/effects/fill_water.ogg" />
+    <file src="sounds/effects/playerhit_1.mp3" />
+    <file src="sounds/effects/playerhit_2.mp3" />
+    <file src="sounds/effects/playerhit_3.mp3" />
+	
+    <file src="sounds/misc/button_hover.mp3" />
+    <file src="sounds/misc/soundtrack.mp3" />
+
+    <file src="sounds/effects/sneezing.mp3" />
+    <file src="sounds/effects/cough_0.ogg" />
+    <file src="sounds/effects/cough_1.ogg" />
+    <file src="sounds/effects/cough_2.ogg" />
+    <file src="sounds/effects/openinventory.wav" />
+   
+    <file src="sounds/world/campfire.mp3" />
+    <file src="sounds/world/roadflare.wav" />
+    <file src="sounds/world/day.mp3" />
+	
+    <file src="sounds/weapons/m16.wav" />
+    <file src="sounds/weapons/usp45sd.wav" />
+    <file src="sounds/weapons/usp45.wav" />
+    <file src="sounds/weapons/aug.wav" />
+    <file src="sounds/weapons/ak74.wav" />
+    <file src="sounds/weapons/fnfal.wav" />
+    <file src="sounds/weapons/m9.wav" />
+    <file src="sounds/weapons/berettam92.wav" />
+    <file src="sounds/weapons/galil.wav" />
+    <file src="sounds/weapons/winchester.wav" />
+    <file src="sounds/weapons/remington.wav" />
+    <file src="sounds/weapons/benelli.wav" />
+    <file src="sounds/weapons/g28.wav" />
+    <file src="sounds/weapons/dragunov.wav" />
+    <file src="sounds/weapons/barret.wav" />
+    <file src="sounds/weapons/deagle.wav" />
+    <file src="sounds/weapons/revolver.wav" />
+    <file src="sounds/weapons/m1911.wav" />
+    <file src="sounds/weapons/bizon.wav" />
+    <file src="sounds/weapons/cz550.wav" />
+    <file src="sounds/weapons/pdw.wav" />
+    <file src="sounds/weapons/m107.wav" />
+    <file src="sounds/weapons/mk14ebr.wav" />
+    <file src="sounds/weapons/as50.wav" />
+    <file src="sounds/weapons/hecate.wav" />
+    <file src="sounds/weapons/mk48.wav" />
+    <file src="sounds/weapons/pkm.wav" />
+    <file src="sounds/weapons/m4a3.wav" />
+    <file src="sounds/weapons/m79.wav" />
+    <file src="sounds/weapons/acr.wav" />
+    <file src="sounds/weapons/mp5a5.wav" />
+    <file src="sounds/weapons/crossbow.wav" />
+    <file src="sounds/weapons/g36c.wav" />
+
+    <file src="sounds/weapons/reload/22.wav" />
+    <file src="sounds/weapons/reload/23.wav" />
+    <file src="sounds/weapons/reload/24.wav" />
+    <file src="sounds/weapons/reload/25.wav" />
+    <file src="sounds/weapons/reload/26.wav" />
+    <file src="sounds/weapons/reload/27.wav" />
+    <file src="sounds/weapons/reload/29.wav" />
+    <file src="sounds/weapons/reload/31.wav" />
+    <file src="sounds/weapons/reload/33.wav" />
+    <file src="sounds/weapons/reload/34.wav" />
+    
+    <file src="sounds/zombies/mgroan1.ogg" />
+    <file src="sounds/zombies/mgroan2.ogg" />
+    <file src="sounds/zombies/mgroan3.ogg" />
+    <file src="sounds/zombies/mgroan4.ogg" />
+    <file src="sounds/zombies/mgroan5.ogg" />
+    <file src="sounds/zombies/mgroan6.ogg" />
+    <file src="sounds/zombies/mgroan7.ogg" />
+    <file src="sounds/zombies/mgroan8.ogg" />
+    <file src="sounds/zombies/mgroan9.ogg" />
+    <file src="sounds/zombies/mgroan10.ogg" />
+    <file src="sounds/zombies/z_attack_8.ogg" />
+    <file src="sounds/zombies/hit_0.ogg" />
+    <file src="sounds/zombies/hit_1.ogg" />
+    <file src="sounds/zombies/hit_2.ogg" />
+    <file src="sounds/zombies/hit_3.ogg" />
+    <file src="sounds/zombies/hit_4.ogg" />
+    <file src="sounds/zombies/hit_5.ogg" />
+    <file src="sounds/zombies/hit_6.ogg" />
+	
+    <oop>true</oop>
+	
+	<export function="getDBPlayerConnection" />
+	<export function="getDBVehicleConnection" />
+	<export function="getDBTentConnection" />
+	<export function="createPickupItem" />
+
+	<export function="getItemName" type="client" />
+	<export function="doesItemHandless" type="client" />
+	<export function="doesInventoryOpened" type="client" />
+	
+	<export function="isMapOpened" type="client" />
+	<export function="blockInventory" type="client" />
+</meta>

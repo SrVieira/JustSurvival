@@ -1,0 +1,4 @@
+<meta>
+     <info author="Death" type="script" name="Script Privado Para Gangs" description="Skin Privado :3" />
+     <script src="level.lua"  type="server"/>
+</meta>

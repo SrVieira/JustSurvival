@@ -1,0 +1,6 @@
+<meta>
+	<script src="c_help.lua" type="client" />
+	<script src="scoreboard.lua" type="client" />
+	<script src="scoreboard_s.lua" type="server" />
+	<script src="playerids.lua" type="server" />
+</meta>

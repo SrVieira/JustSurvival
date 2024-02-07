@@ -1,0 +1,13 @@
+<meta>
+<script src="client.lua" type="client" cache="false"/>
+  <file src="skins/z1.txd" />
+  <file src="skins/z1.dff" />
+  <file src="skins/z2.txd" />
+  <file src="skins/z2.dff" />
+  <file src="skins/z3.txd" />
+  <file src="skins/z3.dff" />
+  <file src="skins/z5.txd" />
+  <file src="skins/z5.dff" />
+  <file src="skins/z9.txd" />
+  <file src="skins/z9.dff" />
+</meta>

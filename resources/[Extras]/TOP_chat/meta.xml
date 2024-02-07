@@ -1,0 +1,5 @@
+<meta>
+	<info author = "Enargy" name = "Chat" type = "script" />
+	<script src = "server.lua" />
+	 <script src="cliente.lua" type="client"/>
+</meta>

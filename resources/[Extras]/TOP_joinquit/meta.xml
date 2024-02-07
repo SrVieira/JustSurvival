@@ -1,0 +1,4 @@
+<meta>
+	<info name="Joinquit" author="Sukor" type="script" version="1.2" build="02/03/2013" />
+	<script src="joinquitro.lua" type="server" />
+</meta>

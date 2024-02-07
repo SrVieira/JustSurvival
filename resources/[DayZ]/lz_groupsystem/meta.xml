@@ -1,0 +1,46 @@
+<meta>
+	<info name="Group System" version="1.0.0" type="script" author="-Rex-" description="Sistema de Grupos" />
+	<oop>true</oop>
+
+	<script src='Idiomas.lua' type='shared' cache="false"/> 
+
+	<script src="client/client.lua" type="client" cache="false"/>
+	<script src="gui/adminpanel_gui.lua" type="client" cache="false"/>
+	<script src="notify/client.lua" type="client" cache="false"/>
+	<script src='notify/server.lua' type='server' /> 
+	<script src="rangos/client.lua" type="client" cache="false"/>
+	<script src='rangos/server.lua' type='server' /> 
+	<script src="chatsystem/group_chat_client.lua" type="client" cache="false"/>
+	<script src="mapnames/mapnames_c.lua" type="client" cache="false"/>
+	<script src="mapnames/Teamicon.lua" type="client" cache="false"/>
+	<script src="chatsystem/group_chat.lua" type="server"/>
+
+	<script src="logsystem/logserver.lua" type="server"/>
+	
+	<script src="server/admin_panel_server.lua" type="server"/>
+	<script src="server/admin_panel_querys.lua" type="server"/>
+	<script src="gui/gui.lua" type="client" cache="false"/>
+	<script src="exports_server/exports.lua" type="server"/>
+
+	<script src='alianza/client.lua' type='client' cache="false" />  
+	<script src='alianza/server.lua' type='server' />  
+
+	<script src="server/server.lua" type="server"/>
+
+	<export function="isGroupExists" type="server" />
+	<export function="getPlayerGroup" type="server" />
+	<export function="isPlayerLeader" type="server" />
+	<export function="isPlayerFounder" type="server" />
+	<export function="isPlayerInGroup" type="server" />
+	<export function="isAccountInGroup" type="server" />
+	<export function="removePlayerFromGroup" type="server" />
+	<export function="addPlayerToGroup" type="server" />
+	<export function="addAccountToGroup" type="server" />
+	<export function="getPlayerRang" type="server" /> 
+	<export function="getGroupColor" type="server" /> 
+	<export function="getGroupSlots" type="server" /> 
+	<export function="getGroupList" type="server" /> 
+	<export function="addGroupSlots" type="server" /> 
+	<export function="deleteGroup" type="server" /> 
+	<export function="setGroupColor" type="server" />
+</meta>

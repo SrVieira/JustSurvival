@@ -1,0 +1,95 @@
+<!--
+#---------------------------------------------------------------#
+----* DayZ MTA Script meta.xml                              *----
+----* Script created by: Unknown                            *----
+----* New additions and functions by: Unknown               *----
+#---------------------------------------------------------------#
+-->
+<meta>
+    <!-- File type: .jpg -->
+    <file src="images/level/rank1.jpg"/>
+    <file src="images/level/rank2.jpg"/>
+    <file src="images/level/rank3.jpg"/>
+    <file src="images/level/rank4.jpg"/>
+    <file src="images/level/rank5.jpg"/>
+    <file src="images/level/rank6.jpg"/>
+    <file src="images/level/rank7.jpg"/>
+    <file src="images/level/rank8.jpg"/>
+    <file src="images/level/rank9.jpg"/>
+    <file src="images/level/rank10.jpg"/>
+    <file src="images/level/rank11.jpg"/>
+    <file src="images/level/rank12.jpg"/>
+    <file src="images/level/rank13.jpg"/>
+    <file src="images/level/rank14.jpg"/>
+    <file src="images/level/rank15.jpg"/>
+    <file src="images/level/rank16.jpg"/>
+    <file src="images/level/rank17.jpg"/>
+    <file src="images/level/rank18.jpg"/>
+    <file src="images/level/rank19.jpg"/>
+    <file src="images/level/rank20.jpg"/>
+    <file src="images/level/rank21.jpg"/>
+    <file src="images/level/rank22.jpg"/>
+    <file src="images/level/rank23.jpg"/>
+    <file src="images/level/rank24.jpg"/>
+    <file src="images/level/rank25.jpg"/>
+    <file src="images/level/rank26.jpg"/>
+    <file src="images/level/rank27.jpg"/>
+    <file src="images/level/rank28.jpg"/>
+    <file src="images/level/rank29.jpg"/>
+    <file src="images/level/rank30.jpg"/>
+    <file src="images/level/rank31.jpg"/>
+    <file src="images/level/rank32.jpg"/>
+    <file src="images/level/rank33.jpg"/>
+    <file src="images/level/rank34.jpg"/>
+    <file src="images/level/rank35.jpg"/>
+    <file src="images/level/rank36.jpg"/>
+    <file src="images/level/rank37.jpg"/>
+    <file src="images/level/rank38.jpg"/>
+    <file src="images/level/rank39.jpg"/>
+    <file src="images/level/rank40.jpg"/>
+    <file src="images/level/rank41.jpg"/>
+    <file src="images/level/rank42.jpg"/>
+    <file src="images/level/rank43.jpg"/>
+    <file src="images/level/rank44.jpg"/>
+    <file src="images/level/rank45.jpg"/>
+    <file src="images/level/rank46.jpg"/>
+    <file src="images/level/rank47.jpg"/>
+    <file src="images/level/rank48.jpg"/>
+    <file src="images/level/rank49.jpg"/>
+    <file src="images/level/rank50.jpg"/>
+    <file src="images/level/rank51.jpg"/>
+    <file src="images/level/rank52.jpg"/>
+    <file src="images/level/rank53.jpg"/>
+    <file src="images/level/rank54.jpg"/>
+    <file src="images/level/rank55.jpg"/>
+    <file src="images/level/rank56.jpg"/>
+    <file src="images/level/rank57.jpg"/>
+    <file src="images/level/rank58.jpg"/>
+    <file src="images/level/rank59.jpg"/>
+    <file src="images/level/rank60.jpg"/>
+    <file src="images/level/rank61.jpg"/>
+    <file src="images/level/rank62.jpg"/>
+    <file src="images/level/rank63.jpg"/>
+    <file src="images/level/rank64.jpg"/>
+    <file src="images/level/rank65.jpg"/>
+    <file src="images/level/rank66.jpg"/>
+    <file src="images/level/rank67.jpg"/>
+    <file src="images/level/rank68.jpg"/>
+    <file src="images/level/rank69.jpg"/>
+    <file src="images/level/rank70.jpg"/>
+	<file src="rank/bronze.png"/>
+	<file src="rank/silver.png"/>
+	<file src="rank/gold.png"/>
+	<file src="rank/platinum.png"/>
+	<file src="rank/diamond.png"/>
+	<file src="rank/master.png"/>
+    <script src="client.lua" type="client"></script>
+	<script src="server.lua" type="server"></script>
+	<script src="ranking.lua" type="server"></script>
+
+
+    <!-- ACL Minimun Group to use commands of admins -->
+    <settings>
+        <setting name="aclMinimumGroup" value="Admin" examples="Admin" desc="Minimum level in ACL to be able to give items (add commas to separate)"/>
+    </settings>
+</meta>

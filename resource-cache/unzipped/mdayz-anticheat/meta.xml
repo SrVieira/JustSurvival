@@ -1,0 +1,7 @@
+<meta>
+	<info author="" description="Created by pRemi for MTA:DayZ Epoch and the community" version="1.0.5" type="script" />
+	
+    <script src="anticheat_c.lua" type="client" />
+    <script src="anticheat_s.lua" type="server" />
+    
+</meta>

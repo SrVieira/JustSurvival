@@ -1,0 +1,9 @@
+<meta>
+	<info author = "Enargy" name = "DayZ Airdrop Items" type = "script" />
+	<script src = "aird_s.lua" />
+	<script src = "aird_c.lua" type="client"/>
+	<file src = "blip.png" />
+	<file src = "plane.mp3" />
+	
+	<export function = "airdropCall" type="server"/>	
+</meta>

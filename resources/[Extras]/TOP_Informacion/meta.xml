@@ -1,0 +1,6 @@
+<meta>
+	<info author="nexxuz" version="1.0" name="wellcome" type="script" />
+
+	<script src="msg.lua" type="server" />    
+
+</meta>

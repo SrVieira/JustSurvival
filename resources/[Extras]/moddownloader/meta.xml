@@ -1,0 +1,77 @@
+<meta>
+    <info author="Sukor and TOP-GTA" type="script" version="1.2.1" name="Mod Downloader" />
+    
+    <oop>true</oop>
+    <script src="server/sLoader.lua" type="server" />
+    <script src="server/sUpdater.lua" type="server" />
+    
+    <script src="client/cFunctions.lua" type="client" />
+    <script src="client/cDownloader.lua" type="client" />
+    <script src="client/cMods.lua" type="client" />
+    <script src="client/cInter.lua" type="client" />
+    <file src="mods/vehicles/ambulance.dff" type="client" />
+    <file src="mods/vehicles/ambulance.txd" type="client" />
+    <file src="mods/vehicles/barracks.dff" type="client" />
+    <file src="mods/vehicles/barracks.txd" type="client" />
+    <file src="mods/vehicles/bobcat.dff" type="client" />
+    <file src="mods/vehicles/bobcat.txd" type="client" />
+    <file src="mods/vehicles/buffalo.dff" type="client" />
+    <file src="mods/vehicles/buffalo.txd" type="client" />
+    <file src="mods/vehicles/freeway.dff" type="client" />
+    <file src="mods/vehicles/freeway.txd" type="client" />
+    <file src="mods/vehicles/stretch.dff" type="client" />
+    <file src="mods/vehicles/stretch.txd" type="client" />
+    <file src="mods/vehicles/quadbike.dff" type="client" />
+    <file src="mods/vehicles/quadbike.txd" type="client" />
+    <file src="mods/vehicles/alpha.dff" type="client" />
+    <file src="mods/vehicles/alpha.txd" type="client" />
+    <file src="mods/vehicles/regina.dff" type="client" />
+    <file src="mods/vehicles/regina.txd" type="client" />
+    <file src="mods/vehicles/huntley.dff" type="client" />
+    <file src="mods/vehicles/huntley.txd" type="client" />
+    <file src="mods/vehicles/infernus.dff" type="client" />
+    <file src="mods/vehicles/infernus.txd" type="client" />
+    <file src="mods/vehicles/mesa.dff" type="client" />
+    <file src="mods/vehicles/mesa.txd" type="client" />
+    <file src="mods/vehicles/newschopper.dff" type="client" />
+    <file src="mods/vehicles/newschopper.txd" type="client" />
+    <file src="mods/vehicles/nrg-500.dff" type="client" />
+    <file src="mods/vehicles/nrg-500.txd" type="client" />
+    <file src="mods/vehicles/patriot.dff" type="client" />
+    <file src="mods/vehicles/patriot.txd" type="client" />
+    <file src="mods/vehicles/policels.dff" type="client" />
+    <file src="mods/vehicles/policels.txd" type="client" />
+    <file src="mods/vehicles/clover.dff" type="client" />
+    <file src="mods/vehicles/clover.txd" type="client" />
+    <file src="mods/vehicles/sanchez.dff" type="client" />
+    <file src="mods/vehicles/sanchez.txd" type="client" />
+    <file src="mods/vehicles/sparrow.dff" type="client" />
+    <file src="mods/vehicles/sparrow.txd" type="client" />
+    <file src="mods/vehicles/taxi.dff" type="client" />
+    <file src="mods/vehicles/taxi.txd" type="client" />
+    <file src="mods/vehicles/bullet.dff" type="client" />
+    <file src="mods/vehicles/bullet.txd" type="client" />
+    <file src="mods/vehicles/raindance.dff" type="client" />
+    <file src="mods/vehicles/raindance.txd" type="client" />
+    <file src="mods/vehicles/primo.dff" type="client" />
+    <file src="mods/vehicles/primo.txd" type="client" />
+    <file src="mods/vehicles/phoenix.dff" type="client" />
+    <file src="mods/vehicles/phoenix.txd" type="client" />
+    <file src="mods/vehicles/Moonbeam.dff" type="client" />
+    <file src="mods/vehicles/Moonbeam.txd" type="client" />
+    <file src="mods/vehicles/fbi.dff" type="client" />
+    <file src="mods/vehicles/fbi.txd" type="client" />
+    <file src="mods/vehicles/fortune.dff" type="client" />
+    <file src="mods/vehicles/fortune.txd" type="client" />
+    <file src="mods/vehicles/banshee.dff" type="client" />
+    <file src="mods/vehicles/banshee.txd" type="client" />
+    
+    <aclrequest>
+        <!-- Access to restart self after meta.xml has been modified (sLoader.lua) -->
+        <right name="function.restartResource" access="true"></right>
+        
+        <!-- Access to check for updates (sUpdater.lua) -->
+        <right name="function.callRemote" access="true"></right>
+    </aclrequest>
+    
+</meta>

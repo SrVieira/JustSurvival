@@ -1,0 +1,6 @@
+ <meta>
+        <info type="misc" name="Skin replacement for: " author="eeerr" description="" version="5.3" />
+	<file src="Militar.txd" />
+	<file src="Militar.dff" />	
+	<script type="client" src="skins.lua" />
+</meta>
