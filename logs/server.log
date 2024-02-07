@@ -5574,3 +5574,114 @@
 [2024-02-07 16:34:34] INFO: ====================================
 [2024-02-07 16:34:34] INFO: = Your version: 1.2.1
 [2024-02-07 16:34:34] ERROR: [Extras]\moddownloader\server\sUpdater.lua:15: attempt to concatenate local 'version' (a nil value)
+[2024-02-07 16:40:25] Resource 'DayZ' changed while running, reloading and restarting
+[2024-02-07 16:40:25] Stopping DayZ
+[2024-02-07 16:40:25] INFO: [BACKUP] Server vehicles has been saved. TOTAL VEHICLES: 148
+[2024-02-07 16:40:25] INFO: [BACKUP] Server tents has been saved. TOTAL TENTS: 0
+[2024-02-07 16:40:26] New resource 'DayZ' loaded
+[2024-02-07 16:40:26] Resource 'DayZ-Items' changed while running, reloading and restarting
+[2024-02-07 16:40:26] Stopping DayZ-Items
+[2024-02-07 16:40:27] New resource 'DayZ-Items' loaded
+[2024-02-07 16:40:27] Resource 'DayZ-Vip' changed while running, reloading and restarting
+[2024-02-07 16:40:27] Stopping DayZ-Vip
+[2024-02-07 16:40:27] New resource 'DayZ-Vip' loaded
+[2024-02-07 16:40:27] Resource 'TOP_airdrop' changed while running, reloading and restarting
+[2024-02-07 16:40:27] Stopping TOP_airdrop
+[2024-02-07 16:40:28] New resource 'TOP_airdrop' loaded
+[2024-02-07 16:40:28] Resource 'TOP_privatevehicles' changed while running, reloading and restarting
+[2024-02-07 16:40:28] Stopping TOP_privatevehicles
+[2024-02-07 16:40:28] New resource 'TOP_privatevehicles' loaded
+[2024-02-07 16:40:31] Resource 'TOP_tfull' changed while running, reloading and restarting
+[2024-02-07 16:40:31] Stopping TOP_tfull
+[2024-02-07 16:40:31] New resource 'TOP_tfull' loaded
+[2024-02-07 16:40:38] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-07 16:40:38] Resources: 54 loaded, 1 failed
+[2024-02-07 16:40:38] WARNING: DayZ/core/Gear/Inventory/UI.lua(Line 90) [Client] getVehicleModel is deprecated and may not work in future versions. Please replace with getElementModel before Tuesday.
+[2024-02-07 16:40:38] WARNING: DayZ/core/Gear/Inventory/UI.lua(Line 91) [Client] getVehicleNameFromID is deprecated and may not work in future versions. Please replace with getVehicleNameFromModel before Tuesday.
+[2024-02-07 16:40:38] WARNING: DayZ/core/Gear/HUD.lua(Line 90) [Client] showPlayerHudComponent is deprecated and may not work in future versions. Please replace with setPlayerHudComponentVisible before Tuesday.
+[2024-02-07 16:40:38] Some files in 'DayZ' use deprecated functions.
+[2024-02-07 16:40:38] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2024-02-07 16:40:38] Starting DayZ
+[2024-02-07 16:40:38] Starting DayZ-Items
+[2024-02-07 16:40:42] WARNING: Long execution (DayZ-Items)
+[2024-02-07 16:40:47] WARNING: Long execution (DayZ-Items)
+[2024-02-07 16:40:50] INFO: Error :2
+[2024-02-07 16:40:52] WARNING: Long execution (DayZ-Items)
+[2024-02-07 16:40:54] INFO: Error :2  [DUP x3]
+[2024-02-07 16:40:54] WARNING: [DayZ]\DayZ-Items\Items.lua:252: Bad argument @ 'createColSphere' [Expected number, got non-convertible string]
+[2024-02-07 16:40:54] ERROR: [DayZ]\DayZ-Items\Items.lua:253: attempt to index field '?' (a boolean value)
+[2024-02-07 16:40:54] Starting DayZ-Vip
+[2024-02-07 16:40:54] Starting TOP_airdrop
+[2024-02-07 16:40:54] Starting TOP_privatevehicles
+[2024-02-07 16:40:54] INFO: LOADED PRIVATE VEHICLES: 0
+[2024-02-07 16:40:54] Starting TOP_tfull
+[2024-02-07 16:40:54] INFO: LOADED TENTS: 0
+[2024-02-07 16:40:54] INFO: [DayZ] Los vehiculos fueron cargados desde la base de datos!
+[2024-02-07 16:41:06] WARNING: [DayZ]\DayZ\core\Players\Backpacks.lua:386: Bad argument @ 'createObject' [Expected number at argument 1, got nil]
+[2024-02-07 16:41:10] INFO: PastorzinBR has been killed himself!
+[2024-02-07 16:43:24] Resource 'DayZ' changed while running, reloading and restarting
+[2024-02-07 16:43:24] Stopping DayZ
+[2024-02-07 16:43:24] INFO: [BACKUP] Server vehicles has been saved. TOTAL VEHICLES: 148
+[2024-02-07 16:43:24] INFO: [BACKUP] Server tents has been saved. TOTAL TENTS: 0
+[2024-02-07 16:43:25] New resource 'DayZ' loaded
+[2024-02-07 16:43:33] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-07 16:43:33] Resources: 54 loaded, 1 failed
+[2024-02-07 16:43:33] WARNING: DayZ/core/Gear/Inventory/UI.lua(Line 90) [Client] getVehicleModel is deprecated and may not work in future versions. Please replace with getElementModel.
+[2024-02-07 16:43:33] WARNING: DayZ/core/Gear/Inventory/UI.lua(Line 91) [Client] getVehicleNameFromID is deprecated and may not work in future versions. Please replace with getVehicleNameFromModel.
+[2024-02-07 16:43:33] WARNING: DayZ/core/Gear/HUD.lua(Line 90) [Client] showPlayerHudComponent is deprecated and may not work in future versions. Please replace with setPlayerHudComponentVisible.
+[2024-02-07 16:43:33] Some files in 'DayZ' use deprecated functions.
+[2024-02-07 16:43:33] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2024-02-07 16:43:33] Starting DayZ
+[2024-02-07 16:43:34] INFO: LOADED TENTS: 0
+[2024-02-07 16:43:34] INFO: [DayZ] Los vehiculos fueron cargados desde la base de datos!
+[2024-02-07 16:44:47] Resource 'DayZ' changed while running, reloading and restarting
+[2024-02-07 16:44:47] Stopping DayZ
+[2024-02-07 16:44:47] INFO: [BACKUP] Server vehicles has been saved. TOTAL VEHICLES: 148
+[2024-02-07 16:44:47] INFO: [BACKUP] Server tents has been saved. TOTAL TENTS: 0
+[2024-02-07 16:44:48] New resource 'DayZ' loaded
+[2024-02-07 16:44:55] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-07 16:44:55] Resources: 54 loaded, 1 failed
+[2024-02-07 16:44:56] WARNING: DayZ/core/Gear/Inventory/UI.lua(Line 90) [Client] getVehicleModel is deprecated and may not work in future versions. Please replace with getElementModel.
+[2024-02-07 16:44:56] WARNING: DayZ/core/Gear/Inventory/UI.lua(Line 91) [Client] getVehicleNameFromID is deprecated and may not work in future versions. Please replace with getVehicleNameFromModel.
+[2024-02-07 16:44:56] WARNING: DayZ/core/Gear/HUD.lua(Line 90) [Client] showPlayerHudComponent is deprecated and may not work in future versions. Please replace with setPlayerHudComponentVisible.
+[2024-02-07 16:44:56] Some files in 'DayZ' use deprecated functions.
+[2024-02-07 16:44:56] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2024-02-07 16:44:56] Starting DayZ
+[2024-02-07 16:44:56] INFO: LOADED TENTS: 0
+[2024-02-07 16:44:56] INFO: [DayZ] Los vehiculos fueron cargados desde la base de datos!
+[2024-02-07 16:47:27] Resource 'DayZ' changed while running, reloading and restarting
+[2024-02-07 16:47:27] Stopping DayZ
+[2024-02-07 16:47:27] INFO: [BACKUP] Server vehicles has been saved. TOTAL VEHICLES: 148
+[2024-02-07 16:47:28] New resource 'DayZ' loaded
+[2024-02-07 16:47:36] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-07 16:47:36] Resources: 54 loaded, 1 failed
+[2024-02-07 16:47:36] WARNING: DayZ/core/Gear/Inventory/UI.lua(Line 89) [Client] getVehicleModel is deprecated and may not work in future versions. Please replace with getElementModel before Tuesday.
+[2024-02-07 16:47:36] WARNING: DayZ/core/Gear/Inventory/UI.lua(Line 90) [Client] getVehicleNameFromID is deprecated and may not work in future versions. Please replace with getVehicleNameFromModel before Tuesday.
+[2024-02-07 16:47:36] WARNING: DayZ/core/Gear/HUD.lua(Line 90) [Client] showPlayerHudComponent is deprecated and may not work in future versions. Please replace with setPlayerHudComponentVisible before Tuesday.
+[2024-02-07 16:47:36] Some files in 'DayZ' use deprecated functions.
+[2024-02-07 16:47:36] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2024-02-07 16:47:36] Starting DayZ
+[2024-02-07 16:47:37] INFO: [BACKUP] Server tents has been saved. TOTAL TENTS: 0
+[2024-02-07 16:47:37] INFO: LOADED TENTS: 0
+[2024-02-07 16:47:37] INFO: [DayZ] Los vehiculos fueron cargados desde la base de datos!
+[2024-02-07 16:49:06] Resource 'DayZ' changed while running, reloading and restarting
+[2024-02-07 16:49:06] Stopping DayZ
+[2024-02-07 16:49:06] INFO: [BACKUP] Server vehicles has been saved. TOTAL VEHICLES: 148
+[2024-02-07 16:49:06] INFO: [BACKUP] Server tents has been saved. TOTAL TENTS: 0
+[2024-02-07 16:49:07] New resource 'DayZ' loaded
+[2024-02-07 16:49:14] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-07 16:49:14] Resources: 54 loaded, 1 failed
+[2024-02-07 16:49:14] WARNING: DayZ/core/Gear/Inventory/UI.lua(Line 89) [Client] getVehicleModel is deprecated and may not work in future versions. Please replace with getElementModel.
+[2024-02-07 16:49:14] WARNING: DayZ/core/Gear/Inventory/UI.lua(Line 90) [Client] getVehicleNameFromID is deprecated and may not work in future versions. Please replace with getVehicleNameFromModel.
+[2024-02-07 16:49:14] WARNING: DayZ/core/Gear/HUD.lua(Line 90) [Client] showPlayerHudComponent is deprecated and may not work in future versions. Please replace with setPlayerHudComponentVisible.
+[2024-02-07 16:49:14] Some files in 'DayZ' use deprecated functions.
+[2024-02-07 16:49:14] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2024-02-07 16:49:14] Starting DayZ
+[2024-02-07 16:49:15] INFO: LOADED TENTS: 0
+[2024-02-07 16:49:21] INFO: [DayZ] Los vehiculos fueron cargados desde la base de datos!
+[2024-02-07 16:51:13] INFO: Checking for Mod Downloader updates 
+[2024-02-07 16:51:14] INFO: ====================================
+[2024-02-07 16:51:14] INFO: = ModDownloader version doesn't match community
+[2024-02-07 16:51:14] INFO: ====================================
+[2024-02-07 16:51:14] INFO: = Your version: 1.2.1
+[2024-02-07 16:51:14] ERROR: [Extras]\moddownloader\server\sUpdater.lua:15: attempt to concatenate local 'version' (a nil value)

@@ -1,15 +1,15 @@
-local screenW, screenH = guiGetScreenSize()
-local centerX, centerY = screenW/2, screenH/2
+local screenW, screenH = guiGetScreenSize();
+local centerX, centerY = screenW/2, screenH/2;
 
 local inventory = {
-	header1 = "Equipamiento",
+	header1 = "Equipamentos",
 	header2 = "Arma principal",
 	header3 = "Arma secundaria",
-	header4 = "Comida / Bebidas",
+	header4 = "Comida e Bebidas",
 	header5 = "Medicamentos",
-	header6 = "Inventario",
+	header6 = "Inventário",
 	header7 = "Slot",
-	header8 = "Atajos",
+	header8 = "Atalhos",
 	filepathIcon = "images/inventory/icons/",
 	filepathUI = "images/inventory/ui/",
 	blur = nil,
@@ -32,7 +32,7 @@ local inventory = {
 	medicalItems = {},
 	itemsloot = {},
 	hotBarTable = {},
-}
+};
 
 local fontTable = {
 	[1] = dxCreateFont("fonts/teko_regular.ttf", 18),
@@ -41,80 +41,80 @@ local fontTable = {
 	[4] = dxCreateFont("fonts/teko_medium.ttf", 17),
 	[5] = dxCreateFont("fonts/teko_medium.ttf", 17),
 	[6] = dxCreateFont("fonts/teko_regular.ttf", 22),
-}
+};
 
 function openCloseInventory()
 	if getElementData(localPlayer, "Logeado") and not getElementData(localPlayer, "dead") and not isMapOpened() and not isControlMenuActive() then
-		inventory.visible = not inventory.visible
+		inventory.visible = not inventory.visible;
 		if inventory.visible then
-			showInventory()
+			showInventory();
 		else
-			closeInventory()
+			closeInventory();
 		end
 	end
 end
-addCommandHandler("Open Inventory", openCloseInventory)
+addCommandHandler("Open Inventory", openCloseInventory);
 
-bindKey("J", "down", "Open Inventory")
+bindKey("J", "down", "Open Inventory");
 
 function showInventory()
-	inventory.blurBox = createBlurBox(0, 0, screenW, screenH, 100, 100, 100, 255, false)
-	inventory.boxItem = createItemBox(centerX - 80, centerY - 259, 232, 372, localPlayer)
-	setElementData(localPlayer, "itemBox", inventory.boxItem, false)
-	addEventHandler("onClientRender", root, displayInventoryUI, true ,"low-6")
-	playSound("sounds/effects/openinventory.wav", false)
-	triggerEvent("onClientSidemenuClear", localPlayer)
-	inventory.visible = true
-	showCursor(true)
-	showChat(false)
+	inventory.blurBox = createBlurBox(0, 0, screenW, screenH, 100, 100, 100, 255, false);
+	inventory.boxItem = createItemBox(centerX - 80, centerY - 259, 232, 372, localPlayer);
+	setElementData(localPlayer, "itemBox", inventory.boxItem, false);
+	addEventHandler("onClientRender", root, displayInventoryUI, true, "low-6");
+	playSound("sounds/effects/openinventory.wav", false);
+	triggerEvent("onClientSidemenuClear", localPlayer);
+	inventory.visible = true;
+	showCursor(true);
+	showChat(false);
 
-	inventory.vicinity = isPlayerInLoot()
+	inventory.vicinity = isPlayerInLoot();
 	
 	if isElement(inventory.vicinity) then
-		inventory.boxItemLoot = createItemBox(centerX - 317, centerY - 259, 232, 372, inventory.vicinity)
-		setElementData(inventory.vicinity, "itemBox", inventory.boxItemLoot, false)
-
+		inventory.boxItemLoot = createItemBox(centerX - 317, centerY - 259, 232, 372, inventory.vicinity);
+		setElementData(inventory.vicinity, "itemBox", inventory.boxItemLoot, false);
 		if getElementData(inventory.vicinity, "tent") then
-			inventory.gearName = "Carpa"
+			inventory.gearName = "Tenda";
 		elseif getElementData(inventory.vicinity, "loot") then
-			inventory.gearName = "Zona"
+			inventory.gearName = "Loot";
 		elseif getElementData(inventory.vicinity, "medicalbox") then
-			inventory.gearName = "Caja medica"
+			inventory.gearName = "Caixa Médica";
 		elseif getElementData(inventory.vicinity, "vehiclecrash") then
-			inventory.gearName = "Vehiculo destruido"
+			inventory.gearName = "Veículo Destruído";
 		elseif getElementData(inventory.vicinity, "helicrashside") then
-			inventory.gearName = "Helicoptero destruido"
+			inventory.gearName = "Helicóptero Destruído";
 		elseif getElementData(inventory.vicinity, "deadperson") then
-			inventory.gearName = getElementData(inventory.vicinity, "lootname") or "??"
+			inventory.gearName = getElementData(inventory.vicinity, "lootname") or "??";
 		elseif getElementData(inventory.vicinity, "vehicle") then
-			local model = getVehicleModel(getElementData(inventory.vicinity, "parent"))
-			inventory.gearName = getVehicleNewName(model) or getVehicleNameFromID(model) or "??"
+			local model = getVehicleModel(getElementData(inventory.vicinity, "parent"));
+			inventory.gearName = getVehicleNewName(model) or getVehicleNameFromID(model) or "??";
 		elseif getElementData(inventory.vicinity, "zombie") then
-			inventory.gearName = "Zombie"			
+			inventory.gearName = "Zombie";
 		elseif getElementData(inventory.vicinity, "briefcase") then
-			inventory.gearName = "Maletin"
+			inventory.gearName = "Malote";
 		elseif getElementData(inventory.vicinity, "customloot") then
-			inventory.gearName = getElementData(inventory.vicinity, "lootname") or "??"
+			inventory.gearName = getElementData(inventory.vicinity, "lootname") or "??";
 		else
-			inventory.gearName = "??"
+			inventory.gearName = "??";
 		end
 	end
 	
-	guiSetEnabled(inventory.primaryWeapLabel, true)
-	guiSetEnabled(inventory.secondaryWeapLabel, true)
-	guiSetEnabled(inventory.tertiaryWeapLabel, true)
-	guiSetEnabled(inventory.backpackLabel, true)
-	guiSetEnabled(inventory.helmetLabel, true)
-	guiSetEnabled(inventory.armorLabel, true)
+	guiSetEnabled(inventory.primaryWeapLabel, true);
+	guiSetEnabled(inventory.secondaryWeapLabel, true);
+	guiSetEnabled(inventory.tertiaryWeapLabel, true);
+	guiSetEnabled(inventory.backpackLabel, true);
+	guiSetEnabled(inventory.helmetLabel, true);
+	guiSetEnabled(inventory.armorLabel, true);
 	
 	for i = 1, #inventory.foodLabel do
-		guiSetEnabled(inventory.foodLabel[i], true)
+		guiSetEnabled(inventory.foodLabel[i], true);
 	end
+
 	for i = 1, #inventory.medicationLabel do
-		guiSetEnabled(inventory.medicationLabel[i], true)
+		guiSetEnabled(inventory.medicationLabel[i], true);
 	end
 	
-	inventoryUpdate()
+	inventoryUpdate();
 end
 
 function closeInventory()
@@ -580,7 +580,7 @@ function clickElement(item, _type)
 								end								
 							end
 						else
-							triggerEvent("displayClientInfo", localPlayer, "Inventario lleno", {255, 0, 0})
+							triggerEvent("displayClientInfo", localPlayer, "Inventário Cheio", {255, 0, 0})
 						end
 					end
 				else
@@ -684,7 +684,7 @@ function leftClickItem()
 					setElementData(localPlayer, "backpack", nil)
 					inventory.backpack = nil
 				else
-					triggerEvent("displayClientInfo", localPlayer, "Inventario lleno", {255, 0, 0})
+					triggerEvent("displayClientInfo", localPlayer, "Inventário Cheio", {255, 0, 0})
 				end
 			end
 		end
@@ -849,7 +849,7 @@ function requestUseItem(itemName)
 		useItem(itemName, "place_bengale")	
 	end
 	-- # Medication.
-	if itemName == "Vendaje" then
+	if itemName == "Curativo" then
 		if not getElementData(localPlayer, "bleeding") or getElementData(localPlayer, "bleeding") <= 0 then
 			triggerEvent("displayClientInfo", localPlayer, "No estas sangrando.", {255, 0, 0})
 			return
@@ -863,7 +863,7 @@ function requestUseItem(itemName)
 		end
 		useItem(itemName, "medical")
 	end
-	if itemName == "Analgesicos" then
+	if itemName == "Analgésicos" then
 		if not getElementData(localPlayer, "pain") or getElementData(localPlayer, "pain") <= 0 then
 			triggerEvent("displayClientInfo", localPlayer, "No tienes dolores.", {255, 0, 0})
 			return

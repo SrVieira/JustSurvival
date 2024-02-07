@@ -3,7 +3,6 @@ local sidemenu = {}
 local count_row = 0
 local cache = false
 local header = false
-local newbieMessage = false
 local currentCol = false
 local dupTimer
 
@@ -32,8 +31,6 @@ function displaySidemenu()
 			dxDrawRectangle(0, py, 210, rheight, tocolor(0, 0, 0, 100), false)
 			dxDrawRectangle(0, py, 210, headerHeight + offH, tocolor(0, 0, 0, 100), false)
 			dxDrawText(header, 5, py + offH/2, 5, 0, tocolor(50, 100, 134, 255), 1, "default-bold", "left", "top")
-			dxDrawText(newbieMessage or "", 6, py + rheight + offH + 1, 0, 0, tocolor(0, 0, 0, 200), size, "default-bold", "left", "top")
-			dxDrawText(newbieMessage or "", 5, py + rheight + offH, 0, 0, tocolor(255, 255, 255, 200), size, "default-bold", "left", "top")
 
 			for i, d in ipairs(sidemenu) do
 				if count_row and count_row == i then
@@ -279,10 +276,9 @@ function onPlayerColShapeLeaveData(element)
 end
 addEventHandler("onClientColShapeLeave", root, onPlayerColShapeLeaveData)
 
-function setNewbieMessage(col, title, content)
+function setNewbieMessage(col, title)
 	currentCol = col
 	header = tostring(title)
-	newbieMessage = tostring(content)
 end
 
 function insertMenuTypeTable(menuType, col)
@@ -299,28 +295,28 @@ function insertMenuTypeTable(menuType, col)
 				if getElementData(player, "bleeding") and getElementData(player, "bleeding") > 0 then
 					if getElementData(localPlayer, "Curativo") and getElementData(localPlayer, "Curativo") > 0 then
 						table.insert(sidemenu, {"Detener sangrado", "stop_bleeding"})
-						setNewbieMessage(col, getPlayerName(player):gsub("#%x%x%x%x%x%x", ""), "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")
+						setNewbieMessage(col, getPlayerName(player):gsub("#%x%x%x%x%x%x", ""))
 					end
 				end
 				
 				if getElementData(player, "pain") and getElementData(player, "pain") > 0 then
 					if getElementData(localPlayer, "Analgésicos") and getElementData(localPlayer, "Analgésicos") > 0 then
 						table.insert(sidemenu, {"Curar dolores", "stop_pain"})
-						setNewbieMessage(col, getPlayerName(player):gsub("#%x%x%x%x%x%x", ""), "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")
+						setNewbieMessage(col, getPlayerName(player):gsub("#%x%x%x%x%x%x", ""))
 					end
 				end				
 				
 				if getElementData(player, "brokenbone") and getElementData(player, "brokenbone") > 0 then
 					if getElementData(localPlayer, "Morfina") and getElementData(localPlayer, "Morfina") > 0 then
 						table.insert(sidemenu, {"Curar hueso roto", "reset_bonecrack"})
-						setNewbieMessage(col, getPlayerName(player):gsub("#%x%x%x%x%x%x", ""), "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")
+						setNewbieMessage(col, getPlayerName(player):gsub("#%x%x%x%x%x%x", ""))
 					end
 				end
 				
 				if getElementData(player, "infection") and getElementData(player, "infection") > 0 then
 					if getElementData(localPlayer, "Antibioticos") and getElementData(localPlayer, "Antibioticos") > 0 then
 						table.insert(sidemenu, {"Detener infeccion", "stop_infection"})
-						setNewbieMessage(col, getPlayerName(player):gsub("#%x%x%x%x%x%x", ""), "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")
+						setNewbieMessage(col, getPlayerName(player):gsub("#%x%x%x%x%x%x", ""))
 					end
 				end				
 				
@@ -329,12 +325,12 @@ function insertMenuTypeTable(menuType, col)
 						--local hisBloodType = getElementData(player, "bloodType")
 						if getElementData(localPlayer, "Bolsa de sangre") and getElementData(localPlayer, "Bolsa de sangre") > 0 then
 							table.insert(sidemenu, {"Realizar transfusion", "make_bloodtransfusion"})
-							setNewbieMessage(col, getPlayerName(player):gsub("#%x%x%x%x%x%x", ""), "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")
+							setNewbieMessage(col, getPlayerName(player):gsub("#%x%x%x%x%x%x", ""))
 						end
 					--end
 					if getElementData(localPlayer, "Botiquin") and getElementData(localPlayer, "Botiquin") > 0 then
 						table.insert(sidemenu, {"Aplicar botiquin", "medickit"})
-						setNewbieMessage(col, getPlayerName(player):gsub("#%x%x%x%x%x%x", ""), "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")
+						setNewbieMessage(col, getPlayerName(player):gsub("#%x%x%x%x%x%x", ""))
 					end
 				end
 			end
@@ -342,52 +338,52 @@ function insertMenuTypeTable(menuType, col)
 		elseif menuType == "patrolstation" then
 			if getElementData(col, "isfull") then
 				table.insert(sidemenu, {"Llenar bidon", "fill_canister"})
-				setNewbieMessage(col, "Patrol", "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")
+				setNewbieMessage(col, "Patrol")
 			else
 				triggerEvent("displayClientInfo", localPlayer, "Este contenedor no tiene gasolina", {255,255,255})
 			end
 		elseif menuType == "wirefence" then
 			table.insert(sidemenu, {"Remover valla de alambre", "remove_wirefence"})	
-			setNewbieMessage(col, "Valla de alambre", "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")
+			setNewbieMessage(col, "Valla de alambre")
 		elseif menuType == "tramp" then
 			if getElementData(localPlayer, "Caja de herramientas") and getElementData(localPlayer, "Caja de herramientas") > 0 then
 				table.insert(sidemenu, {"Desactivar '"..tostring(getElementData(col, "tramp")).."'", "remove_tramp"})
-				setNewbieMessage(col, tostring(getElementData(col, "tramp")), "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")	
+				setNewbieMessage(col, tostring(getElementData(col, "tramp")))	
 			end
 		elseif menuType == "medicalbox" then
 			table.insert(sidemenu, {"Gear (Caja medica)", "check"})
-			setNewbieMessage(col, "Caja medica", "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")
+			setNewbieMessage(col, "Caja medica")
 		elseif menuType == "briefcase" then
 			table.insert(sidemenu, {"Gear (Maletin)", "check"})
-			setNewbieMessage(col, "Maletin", "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")			
+			setNewbieMessage(col, "Maletin")			
 		elseif menuType == "deadperson" then
 			table.insert(sidemenu, {"Revisar cuerpo", "check"})
 			table.insert(sidemenu, {"Informacion del cuerpo", "check_info"})
-			setNewbieMessage(col, getElementData(col, "lootname") or "Cadaver", "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")
+			setNewbieMessage(col, getElementData(col, "lootname") or "Cadaver")
 		elseif menuType == "zombie" then
 			table.insert(sidemenu, {"Revisar cuerpo", "check"})
 			table.insert(sidemenu, {"Informacion del cuerpo", "check_info"})
-			setNewbieMessage(col, "Zombie", "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")			
+			setNewbieMessage(col, "Zombie")			
 		elseif menuType == "tent" then
 			table.insert(sidemenu, {"Gear (Tienda)", "check"})	
 			table.insert(sidemenu, {"Desmontar Tienda", "remove_tent"})
-			setNewbieMessage(col, "Tienda", "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")
+			setNewbieMessage(col, "Tienda")
 		elseif menuType == "vehiclecrash" then
 			table.insert(sidemenu, {"Gear (Vehiculo destruido)", "check"})
-			setNewbieMessage(col, "Vehiculo destruido", "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")
+			setNewbieMessage(col, "Vehiculo destruido")
 		elseif menuType == "helicrashside" then
 			table.insert(sidemenu, {"Gear (Helicoptero destruido)", "check"})
-			setNewbieMessage(col, "Helicoptero destruido", "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")			
+			setNewbieMessage(col, "Helicoptero destruido")			
 		elseif menuType == "loot" then
 			table.insert(sidemenu, {"Gear ("..(getElementData(col, "lootname") or "??")..")", "check"})
-			setNewbieMessage(col, getElementData(col, "lootname") or "??", "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")
+			setNewbieMessage(col, getElementData(col, "lootname") or "??")
 		elseif menuType == "deadanimal" then
 			table.insert(sidemenu, {"Obtener carne", "get_rawmeat"})
 			table.insert(sidemenu, {"Informacion del animal", "check_info"})
-			setNewbieMessage(col, "Animal muerto", "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")
+			setNewbieMessage(col, "Animal muerto")
 		elseif menuType == "customloot" then
 			table.insert(sidemenu, {"Gear ("..(getElementData(col, "lootname") or "??")..")", "check"})
-			setNewbieMessage(col, getElementData(col, "lootname") or "??", "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")
+			setNewbieMessage(col, getElementData(col, "lootname") or "??")
 		elseif menuType == "fireplace" then	
 			if getElementData(localPlayer, "cold") and getElementData(localPlayer, "cold") > 0 then
 				table.insert(sidemenu, {"Calentarse", "heatup"})
@@ -401,14 +397,14 @@ function insertMenuTypeTable(menuType, col)
 				table.insert(sidemenu, {"Encender Fogata", "switch_fireplace"})
 			end			
 			table.insert(sidemenu, {"Informacion de la fogata", "check_info"})
-			setNewbieMessage(col, "Fogata", "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")
+			setNewbieMessage(col, "Fogata")
 		elseif menuType == "item" then
 			local itemName = getItemName(getElementData(col, menuType))
 			table.insert(sidemenu, {"Recoger '"..tostring(itemName).."'", "pickup"})
 			if getElementData(col, menuType) == "Pila de madera" then
 				table.insert(sidemenu, {"Hacer una fogata", "fireplace"})
 			end
-			setNewbieMessage(col, tostring(itemName), "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")
+			setNewbieMessage(col, tostring(itemName))
 		elseif menuType == "vehicle" then
 			local vehicle = getElementData(col, "parent")
 			
@@ -417,7 +413,7 @@ function insertMenuTypeTable(menuType, col)
 				local vehiclecol = col
 
 				table.insert(sidemenu, {"Gear ("..(getVehicleNewName(getElementModel(vehicle)) or getVehicleName(vehicle))..")", "check"})
-				setNewbieMessage(col, getVehicleNewName(getElementModel(vehicle)) or getVehicleName(vehicle), "Pulsa 'Middle-Mouse' o '-' para seleccionadar!")
+				setNewbieMessage(col, getVehicleNewName(getElementModel(vehicle)) or getVehicleName(vehicle))
 
 				if (getElementHealth(vehicle)) < 800 then
 					table.insert(sidemenu, {"Reparar Vehiculo", "restore_vehicle"})
@@ -479,7 +475,6 @@ function clearMenuTable()
 	count_row = 0
 	cache = false
 	header = false
-	newbieMessage = false
 	currentCol = false
 
 	unbindKey("-", "down", applySelection)
