@@ -180,7 +180,7 @@ Items['Paraquedas'] = {371, 1, 90}
 Items['M4A3 CCO'] = {2816, 1, 90}
 Items['M79'] = {2813, 1, 90}
 
-Items['Guillie Suit'] = {1870, 1.30}
+Items['Traje Ghillie'] = {1870, 1.30}
 Items['Police Suit'] = {1870, 1.30}
 Items['Veterano Suit'] = {1870, 1.30}
 Items['Camo Suit'] = {1870, 1.30}

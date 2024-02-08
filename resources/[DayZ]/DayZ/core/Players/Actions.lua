@@ -4,7 +4,7 @@ function setClothing(itemName)
 	local gender = getElementData(source, "gender")
 	setPedAnimation(source, "BOMBER", "BOM_Plant", -1, false, false, nil, false)
 
-	if itemName == "Guillie Suit" then
+	if itemName == "Traje Ghillie" then
 		setElementModel(source, 7)
 	elseif itemName == "Police Suit" then
 		setElementModel(source, 40)	

@@ -135,7 +135,7 @@
 	["Neumatico"] = 4,
 	["Rotador"] = 4,
 	-- TRAJES
-	["Guillie Suit"] = 1,
+	["Traje Ghillie"] = 1,
 	["Survivor Suit"] = 1,
 	["Police Suit"] = 1,
 	["Veterano Suit"] = 1,
@@ -167,7 +167,7 @@
 
 itemLootTable = {-- Lista de objetos
 	--item, object, scale
-	{"Guillie Suit", 1870, 1.30},
+	{"Traje Ghillie", 1870, 1.30},
 	{"Police Suit", 1870, 1.30},
 	{"Survivor Suit", 1870, 1.30},
 	{"Veterano Suit", 1870, 1.30},

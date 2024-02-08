@@ -79,7 +79,7 @@ Zonas["Militar"] = {
 	{"Cabo Backpack", 40},
 	{"Mochila Asalto", 60},
 	{"Mochila Coyote", 70},
-	{"Guillie Suit", 30},
+	{"Traje Ghillie", 30},
 	{"Police Suit", 30},
 	{"Veterano Suit", 30},
 	{"Camo Suit", 30},

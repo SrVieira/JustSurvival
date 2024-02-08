@@ -135,7 +135,7 @@ dayzItemTable = {
 	{"Chaleco de policia"},
 	{"Chaleco civil"},
 	{"Chaleco de guerra"},
-	{"Guillie Suit"},	
+	{"Traje Ghillie"},	
 	{"Survivor Suit"},
 	{"Police Suit"},
 	-- PARTES DE UN VEHICULO
