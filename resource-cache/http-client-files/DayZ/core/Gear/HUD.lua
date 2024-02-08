@@ -28,7 +28,7 @@ local fonts = {
 }
 
 function showDebugMonitor()
-	if getElementData(localPlayer, "Logeado") then
+	if getElementData(localPlayer, "Logged") then
 		isMonitorVisible = not isMonitorVisible
 	end
 end
@@ -70,7 +70,7 @@ end
 
 function displayDayZHud()
 	toggleControl("radar", false)
-	if getElementData(localPlayer, "Logeado") and not getElementData(localPlayer, "dead") then
+	if getElementData(localPlayer, "Logged") and not getElementData(localPlayer, "dead") then
 		--# Iconos
 		drawPlayerStatus()
 		--# Arma
@@ -492,7 +492,7 @@ function drawPlayerTag()
 				setPlayerNametagShowing(v, false)
 			end
 			local block, anim = getPedAnimation(v)
-			if v ~= localPlayer and getElementData(v, "Logeado") and (tostring(anim) ~= "FLOOR_hit_f" or not anim) then
+			if v ~= localPlayer and getElementData(v, "Logged") and (tostring(anim) ~= "FLOOR_hit_f" or not anim) then
 				local dx, dy, dz = getElementPosition(v)
 				local dis = getDistanceBetweenPoints3D(x, y, z, dx, dy, dz)
 				if (dis <= 8) then

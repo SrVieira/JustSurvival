@@ -114,7 +114,7 @@ end
 
 function getAttachmentOnStart()
 	for _, player in ipairs(getElementsByType("player")) do
-		if getElementData(player, "Logeado") then
+		if getElementData(player, "Logged") then
 			local x, y, z = getElementPosition(player)
 			local currentHelmet = getElementData(player, "helmet")
 			local currentArmor = getElementData(player, "kevlar")
@@ -350,7 +350,7 @@ end
 
 function onPlayerChangeWeaponObject(prevWeapon, currentSlot)
 	-- Update holding weapon.
-	if getElementData(source, "Logeado") then
+	if getElementData(source, "Logged") then
 		local x, y, z = getElementPosition(source)
 		local slot = nil
 		

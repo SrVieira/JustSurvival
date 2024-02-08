@@ -44,7 +44,7 @@ local fontTable = {
 };
 
 function openCloseInventory()
-	if getElementData(localPlayer, "Logeado") and not getElementData(localPlayer, "dead") and not isMapOpened() and not isControlMenuActive() then
+	if getElementData(localPlayer, "Logged") and not getElementData(localPlayer, "dead") and not isMapOpened() and not isControlMenuActive() then
 		inventory.visible = not inventory.visible;
 		if inventory.visible then
 			showInventory();
@@ -518,7 +518,7 @@ function displayInventoryUI()
 end
 
 function drawHotBar()
-	if getElementData(localPlayer, "Logeado") and not getElementData(localPlayer, "dead") and not isMapOpened() then
+	if getElementData(localPlayer, "Logged") and not getElementData(localPlayer, "dead") and not isMapOpened() then
 		local Ox, sep, size, alpha = 0, 4, 48, (inventory.visible == true and 200) or 75
 		for i = 1, 6 do
 			dxDrawBorderedRectangle(centerX + Ox - (3 * size), screenH - size - sep, size, size, 1, {50, 50, 50, alpha}, false)
@@ -652,7 +652,7 @@ addEventHandler("onClientUnclickItem", root, unclickLargeRow)
 
 function hotBarKey(key)
 	local n = tonumber(key)
-	if inventory.hotBarTable[n] and not inventory.locked and getElementData(localPlayer, "Logeado") and not getElementData(localPlayer, "dead") then
+	if inventory.hotBarTable[n] and not inventory.locked and getElementData(localPlayer, "Logged") and not getElementData(localPlayer, "dead") then
 		requestUseItem(inventory.hotBarTable[n])
 	end
 end

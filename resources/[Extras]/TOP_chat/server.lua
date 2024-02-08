@@ -3,7 +3,7 @@
 addEventHandler("onResourceStart", resourceRoot, 
 	function()
 		for key, player in ipairs(getElementsByType("player")) do
-			if getElementData(player, "Logeado") then
+			if getElementData(player, "Logged") then
 				triggerEvent("onPlayerChatBound", player)
 			end
 		end
@@ -52,7 +52,7 @@ addEventHandler("onPlayerQuit", root,
 )
 
 function chatGlobal(player, _, ...)
-	if getElementData(player, "Logeado") and not isPlayerMuted(player) then
+	if getElementData(player, "Logged") and not isPlayerMuted(player) then
 		local account = getPlayerAccount(player)
 		if isGuestAccount(account) then return end
 		if not tick[player] then return end
@@ -97,7 +97,7 @@ addCommandHandler("hideadmin", hideadmin)
 function chatLocal(Mensaje, tipo)
 	cancelEvent()
 	
-	if getElementData(source, "Logeado") then
+	if getElementData(source, "Logged") then
 		local account = getPlayerAccount(source)
 		if isGuestAccount(account) then return end
 		--if tipo == 1 then return end

@@ -96,7 +96,7 @@ local jumping = {}
 function checkAnimalPlayerStealth()
     local x,y,z = getElementPosition(localPlayer)
     for i,ped in ipairs(getElementsByType("ped")) do
-        if getElementData(ped,"animal") and getElementData(localPlayer, "Logeado") then
+        if getElementData(ped,"animal") and getElementData(localPlayer, "Logged") then
 			if not getPedControlState(ped, "sprint") then setPedControlState(ped, "sprint", true) end
 			if getElementData(localPlayer,"shooting") and getElementData(localPlayer,"shooting") > 0 then
 				value = getWeaponNoiseFactor(getPedWeapon(localPlayer))

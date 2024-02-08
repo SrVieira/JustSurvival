@@ -1,7 +1,7 @@
 ﻿local secs = {}
 addCommandHandler("kill",
 	function(p)
-		if not getElementData(p, "Logeado") then return end
+		if not getElementData(p, "Logged") then return end
 		if getElementData(p, "dead") then return end
 		
 		local mysecs = getRealTime().timestamp

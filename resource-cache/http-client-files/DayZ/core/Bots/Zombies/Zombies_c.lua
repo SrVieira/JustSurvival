@@ -63,7 +63,7 @@ end
 setTimer(checkZombiePlayerStealth,500,0)
 
 function zombieSpawning()
-	if getElementData(localPlayer,"Logeado") and not getElementData(localPlayer,"zombieProof") then
+	if getElementData(localPlayer,"Logged") and not getElementData(localPlayer,"zombieProof") then
 		if not isPedInVehicle(localPlayer) then
 				local x, y, z = getElementPosition(getLocalPlayer())
 				triggerServerEvent("createZomieForPlayer",getLocalPlayer(),x,y,z)

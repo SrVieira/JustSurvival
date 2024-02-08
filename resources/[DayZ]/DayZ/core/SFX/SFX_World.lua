@@ -3,7 +3,7 @@ local soundsTable = {}
 
 function setAmbienceSound()
 	local minute, seconds = getTime()
-	local playing = getElementData(localPlayer, "Logeado")
+	local playing = getElementData(localPlayer, "Logged")
 	if playing then
 		if not isElement(dayeffect) then
 			dayeffect = playSound("sounds/world/day.mp3", true)

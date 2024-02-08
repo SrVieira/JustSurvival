@@ -13,7 +13,7 @@ local bodypartAnimation = {
 
 function createColPlayerOnStart()
 	for _, player in ipairs(getElementsByType("player")) do
-		if getElementData(player, "Logeado") then
+		if getElementData(player, "Logged") then
 			createColPlayer(player)
 		end
 	end
@@ -46,7 +46,7 @@ function startDayZGame(skinmodel, clothes, gender)
 	triggerEvent("onPlayerDayZSpawn", source)
 
 	setElementData(source, "gender", gender)
-	setElementData(source, "Logeado", true)
+	setElementData(source, "Logged", true)
 	setElementDimension(source, 0)
 	setCameraTarget(source, source)
 	fadeCamera(source, true, 2.0)

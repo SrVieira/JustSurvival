@@ -4,7 +4,7 @@ local maxLossCount = 6
 if gameplayVariables["PingKicker"] then
 	setTimer(function()
 		for _, player in ipairs(getElementsByType("player")) do
-			if isElement(player) and getElementData(player, "Logeado") then
+			if isElement(player) and getElementData(player, "Logged") then
 				if not lossCount[player] then
 					lossCount[player] = 0
 				end
@@ -29,7 +29,7 @@ end
 
 function antiRelogEffect()
 	if isElement(source) and getElementData(source, "combat") then
-		if getElementData(source, "Logeado") then
+		if getElementData(source, "Logged") then
 			local account = getPlayerAccount(source)
 			setAccountData(account, "blood", -1)
 		end

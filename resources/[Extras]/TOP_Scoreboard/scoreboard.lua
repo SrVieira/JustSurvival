@@ -70,7 +70,7 @@ function drawScoreboard()
 		-- Draw rows.
 		local yOff = 0
 		local alignx = "center"
-		local isLogged = getElementData(localPlayer, "Logeado")
+		local isLogged = getElementData(localPlayer, "Logged")
 		
 		for i = 1+scoreboard.rolling, scoreboard.minRows+scoreboard.rolling do
 			local p = scoreboard.sortedPlayers[i]
@@ -180,7 +180,7 @@ addEvent("onScoreboardSendServerInfo", true)
 addEventHandler("onScoreboardSendServerInfo", root, updateServerInfo)
 
 function setScoreboardStatus(key, keyState)
-	if not getElementData(localPlayer, "Logeado") then return end
+	if not getElementData(localPlayer, "Logged") then return end
 	if keyState == "down" then
 		scoreboard.visible = true
 		updateScrollboardHeight()

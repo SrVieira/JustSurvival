@@ -37,7 +37,7 @@ addEventHandler("onClientCharacterSave", root, savePlayerCharacter)
 function savePlayerProgress(player)
 	local account = getPlayerAccount(player)
 	if account and not isGuestAccount(account) then
-		if getElementData(player, "Logeado") then
+		if getElementData(player, "Logged") then
 			local x, y, z = getElementPosition(player)
 			local skin = getElementModel(player)
 			local dead = getElementData(player, "dead")

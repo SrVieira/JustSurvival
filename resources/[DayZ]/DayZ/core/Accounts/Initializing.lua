@@ -41,7 +41,7 @@ addEventHandler("setPlayerLoadScreen", root, setPlayerLoadScreen)
 
 function resourceStart()
 	
-	if not getElementData(localPlayer, "Logeado") then
+	if not getElementData(localPlayer, "Logged") then
 		dayzSoundtrack = playSound("sounds/misc/soundtrack.mp3", true)
 		setCameraMatrix(189.9629974365234, 360.21728515625, 2992.54189453125, 190.8286743164063, 359.7214660644531, 2992.44)
 		triggerEvent("DayZ_LoginPanel", localPlayer)

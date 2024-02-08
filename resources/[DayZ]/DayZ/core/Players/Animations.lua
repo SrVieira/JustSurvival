@@ -6,7 +6,7 @@ local danding = {}
 
 function keyBoundActions()
 	for _, player in ipairs(getElementsByType("player")) do
-		if getElementData(player, "Logeado") then
+		if getElementData(player, "Logged") then
 			bindActions(player)
 		end
 	end

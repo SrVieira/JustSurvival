@@ -1,6 +1,6 @@
 function checkTemperature()
 	for i,player in ipairs(getElementsByType("player")) do
-		if getElementData(player,"Logeado") then
+		if getElementData(player,"Logged") then
 			local current = getElementData(player,"temperature")
 			local value = 0
 			for k,v in ipairs(gameplayVariables["weather"]) do

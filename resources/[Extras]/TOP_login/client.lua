@@ -26,7 +26,7 @@ local font = {
 addEvent("onClientDXButtonClick", true)
 
 function initDayZLogin()
-	--if not getElementData(localPlayer, "Logeado") then
+	--if not getElementData(localPlayer, "Logged") then
 		addEventHandler("onClientRender", root, displayLogin)
 		showChat(false)
 		showCursor(true)

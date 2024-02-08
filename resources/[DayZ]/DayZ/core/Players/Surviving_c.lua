@@ -301,7 +301,7 @@ end
 addEventHandler("onClientRender", root, drawPainEffect)
 
 function onPlayerStatus()
-	if getElementData(localPlayer, "Logeado") then		
+	if getElementData(localPlayer, "Logged") then		
 		if not getElementData(localPlayer, "dead") then		
 			if (getElementHealth(localPlayer) == 0) then
 				setElementData(localPlayer, "blood", 0)
@@ -419,7 +419,7 @@ end
 setTimer(onPlayerStatus, 1000, 0)
 
 function getPlayerLoad()
-	if getElementData(localPlayer,"Logeado") then
+	if getElementData(localPlayer,"Logged") then
 		if not isPedInVehicle(localPlayer) then
 			local speedx, speedy, speedz = getElementVelocity (localPlayer)
 			local actualspeed = (speedx^2 + speedy^2 + speedz^2)^(0.5) 
@@ -442,7 +442,7 @@ end
 setTimer(getPlayerLoad, 30000, 0)
 
 function setPlayerHunger()
-	if getElementData(localPlayer,"Logeado") then
+	if getElementData(localPlayer,"Logged") then
 		if getElementData(localPlayer,"food") > 0 then
 			setElementData(localPlayer,"food",getElementData(localPlayer,"food")-playerHunger)
 		else
@@ -453,7 +453,7 @@ end
 setTimer(setPlayerHunger, 30100, 0)
 
 function setPlayerThirst()
-	if getElementData(localPlayer,"Logeado") then
+	if getElementData(localPlayer,"Logged") then
 		if getElementData(localPlayer,"thirst") > 0 then
 			setElementData(localPlayer,"thirst",getElementData(localPlayer,"thirst")-playerThirst)
 		else
@@ -464,7 +464,7 @@ end
 setTimer(setPlayerThirst, 30100, 0)
 
 function updateDaysAliveTime()
-	if getElementData(localPlayer,"Logeado") then
+	if getElementData(localPlayer,"Logged") then
 		local daysalive = getElementData(localPlayer,"daysalive") or 0
 		setElementData(localPlayer,"daysalive",daysalive+1)
 	end
@@ -472,7 +472,7 @@ end
 setTimer(updateDaysAliveTime, 2880000, 0)
 
 function updatePlayTime()
-	if getElementData(localPlayer,"Logeado") then
+	if getElementData(localPlayer,"Logged") then
 		local playtime = getElementData(localPlayer,"alivetime") or 0
 		setElementData(localPlayer,"alivetime",playtime+1)
 	end	
@@ -480,7 +480,7 @@ end
 setTimer(updatePlayTime, 60000, 0)
 
 function updateHoursAliveTime()
-	if getElementData(localPlayer,"Logeado") then
+	if getElementData(localPlayer,"Logged") then
 		local hourstime = getElementData(localPlayer,"hoursalive") or 0
 		setElementData(localPlayer,"hoursalive",hourstime+1)
 	end	
@@ -488,7 +488,7 @@ end
 setTimer(updateHoursAliveTime, 3600000, 0)
 
 function infectionSigns()
-	if getElementData(localPlayer,"Logeado") then
+	if getElementData(localPlayer,"Logged") then
 		if getElementData(localPlayer,"infection") and getElementData(localPlayer,"infection") > 0 then
 			local x,y,z = getElementPosition(localPlayer)
 			createExplosion (x,y,z+15,8,false,0.5,false)
@@ -510,7 +510,7 @@ end
 setTimer(infectionSigns, 10000, 0)
 
 function regenerateBlood()
-	if getElementData(localPlayer,"Logeado") and not getElementData(localPlayer,"dead") then
+	if getElementData(localPlayer,"Logged") and not getElementData(localPlayer,"dead") then
 		local blood = getElementData(localPlayer,"blood")
 		if blood < 12000 then
 			if blood >= 11940 then
@@ -530,7 +530,7 @@ end
 setTimer(regenerateBlood, 60000, 0)
 
 function setPlayerCold()
-	if getElementData(localPlayer,"Logeado") then
+	if getElementData(localPlayer,"Logged") then
 		if getElementData(localPlayer,"temperature") <= 33 then
 			setElementData(localPlayer,"cold",1)
 		elseif getElementData(localPlayer,"temperature") > 33 then
@@ -558,7 +558,7 @@ end
 setTimer(setPlayerCold, 40000, 0)
 
 function checkTemperature()
-	if getElementData(localPlayer,"Logeado") then
+	if getElementData(localPlayer,"Logged") then
 		local current = getElementData(localPlayer,"temperature") or 0
 		local value = 0
 		

@@ -60,7 +60,7 @@
 	<script src="core/Gear/Inventory/Help_c.luac" type="client" />
 	<script src="core/Gear/Inventory/UI.lua" type="client" />
     <script src="core/Gear/Inventory/Functions_ui.lua" type="client" />
-    <script src="core/Gear/Inventory/Menu_side.lua" type="client" />
+    <script src="core/Gear/Inventory/SideMenu.lua" type="client" />
 	
 	<script src="Startup.lua" />
 	<script src="Startup_c.lua" type="client" />

@@ -21,7 +21,7 @@ function sendPrivateMessage(myself, _, name, ...)
 		return
 	end
 	
-	if not getElementData(theotherguy, "Logeado") then
+	if not getElementData(theotherguy, "Logged") then
 		return
 	end
 	

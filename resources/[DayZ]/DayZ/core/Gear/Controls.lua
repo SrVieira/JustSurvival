@@ -50,7 +50,7 @@ function isControlMenuActive()
 end
 
 function showControls()
-	if not getElementData(localPlayer, "Logeado") then return end
+	if not getElementData(localPlayer, "Logged") then return end
 	if getElementData(localPlayer, "dead") then return end
 	if isMapOpened() then return end
 	if isInventoryVisible() then return end

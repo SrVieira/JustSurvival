@@ -1,43 +1,43 @@
-﻿local screenW, screenH = guiGetScreenSize()
-local sidemenu = {}
-local count_row = 0
-local cache = false
-local header = false
-local currentCol = false
-local dupTimer
+﻿local screenW, screenH = guiGetScreenSize();
+local sidemenu = {};
+local countRow = 0;
+local cache = false;
+local header = false;
+local currentCol = false;
+local dupTimer;
 
 function getPlayerInCol(tab)
 	for _,v in ipairs(tab) do
 		if (v ~= localPlayer) then
-			return true
+			return true;
 		end
 	end
-	return false
+	return false;
 end
 
 function displaySidemenu()
-	if getElementData(localPlayer, "Logeado") then
+	if getElementData(localPlayer, "Logged") then
 		if #sidemenu > 0 then
-			if string.find(header, "#%x%x%x%x%x%x") then 
-				header = string.gsub(header, "#%x%x%x%x%x%x", "") 
+			if string.find(header, "#%x%x%x%x%x%x") then
+				header = string.gsub(header, "#%x%x%x%x%x%x", "");
 			end
 
-			local offH = 5
-			local rowHeight = dxGetFontHeight(1, "default")
-			local headerHeight = dxGetFontHeight(1, "default-bold")
-			local rheight = headerHeight + offH + (rowHeight * #sidemenu)
-			local py = (screenH / 2 - 50) - (rheight/2)
+			local offH = 5;
+			local rowHeight = dxGetFontHeight(1, "default");
+			local headerHeight = dxGetFontHeight(1, "default-bold");
+			local rheight = headerHeight + offH + (rowHeight * #sidemenu);
+			local py = (screenH / 2 - 50) - (rheight/2);
 			
-			dxDrawRectangle(0, py, 210, rheight, tocolor(0, 0, 0, 100), false)
-			dxDrawRectangle(0, py, 210, headerHeight + offH, tocolor(0, 0, 0, 100), false)
-			dxDrawText(header, 5, py + offH/2, 5, 0, tocolor(50, 100, 134, 255), 1, "default-bold", "left", "top")
+			dxDrawRectangle(0, py, 210, rheight, tocolor(0, 0, 0, 100), false);
+			dxDrawRectangle(0, py, 210, headerHeight + offH, tocolor(0, 0, 0, 100), false);
+			dxDrawText(header, 5, py + offH/2, 5, 0, tocolor(50, 100, 134, 255), 1, "default-bold", "left", "top");
 
 			for i, d in ipairs(sidemenu) do
-				if count_row and count_row == i then
-					dxDrawRectangle(0, py + headerHeight + offH + (i-1)*rowHeight, 210, rowHeight, tocolor(50, 100, 134, 200), false)
-					dxDrawText(d[1], 5, py + headerHeight + offH + (i-1)*rowHeight, 5, 0, tocolor(0, 0, 0, 200), 1, "default-bold", "left", "top")
+				if countRow and countRow == i then
+					dxDrawRectangle(0, py + headerHeight + offH + (i-1)*rowHeight, 210, rowHeight, tocolor(50, 100, 134, 200), false);
+					dxDrawText(d[1], 5, py + headerHeight + offH + (i-1)*rowHeight, 5, 0, tocolor(0, 0, 0, 200), 1, "default-bold", "left", "top");
 				else
-					dxDrawText(d[1], 5, py + headerHeight + offH + (i-1)*rowHeight, 5, 0, tocolor(255, 255, 255, 200), 1, "default-bold", "left", "top")
+					dxDrawText(d[1], 5, py + headerHeight + offH + (i-1)*rowHeight, 5, 0, tocolor(255, 255, 255, 200), 1, "default-bold", "left", "top");
 				end	
 			end
 			
@@ -45,116 +45,104 @@ function displaySidemenu()
 				local x, y, z = getElementPosition(currentCol)
 				local sx, sy = getScreenFromWorldPosition(x, y, z)
 				if sx and sy and getElementData(localPlayer, "loot") then
-					dxDrawImage(sx, sy, 128, 80, "images/misc/loot.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
+					dxDrawImage(sx, sy, 128, 80, "images/misc/loot.png", 0, 0, 0, tocolor(255, 255, 255, 255), false);
 				end
 			end			
 		end
 	end
 end
-addEventHandler("onClientRender", root, displaySidemenu)
+addEventHandler("onClientRender", root, displaySidemenu);
 
 function checkLootOnVehicle(player, seat)
 	if player == localPlayer then
 		if (seat == 0) then
-			local col = getElementData(source, "parent")
+			local col = getElementData(source, "parent");
 			if isElement(col) then
-				if getPedOccupiedVehicle(localPlayer) then -- will make that vehicleStartEnter's event does not effect anything.
-					setElementData(localPlayer, "currentCol", col)
-					setElementData(localPlayer, "loot", true)
+				if getPedOccupiedVehicle(localPlayer) then
+					setElementData(localPlayer, "currentCol", col);
+					setElementData(localPlayer, "loot", true);
 				end
 			end
 		end
-		clearMenuTable()
+		clearMenuTable();
 	end
 end
-addEventHandler("onClientVehicleEnter", root, checkLootOnVehicle)
-addEventHandler("onClientVehicleStartEnter", root, checkLootOnVehicle)
+addEventHandler("onClientVehicleEnter", root, checkLootOnVehicle);
+addEventHandler("onClientVehicleStartEnter", root, checkLootOnVehicle);
 
 function checkLootOnLeaveVehicle(player, seat)
 	if player == localPlayer then
-		setElementData(localPlayer, "currentCol", nil)
-		setElementData(localPlayer, "loot", nil)
+		setElementData(localPlayer, "currentCol", nil);
+		setElementData(localPlayer, "loot", nil);
 		if isInventoryVisible() then
-			closeInventory()
+			closeInventory();
 		end
 	end
 end
-addEventHandler("onClientVehicleExit", root, checkLootOnLeaveVehicle)
-addEventHandler("onClientVehicleStartExit", root, checkLootOnLeaveVehicle)
+addEventHandler("onClientVehicleExit", root, checkLootOnLeaveVehicle);
+addEventHandler("onClientVehicleStartExit", root, checkLootOnLeaveVehicle);
 
 function clearMenuOnDestroy()
 	if source == getElementData(localPlayer, "currentCol") then
-		clearMenuTable()
+		clearMenuTable();
 	end
 end
-addEventHandler("onClientElementDestroy", root, clearMenuOnDestroy)
-
---[[
-function proccedLootCheckTimer()
-	local loot = getElementData(localPlayer, "currentCol")
-	if isElement(loot) then
-		if (#getElementsWithinColShape(loot, "player") > 1) then
-			if isInventoryVisible() then
-				closeInventory()
-			end
-			killTimer(dupTimer)
-		end
-	end
-end
-]]
+addEventHandler("onClientElementDestroy", root, clearMenuOnDestroy);
 
 function proccedLootCheckTimer()
-	local loot = getElementData(localPlayer, "currentCol")
+	local loot = getElementData(localPlayer, "currentCol");
 	if isElement(loot) then
 		if (#getElementsWithinColShape(loot, "player") > 1) then
-			setElementData(localPlayer, "loot", false)
-			inventoryUpdate()
-			clearMenuTable()
-			killTimer(dupTimer)
+			setElementData(localPlayer, "loot", false);
+			inventoryUpdate();
+			clearMenuTable();
+			killTimer(dupTimer);
 		end
 	end
 end
 
 function onPlayerColShapeEnterData(element)
-	if (element == localPlayer) and getElementData(localPlayer, "Logeado") and not getElementData(localPlayer, "dead") and not getPedOccupiedVehicle(localPlayer) then
+	if (element == localPlayer) and getElementData(localPlayer, "Logged") and not getElementData(localPlayer, "dead") and not getPedOccupiedVehicle(localPlayer) then
 		if (getElementData(source, "parent") == localPlayer) then 
-			return 
+			return;
 		end
 		if (tostring(getPedSimplestTask(localPlayer)) == "TASK_SIMPLE_GO_TO_POINT") then
-			return
+			return;
 		end
 		if isInventoryVisible() then
-			clearMenuTable()
+			clearMenuTable();
 			return
 		end
 		if element == localPlayer then
 			if isTimer(dupTimer) then
-				killTimer(dupTimer)
+				killTimer(dupTimer);
 			end
-			dupTimer = setTimer(proccedLootCheckTimer, 200, 0)
+			dupTimer = setTimer(proccedLootCheckTimer, 200, 0);
 		end
 		if getElementData(source, "player") then
-			setElementData(localPlayer, "currentCol", source)
-			setElementData(localPlayer, "loot", false)
-			insertMenuTypeTable("player", source)
-			return
+			setElementData(localPlayer, "currentCol", source);
+			setElementData(localPlayer, "loot", false);
+			insertMenuTypeTable("player", source);
+			return;
 		end
 		if isElement(getPlayerInCol(getElementsWithinColShape(source, "player"))) then
-			return
+			return;
 		end
 		if (#getElementsWithinColShape(source, "player") > 1) then
-			return
+			return;
 		end
 		if getElementData(source, "loot") then
-			setElementData(localPlayer, "currentCol", source)
-			setElementData(localPlayer, "loot", true)
-			insertMenuTypeTable("loot", source)
-			return
+			setElementData(localPlayer, "currentCol", source);
+			setElementData(localPlayer, "loot", true);
+			insertMenuTypeTable("loot", source);
+			return;
 		end
 		if getElementData(source, "tent") then
-			setElementData(localPlayer, "currentCol", source)	
-			setElementData(localPlayer, "loot", true)
+			setElementData(localPlayer, "currentCol", source);
+			setElementData(localPlayer, "loot", true);
 			insertMenuTypeTable("tent", source)
+
+			
 			return
 		end
 		if getElementData(source, "deadanimal") then
@@ -357,12 +345,12 @@ function insertMenuTypeTable(menuType, col)
 			table.insert(sidemenu, {"Gear (Maletin)", "check"})
 			setNewbieMessage(col, "Maletin")			
 		elseif menuType == "deadperson" then
-			table.insert(sidemenu, {"Revisar cuerpo", "check"})
-			table.insert(sidemenu, {"Informacion del cuerpo", "check_info"})
+			table.insert(sidemenu, {"Revistar corpo", "check"})
+			table.insert(sidemenu, {"Causa da morte", "check_info"})
 			setNewbieMessage(col, getElementData(col, "lootname") or "Cadaver")
 		elseif menuType == "zombie" then
-			table.insert(sidemenu, {"Revisar cuerpo", "check"})
-			table.insert(sidemenu, {"Informacion del cuerpo", "check_info"})
+			table.insert(sidemenu, {"Revistar corpo", "check"})
+			table.insert(sidemenu, {"Causa da morte", "check_info"})
 			setNewbieMessage(col, "Zombie")			
 		elseif menuType == "tent" then
 			table.insert(sidemenu, {"Gear (Tienda)", "check"})	
@@ -459,9 +447,9 @@ function insertMenuTypeTable(menuType, col)
 			end
 		end
 
-		count_row = 1
-		if sidemenu[count_row] then
-			cache = sidemenu[count_row][2]
+		countRow = 1
+		if sidemenu[countRow] then
+			cache = sidemenu[countRow][2]
 		end
 		
 		bindKey("mouse_wheel_up", "down", changeRowSelection, -1)
@@ -472,7 +460,7 @@ addEventHandler("insertMenuTypeTable", root, insertMenuTypeTable)
 
 function clearMenuTable()
 	sidemenu = {}
-	count_row = 0
+	countRow = 0
 	cache = false
 	header = false
 	currentCol = false
@@ -487,19 +475,19 @@ addEventHandler("onClientSidemenuClear", root, clearMenuTable)
 
 function changeRowSelection(_, _, scroll)
 	if cache then
-		if count_row then
+		if countRow then
 			if (#sidemenu > 1) then
 				playSoundFrontEnd(550)
 			end
-			count_row = count_row + scroll
+			countRow = countRow + scroll
 			
-			if count_row <= 0 then
-				count_row = #sidemenu
-			elseif count_row > #sidemenu then
-				count_row = 1
+			if countRow <= 0 then
+				countRow = #sidemenu
+			elseif countRow > #sidemenu then
+				countRow = 1
 			end
 			
-			cache = sidemenu[count_row][2]
+			cache = sidemenu[countRow][2]
 		end
 	end
 end

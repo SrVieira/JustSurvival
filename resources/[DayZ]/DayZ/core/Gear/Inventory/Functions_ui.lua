@@ -320,7 +320,7 @@ end
 ]]
 
 function changeCameraVisionMode(key)
-	if getElementData(localPlayer, "Logeado") and not getElementData(localPlayer, "dead") then
+	if getElementData(localPlayer, "Logged") and not getElementData(localPlayer, "dead") then
 		if key == "n" then
 			if getElementData(localPlayer, "VN Visor") and getElementData(localPlayer, "VN Visor") > 0 then
 				local effect = (getCameraGoggleEffect() == "normal" and "nightvision") or (getCameraGoggleEffect() == "nightvision" and "normal")
