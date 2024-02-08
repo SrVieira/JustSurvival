@@ -6445,3 +6445,95 @@
 [2024-02-08 10:54:36] INFO: = Your version: 1.2.1
 [2024-02-08 10:54:36] ERROR: [Extras]\moddownloader\server\sUpdater.lua:15: attempt to concatenate local 'version' (a nil value)
 [2024-02-08 10:55:43] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-08 10:59:13] ERROR: Resource 'TOP_updating' has been removed while running! Stopping resource.
+[2024-02-08 10:59:13] Stopping TOP_updating
+[2024-02-08 10:59:14] Resource 'DayZ' changed while running, reloading and restarting
+[2024-02-08 10:59:14] Stopping DayZ
+[2024-02-08 10:59:14] INFO: [BACKUP] Server vehicles has been saved. TOTAL VEHICLES: 296
+[2024-02-08 10:59:14] INFO: [BACKUP] Server tents has been saved. TOTAL TENTS: 0
+[2024-02-08 10:59:14] Stopping TOP_chat
+[2024-02-08 10:59:14] Stopping TOP_login
+[2024-02-08 10:59:15] New resource 'DayZ' loaded
+[2024-02-08 10:59:21] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-08 10:59:21] Resources: 52 loaded, 1 failed
+[2024-02-08 10:59:21] WARNING: DayZ/core/Gear/Inventory/UI.lua(Line 89) [Client] getVehicleModel is deprecated and may not work in future versions. Please replace with getElementModel.
+[2024-02-08 10:59:21] WARNING: DayZ/core/Gear/Inventory/UI.lua(Line 90) [Client] getVehicleNameFromID is deprecated and may not work in future versions. Please replace with getVehicleNameFromModel.
+[2024-02-08 10:59:21] WARNING: DayZ/core/Gear/HUD.lua(Line 90) [Client] showPlayerHudComponent is deprecated and may not work in future versions. Please replace with setPlayerHudComponentVisible.
+[2024-02-08 10:59:21] Some files in 'DayZ' use deprecated functions.
+[2024-02-08 10:59:21] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2024-02-08 10:59:21] Starting DayZ
+[2024-02-08 10:59:21] Starting TOP_chat
+[2024-02-08 10:59:21] Starting TOP_login
+[2024-02-08 10:59:21] INFO: LOADED TENTS: 0
+[2024-02-08 10:59:22] INFO: [DayZ] Los vehiculos fueron cargados desde la base de datos!
+[2024-02-08 11:11:15] INFO: Checking for Mod Downloader updates 
+[2024-02-08 11:11:16] INFO: ====================================
+[2024-02-08 11:11:16] INFO: = ModDownloader version doesn't match community
+[2024-02-08 11:11:16] INFO: ====================================
+[2024-02-08 11:11:16] INFO: = Your version: 1.2.1
+[2024-02-08 11:11:16] ERROR: [Extras]\moddownloader\server\sUpdater.lua:15: attempt to concatenate local 'version' (a nil value)
+[2024-02-08 11:19:47] WARNING: [DayZ]\DayZ-Items\Items.lua:242: Unclosed file (Zonas/Militar.txt) was garbage collected. Check your resource for dereferenced files.
+[2024-02-08 11:20:57] INFO: Refresco finalizado !
+[2024-02-08 11:27:55] INFO: Checking for Mod Downloader updates 
+[2024-02-08 11:27:56] INFO: ====================================
+[2024-02-08 11:27:56] INFO: = ModDownloader version doesn't match community
+[2024-02-08 11:27:56] INFO: ====================================
+[2024-02-08 11:27:56] INFO: = Your version: 1.2.1
+[2024-02-08 11:27:56] ERROR: [Extras]\moddownloader\server\sUpdater.lua:15: attempt to concatenate local 'version' (a nil value)
+[2024-02-08 11:39:42] INFO: PastorzinBR has been killed himself!
+[2024-02-08 11:44:35] INFO: Checking for Mod Downloader updates 
+[2024-02-08 11:44:36] INFO: ====================================
+[2024-02-08 11:44:36] INFO: = ModDownloader version doesn't match community
+[2024-02-08 11:44:36] INFO: ====================================
+[2024-02-08 11:44:36] INFO: = Your version: 1.2.1
+[2024-02-08 11:44:36] ERROR: [Extras]\moddownloader\server\sUpdater.lua:15: attempt to concatenate local 'version' (a nil value)
+[2024-02-08 12:01:15] INFO: Checking for Mod Downloader updates 
+[2024-02-08 12:01:16] INFO: ====================================
+[2024-02-08 12:01:16] INFO: = ModDownloader version doesn't match community
+[2024-02-08 12:01:16] INFO: ====================================
+[2024-02-08 12:01:16] INFO: = Your version: 1.2.1
+[2024-02-08 12:01:16] ERROR: [Extras]\moddownloader\server\sUpdater.lua:15: attempt to concatenate local 'version' (a nil value)
+[2024-02-08 12:17:55] INFO: Checking for Mod Downloader updates 
+[2024-02-08 12:17:59] INFO: ====================================
+[2024-02-08 12:17:59] INFO: = ModDownloader version doesn't match community
+[2024-02-08 12:17:59] INFO: ====================================
+[2024-02-08 12:17:59] INFO: = Your version: 1.2.1
+[2024-02-08 12:17:59] ERROR: [Extras]\moddownloader\server\sUpdater.lua:15: attempt to concatenate local 'version' (a nil value)
+[2024-02-08 12:20:57] INFO: Refresco finalizado !
+[2024-02-08 12:34:35] INFO: Checking for Mod Downloader updates 
+[2024-02-08 12:34:36] INFO: ====================================
+[2024-02-08 12:34:36] INFO: = ModDownloader version doesn't match community
+[2024-02-08 12:34:36] INFO: ====================================
+[2024-02-08 12:34:36] INFO: = Your version: 1.2.1
+[2024-02-08 12:34:36] ERROR: [Extras]\moddownloader\server\sUpdater.lua:15: attempt to concatenate local 'version' (a nil value)
+[2024-02-08 12:51:15] INFO: Checking for Mod Downloader updates 
+[2024-02-08 12:51:16] INFO: ====================================
+[2024-02-08 12:51:16] INFO: = ModDownloader version doesn't match community
+[2024-02-08 12:51:16] INFO: ====================================
+[2024-02-08 12:51:16] INFO: = Your version: 1.2.1
+[2024-02-08 12:51:16] ERROR: [Extras]\moddownloader\server\sUpdater.lua:15: attempt to concatenate local 'version' (a nil value)
+[2024-02-08 13:07:55] INFO: Checking for Mod Downloader updates 
+[2024-02-08 13:07:56] INFO: ====================================
+[2024-02-08 13:07:56] INFO: = ModDownloader version doesn't match community
+[2024-02-08 13:07:56] INFO: ====================================
+[2024-02-08 13:07:56] INFO: = Your version: 1.2.1
+[2024-02-08 13:07:56] ERROR: [Extras]\moddownloader\server\sUpdater.lua:15: attempt to concatenate local 'version' (a nil value)
+[2024-02-08 13:20:57] INFO: Refresco finalizado !
+[2024-02-08 13:24:35] INFO: Checking for Mod Downloader updates 
+[2024-02-08 13:24:36] INFO: ====================================
+[2024-02-08 13:24:36] INFO: = ModDownloader version doesn't match community
+[2024-02-08 13:24:36] INFO: ====================================
+[2024-02-08 13:24:36] INFO: = Your version: 1.2.1
+[2024-02-08 13:24:36] ERROR: [Extras]\moddownloader\server\sUpdater.lua:15: attempt to concatenate local 'version' (a nil value)
+[2024-02-08 13:41:15] INFO: Checking for Mod Downloader updates 
+[2024-02-08 13:41:15] INFO: ====================================
+[2024-02-08 13:41:15] INFO: = ModDownloader version doesn't match community
+[2024-02-08 13:41:15] INFO: ====================================
+[2024-02-08 13:41:15] INFO: = Your version: 1.2.1
+[2024-02-08 13:41:15] ERROR: [Extras]\moddownloader\server\sUpdater.lua:15: attempt to concatenate local 'version' (a nil value)
+[2024-02-08 13:57:55] INFO: Checking for Mod Downloader updates 
+[2024-02-08 13:57:56] INFO: ====================================
+[2024-02-08 13:57:56] INFO: = ModDownloader version doesn't match community
+[2024-02-08 13:57:56] INFO: ====================================
+[2024-02-08 13:57:56] INFO: = Your version: 1.2.1
+[2024-02-08 13:57:56] ERROR: [Extras]\moddownloader\server\sUpdater.lua:15: attempt to concatenate local 'version' (a nil value)
