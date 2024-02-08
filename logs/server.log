@@ -6323,3 +6323,31 @@
 [2024-02-08 10:21:16] INFO: ====================================
 [2024-02-08 10:21:16] INFO: = Your version: 1.2.1
 [2024-02-08 10:21:16] ERROR: [Extras]\moddownloader\server\sUpdater.lua:15: attempt to concatenate local 'version' (a nil value)
+[2024-02-08 10:24:44] Resource 'level' changed while running, reloading and restarting
+[2024-02-08 10:24:44] Stopping level
+[2024-02-08 10:24:44] New resource 'level' loaded
+[2024-02-08 10:24:45] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-08 10:24:45] Resources: 54 loaded, 1 failed
+[2024-02-08 10:24:45] Starting level
+[2024-02-08 10:24:59] Resource 'level' changed while running, reloading and restarting
+[2024-02-08 10:24:59] Stopping level
+[2024-02-08 10:24:59] New resource 'level' loaded
+[2024-02-08 10:25:01] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-08 10:25:01] Resources: 54 loaded, 1 failed
+[2024-02-08 10:25:01] Starting level
+[2024-02-08 10:27:51] Resource 'level' changed while running, reloading and restarting
+[2024-02-08 10:27:51] Stopping level
+[2024-02-08 10:27:51] New resource 'level' loaded
+[2024-02-08 10:27:53] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-08 10:27:53] Resources: 54 loaded, 1 failed
+[2024-02-08 10:27:53] Starting level
+[2024-02-08 10:28:07] Resource 'level' changed while running, reloading and restarting
+[2024-02-08 10:28:07] Stopping level
+[2024-02-08 10:28:07] New resource 'level' loaded
+[2024-02-08 10:28:08] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-08 10:28:08] Resources: 54 loaded, 1 failed
+[2024-02-08 10:28:08] Starting level
+[2024-02-08 10:29:09] ERROR: Resource 'level' has been removed while running! Stopping resource.
+[2024-02-08 10:29:09] Stopping level
+[2024-02-08 10:29:16] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-08 10:29:16] Resources: 53 loaded, 1 failed
