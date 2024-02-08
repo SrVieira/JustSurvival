@@ -1,5 +1,5 @@
 gameplayVariables["PingKicker"] = true
-gameplayVariables["MAX_Ping"] = 800
+gameplayVariables["MAX_Ping"] = 300
 
 gameplayVariables["InventoryKey"] = "J"
 gameplayVariables["InteractionKey"] = "-"
