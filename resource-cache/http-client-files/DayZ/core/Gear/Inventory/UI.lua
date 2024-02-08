@@ -301,7 +301,7 @@ function displayInventoryUI()
 	dxDrawBorderedRectangle(centerX + 159, centerY - 256, 30, 30, 1, {255, 255, 255, 25}, false) -- Backpack background
 	dxDrawBorderedRectangle(centerX + 192, centerY - 256, 30, 30, 1, {255, 255, 255, 25}, false) -- GPS background
 	dxDrawBorderedRectangle(centerX + 225, centerY - 256, 30, 30, 1, {255, 255, 255, 25}, false) -- Map background
-	dxDrawBorderedRectangle(centerX + 258, centerY - 256, 30, 30, 1, {255, 255, 255, 25}, false) -- Compass background
+	dxDrawBorderedRectangle(centerX + 258, centerY - 256, 30, 30, 1, {255, 255, 255, 25}, false) -- Bússola background
 	dxDrawBorderedRectangle(centerX + 291, centerY - 256, 30, 30, 1, {255, 255, 255, 25}, false) -- Infrared goggles background
 	dxDrawBorderedRectangle(centerX + 324, centerY - 256, 30, 30, 1, {255, 255, 255, 25}, false) -- Night vision goggles
 	dxDrawBorderedRectangle(centerX + 159, centerY - 223, 30, 30, 1, {255, 255, 255, 25}, false) -- Helmet background
@@ -336,19 +336,19 @@ function displayInventoryUI()
 		dxDrawImage(centerX + 225, centerY - 256, 30, 30, inventory.filepathUI.."empty_map.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
 	end
 	
-	if getElementData(localPlayer, "Compass") and getElementData(localPlayer, "Compass") > 0 then
+	if getElementData(localPlayer, "Bússola") and getElementData(localPlayer, "Bússola") > 0 then
 		dxDrawImage(centerX + 258, centerY - 256, 30, 30, inventory.filepathIcon.."compass.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
 	else
 		dxDrawImage(centerX + 258, centerY - 256, 30, 30, inventory.filepathUI.."empty_compass.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
 	end
 
-	if getElementData(localPlayer, "IR Visor") and getElementData(localPlayer, "IR Visor") > 0 then
+	if getElementData(localPlayer, "Óculos de Visão Termal") and getElementData(localPlayer, "Óculos de Visão Termal") > 0 then
 		dxDrawImage(centerX + 291, centerY - 256, 30, 30, inventory.filepathIcon.."nvgoggles.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
 	else
 		dxDrawImage(centerX + 291, centerY - 256, 30, 30, inventory.filepathUI.."empty_goggles.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
 	end
 
-	if getElementData(localPlayer, "VN Visor") and getElementData(localPlayer, "VN Visor") > 0 then
+	if getElementData(localPlayer, "Óculos de Visão Noturna") and getElementData(localPlayer, "Óculos de Visão Noturna") > 0 then
 		dxDrawImage(centerX + 324, centerY - 256, 30, 30, inventory.filepathIcon.."nvgoggles.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
 	else
 		dxDrawImage(centerX + 324, centerY - 256, 30, 30, inventory.filepathUI.."empty_goggles.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)

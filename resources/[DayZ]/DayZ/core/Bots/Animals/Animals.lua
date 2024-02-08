@@ -111,7 +111,7 @@ function removeRawmetFromAnimal(ped, col)
 		
 		for k, d in ipairs(gameplayVariables["config_animals"]) do
 			if (getElementModel(ped) == d[2]) then
-				setElementData(source, "Carne cruda", (getElementData(source, "Carne cruda") or 0) + d[4])
+				setElementData(source, "Carne Crua", (getElementData(source, "Carne Crua") or 0) + d[4])
 				triggerClientEvent(source, "displayClientInfo", source, "Has tomado "..d[4].." de carne.", {0, 255, 0})
 				break
 			end

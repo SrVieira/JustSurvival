@@ -42,7 +42,7 @@ Zonas["Industrial"] = {
 	{"Machado", 20},
 	{"Cuchillo", 20},
 	{"Caixa de Ferramentas", 80},
-	{"Cerillos", 40},
+	{"Caixa de Fósforo", 40},
 	{"Improvised Backpack", 30},
 }
 
@@ -71,11 +71,11 @@ Zonas["Militar"] = {
 	{"Binóculos", 80},
 	{"Cuchillo", 70},
 	{"GPS", 60},
-	{"VN Visor", 35},
-	{"IR Visor", 35},
+	{"Óculos de Visão Noturna", 35},
+	{"Óculos de Visão Termal", 35},
 	{"Mapa", 60},
 	{"Assault Light Backpack", 60},
-	{"Compass", 70},
+	{"Bússola", 70},
 	{"Cabo Backpack", 40},
 	{"Mochila Asalto", 60},
 	{"Mochila Coyote", 70},
@@ -86,14 +86,14 @@ Zonas["Militar"] = {
 }
 
 Zonas["Residencial"] = {
-	{"Dew", 40},
+	{"Mountain Dew", 40},
 	{"Reloj", 50},
-	{"Compass", 20},
+	{"Bússola", 20},
 	{"Mapa", 40},
 	{"Beretta M92F", 30},
 	{"M1911", 30},
 	{"Cuchillo", 80},
-	{"Cerillos",90},
+	{"Caixa de Fósforo",90},
 	{"Revolver", 30},
 	{"Assault Light Backpack", 40},
 	{"Czech Camo Backpack", 50},
@@ -111,11 +111,11 @@ Zonas["Residencial"] = {
 
 Zonas["Supermercado"] = {
 	{"Reloj", 60},
-	{"Compass", 30},
+	{"Bússola", 30},
 	{"Mapa", 80},
 	{"M1911", 30},
 	{"Cuchillo", 60},
-	{"Cerillos", 80},
+	{"Caixa de Fósforo", 80},
 	{"Revolver", 15},
 	{"Survivor Backpack", 60},
 	{"Mochila Asalto", 60},

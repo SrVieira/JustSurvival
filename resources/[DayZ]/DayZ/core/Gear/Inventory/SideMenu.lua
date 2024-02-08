@@ -377,7 +377,7 @@ function insertMenuTypeTable(menuType, col)
 				table.insert(sidemenu, {"Calentarse", "heatup"})
 			end
 			if getElementData(col, "fireplaceOn") then
-				if getElementData(localPlayer, "Carne cruda") and getElementData(localPlayer, "Carne cruda") > 0 then
+				if getElementData(localPlayer, "Carne Crua") and getElementData(localPlayer, "Carne Crua") > 0 then
 					table.insert(sidemenu, {"Cocinar carne", "cook"})
 				end
 				table.insert(sidemenu, {"Apagar Fogata", "switch_fireplace"})
@@ -591,7 +591,7 @@ function applySelection()
 			if state then
 				triggerServerEvent("onPlayerSwitchFireplace", localPlayer, col, false)
 			else
-				if getElementData(localPlayer, "Cerillos") and getElementData(localPlayer, "Cerillos") > 0 then
+				if getElementData(localPlayer, "Caixa de Fósforo") and getElementData(localPlayer, "Caixa de Fósforo") > 0 then
 					triggerServerEvent("onPlayerSwitchFireplace", localPlayer, col, true)
 				else
 					triggerEvent("displayClientInfo", localPlayer, "Necesitas cerillos para hacer una fogata", {255,0,0})
@@ -638,8 +638,8 @@ function applySelection()
 		if opt == "cook" then
 			playSound("sounds/effects/action_cook.ogg", false)
 			
-			setElementData(localPlayer, "Carne cocinada", (getElementData(localPlayer, "Carne cocinada") or 0) + getElementData(localPlayer, "Carne cruda"))
-			setElementData(localPlayer, "Carne cruda", 0)
+			setElementData(localPlayer, "Carne Cozida", (getElementData(localPlayer, "Carne Cozida") or 0) + getElementData(localPlayer, "Carne Crua"))
+			setElementData(localPlayer, "Carne Crua", 0)
 			inventoryUpdate()
 			clearMenuTable()
 			return

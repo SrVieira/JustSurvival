@@ -77,8 +77,8 @@ function displayDayZHud()
 		drawWeaponInfo()
 		--# Tag
 		drawPlayerTag()
-		--# Compass
-		if getElementData(localPlayer, "Compass") and getElementData(localPlayer, "Compass") > 0 then
+		--# Bússola
+		if getElementData(localPlayer, "Bússola") and getElementData(localPlayer, "Bússola") > 0 then
 			drawTheCompass()
 		end	
 		--# GPS

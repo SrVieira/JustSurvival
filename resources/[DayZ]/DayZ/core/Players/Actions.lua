@@ -234,15 +234,15 @@ addEventHandler("onPlayerEmptyCanisterRefill", root, requestFullCanister)
 function onPlayerNutrition(itemName, actionID)
 	for _, itemData in ipairs(gameplayVariables["nutritions"]) do
 		if itemName == itemData[1] and (getElementData(source, itemData[1]) > 0) then
-			if itemName == "Carne cruda" then
+			if itemName == "Carne Crua" then
 				setElementData(source, "infection", 1)
-			elseif itemName == "Pepsi" or itemName == "Cola" or itemName == "Dew" then
+			elseif itemName == "Pepsi" or itemName == "Coca-Cola" or itemName == "Mountain Dew" then
 				--triggerClientEvent(source, "onClientHasItemBox", source, "Lata de soda vacia")
 				setElementData(source, "Lata de soda vacia", (getElementData(source, "Lata de soda vacia") or 0) + 1)
 			elseif itemName == "Garrafa de Água" then
 				--triggerClientEvent(source, "onClientHasItemBox", source, "Garrafa de Água vacia")
 				setElementData(source, "Garrafa de Água vacia", (getElementData(source, "Garrafa de Água vacia") or 0) + 1)
-			elseif itemName == "Frijoles" or itemName == "Macarrão Enlatado" or itemName == "Sardinas" or itemName == "Salchichas" or itemName == "Maiz" or itemName == "Guisantes" or itemName == "Puerco" or itemName == "Sopa de pescado" or itemName == "Ravioles" or itemName == "Frutas" or itemName == "Leche" then
+			elseif itemName == "Feijões Enlatados" or itemName == "Macarrão Enlatado" or itemName == "Sardinhas Enlatadas" or itemName == "Salchichas Enlatadas" or itemName == "Milho Enlatado" or itemName == "Ervilhas Enlatadas" or itemName == "Porco Enlatado" or itemName == "Sopa de Peixe" or itemName == "Ravioles Enlatados" or itemName == "Frutas Enlatadas" or itemName == "Leite" then
 				--triggerClientEvent(source, "onClientHasItemBox", source, "Lata vacia")
 				setElementData(source, "Lata vacia", (getElementData(source, "Lata vacia") or 0) + 1)
 			end
@@ -491,7 +491,7 @@ function createFlameOnFireplace(col, state)
 	
 	if isElement(object) then
 		if state then
-			setElementData(source, "Cerillos", getElementData(source, "Cerillos") - 1)
+			setElementData(source, "Caixa de Fósforo", getElementData(source, "Caixa de Fósforo") - 1)
 			setElementData(col, "fireplaceOn", true)
 			
 			if not isElement(fire[object]) then

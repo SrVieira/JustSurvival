@@ -44,7 +44,7 @@
 
 		triggerServerEvent("onPlayerCreatePickupItem", localPlayer, itemData)
 
-		if (item == "IR Visor" and getElementData(localPlayer, "IR Visor") <= 0) or (item == "VN Visor" and getElementData(localPlayer, "VN Visor") <= 0) then
+		if (item == "Óculos de Visão Termal" and getElementData(localPlayer, "Óculos de Visão Termal") <= 0) or (item == "Óculos de Visão Noturna" and getElementData(localPlayer, "Óculos de Visão Noturna") <= 0) then
 			resetCameraVisionMode()
 		end
 		
@@ -110,7 +110,7 @@ function movePlayerItemInLoot(item, loot)
 			setElementData(loot, item, (getElementData(loot, item) or 0) + itemPlus)
 			triggerServerEvent("refrescarLoot", localPlayer, loot)
 
-			if (item == "IR Visor" and getElementData(localPlayer, "IR Visor") <= 0) or (item == "VN Visor" and getElementData(localPlayer, "VN Visor") <= 0) then
+			if (item == "Óculos de Visão Termal" and getElementData(localPlayer, "Óculos de Visão Termal") <= 0) or (item == "Óculos de Visão Noturna" and getElementData(localPlayer, "Óculos de Visão Noturna") <= 0) then
 				resetCameraVisionMode()
 			end
 
@@ -322,7 +322,7 @@ end
 function changeCameraVisionMode(key)
 	if getElementData(localPlayer, "Logged") and not getElementData(localPlayer, "dead") then
 		if key == "n" then
-			if getElementData(localPlayer, "VN Visor") and getElementData(localPlayer, "VN Visor") > 0 then
+			if getElementData(localPlayer, "Óculos de Visão Noturna") and getElementData(localPlayer, "Óculos de Visão Noturna") > 0 then
 				local effect = (getCameraGoggleEffect() == "normal" and "nightvision") or (getCameraGoggleEffect() == "nightvision" and "normal")
 				if effect then
 					setCameraGoggleEffect(effect)
@@ -330,7 +330,7 @@ function changeCameraVisionMode(key)
 			end		
 		end
 		if key == "i" then
-			if getElementData(localPlayer, "IR Visor") and getElementData(localPlayer, "IR Visor") > 0 then
+			if getElementData(localPlayer, "Óculos de Visão Termal") and getElementData(localPlayer, "Óculos de Visão Termal") > 0 then
 				local effect = (getCameraGoggleEffect() == "normal" and "thermalvision") or (getCameraGoggleEffect() == "thermalvision" and "normal")
 				if effect then
 					setCameraGoggleEffect(effect)

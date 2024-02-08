@@ -91,7 +91,7 @@ Items = {
 
 	"Garrafa de Água",
 	"Macarrão Enlatado enlatada",
-	"Frijoles enlatados",
+	"Feijões Enlatados enlatados",
 	"Carne cocida",
 
 	"Madera",
@@ -105,7 +105,7 @@ Items = {
 	"Morfina",
 	"Bolsa de Sangue",
 	"Cerca de Arame",
-	"Carne cruda",
+	"Carne Crua",
 	"Botella vacia",
 	"Neumatico",
 	"Motor",
@@ -231,13 +231,13 @@ Items['Mapa'] = {1277, 1.30}
 Items['Pila de madera'] = {1.30}
 Items['Bolsa Térmica'] = {1579, 1.30}
 Items['GPS'] = {2976, 1.30}
-Items['Compass'] = {1937, 1.30}
+Items['Bússola'] = {1937, 1.30}
 Items['Caixa de Ferramentas'] = {2969, 1.30}
-Items['Cerillos'] = {328, 1.30}
+Items['Caixa de Fósforo'] = {328, 1.30}
 Items['Reloj'] = {2710, 1.30}
 Items['Trozo de metal'] = {3104, 1.30}
-Items['VN Visor'] = {3070, 1.30}
-Items['IR Visor'] = {3070, 1.30}
+Items['Óculos de Visão Noturna'] = {3070, 1.30}
+Items['Óculos de Visão Termal'] = {3070, 1.30}
 Items['Binóculos'] = {367, 1.30}
 Items['Casco de moto'] = {1833, 1.30}
 Items['Casco basico'] = {1832, 1.30}
@@ -256,23 +256,23 @@ Items['Rotador'] = {2056, 1.30}
 	-- ALIMENTICIOS
 Items['Doritos'] = {2407, 1.30}
 Items['Garrafa de Água'] = {2683, 1.30}
-Items['Frijoles'] = {2601, 1.30}
+Items['Feijões Enlatados'] = {2601, 1.30}
 Items['Macarrão Enlatado'] = {2770, 1.30}
-Items['Sardinas'] = {2798, 1.30}
-Items['Salchichas'] = {953, 1.30}
-Items['MRE'] = {2058, 1.30}
-Items['Maiz'] = {2238, 1.30}
-Items['Guisantes'] = {2108, 1.30}
-Items['Estofado'] = {2107, 1.30}
-Items['Puerco'] = {2106, 1.30}
-Items['Frutas'] = {2105, 1.30}
-Items['Estofado de pescado'] = {2077, 1.30}
-Items['Ravioles'] = {2066, 1.30}
-Items['Leche'] = {2076, 1.30}
-Items['Carne cocinada'] = {2404, 1.30}
-Items['Carne cruda'] = {2804, 1.30}
-Items['Cola'] = {2647, 1.30}
-Items['Dew'] = {2405, 1.30}
+Items['Sardinhas Enlatadas'] = {2798, 1.30}
+Items['Salchichas Enlatadas'] = {953, 1.30}
+Items['Ração Militar'] = {2058, 1.30}
+Items['Milho Enlatado'] = {2238, 1.30}
+Items['Ervilhas Enlatadas'] = {2108, 1.30}
+Items['Sopa Enlatada'] = {2107, 1.30}
+Items['Porco Enlatado'] = {2106, 1.30}
+Items['Frutas Enlatadas'] = {2105, 1.30}
+Items['Sopa Enlatada de pescado'] = {2077, 1.30}
+Items['Ravioles Enlatados'] = {2066, 1.30}
+Items['Leite'] = {2076, 1.30}
+Items['Carne Cozida'] = {2404, 1.30}
+Items['Carne Crua'] = {2804, 1.30}
+Items['Coca-Cola'] = {2647, 1.30}
+Items['Mountain Dew'] = {2405, 1.30}
 Items['Pepsi'] = {2406, 1.30}
 
 -- Mochilas
