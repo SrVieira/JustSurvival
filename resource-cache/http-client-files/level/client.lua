@@ -1,21 +1,24 @@
 -- Level System
-local sW, sH = guiGetScreenSize()
+local sW, sH = guiGetScreenSize();
 
-local windowRank = guiCreateWindow ( (sW-500)/2, (sH-400)/2, 500, 400, "Sistema De Niveles", false )
-guiWindowSetSizable ( windowRank, false )
-guiSetVisible ( windowRank, false)
-local windowRankGridList = guiCreateGridList ( 10, 28, 360, 360, false, windowRank )
-local windowRankColumn = guiGridListAddColumn( windowRankGridList, "Jugador", 0.90 )
-local windowRankEdit = guiCreateEdit( 383, 150, 100, 30, "", false, windowRank)
-local windowRankEdit2 = guiCreateEdit( 383, 250, 100, 30, "", false, windowRank)
-local windowRankButton = guiCreateButton( 383, 358, 100, 30, "Cambiar", false, windowRank)
-local windowRankLabelLevel = guiCreateLabel(383, 120, 100, 20,"Level: None", false, windowRank)
-guiLabelSetHorizontalAlign (windowRankLabelLevel, "center")
-local windowRankLabelExp = guiCreateLabel(383, 220, 100, 20,"Experience: None", false, windowRank)
-guiLabelSetHorizontalAlign (windowRankLabelExp, "center")
+-- Interface Main
+local windowRank = guiCreateWindow((sW - 500) / 2, (sH - 400) / 2, 500, 400, "Sistema de Rank", false);
+guiWindowSetSizable(windowRank, false);
+guiSetVisible(windowRank, false);
 
-local ranksTable =
-{
+-- Interface Elements
+local windowRankGridList = guiCreateGridList(10, 28, 360, 360, false, windowRank);
+local windowRankColumn = guiGridListAddColumn(windowRankGridList, "Jogador", 0.90);
+local windowRankEdit = guiCreateEdit(383, 150, 100, 30, "", false, windowRank);
+local windowRankEdit2 = guiCreateEdit(383, 250, 100, 30, "", false, windowRank);
+local windowRankButton = guiCreateButton(383, 358, 100, 30, "Cambiar", false, windowRank);
+local windowRankLabelLevel = guiCreateLabel(383, 120, 100, 20, "Level: None", false, windowRank);
+guiLabelSetHorizontalAlign(windowRankLabelLevel, "center");
+local windowRankLabelExp = guiCreateLabel(383, 220, 100, 20, "Experience: None", false, windowRank);
+guiLabelSetHorizontalAlign(windowRankLabelExp, "center");
+
+-- Ranks Table
+local ranksTable = {
   {"1","Training","1000"},
   {"2","Recruit","2000"},
   {"3","Private","3000"},
@@ -86,65 +89,65 @@ local ranksTable =
   {"68","General ||","10545600"},
   {"69","General |||","11113800"},
   {"70","General of the Army","11692000"}
-}
-
+};
 
 function getPlayerRankName()
-  for i=1,70 do
+  for i=1, 70 do
     if getElementData(localPlayer, "level") == tonumber(ranksTable[i][1]) then
-	  return ranksTable[i][2]
-	end
+      return ranksTable[i][2];
+    end
   end
 end
 
 function getPlayerRankExperience()
   for i=1,70 do
     if getElementData(localPlayer, "level") == tonumber(ranksTable[i][1]) then
-	  return tonumber(ranksTable[i][3])
-	end
+	    return tonumber(ranksTable[i][3]);
+	  end
   end
 end
 
 function mainRanks()
   if getElementData(localPlayer, "Logeado") == true then
-    if ( getElementData(localPlayer, "experience") or 0 ) > ( getPlayerRankExperience() or 0 ) then
-	  if ( getElementData(localPlayer, "level") or 0 ) < 70 then
-	    setElementData(localPlayer, "level", getElementData(localPlayer, "level") + 1)
-	  end
-	end
-	
-	dxDrawImage ( sW*0.1193, sH*0.6510, sW*0.0453, sH*0.0859, "images/level/rank"..( getElementData(localPlayer, "level") or 1 )..".jpg" )	
-    
-
-    local l
-
-    if ( getElementData(localPlayer, "level") or 0 ) < 70 then
-      l = "XP Necesario: "..getPlayerRankExperience()
-	else
-      l = "Nivel máximo"
-    end	
-
-    local a = getPlayerRankName().." ("..( getElementData(localPlayer, "level") or 0 )..")"
-    local b = " Actual: ".. (getElementData(localPlayer, "experience") or 0)
-    local width = dxGetTextWidth( a, 1.02, "default-bold" ) + 5
-    if ( dxGetTextWidth( a, 1.02, "default-bold" ) + 5 ) < 118 then
-    	width = 119
+    if (getElementData(localPlayer, "experience") or 0) > (getPlayerRankExperience() or 0) then
+      if (getElementData(localPlayer, "level") or 0 ) < 70 then
+        setElementData(localPlayer, "level", getElementData(localPlayer, "level") + 1)
+      end
     end
+    dxDrawImage ( sW*0.1193, sH*0.6510, sW*0.0453, sH*0.0859, "images/level/rank"..( getElementData(localPlayer, "level") or 1 )..".jpg" )	
+  end
+end 
+addEventHandler("onClientRender", root, mainRanks);
+
+--     local l
+
+--     if ( getElementData(localPlayer, "level") or 0 ) < 70 then
+--       l = "XP Necesario: "..getPlayerRankExperience()
+-- 	else
+--       l = "Nivel máximo"
+--     end	
+
+--     local a = getPlayerRankName().." ("..( getElementData(localPlayer, "level") or 0 )..")"
+--     local b = " Actual: ".. (getElementData(localPlayer, "experience") or 0)
+--     local width = dxGetTextWidth( a, 1.02, "default-bold" ) + 5
+--     if ( dxGetTextWidth( a, 1.02, "default-bold" ) + 5 ) < 118 then
+--     	width = 119
+--     end
 
 
-    	dxDrawRectangle(sW*0.0043, sH*0.6536, sW*0.1112, sH*0.0833, tocolor(0, 0, 0, 149), false)
+--     	dxDrawRectangle(sW*0.0043, sH*0.6536, sW*0.1112, sH*0.0833, tocolor(0, 0, 0, 149), false)
 
 
-        dxDrawText(""..a.."\n".."XP:"..b.."\n"..l, sW*0.0043, sH*0.6510, sW*0.1156, sH*0.7369, tocolor(255, 255, 255, 255), 0.90, "default-bold", "center", "center", false, false, false, false, false)
+--         dxDrawText(""..a.."\n".."XP:"..b.."\n"..l, sW*0.0043, sH*0.6510, sW*0.1156, sH*0.7369, tocolor(255, 255, 255, 255), 0.90, "default-bold", "center", "center", false, false, false, false, false)
        	
 
 
 
 
 
-  end
-end
-addEventHandler ( "onClientRender", root, mainRanks )
+--   end
+-- end
+-- addEventHandler ( "onClientRender", root, mainRanks )
 
 
 
@@ -152,51 +155,51 @@ addEventHandler ( "onClientRender", root, mainRanks )
 
 
 
-function toggleWindowRanks()
-  if getElementData(localPlayer, "adminRanks") == true then 
-    if guiGetVisible(windowRank) == false then
-      guiSetVisible(windowRank, true)
-	  showCursor(true)
-	  for k, v in ipairs (getElementsByType("player")) do
-	    if getElementData (v, "Logeado") == true then
-          local row = guiGridListAddRow ( windowRankGridList )
-          guiGridListSetItemText ( windowRankGridList, row, windowRankColumn, getPlayerName ( v ), false, false )
-	    end
-	  end
-    else
-      guiSetVisible(windowRank, false)
-	  showCursor(false)
-	  guiGridListClear(windowRankGridList)
-    end
-  end
-end
-bindKey("8", "down", toggleWindowRanks)
+-- function toggleWindowRanks()
+--   if getElementData(localPlayer, "adminRanks") == true then 
+--     if guiGetVisible(windowRank) == false then
+--       guiSetVisible(windowRank, true)
+-- 	  showCursor(true)
+-- 	  for k, v in ipairs (getElementsByType("player")) do
+-- 	    if getElementData (v, "Logeado") == true then
+--           local row = guiGridListAddRow ( windowRankGridList )
+--           guiGridListSetItemText ( windowRankGridList, row, windowRankColumn, getPlayerName ( v ), false, false )
+-- 	    end
+-- 	  end
+--     else
+--       guiSetVisible(windowRank, false)
+-- 	  showCursor(false)
+-- 	  guiGridListClear(windowRankGridList)
+--     end
+--   end
+-- end
+-- bindKey("8", "down", toggleWindowRanks)
 
-function windowRankClick()
-local playerName = guiGridListGetItemText ( windowRankGridList, guiGridListGetSelectedItem ( windowRankGridList ), 1 )
-  if source == windowRankGridList then
-    if guiGridListGetSelectedCount(windowRankGridList) == 1 then
-      guiSetText(windowRankLabelLevel, "Level: "..getElementData(getPlayerFromName(playerName), "level"))
-	  guiSetText(windowRankLabelExp, "Experience: "..getElementData(getPlayerFromName(playerName), "experience"))
-    else
-      guiSetText(windowRankLabelLevel, "Level: None")
-	  guiSetText(windowRankLabelExp, "Experience: None")
-    end
-  end 
-  if source == windowRankButton then
-    if guiGridListGetSelectedCount(windowRankGridList) == 1 then
-    local playerName = guiGridListGetItemText ( windowRankGridList, guiGridListGetSelectedItem ( windowRankGridList ), 1 )
-      if guiGetText(windowRankEdit) ~= "" then
-	    setElementData(getPlayerFromName(playerName), "level", tonumber(guiGetText(windowRankEdit)))
-        guiSetText(windowRankLabelLevel, "Level: "..getElementData(getPlayerFromName(playerName), "level"))
-      end
-      if guiGetText(windowRankEdit2) ~= "" then
-	    setElementData(getPlayerFromName(playerName), "experience", tonumber(guiGetText(windowRankEdit2)))
-        guiSetText(windowRankLabelExp, "Experience: "..getElementData(getPlayerFromName(playerName), "experience"))
-      end	
-    else
-	  outputChatBox("#FF0000[LEVEL SYSTEM]: #FFFFFFSelecciona un jugador!", thePlayer, 171, 205, 239, true)
-    end
-  end
-end
-addEventHandler ("onClientGUIClick", windowRank, windowRankClick)
+-- function windowRankClick()
+-- local playerName = guiGridListGetItemText ( windowRankGridList, guiGridListGetSelectedItem ( windowRankGridList ), 1 )
+--   if source == windowRankGridList then
+--     if guiGridListGetSelectedCount(windowRankGridList) == 1 then
+--       guiSetText(windowRankLabelLevel, "Level: "..getElementData(getPlayerFromName(playerName), "level"))
+-- 	  guiSetText(windowRankLabelExp, "Experience: "..getElementData(getPlayerFromName(playerName), "experience"))
+--     else
+--       guiSetText(windowRankLabelLevel, "Level: None")
+-- 	  guiSetText(windowRankLabelExp, "Experience: None")
+--     end
+--   end 
+--   if source == windowRankButton then
+--     if guiGridListGetSelectedCount(windowRankGridList) == 1 then
+--     local playerName = guiGridListGetItemText ( windowRankGridList, guiGridListGetSelectedItem ( windowRankGridList ), 1 )
+--       if guiGetText(windowRankEdit) ~= "" then
+-- 	    setElementData(getPlayerFromName(playerName), "level", tonumber(guiGetText(windowRankEdit)))
+--         guiSetText(windowRankLabelLevel, "Level: "..getElementData(getPlayerFromName(playerName), "level"))
+--       end
+--       if guiGetText(windowRankEdit2) ~= "" then
+-- 	    setElementData(getPlayerFromName(playerName), "experience", tonumber(guiGetText(windowRankEdit2)))
+--         guiSetText(windowRankLabelExp, "Experience: "..getElementData(getPlayerFromName(playerName), "experience"))
+--       end	
+--     else
+-- 	  outputChatBox("#FF0000[LEVEL SYSTEM]: #FFFFFFSelecciona un jugador!", thePlayer, 171, 205, 239, true)
+--     end
+--   end
+-- end
+-- addEventHandler ("onClientGUIClick", windowRank, windowRankClick)

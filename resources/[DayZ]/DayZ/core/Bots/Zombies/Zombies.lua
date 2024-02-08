@@ -102,7 +102,7 @@ zombieLootType = {
 		{"9x18mm",1.98},
 		{"Revolver",1.98},
 		{"Bengala",4},
-		{"Valla de alambre",1},
+		{"Cerca de Arame",1},
 		{"Granada",0.99},
 		{"Bolsa Térmica",3.96},
 	},

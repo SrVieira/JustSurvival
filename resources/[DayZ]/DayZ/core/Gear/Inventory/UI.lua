@@ -834,7 +834,7 @@ function requestUseItem(itemName)
 		placeItemID = "place_tent"
 	end
 	-- # Tramps.
-	if itemName == "Trampa de oso" then
+	if itemName == "Armadilha para Urso" then
 		removeBuildingForPlace()
 		placeBuilding(itemName)
 		placeItemID = "place_beartramp"

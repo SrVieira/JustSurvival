@@ -15,7 +15,7 @@ function openChute ( object, player, time )
 	openingChutes[object].originalTick = getTickCount()
 	attachElements ( object, player, unpack(offset) )
 	setElementData(player, "SPECIAL_Weapon", nil)
-	setElementData(player, "Paracaidas", getElementData(player, "Paracaidas") - 1)
+	setElementData(player, "Paraquedas", getElementData(player, "Paraquedas") - 1)
 	triggerEvent("onClientInventoryUpdate", player, getElementData(player, "CURRENT_Loot"))
 	return true
 end

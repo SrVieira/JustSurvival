@@ -344,9 +344,9 @@ function insertMenuTypeTable(menuType, col)
 			end
 		elseif menuType == "wirefence" then
 			table.insert(sidemenu, {"Remover valla de alambre", "remove_wirefence"})	
-			setNewbieMessage(col, "Valla de alambre")
+			setNewbieMessage(col, "Cerca de Arame")
 		elseif menuType == "tramp" then
-			if getElementData(localPlayer, "Caja de herramientas") and getElementData(localPlayer, "Caja de herramientas") > 0 then
+			if getElementData(localPlayer, "Caixa de Ferramentas") and getElementData(localPlayer, "Caixa de Ferramentas") > 0 then
 				table.insert(sidemenu, {"Desactivar '"..tostring(getElementData(col, "tramp")).."'", "remove_tramp"})
 				setNewbieMessage(col, tostring(getElementData(col, "tramp")))	
 			end
@@ -622,7 +622,7 @@ function applySelection()
 		end
 		--[[
 		if opt == "Remover valla de alambre" then
-			if getElementData(localPlayer, "Caja de herramientas") and getElementData(localPlayer, "Caja de herramientas") > 0 then
+			if getElementData(localPlayer, "Caixa de Ferramentas") and getElementData(localPlayer, "Caixa de Ferramentas") > 0 then
 				triggerServerEvent("onPlayerRemoveWirefence", localPlayer, col)
 			else
 				triggerEvent("displayClientInfo", localPlayer, "Necesitas una caja de herramientas para removerla", {255,255,255})
@@ -688,7 +688,7 @@ function applySelection()
 		--	MENU DE LOS VEHICULOS	//
 		local parent = getElementData(col, "parent")
 		if isElement(parent) and getElementType(parent) == "vehicle" then
-			local toolbox = getElementData(localPlayer, "Caja de herramientas") and (getElementData(localPlayer, "Caja de herramientas") > 0)
+			local toolbox = getElementData(localPlayer, "Caixa de Ferramentas") and (getElementData(localPlayer, "Caixa de Ferramentas") > 0)
 		
 			if opt == "refill_vehfuel" then
 				if getElementData(col, "vehicleFuelTank") >= getVehicleMaxFuelTank(getElementModel(parent)) then

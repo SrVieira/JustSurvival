@@ -7,13 +7,13 @@ text = {}
 text1 = ""
 WallActivado = false
 
-local Herramientas = {
+local Caixa de Ferramentas = {
 	"GPS",
 	"Mapa",
 	"Caja de cerillas",
 	"Lentes de visión nocturna",
 	"Lentes infrarrojos",
-	"Caja de herramientas",
+	"Caixa de Ferramentas",
 	"Reloj",
 	"Pepsi"
 }
@@ -207,7 +207,7 @@ addEventHandler("onClientGUIClick", getResourceRootElement(getThisResource()), f
 		triggerServerEvent("comida", root, localPlayer, "Pedir Comida")
 	elseif source == VIP[6][3] then
 		Resultado = 0
-		for k, v in ipairs(Herramientas) do
+		for k, v in ipairs(Caixa de Ferramentas) do
 			if not localPlayer:getData(v) or localPlayer:getData(v) < 1 then
 				localPlayer:setData(v, 1)
 				Resultado = Resultado + 1

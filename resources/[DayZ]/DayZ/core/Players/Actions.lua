@@ -351,8 +351,8 @@ function createBearTrampOnGround(data)
 		local marker = createMarker(data.x, data.y, data.z + 1, "arrow", 0.8, 255, 255, 255, 0, nil)
 			
 		setElementData(marker, "col", col)
-		setElementData(col, "tramp", "Trampa de oso")	
-		setElementData(player, "Trampa de oso", getElementData(player, "Trampa de oso") - 1)
+		setElementData(col, "tramp", "Armadilha para Urso")	
+		setElementData(player, "Armadilha para Urso", getElementData(player, "Armadilha para Urso") - 1)
 		setElementCollisionsEnabled(tramp, false)
 			
 		setPedAnimation(player, "BOMBER", "BOM_Plant_2Idle", -1, false, false, false)
@@ -425,7 +425,7 @@ function playerPutFeetOnTramp(element)
 					destroyElement(source)
 					destroyElement(object)
 					destroyElement(col)
-				elseif theType and theType == "Trampa de oso" then
+				elseif theType and theType == "Armadilha para Urso" then
 					if getElementType(element) == "player" then
 						setElementData(element, "brokenbone", 1)
 						setElementData(element, "pain", 1)
@@ -453,8 +453,8 @@ function removeTramp(col, z)
 	if object then				
 		if theType == "Mina" then
 			createPickupItem("Mina", x, y, z + 1)
-		elseif theType == "Trampa de oso" then
-			createPickupItem("Trampa de oso", x, y, z + 1)	
+		elseif theType == "Armadilha para Urso" then
+			createPickupItem("Armadilha para Urso", x, y, z + 1)	
 		end
 		
 		destroyElement(marker)

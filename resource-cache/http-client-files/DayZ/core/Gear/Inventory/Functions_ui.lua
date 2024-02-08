@@ -243,7 +243,7 @@ function placeBuilding(itemName)
 		attachElements(objPlacing, localPlayer, 0, 1, -0.95)
 		setElementCollisionsEnabled(objPlacing, false)
 		addEventHandler("onClientMarkerLeave", markerPlacing, removeBuildingForPlace)
-	elseif itemName == "Trampa de oso" then
+	elseif itemName == "Armadilha para Urso" then
 		objPlacing = createObject(1866, x, y, z - 1)
 		markerPlacing = createMarker(x, y, z - 3.1, "cylinder", 3.5, 255, 0, 0, 105)
 		attachElements(objPlacing, localPlayer, 0, 1.2, -0.95)

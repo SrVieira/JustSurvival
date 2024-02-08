@@ -54,10 +54,10 @@ Items = {
 	"MP5SD6",
 	"Bizon PP-19 SD",
 
-	"Paracaidas",
+	"Paraquedas",
 	"Gas lacrimogeno",
 	"Granada",
-	"Binoculares",
+	"Binóculos",
 
 	"Cargador de G17",
 	"Cargador de M9",
@@ -104,7 +104,7 @@ Items = {
 	"Analgésicos",
 	"Morfina",
 	"Bolsa de Sangue",
-	"Valla de alambre",
+	"Cerca de Arame",
 	"Carne cruda",
 	"Botella vacia",
 	"Neumatico",
@@ -134,7 +134,7 @@ Items = {
 	"Caja de cerillas",
 	"Reloj",
 	"GPS",
-	"Caja de herramientas"
+	"Caixa de Ferramentas"
 }
 
 -- // Armas
@@ -176,7 +176,7 @@ Items['AS50'] = {2818, 1, 90}
 Items['Mk-48'] = {2820, 1, 90}
 Items['PKM'] = {2822, 1, 90}
 Items['Granada'] = {342, 1, 90}
-Items['Paracaidas'] = {371, 1, 90}
+Items['Paraquedas'] = {371, 1, 90}
 Items['M4A3 CCO'] = {2816, 1, 90}
 Items['M79'] = {2813, 1, 90}
 
@@ -217,11 +217,11 @@ Items['.308 Winchester'] = {2036, 1.30}
 
 	-- OTROS
 Items['Pila de madera'] = {1463, 1.30}
-	--{"Valla de alambre'] = {1945, 1.30}
+	--{"Cerca de Arame'] = {1945, 1.30}
 Items['Lata vacia'] = {1213, 1.30}
 Items['Lata de soda vacia'] = {1576, 1.30}
 Items['Mina'] = {1864, 1.30}
-Items['Trampa de oso'] = {1865, 1.30}
+Items['Armadilha para Urso'] = {1865, 1.30}
 Items['Bidon de gasolina'] = {1650, 1.30}
 Items['Bidon vacio'] = {1650, 1.30}
 Items['Tienda basica'] = {1279, 1.30}
@@ -232,13 +232,13 @@ Items['Pila de madera'] = {1.30}
 Items['Bolsa Térmica'] = {1579, 1.30}
 Items['GPS'] = {2976, 1.30}
 Items['Compass'] = {1937, 1.30}
-Items['Caja de herramientas'] = {2969, 1.30}
+Items['Caixa de Ferramentas'] = {2969, 1.30}
 Items['Cerillos'] = {328, 1.30}
 Items['Reloj'] = {2710, 1.30}
 Items['Trozo de metal'] = {3104, 1.30}
 Items['VN Visor'] = {3070, 1.30}
 Items['IR Visor'] = {3070, 1.30}
-Items['Binoculares'] = {367, 1.30}
+Items['Binóculos'] = {367, 1.30}
 Items['Casco de moto'] = {1833, 1.30}
 Items['Casco basico'] = {1832, 1.30}
 Items['Casco de guerra'] = {1834, 1.30}
