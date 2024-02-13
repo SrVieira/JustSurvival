@@ -741,7 +741,7 @@ function requestUseItem(itemName)
 		useItem(itemName, getNutritionItemType(itemName))
 	end
 	-- # Food/Drinks.
-	if itemName == "Guillie Suit" or itemName == "Survivor Suit" or itemName == "Police Suit" or itemName == "Veterano Suit" or itemName == "Camo Suit" then
+	if itemName == "Traje Ghillie" or itemName == "Survivor Suit" or itemName == "Police Suit" or itemName == "Veterano Suit" or itemName == "Camo Suit" then
 		useItem(itemName, "cloth")
 	end
 	-- # Blood Bags.

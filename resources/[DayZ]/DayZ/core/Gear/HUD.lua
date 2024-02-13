@@ -1,46 +1,33 @@
-﻿--[[
-***********************************************************************************
-						Multi Theft Auto DayZ
-	Tipo: Client
-	Autores originales: Marwin W., Germany, Lower Saxony, Otterndorf
-	Contribuyentes: L, CiBeR96, 1B0Y, Enargy
-	
-	Este modo de juego fue modificado por Enargy.
-	Todos los derechos de autor reservados a sus contribuyentes
-************************************************************************************
-]]
-
-local screenW, screenH = guiGetScreenSize()
-local resX, resY = 1024, 768
-local relX, relY = (screenW/resX), (screenH/resY)
-local displayedHud = true
-local isMonitorVisible = true
-local isMapShown = false
-local mapkeybound = false
-local target = false
-local tickCountDamage = false
-local totalTickCount = false
-local bloodScreenRender = false
+﻿local screenW, screenH = guiGetScreenSize();
+local resX, resY = 1024, 768;
+local relX, relY = (screenW/resX), (screenH/resY);
+local displayedHud = true;
+local isMonitorVisible = true;
+local isMapShown = false;
+local mapkeybound = false;
+local target = false;
+local tickCountDamage = false;
+local totalTickCount = false;
+local bloodScreenRender = false;
 
 local fonts = {
 	[1] = dxCreateFont("fonts/digital.ttf", 13),
-	[2] = dxCreateFont("fonts/teko_regular.ttf", 28),
-}
+	[2] = dxCreateFont("fonts/teko_regular.ttf", 22),
+};
 
 function showDebugMonitor()
 	if getElementData(localPlayer, "Logged") then
-		isMonitorVisible = not isMonitorVisible
+		isMonitorVisible = not isMonitorVisible;
 	end
 end
-bindKey("F5","down",showDebugMonitor)
+bindKey("F5", "down", showDebugMonitor);
 
 function playerGetDamage(attacker, weapon)
-	tickCountDamage = getTickCount()
-	totalTickCount = getTickCount() + 3000
-
+	tickCountDamage = getTickCount();
+	totalTickCount = getTickCount() + 3000;
 	if not bloodScreenRender then
-		--addEventHandler("onClientRender", root, drawBloodScreen)
-		bloodScreenRender = true
+		addEventHandler("onClientRender", root, drawBloodScreen);
+		bloodScreenRender = true;
 	end
 end
 addEventHandler("onClientPlayerDamage", localPlayer, playerGetDamage)
@@ -49,82 +36,70 @@ function drawBloodScreen()
 	if tickCountDamage and totalTickCount then
 		if getElementData(localPlayer, "dead") then
 			if bloodScreenRender then
-				removeEventHandler("onClientRender", root, drawBloodScreen)
-				bloodScreenRender = false
+				removeEventHandler("onClientRender", root, drawBloodScreen);
+				bloodScreenRender = false;
 			end
 		end
-		local count = getTickCount()
-		local elapsed = count - tickCountDamage
-		local duration = totalTickCount - tickCountDamage
-		local progress = elapsed / duration
-		local alpha = interpolateBetween(255, 0, 0, 0, 0, 0, progress, "Linear")
-		dxDrawImage(0, 0, screenW, screenH, "images/misc/bloodscreen.png", 0, 0, 0, tocolor(255, 255, 255, alpha), false)
+		local count = getTickCount();
+		local elapsed = count - tickCountDamage;
+		local duration = totalTickCount - tickCountDamage;
+		local progress = elapsed / duration;
+		local alpha = interpolateBetween(255, 0, 0, 0, 0, 0, progress, "Linear");
+		dxDrawImage(0, 0, screenW, screenH, "images/misc/bloodscreen.png", 0, 0, 0, tocolor(255, 255, 255, alpha), false);
 		if (alpha <= 0) then
 			if bloodScreenRender then
-				removeEventHandler("onClientRender", root, drawBloodScreen)
-				bloodScreenRender = false
+				removeEventHandler("onClientRender", root, drawBloodScreen);
+				bloodScreenRender = false;
 			end
 		end
 	end
 end
 
 function displayDayZHud()
-	toggleControl("radar", false)
+	toggleControl("radar", false);
 	if getElementData(localPlayer, "Logged") and not getElementData(localPlayer, "dead") then
-		--# Iconos
-		drawPlayerStatus()
-		--# Arma
-		drawWeaponInfo()
-		--# Tag
-		drawPlayerTag()
-		--# Bússola
+		drawPlayerStatus();
+		drawWeaponInfo();
+		drawPlayerTag();
 		if getElementData(localPlayer, "Bússola") and getElementData(localPlayer, "Bússola") > 0 then
-			drawTheCompass()
+			drawTheCompass();
 		end	
-		--# GPS
 		if getElementData(localPlayer, "GPS") and getElementData(localPlayer, "GPS") > 0 then
-			drawTheGPS()
-			
+			drawTheGPS();
 		else
 			if isPlayerHudComponentVisible('radar') then
-				showPlayerHudComponent('radar', false)
+				showPlayerHudComponent('radar', false);
 			end
 		end
-
-		--# Mapa
 		if getElementData(localPlayer, "Mapa") and getElementData(localPlayer, "Mapa") > 0 then
 			if not mapkeybound then
-				bindKey("F11","down",toggleMap)
-				mapkeybound = true
+				bindKey("F11"," down", toggleMap);
+				mapkeybound = true;
 			end		
 		else
 			if mapkeybound then
-				unbindKey("F11","down",toggleMap)
-				mapkeybound = false
-				
+				unbindKey("F11", "down", toggleMap);
+				mapkeybound = false;
 				if isMapShown then
-					closeMap()
+					closeMap();
 				end
 			end		
 		end
-		--# Monitor
 		if isMonitorVisible and not isMapShown then
-			drawMonitorStatus()
+			drawMonitorStatus();
 		end
-		--# Reloj
-		if getElementData(localPlayer, "Reloj") and getElementData(localPlayer, "Reloj") > 0 then
-			local h, m = getTheTime()
-			dxDrawText(h..":"..m, screenW * 0.89 + 1, screenH * 0.2 + 1, screenW * 0.89 + 1, screenH * 0.2 + 1, tocolor(0, 0, 0, 240), 1.00, fonts[2], "center", "center")
-			dxDrawText(h..":"..m, screenW * 0.89, screenH * 0.2, screenW * 0.89, screenH * 0.2, tocolor(50, 100, 134, 240), 1.00, fonts[2], "center", "center")
-		end				
+		-- if getElementData(localPlayer, "Relógio") and getElementData(localPlayer, "Relógio") > 0 then
+			local h, m = getTheTime();
+			dxDrawText(h..":"..m, screenW * 0.89 + 1, screenH * 0.2 + 1, screenW * 0.89 + 1, screenH * 0.2 + 1, tocolor(255, 255, 255, 255), 1.00, fonts[2], "right", "center");
+		-- end				
 		--# Iconos del vehiculo
-		local vehicle = getPedOccupiedVehicle(localPlayer)
+		local vehicle = getPedOccupiedVehicle(localPlayer);
 		if isElement(vehicle) and getVehicleController(vehicle) == localPlayer and isElement(getElementData(vehicle, "parent")) and getVehicleType(vehicle) ~= "BMX" then
-			drawVehicleHud()
+			drawVehicleHud();
 		end
 	end
 end
-addEventHandler("onClientRender", root, displayDayZHud)
+addEventHandler("onClientRender", root, displayDayZHud);
 
 function drawPlayerStatus()
 	local blood = math.floor(getElementData(localPlayer, "blood") or 0.0)

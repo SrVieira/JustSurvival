@@ -311,7 +311,7 @@ lista2 = {
 	{"GPS", 500},
 	{"Caixa de Ferramentas", 500},
 	{"Caixa de Fósforo", 500},
-	{"Reloj", 500},
+	{"Relógio", 500},
 	{"Traje Ghillie", 500},
 	{"Police Suit", 500},
 	{"Survivor Suit", 500},

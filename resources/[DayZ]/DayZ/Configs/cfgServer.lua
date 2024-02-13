@@ -775,7 +775,7 @@ gameplayVariables["world_items"] = {
 	{"GPS"},
 	{"Caixa de Ferramentas"},
 	{"Caixa de Fósforo"},
-	{"Reloj"},
+	{"Relógio"},
 	{"Trozo de metal"},
 	{"Óculos de Visão Noturna"},
 	{"Óculos de Visão Termal"},

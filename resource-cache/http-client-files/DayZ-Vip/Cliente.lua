@@ -14,7 +14,7 @@ local Caixa de Ferramentas = {
 	"Lentes de visión nocturna",
 	"Lentes infrarrojos",
 	"Caixa de Ferramentas",
-	"Reloj",
+	"Relógio",
 	"Pepsi"
 }
 

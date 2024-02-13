@@ -132,7 +132,7 @@ Items = {
 	"Lentes infrarrojos",
 	"Mapa",
 	"Caja de cerillas",
-	"Reloj",
+	"Relógio",
 	"GPS",
 	"Caixa de Ferramentas"
 }
@@ -234,7 +234,7 @@ Items['GPS'] = {2976, 1.30}
 Items['Bússola'] = {1937, 1.30}
 Items['Caixa de Ferramentas'] = {2969, 1.30}
 Items['Caixa de Fósforo'] = {328, 1.30}
-Items['Reloj'] = {2710, 1.30}
+Items['Relógio'] = {2710, 1.30}
 Items['Trozo de metal'] = {3104, 1.30}
 Items['Óculos de Visão Noturna'] = {3070, 1.30}
 Items['Óculos de Visão Termal'] = {3070, 1.30}

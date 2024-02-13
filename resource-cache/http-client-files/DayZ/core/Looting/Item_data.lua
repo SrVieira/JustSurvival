@@ -126,7 +126,7 @@
 	["Chaleco civil"] = 1,
 	["Chaleco de guerra"] = 1,
 	["Chaleco basico"] = 1,
-	["Reloj"] = 0.5,
+	["Relógio"] = 0.5,
 	["Bússola"] = 0.5,
 	-- PIEZAS DE VEHICULOS
 	["Motor"] = 4,
@@ -135,7 +135,7 @@
 	["Neumatico"] = 4,
 	["Rotador"] = 4,
 	-- TRAJES
-	["Guillie Suit"] = 1,
+	["Traje Ghillie"] = 1,
 	["Survivor Suit"] = 1,
 	["Police Suit"] = 1,
 	["Veterano Suit"] = 1,
@@ -167,7 +167,7 @@
 
 itemLootTable = {-- Lista de objetos
 	--item, object, scale
-	{"Guillie Suit", 1870, 1.30},
+	{"Traje Ghillie", 1870, 1.30},
 	{"Police Suit", 1870, 1.30},
 	{"Survivor Suit", 1870, 1.30},
 	{"Veterano Suit", 1870, 1.30},
@@ -282,7 +282,7 @@ itemLootTable = {-- Lista de objetos
 	{"Bússola", 1937, 1.30},
 	{"Caixa de Ferramentas", 2969, 1.30},
 	{"Caixa de Fósforo", 328, 1.30},
-	{"Reloj", 2710, 1.30},
+	{"Relógio", 2710, 1.30},
 	{"Trozo de metal", 3104, 1.30},
 	{"Óculos de Visão Noturna", 3070, 1.30},
 	{"Óculos de Visão Termal", 3070, 1.30},
@@ -527,7 +527,7 @@ lootpileType = {
 		{"Lata de soda vacia",1576,0.5,17,12},
 		{"MP5A5",2864,1,90,1.5},
 		{"Bizon PP-19 SD",2862,1,90,0.28},
-		{"Reloj",2710,2,0,3},
+		{"Relógio",2710,2,0,3},
 		{"Bolsa Térmica",1579,2,0,6},
 		{"G28",2834,1,90,1.5},
 		{"Barret 50",2826,1,90,1.5},

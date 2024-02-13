@@ -87,7 +87,7 @@ Zonas["Militar"] = {
 
 Zonas["Residencial"] = {
 	{"Mountain Dew", 40},
-	{"Reloj", 50},
+	{"Relógio", 50},
 	{"Bússola", 20},
 	{"Mapa", 40},
 	{"Beretta M92F", 30},
@@ -110,7 +110,7 @@ Zonas["Residencial"] = {
 }
 
 Zonas["Supermercado"] = {
-	{"Reloj", 60},
+	{"Relógio", 60},
 	{"Bússola", 30},
 	{"Mapa", 80},
 	{"M1911", 30},

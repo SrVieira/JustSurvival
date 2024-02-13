@@ -775,7 +775,7 @@ gameplayVariables["world_items"] = {
 	{"GPS"},
 	{"Caixa de Ferramentas"},
 	{"Caixa de Fósforo"},
-	{"Reloj"},
+	{"Relógio"},
 	{"Trozo de metal"},
 	{"Óculos de Visão Noturna"},
 	{"Óculos de Visão Termal"},
@@ -788,7 +788,7 @@ gameplayVariables["world_items"] = {
 	{"Chaleco de policia"},
 	{"Chaleco civil"},
 	{"Chaleco de guerra"},
-	{"Guillie Suit"},	
+	{"Traje Ghillie"},	
 	{"Survivor Suit"},
 	{"Police Suit"},
 	-- PARTES DE UN VEHICULO
