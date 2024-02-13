@@ -358,7 +358,14 @@
 	<export function="isWeapon" type="shared" />
 	<export function="getWeaponData" type="shared" />
 
-    <!-- fonts -->
+    <!-- Fonts -->
+    <file src="fonts/BRNebula-Bold.ttf" />
+    <file src="fonts/BRNebula-BoldItalic.ttf" />
+    <file src="fonts/BRNebula-Regular.ttf" />
+    <file src="fonts/BRNebula-RegularItalic.ttf" />
+    <file src="fonts/BRNebula-Medium.ttf" />
+    <file src="fonts/BRNebula-MediumItalic.ttf" />
+
     <file src="fonts/teko_regular.ttf" />
     <file src="fonts/teko_light.ttf" />
     <file src="fonts/teko_medium.ttf" />

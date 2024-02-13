@@ -11,8 +11,10 @@ local totalTickCount = false;
 local bloodScreenRender = false;
 
 local fonts = {
-	[1] = dxCreateFont("fonts/digital.ttf", 13),
-	[2] = dxCreateFont("fonts/teko_regular.ttf", 22),
+	[1] = dxCreateFont("fonts/BRNebula-Medium.ttf", 16),
+	[2] = dxCreateFont("fonts/BRNebula-Bold.ttf", 16),
+	[3] = dxCreateFont("fonts/BRNebula-Bold.ttf", 22),
+	[4] = dxCreateFont("fonts/BRNebula-Medium.ttf", 13),
 };
 
 function showDebugMonitor()
@@ -88,10 +90,11 @@ function displayDayZHud()
 		if isMonitorVisible and not isMapShown then
 			drawMonitorStatus();
 		end
-		-- if getElementData(localPlayer, "Relógio") and getElementData(localPlayer, "Relógio") > 0 then
+		if getElementData(localPlayer, "Relógio") and getElementData(localPlayer, "Relógio") > 0 then
 			local h, m = getTheTime();
-			dxDrawText(h..":"..m, screenW * 0.89 + 1, screenH * 0.2 + 1, screenW * 0.89 + 1, screenH * 0.2 + 1, tocolor(255, 255, 255, 255), 1.00, fonts[2], "right", "center");
-		-- end				
+			dxDrawText(h..":"..m, screenW * 0.99 + 1, screenH * 0.05 + 1, screenW * 0.99 + 1, screenH * 0.05 + 1, tocolor(0, 0, 0, 240), 1.00, fonts[2], "right", "center");
+			dxDrawText(h..":"..m, screenW * 0.99 + 1, screenH * 0.05, screenW * 0.99 + 1, screenH * 0.05, tocolor(255, 255, 255, 255), 1.00, fonts[2], "right", "center");
+		end
 		--# Iconos del vehiculo
 		local vehicle = getPedOccupiedVehicle(localPlayer);
 		if isElement(vehicle) and getVehicleController(vehicle) == localPlayer and isElement(getElementData(vehicle, "parent")) and getVehicleType(vehicle) ~= "BMX" then
@@ -222,7 +225,7 @@ function drawPlayerStatus()
 	dxDrawImage(screenW*0.95, screenH*0.765, screenH*0.055, screenH*0.055, "images/status/water/water_"..icon, 0, 0, 0, color, false)
 	
 	--~# TEMPERATURA
-	local temperature = math.round(getElementData(localPlayer,"temperature"),2)
+	local temperature = math.round(getElementData(localPlayer, "temperature"),2)
 	local color = tocolor(50, 134, 50, 240)
 	local t_number = 3
 	if temperature < 33 then
@@ -269,7 +272,7 @@ function drawPlayerStatus()
 	end	
 
 	--# HUMANIDAD.
-	local humanity = getElementData(localPlayer,"humanity") or 0
+	local humanity = getElementData(localPlayer, "humanity") or 0
 	local color = tocolor(150, 100, 50, 240)
 	local h_number = 0
 	
@@ -379,83 +382,87 @@ function drawServerInfo()
 end
 
 function drawWeaponInfo()
-	local ammo = getPedTotalAmmo (localPlayer) - getPedAmmoInClip (localPlayer)
-	local clip = getPedAmmoInClip (localPlayer)
-	local weaponID = getPedWeapon(localPlayer)
+	local ammo = getPedTotalAmmo(localPlayer) - getPedAmmoInClip(localPlayer);
+	local clip = getPedAmmoInClip(localPlayer);
+	local weaponID = getPedWeapon(localPlayer);
 
 	if weaponID == 22 then
-		weapName = getElementData(localPlayer,"SECONDARY_Weapon")
+		weapName = getElementData(localPlayer, "SECONDARY_Weapon");
 	elseif weaponID == 23 then
-	   weapName = getElementData(localPlayer,"SECONDARY_Weapon")
+	   weapName = getElementData(localPlayer, "SECONDARY_Weapon");
 	elseif weaponID == 24 then
-		weapName = getElementData(localPlayer,"SECONDARY_Weapon")
+		weapName = getElementData(localPlayer, "SECONDARY_Weapon");
 	elseif weaponID == 25 then
-		weapName = getElementData(localPlayer,"PRIMARY_Weapon")
+		weapName = getElementData(localPlayer, "PRIMARY_Weapon");
 	elseif weaponID == 26 then
-	   weapName = getElementData(localPlayer,"PRIMARY_Weapon")
+	   weapName = getElementData(localPlayer, "PRIMARY_Weapon");
 	elseif weaponID == 27 then
-		weapName = getElementData(localPlayer,"PRIMARY_Weapon")
+		weapName = getElementData(localPlayer, "PRIMARY_Weapon")
 	elseif weaponID == 28 then
-		weapName = getElementData(localPlayer,"SECONDARY_Weapon")
+		weapName = getElementData(localPlayer, "SECONDARY_Weapon");
 	elseif weaponID == 29 then
-		weapName = getElementData(localPlayer,"SECONDARY_Weapon")
+		weapName = getElementData(localPlayer, "SECONDARY_Weapon");
 	elseif weaponID == 30 then
-	   weapName = getElementData(localPlayer,"PRIMARY_Weapon")
+	   weapName = getElementData(localPlayer, "PRIMARY_Weapon");
 	elseif weaponID == 31 then
-		weapName = getElementData(localPlayer,"PRIMARY_Weapon")
+		weapName = getElementData(localPlayer, "PRIMARY_Weapon");
 	elseif weaponID == 33 then
-		weapName = getElementData(localPlayer,"PRIMARY_Weapon")
+		weapName = getElementData(localPlayer, "PRIMARY_Weapon");
 	elseif weaponID == 34 then
-		weapName = getElementData(localPlayer,"PRIMARY_Weapon")
+		weapName = getElementData(localPlayer, "PRIMARY_Weapon");
 	elseif weaponID == 16 then
-		weapName = getElementData(localPlayer,"SPECIAL_Weapon")
-		clip = clip+ammo
-		ammo = false
+		weapName = getElementData(localPlayer, "SPECIAL_Weapon");
+		clip = clip+ammo;
+		ammo = false;
 	elseif weaponID == 43 then
-		weapName = getElementData(localPlayer,"SPECIAL_Weapon")
-		clip = false
-		ammo = false
+		weapName = getElementData(localPlayer, "SPECIAL_Weapon");
+		clip = false;
+		ammo = false;
 	elseif weaponID == 46 then
-		weapName = getElementData(localPlayer,"SPECIAL_Weapon")
-		clip = false
-		ammo = false
+		weapName = getElementData(localPlayer, "SPECIAL_Weapon");
+		clip = false;
+		ammo = false;
 	elseif weaponID == 4 then
-		weapName = getElementData(localPlayer,"SECONDARY_Weapon")
-		clip = false
-		ammo = false
+		weapName = getElementData(localPlayer, "SECONDARY_Weapon");
+		clip = false;
+		ammo = false;
 	elseif weaponID == 5 then
-		weapName = getElementData(localPlayer,"SECONDARY_Weapon")
-		clip = false
-		ammo = false
+		weapName = getElementData(localPlayer, "SECONDARY_Weapon");
+		clip = false;
+		ammo = false;
 	elseif weaponID == 6 then
-		weapName = getElementData(localPlayer,"SECONDARY_Weapon")
-		clip = false
-		ammo = false
+		weapName = getElementData(localPlayer, "SECONDARY_Weapon");
+		clip = false;
+		ammo = false;
 	elseif weaponID == 8 then
-		weapName = getElementData(localPlayer,"SECONDARY_Weapon")
-		clip = false
-		ammo = false
+		weapName = getElementData(localPlayer, "SECONDARY_Weapon");
+		clip = false;
+		ammo = false;
 	else
-		weapName = false
-		clip = false
-		ammo = false
+		weapName = false;
+		clip = false;
+		ammo = false;
 	end
-	
-	local size1 = (screenW/1024) * 2.00
-	local size2 = (screenW/1024) * 1.20
-	local size3 = (screenW/1024) * 1.40
 	
 	if weapName then
-		dxDrawText(weapName, 1+screenW*0.9697265625, 1+screenH*0.1263020833333333, 1+screenW*0.9697265625, 1+screenH*0.1263020833333333, tocolor(0, 0, 0, 240), size3, "default-bold", "right", "center", false, false, false, false, false)
-		dxDrawText(weapName, screenW*0.9697265625, screenH*0.1263020833333333, screenW*0.9697265625, screenH*0.1263020833333333, tocolor(80, 128, 52, 255), size3, "default-bold", "right", "center", false, false, false, false, false)	
+		dxDrawText(weapName, screenW * 0.99 + 1, 1+screenH*0.1, screenW * 0.99 + 1, 1+screenH*0.1, tocolor(0, 0, 0, 240), 1.00, fonts[1], "right", "center", false, false, false, false, false);
+		dxDrawText(weapName, screenW * 0.99 + 1, screenH*0.1, screenW * 0.99 + 1, screenH*0.1, tocolor(255, 255, 255), 1.00, fonts[1], "right", "center", false, false, false, false, false);
 	end
 	if clip and weapName then
-		dxDrawText(clip, 1+screenW*0.922259375, 1+screenH*0.0833333333333333, 1+screenW*0.922259375, 1+screenH*0.0833333333333333, tocolor(0, 0, 0, 240), size1, "default-bold", "center", "center", false, false, false, false, false)
-		dxDrawText(clip, screenW*0.922259375, screenH*0.0833333333333333, screenW*0.922259375, screenH*0.0833333333333333, tocolor(80, 128, 52, 255), size1, "default-bold", "center", "center", false, false, false, false, false)
+		if ammo >= 100 then
+			dxDrawText(clip, 1+screenW*0.965, 1+screenH*0.14, 1+screenW*0.965, 1+screenH*0.14, tocolor(0, 0, 0, 240), 1.00, fonts[3], "right", "center", false, false, false, false, false);
+			dxDrawText(clip, screenW*0.965, screenH*0.14, screenW*0.965, screenH*0.14, tocolor(255, 255, 255), 1.00, fonts[3], "right", "center", false, false, false, false, false);
+		elseif ammo >= 10 and ammo < 100 then
+			dxDrawText(clip, 1+screenW*0.97, 1+screenH*0.14, 1+screenW*0.97, 1+screenH*0.14, tocolor(0, 0, 0, 240), 1.00, fonts[3], "right", "center", false, false, false, false, false);
+			dxDrawText(clip, screenW*0.97, screenH*0.14, screenW*0.97, screenH*0.14, tocolor(255, 255, 255), 1.00, fonts[3], "right", "center", false, false, false, false, false);
+		else
+			dxDrawText(clip, 1+screenW*0.95, 1+screenH*0.14, 1+screenW*0.95, 1+screenH*0.14, tocolor(0, 0, 0, 240), 1.00, fonts[3], "right", "center", false, false, false, false, false);
+			dxDrawText(clip, screenW*0.95, screenH*0.14, screenW*0.95, screenH*0.14, tocolor(255, 255, 255), 1.00, fonts[3], "right", "center", false, false, false, false, false);
+		end
 	end
 	if ammo and weapName then
-		dxDrawText(ammo, 1+screenW*0.9599609375, 1+screenH*0.0794270833333333, 1+screenW*0.9599609375, 1+screenH*0.0794270833333333, tocolor(0, 0, 0, 240), size2, "default-bold", "center", "center", false, false, false, false, false)
-		dxDrawText(ammo, screenW*0.9599609375, screenH*0.0794270833333333, screenW*0.9599609375, screenH*0.0794270833333333, tocolor(80, 128, 52, 255), size2, "default-bold", "center", "center", false, false, false, false, false)
+		dxDrawText(ammo, 1+screenW * 0.99, 1+screenH*0.14, 1+screenW * 0.99, 1+screenH*0.14, tocolor(0, 0, 0, 240), 1.00, fonts[4], "right", "center", false, false, false, false, false);
+		dxDrawText(ammo, screenW * 0.99, screenH*0.14, screenW * 0.99, screenH*0.14, tocolor(255, 255, 255), 1.00, fonts[4], "right", "center", false, false, false, false, false);
 	end
 end
 
