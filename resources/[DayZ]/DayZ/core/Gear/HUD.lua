@@ -443,11 +443,12 @@ function drawWeaponInfo()
 		clip = false;
 		ammo = false;
 	end
-	
+
 	if weapName then
 		dxDrawText(weapName, screenW * 0.99 + 1, 1+screenH*0.1, screenW * 0.99 + 1, 1+screenH*0.1, tocolor(0, 0, 0, 240), 1.00, fonts[1], "right", "center", false, false, false, false, false);
 		dxDrawText(weapName, screenW * 0.99 + 1, screenH*0.1, screenW * 0.99 + 1, screenH*0.1, tocolor(255, 255, 255), 1.00, fonts[1], "right", "center", false, false, false, false, false);
 	end
+
 	if clip and weapName then
 		if ammo >= 100 then
 			dxDrawText(clip, 1+screenW*0.965, 1+screenH*0.14, 1+screenW*0.965, 1+screenH*0.14, tocolor(0, 0, 0, 240), 1.00, fonts[3], "right", "center", false, false, false, false, false);
@@ -460,6 +461,7 @@ function drawWeaponInfo()
 			dxDrawText(clip, screenW*0.95, screenH*0.14, screenW*0.95, screenH*0.14, tocolor(255, 255, 255), 1.00, fonts[3], "right", "center", false, false, false, false, false);
 		end
 	end
+	
 	if ammo and weapName then
 		dxDrawText(ammo, 1+screenW * 0.99, 1+screenH*0.14, 1+screenW * 0.99, 1+screenH*0.14, tocolor(0, 0, 0, 240), 1.00, fonts[4], "right", "center", false, false, false, false, false);
 		dxDrawText(ammo, screenW * 0.99, screenH*0.14, screenW * 0.99, screenH*0.14, tocolor(255, 255, 255), 1.00, fonts[4], "right", "center", false, false, false, false, false);
