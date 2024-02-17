@@ -4,4 +4,10 @@
     <!-- Base -->
     <script src="variables.lua" type="shared" cache="true" validate="true" />
     <script src="settings.lua" type="server" cache="true" validate="true" />
+
+    <!-- Tables -->
+    <script src="player_tables.lua" type="shared" cache="true" validate="true" />
+
+    <!-- Handlers -->
+    <script src="spawns_player.lua" type="server" cache="true" validate="true" />
 </meta>
