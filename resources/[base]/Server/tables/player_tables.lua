@@ -7,5 +7,4 @@ playerSpawnPositions = {
     ["WHETSTONE"] = {},
     ["TIERRA ROUBADA"] = {},
     ["BONE COUNTY"] = {},
-    ["BONE COUNTY"] = {},
 };
