@@ -1,9 +1,0 @@
-
-
-addEventHandler("onClientRender", root,
-    function()
-        dxDrawRectangle(6, 502, 152, 64, tocolor(0, 0, 0, 149), false)
-        dxDrawImage(163, 500, 62, 66, ":level/rank/bronze.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
-        dxDrawText("Recruit (2)\nXP Actual: 90000\nXP Necesaria: 200000", 6, 500, 158, 566, tocolor(255, 255, 255, 255), 0.90, "default-bold", "center", "center", false, false, false, false, false)
-    end
-)

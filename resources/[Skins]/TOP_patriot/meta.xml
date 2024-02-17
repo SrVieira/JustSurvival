@@ -1,6 +1,0 @@
-<meta>
-    <info author="Sensi_Smoker" version="1.0" type="script"/>
-    <script src="mod.lua" type="client"/>
-    <file src="patriot.txd" type="client"/>
-    <file src="patriot.dff" type="client"/>
-</meta>

@@ -1,2 +1,0 @@
-
-:guieditor/output/GUI_output_2019-5-7_5-11.txt

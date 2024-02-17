@@ -1,6 +1,0 @@
-<meta>
-    <info author="by huss97" version="1.0.0" type="script" name="screen downloade text" description="show text in screen if server is down loadeing"></info>
-    <download_priority_group>10</download_priority_group>
-	<script src="C.lua" type="client"></script>
-	    <file src="collage.jpg" />
-</meta>

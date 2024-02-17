@@ -1,2 +1,0 @@
-btnLogin = guiCreateButton(165,270,242,74,"Играть",false,mainWindow)
-	guiSetFont(btnLogin,"clear-normal")
