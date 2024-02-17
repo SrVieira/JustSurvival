@@ -1,0 +1,1 @@
+setGameType(serverVariables.gameType.." - v"..serverVariables.gameVersion);

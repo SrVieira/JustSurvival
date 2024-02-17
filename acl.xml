@@ -20,21 +20,6 @@
         <acl name="SuperModerator"></acl>
         <acl name="Admin"></acl>
         <acl name="RPC"></acl>
-        <object name="resource.admin"></object>
-        <object name="resource.DayZ"></object>
-        <object name="resource.lz_groupsystem"></object>
-        <object name="resource.webadmin"></object>
-        <object name="resource.acpanel"></object>
-        <object name="resource.guieditor"></object>
-        <object name="resource.LimparChat"></object>
-        <object name="resource.mdayz-anticheat"></object>
-        <object name="user.Mati"></object>
-        <object name="resource.BattleRoyale"></object>
-        <object name="resource.dzlogin"></object>
-        <object name="resource.TOP_login"></object>
-        <object name="resource.TOP_antispam"></object>
-        <object name="resource.moddownloader"></object>
-        <object name="resource.TOP_Kickping"></object>
     </group>
     <group name="Console">
         <acl name="Moderator"></acl>
