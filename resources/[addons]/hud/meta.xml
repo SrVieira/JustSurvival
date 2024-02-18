@@ -1,0 +1,6 @@
+<meta>
+    <info author="Matheus Vieira" version="1.0" name="HUD" description="HUD addon" type="script" />
+
+    <!-- Scripts -->
+    <script src="interface.lua" type="client" cache="true" validate="true" />
+</meta>
