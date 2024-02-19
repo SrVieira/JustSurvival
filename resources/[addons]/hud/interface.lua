@@ -12,4 +12,16 @@ local function disableOriginalHUD()
     setPlayerHudComponentVisible("radio", false);
     setPlayerHudComponentVisible("wanted", false);
 end
-addEventHandler("onClientResourceStart", getRootElement(), disableOriginalHUD);
+
+local function handleLoadResource()
+    disableOriginalHUD();
+end
+addEventHandler("onClientResourceStart", getRootElement(), handleLoadResource);
+
+local function posicao()
+    local x, y, z = getElementPosition(localPlayer);
+    local groundZ = getGroundPosition(x, y, z);
+
+    outputChatBox("{ "..x..", "..y..", "..groundZ.." }");
+end
+addCommandHandler("posicao", posicao)

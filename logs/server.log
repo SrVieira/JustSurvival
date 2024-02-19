@@ -10479,3 +10479,244 @@
 [2024-02-13 19:59:58] INFO: Refresco finalizado !
 [2024-02-13 19:59:58] INFO: LOADED TENTS: 0
 [2024-02-13 19:59:59] INFO: [DayZ] Los vehiculos fueron cargados desde la base de datos!
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : |PT-BR| Just Survival - World in Chaos |SURVIVAL|
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : .. 1.6/server/mods/deathmatch/logs/server.log
+= Maximum players  : 50
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : Medium
+==================================================================
+[2024-02-17 18:38:55] Compacting accounts database 'internal.db' ...
+[2024-02-17 18:38:56] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2024-02-17 18:39:01] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-17 18:39:01] Resources: 4 loaded, 1 failed
+[2024-02-17 18:39:01] Compacting database 'registry.db' ...
+[2024-02-17 18:39:02] Starting resources....
+[2024-02-17 18:39:02] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2024-02-17 18:39:02] WARNING: <owner_email_address> not set
+[2024-02-17 18:39:02] Server started and is ready to accept connections!
+[2024-02-17 18:39:02] To stop the server, type 'shutdown' or press Ctrl-C
+[2024-02-17 18:39:02] Type 'help' for a list of commands.
+[2024-02-17 18:39:03] Querying MTA master server... success! (Auto detected IP:45.234.1.239)
+[2024-02-17 18:42:37] Resource 'Server' changed while running, reloading and restarting
+[2024-02-17 18:42:37] Stopping Server
+[2024-02-17 18:42:37] New resource 'Server' loaded
+[2024-02-17 18:42:39] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-17 18:42:39] Resources: 4 loaded, 1 failed
+[2024-02-17 18:42:39] Starting Server
+[2024-02-17 18:43:03] Resource 'Server' changed while running, reloading and restarting
+[2024-02-17 18:43:03] Stopping Server
+[2024-02-17 18:43:03] New resource 'Server' loaded
+[2024-02-17 18:43:03] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-17 18:43:03] Resources: 4 loaded, 1 failed
+[2024-02-17 18:43:03] Starting Server
+[2024-02-17 18:43:29] Resource 'Server' changed while running, reloading and restarting
+[2024-02-17 18:43:29] Stopping Server
+[2024-02-17 18:43:29] New resource 'Server' loaded
+[2024-02-17 18:43:30] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-17 18:43:30] Resources: 4 loaded, 1 failed
+[2024-02-17 18:43:30] Starting Server
+[2024-02-17 18:44:01] Resource 'Server' changed while running, reloading and restarting
+[2024-02-17 18:44:01] Stopping Server
+[2024-02-17 18:44:01] New resource 'Server' loaded
+[2024-02-17 18:44:01] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-17 18:44:01] Resources: 4 loaded, 1 failed
+[2024-02-17 18:44:01] Starting Server
+[2024-02-17 18:44:19] Resource 'Server' changed while running, reloading and restarting
+[2024-02-17 18:44:19] Stopping Server
+[2024-02-17 18:44:19] New resource 'Server' loaded
+[2024-02-17 18:44:19] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-17 18:44:19] Resources: 4 loaded, 1 failed
+[2024-02-17 18:44:19] Starting Server
+[2024-02-17 18:45:46] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-17 19:13:52] Resource 'Server' changed while running, reloading and restarting
+[2024-02-17 19:13:52] Stopping Server
+[2024-02-17 19:13:52] ERROR: Couldn't find script player_tables.lua for resource Server
+[2024-02-17 19:13:52] Loading of resource 'Server' failed
+[2024-02-17 19:13:53] ERROR: Problem with resource: Server; Couldn't find script player_tables.lua for resource Server
+[2024-02-17 19:13:53] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-17 19:13:53] Resources: 3 loaded, 2 failed
+[2024-02-17 19:14:02] Server minclientversion is now 1.6.0-9.22388.0
+[2024-02-17 19:14:02] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-17 19:14:08] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-17 19:15:35] Resource 'Server' changed, reloading
+[2024-02-17 19:15:35] ERROR: Couldn't find script player_tables.lua for resource Server
+[2024-02-17 19:15:35] Loading of resource 'Server' failed
+[2024-02-17 19:15:35] ERROR: Problem with resource: Server; Couldn't find script player_tables.lua for resource Server
+[2024-02-17 19:15:35] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-17 19:15:35] Resources: 3 loaded, 2 failed
+[2024-02-17 23:56:23] Resource 'Server' changed, reloading
+[2024-02-17 23:56:23] New resource 'Server' loaded
+[2024-02-17 23:56:26] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-17 23:56:26] Resources: 4 loaded, 1 failed
+[2024-02-18 00:53:52] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-18 00:53:56] stop: Requested by Console
+[2024-02-18 00:53:56] stop: Resource is not running
+[2024-02-18 00:53:58] start: Requested by Console
+[2024-02-18 00:53:58] Starting Server
+[2024-02-18 00:53:58] start: Resource 'server' started
+[2024-02-18 00:54:33] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-18 00:54:33] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-18 01:01:36] start: Requested by Console
+[2024-02-18 01:01:36] start: Resource is already running
+[2024-02-18 01:01:38] Resource 'Server' changed while running, reloading and restarting
+[2024-02-18 01:01:38] Stopping Server
+[2024-02-18 01:01:38] New resource 'Server' loaded
+[2024-02-18 01:01:39] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-18 01:01:39] Resources: 4 loaded, 1 failed
+[2024-02-18 01:01:39] Starting Server
+[2024-02-18 01:02:23] Resource 'Server' changed while running, reloading and restarting
+[2024-02-18 01:02:23] Stopping Server
+[2024-02-18 01:02:23] New resource 'Server' loaded
+[2024-02-18 01:02:23] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-18 01:02:23] Resources: 4 loaded, 1 failed
+[2024-02-18 01:02:23] Starting Server
+[2024-02-18 01:02:25] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-18 01:02:27] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-18 01:02:27] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-18 01:05:12] Resource 'Server' changed while running, reloading and restarting
+[2024-02-18 01:05:12] Stopping Server
+[2024-02-18 01:05:12] New resource 'Server' loaded
+[2024-02-18 01:05:12] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-18 01:05:12] Resources: 4 loaded, 1 failed
+[2024-02-18 01:05:12] Starting Server
+[2024-02-18 01:05:18] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-18 01:05:20] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-18 01:05:20] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-18 01:06:07] Resource 'Server' changed while running, reloading and restarting
+[2024-02-18 01:06:07] Stopping Server
+[2024-02-18 01:06:07] New resource 'Server' loaded
+[2024-02-18 01:06:07] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-18 01:06:07] Resources: 4 loaded, 1 failed
+[2024-02-18 01:06:07] Starting Server
+[2024-02-18 01:06:15] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-18 01:06:18] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-18 01:06:18] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-18 01:07:17] Resource 'Server' changed while running, reloading and restarting
+[2024-02-18 01:07:17] Stopping Server
+[2024-02-18 01:07:17] New resource 'Server' loaded
+[2024-02-18 01:07:17] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-18 01:07:17] Resources: 4 loaded, 1 failed
+[2024-02-18 01:07:17] Starting Server
+[2024-02-18 01:07:21] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-18 01:07:23] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-18 01:07:23] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-18 01:07:45] Resource 'Server' changed while running, reloading and restarting
+[2024-02-18 01:07:45] Stopping Server
+[2024-02-18 01:07:45] New resource 'Server' loaded
+[2024-02-18 01:07:46] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-18 01:07:46] Resources: 4 loaded, 1 failed
+[2024-02-18 01:07:46] Starting Server
+[2024-02-18 01:07:49] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-18 01:07:51] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-18 01:07:52] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-18 01:07:52] entrou
+[2024-02-18 01:08:52] Resource 'Server' changed while running, reloading and restarting
+[2024-02-18 01:08:52] Stopping Server
+[2024-02-18 01:08:52] New resource 'Server' loaded
+[2024-02-18 01:08:53] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-18 01:08:53] Resources: 4 loaded, 1 failed
+[2024-02-18 01:08:53] Starting Server
+[2024-02-18 01:09:02] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-18 01:09:04] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-18 01:09:04] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-18 01:09:04] ERROR: [base]\Server\handlers\spawns_player.lua:4: attempt to get length of field '?' (a nil value)
+[2024-02-18 01:09:17] Resource 'Server' changed while running, reloading and restarting
+[2024-02-18 01:09:17] Stopping Server
+[2024-02-18 01:09:17] New resource 'Server' loaded
+[2024-02-18 01:09:17] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-18 01:09:17] Resources: 4 loaded, 1 failed
+[2024-02-18 01:09:17] Starting Server
+[2024-02-18 01:09:22] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-18 01:09:24] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-18 01:09:24] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-18 01:11:14] Resource 'Server' changed while running, reloading and restarting
+[2024-02-18 01:11:14] Stopping Server
+[2024-02-18 01:11:14] New resource 'Server' loaded
+[2024-02-18 01:11:14] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-18 01:11:14] Resources: 4 loaded, 1 failed
+[2024-02-18 01:11:14] Starting Server
+[2024-02-18 01:11:19] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-18 01:11:23] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-18 01:11:23] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-18 01:12:14] Resource 'Server' changed while running, reloading and restarting
+[2024-02-18 01:12:14] Stopping Server
+[2024-02-18 01:12:14] New resource 'Server' loaded
+[2024-02-18 01:12:14] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-18 01:12:14] Resources: 4 loaded, 1 failed
+[2024-02-18 01:12:14] Starting Server
+[2024-02-18 01:12:18] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-18 01:12:20] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-18 01:12:21] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-18 01:14:17] Resource 'Server' changed while running, reloading and restarting
+[2024-02-18 01:14:17] Stopping Server
+[2024-02-18 01:14:17] New resource 'Server' loaded
+[2024-02-18 01:14:17] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-18 01:14:17] Resources: 4 loaded, 1 failed
+[2024-02-18 01:14:17] Starting Server
+[2024-02-18 01:14:21] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-18 01:14:26] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-18 01:14:26] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-18 01:14:37] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-18 01:14:41] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-18 01:14:41] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-18 01:23:47] start: Requested by Console
+[2024-02-18 01:23:47] start: Resource is already running
+[2024-02-18 01:23:48] New resource 'hud' loaded
+[2024-02-18 01:23:48] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-18 01:23:48] Resources: 5 loaded, 1 failed
+[2024-02-18 01:23:50] start: Requested by Console
+[2024-02-18 01:23:50] WARNING: hud/interface.lua(Line 2) [Client] showPlayerHudComponent is deprecated and may not work in future versions. Please replace with setPlayerHudComponentVisible.
+[2024-02-18 01:23:50] Some files in 'hud' use deprecated functions.
+[2024-02-18 01:23:50] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2024-02-18 01:23:50] Starting hud
+[2024-02-18 01:23:50] start: Resource 'hud' started
+[2024-02-18 01:26:13] Resource 'hud' changed while running, reloading and restarting
+[2024-02-18 01:26:13] Stopping hud
+[2024-02-18 01:26:13] New resource 'hud' loaded
+[2024-02-18 01:26:13] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-18 01:26:13] Resources: 5 loaded, 1 failed
+[2024-02-18 01:26:13] Starting hud
+[2024-02-18 01:27:12] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-18 01:27:34] Resource 'hud' changed while running, reloading and restarting
+[2024-02-18 01:27:34] Stopping hud
+[2024-02-18 01:27:34] New resource 'hud' loaded
+[2024-02-18 01:27:34] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-18 01:27:34] Resources: 5 loaded, 1 failed
+[2024-02-18 01:27:34] Starting hud
+[2024-02-18 01:27:54] Resource 'hud' changed while running, reloading and restarting
+[2024-02-18 01:27:54] Stopping hud
+[2024-02-18 01:27:54] New resource 'hud' loaded
+[2024-02-18 01:27:54] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-18 01:27:54] Resources: 5 loaded, 1 failed
+[2024-02-18 01:27:54] Starting hud
+[2024-02-18 01:28:11] Resource 'hud' changed while running, reloading and restarting
+[2024-02-18 01:28:11] Stopping hud
+[2024-02-18 01:28:11] New resource 'hud' loaded
+[2024-02-18 01:28:11] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-18 01:28:11] Resources: 5 loaded, 1 failed
+[2024-02-18 01:28:11] Starting hud
+[2024-02-18 01:28:18] Resource 'hud' changed while running, reloading and restarting
+[2024-02-18 01:28:18] Stopping hud
+[2024-02-18 01:28:18] New resource 'hud' loaded
+[2024-02-18 01:28:18] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-18 01:28:18] Resources: 5 loaded, 1 failed
+[2024-02-18 01:28:18] Starting hud
+[2024-02-18 17:17:57] Resource 'hud' changed while running, reloading and restarting
+[2024-02-18 17:17:57] Stopping hud
+[2024-02-18 17:17:57] New resource 'hud' loaded
+[2024-02-18 17:17:58] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-18 17:17:58] Resources: 5 loaded, 1 failed
+[2024-02-18 17:17:58] Starting hud
+[2024-02-19 10:56:09] Resource 'Server' changed while running, reloading and restarting
+[2024-02-19 10:56:09] Stopping Server
+[2024-02-19 10:56:10] New resource 'Server' loaded
+[2024-02-19 10:56:17] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-19 10:56:17] Resources: 5 loaded, 1 failed
+[2024-02-19 10:56:17] Starting Server
