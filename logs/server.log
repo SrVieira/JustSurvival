@@ -10720,3 +10720,86 @@
 [2024-02-19 10:56:17] ERROR: Problem with resource: runcode; Failed to link to ajax
 [2024-02-19 10:56:17] Resources: 5 loaded, 1 failed
 [2024-02-19 10:56:17] Starting Server
+[2024-02-19 12:14:33] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-19 12:55:44] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-19 12:55:44] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-19 12:55:56] WARNING: [base]\Server\settings.lua:4: Bad argument @ 'getElementPosition' [Expected element at argument 1, got nil]
+[2024-02-19 12:55:56] ERROR: [base]\Server\settings.lua:5: attempt to perform arithmetic on local 'x' (a boolean value)
+[2024-02-19 12:56:20] start: Requested by Console
+[2024-02-19 12:56:20] start: Resource is already running
+[2024-02-19 12:56:22] Resource 'Server' changed while running, reloading and restarting
+[2024-02-19 12:56:22] Stopping Server
+[2024-02-19 12:56:22] New resource 'Server' loaded
+[2024-02-19 12:56:22] Resource 'hud' changed while running, reloading and restarting
+[2024-02-19 12:56:22] Stopping hud
+[2024-02-19 12:56:22] New resource 'hud' loaded
+[2024-02-19 12:56:22] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-19 12:56:22] Resources: 5 loaded, 1 failed
+[2024-02-19 12:56:22] Starting Server
+[2024-02-19 12:56:22] Starting hud
+[2024-02-19 12:56:44] Resource 'hud' changed while running, reloading and restarting
+[2024-02-19 12:56:44] Stopping hud
+[2024-02-19 12:56:44] New resource 'hud' loaded
+[2024-02-19 12:56:44] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-19 12:56:44] Resources: 5 loaded, 1 failed
+[2024-02-19 12:56:44] Starting hud
+[2024-02-19 12:59:06] Resource 'Server' changed while running, reloading and restarting
+[2024-02-19 12:59:06] Stopping Server
+[2024-02-19 12:59:06] New resource 'Server' loaded
+[2024-02-19 12:59:06] Resource 'hud' changed while running, reloading and restarting
+[2024-02-19 12:59:06] Stopping hud
+[2024-02-19 12:59:06] New resource 'hud' loaded
+[2024-02-19 12:59:06] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-19 12:59:06] Resources: 5 loaded, 1 failed
+[2024-02-19 12:59:06] Starting Server
+[2024-02-19 12:59:06] Starting hud
+[2024-02-19 13:01:08] Resource 'hud' changed while running, reloading and restarting
+[2024-02-19 13:01:08] Stopping hud
+[2024-02-19 13:01:08] New resource 'hud' loaded
+[2024-02-19 13:01:08] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-19 13:01:08] Resources: 5 loaded, 1 failed
+[2024-02-19 13:01:08] Starting hud
+[2024-02-19 13:05:12] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-19 13:05:30] Resource 'hud' changed while running, reloading and restarting
+[2024-02-19 13:05:30] Stopping hud
+[2024-02-19 13:05:30] New resource 'hud' loaded
+[2024-02-19 13:05:30] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-19 13:05:30] Resources: 5 loaded, 1 failed
+[2024-02-19 13:05:30] Starting hud
+[2024-02-19 13:05:48] Resource 'hud' changed while running, reloading and restarting
+[2024-02-19 13:05:48] Stopping hud
+[2024-02-19 13:05:48] New resource 'hud' loaded
+[2024-02-19 13:05:48] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-19 13:05:48] Resources: 5 loaded, 1 failed
+[2024-02-19 13:05:48] Starting hud
+[2024-02-19 13:06:54] Resource 'Server' changed while running, reloading and restarting
+[2024-02-19 13:06:54] Stopping Server
+[2024-02-19 13:06:54] New resource 'Server' loaded
+[2024-02-19 13:06:54] Resource 'hud' changed while running, reloading and restarting
+[2024-02-19 13:06:54] Stopping hud
+[2024-02-19 13:06:54] New resource 'hud' loaded
+[2024-02-19 13:06:54] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-19 13:06:54] Resources: 5 loaded, 1 failed
+[2024-02-19 13:06:54] Starting Server
+[2024-02-19 13:06:54] Starting hud
+[2024-02-19 13:07:08] Resource 'hud' changed while running, reloading and restarting
+[2024-02-19 13:07:08] Stopping hud
+[2024-02-19 13:07:08] New resource 'hud' loaded
+[2024-02-19 13:07:08] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-19 13:07:08] Resources: 5 loaded, 1 failed
+[2024-02-19 13:07:08] Starting hud
+[2024-02-19 13:30:06] Resource 'Server' changed while running, reloading and restarting
+[2024-02-19 13:30:06] Stopping Server
+[2024-02-19 13:30:06] New resource 'Server' loaded
+[2024-02-19 13:30:06] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-19 13:30:06] Resources: 5 loaded, 1 failed
+[2024-02-19 13:30:06] Starting Server
+[2024-02-19 13:31:04] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-19 13:31:06] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-19 13:31:06] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-19 14:50:59] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-19 14:51:03] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-19 14:51:03] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-19 15:22:58] Server stopped!
+[2024-02-19 15:22:58] Stopping resources.....
+[2024-02-19 15:22:58] Closing SQLite3 database
