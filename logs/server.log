@@ -10863,3 +10863,596 @@
 [2024-02-20 10:22:35] ERROR: Problem with resource: runcode; Failed to link to ajax
 [2024-02-20 10:22:35] Resources: 5 loaded, 1 failed
 [2024-02-20 10:22:35] Starting Server
+[2024-02-20 10:43:49] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-20 10:43:55] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-20 10:43:55] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-20 10:44:41] Resource 'Server' changed while running, reloading and restarting
+[2024-02-20 10:44:41] Stopping Server
+[2024-02-20 10:44:41] New resource 'Server' loaded
+[2024-02-20 10:44:42] New resource 'chat' loaded
+[2024-02-20 10:44:42] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 10:44:42] Resources: 6 loaded, 1 failed
+[2024-02-20 10:44:42] Starting Server
+[2024-02-20 10:44:50] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-20 10:44:51] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-20 10:44:51] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-20 10:52:08] Resource 'chat' changed, reloading
+[2024-02-20 10:52:08] New resource 'chat' loaded
+[2024-02-20 10:52:08] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 10:52:08] Resources: 6 loaded, 1 failed
+[2024-02-20 10:53:06] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 10:53:11] start: Requested by Console
+[2024-02-20 10:53:11] Starting chat
+[2024-02-20 10:53:11] start: Resource 'chat' started
+[2024-02-20 10:53:59] start: Requested by Console
+[2024-02-20 10:53:59] start: Resource is already running
+[2024-02-20 10:54:01] Resource 'chat' changed while running, reloading and restarting
+[2024-02-20 10:54:01] Stopping chat
+[2024-02-20 10:54:01] New resource 'chat' loaded
+[2024-02-20 10:54:01] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 10:54:01] Resources: 6 loaded, 1 failed
+[2024-02-20 10:54:01] Starting chat
+[2024-02-20 10:54:19] Resource 'chat' changed while running, reloading and restarting
+[2024-02-20 10:54:19] Stopping chat
+[2024-02-20 10:54:19] New resource 'chat' loaded
+[2024-02-20 10:54:19] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 10:54:19] Resources: 6 loaded, 1 failed
+[2024-02-20 10:54:19] Starting chat
+[2024-02-20 10:56:17] Resource 'chat' changed while running, reloading and restarting
+[2024-02-20 10:56:17] Stopping chat
+[2024-02-20 10:56:17] New resource 'chat' loaded
+[2024-02-20 10:56:17] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 10:56:17] Resources: 6 loaded, 1 failed
+[2024-02-20 10:56:17] Starting chat
+[2024-02-20 12:28:58] CHAT: PastorzinBR: aa
+[2024-02-20 12:30:44] Resource 'chat' changed while running, reloading and restarting
+[2024-02-20 12:30:44] Stopping chat
+[2024-02-20 12:30:44] New resource 'chat' loaded
+[2024-02-20 12:30:45] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 12:30:45] Resources: 6 loaded, 1 failed
+[2024-02-20 12:30:45] Starting chat
+[2024-02-20 12:31:03] CHAT: PastorzinBR: aa
+[2024-02-20 12:31:04] CHAT: PastorzinBR: aa
+[2024-02-20 12:31:17] Resource 'chat' changed while running, reloading and restarting
+[2024-02-20 12:31:17] Stopping chat
+[2024-02-20 12:31:17] New resource 'chat' loaded
+[2024-02-20 12:31:17] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 12:31:17] Resources: 6 loaded, 1 failed
+[2024-02-20 12:31:17] Starting chat
+[2024-02-20 12:32:09] Resource 'chat' changed while running, reloading and restarting
+[2024-02-20 12:32:09] Stopping chat
+[2024-02-20 12:32:09] New resource 'chat' loaded
+[2024-02-20 12:32:09] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 12:32:09] Resources: 6 loaded, 1 failed
+[2024-02-20 12:32:09] Starting chat
+[2024-02-20 14:19:36] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 14:19:53] Resource 'Server' changed while running, reloading and restarting
+[2024-02-20 14:19:53] Stopping Server
+[2024-02-20 14:19:53] New resource 'Server' loaded
+[2024-02-20 14:19:53] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 14:19:53] Resources: 6 loaded, 1 failed
+[2024-02-20 14:19:53] Starting Server
+[2024-02-20 14:25:10] Resource 'Server' changed while running, reloading and restarting
+[2024-02-20 14:25:10] Stopping Server
+[2024-02-20 14:25:10] New resource 'Server' loaded
+[2024-02-20 14:25:10] New resource 'weather' loaded
+[2024-02-20 14:25:10] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 14:25:10] Resources: 7 loaded, 1 failed
+[2024-02-20 14:25:10] Starting Server
+[2024-02-20 14:25:21] start: Requested by Console
+[2024-02-20 14:25:21] Starting weather
+[2024-02-20 14:25:21] start: Resource 'weather' started
+[2024-02-20 14:25:54] start: Requested by Console
+[2024-02-20 14:25:54] start: Resource is already running
+[2024-02-20 14:25:57] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 14:25:57] Stopping weather
+[2024-02-20 14:25:57] New resource 'weather' loaded
+[2024-02-20 14:25:57] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 14:25:57] Resources: 7 loaded, 1 failed
+[2024-02-20 14:25:57] Starting weather
+[2024-02-20 14:27:44] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 14:27:44] Stopping weather
+[2024-02-20 14:27:44] New resource 'weather' loaded
+[2024-02-20 14:27:44] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 14:27:44] Resources: 7 loaded, 1 failed
+[2024-02-20 14:27:44] Starting weather
+[2024-02-20 14:28:46] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 14:28:46] Stopping weather
+[2024-02-20 14:28:46] New resource 'weather' loaded
+[2024-02-20 14:28:46] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 14:28:46] Resources: 7 loaded, 1 failed
+[2024-02-20 14:28:46] Starting weather
+[2024-02-20 14:29:04] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 14:29:04] Stopping weather
+[2024-02-20 14:29:04] New resource 'weather' loaded
+[2024-02-20 14:29:04] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 14:29:04] Resources: 7 loaded, 1 failed
+[2024-02-20 14:29:04] Starting weather
+[2024-02-20 14:29:25] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 14:29:25] Stopping weather
+[2024-02-20 14:29:25] New resource 'weather' loaded
+[2024-02-20 14:29:25] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 14:29:25] Resources: 7 loaded, 1 failed
+[2024-02-20 14:29:25] Starting weather
+[2024-02-20 14:30:35] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 14:30:35] Stopping weather
+[2024-02-20 14:30:35] New resource 'weather' loaded
+[2024-02-20 14:30:35] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 14:30:35] Resources: 7 loaded, 1 failed
+[2024-02-20 14:30:35] Starting weather
+[2024-02-20 14:33:44] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 14:34:15] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 14:34:15] Stopping weather
+[2024-02-20 14:34:15] New resource 'weather' loaded
+[2024-02-20 14:34:15] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 14:34:15] Resources: 7 loaded, 1 failed
+[2024-02-20 14:34:15] Starting weather
+[2024-02-20 14:34:59] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 14:34:59] Stopping weather
+[2024-02-20 14:34:59] New resource 'weather' loaded
+[2024-02-20 14:34:59] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 14:34:59] Resources: 7 loaded, 1 failed
+[2024-02-20 14:34:59] Starting weather
+[2024-02-20 14:35:35] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 14:35:35] Stopping weather
+[2024-02-20 14:35:35] New resource 'weather' loaded
+[2024-02-20 14:35:35] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 14:35:35] Resources: 7 loaded, 1 failed
+[2024-02-20 14:35:35] Starting weather
+[2024-02-20 14:37:05] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 14:37:05] Stopping weather
+[2024-02-20 14:37:05] New resource 'weather' loaded
+[2024-02-20 14:37:05] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 14:37:05] Resources: 7 loaded, 1 failed
+[2024-02-20 14:37:05] Starting weather
+[2024-02-20 14:39:01] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-20 14:39:06] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-20 14:39:06] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-20 14:58:01] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 14:58:01] Stopping weather
+[2024-02-20 14:58:01] New resource 'weather' loaded
+[2024-02-20 14:58:01] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 14:58:01] Resources: 7 loaded, 1 failed
+[2024-02-20 14:58:01] Starting weather
+[2024-02-20 14:59:42] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 14:59:42] Stopping weather
+[2024-02-20 14:59:42] New resource 'weather' loaded
+[2024-02-20 14:59:42] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 14:59:42] Resources: 7 loaded, 1 failed
+[2024-02-20 14:59:42] Starting weather
+[2024-02-20 15:01:21] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 15:01:21] Stopping weather
+[2024-02-20 15:01:21] New resource 'weather' loaded
+[2024-02-20 15:01:21] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:01:21] Resources: 7 loaded, 1 failed
+[2024-02-20 15:01:21] Starting weather
+[2024-02-20 15:04:33] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 15:04:33] Stopping weather
+[2024-02-20 15:04:33] New resource 'weather' loaded
+[2024-02-20 15:04:33] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:04:33] Resources: 7 loaded, 1 failed
+[2024-02-20 15:04:33] Starting weather
+[2024-02-20 15:14:53] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 15:14:53] Stopping weather
+[2024-02-20 15:14:53] New resource 'weather' loaded
+[2024-02-20 15:14:53] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:14:53] Resources: 7 loaded, 1 failed
+[2024-02-20 15:14:53] Starting weather
+[2024-02-20 15:40:11] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:40:25] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 15:40:25] Stopping weather
+[2024-02-20 15:40:25] New resource 'weather' loaded
+[2024-02-20 15:40:25] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:40:25] Resources: 7 loaded, 1 failed
+[2024-02-20 15:40:25] Starting weather
+[2024-02-20 15:40:44] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 15:40:44] Stopping weather
+[2024-02-20 15:40:44] New resource 'weather' loaded
+[2024-02-20 15:40:44] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:40:44] Resources: 7 loaded, 1 failed
+[2024-02-20 15:40:44] Starting weather
+[2024-02-20 15:41:09] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 15:41:09] Stopping weather
+[2024-02-20 15:41:09] New resource 'weather' loaded
+[2024-02-20 15:41:09] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:41:09] Resources: 7 loaded, 1 failed
+[2024-02-20 15:41:09] Starting weather
+[2024-02-20 15:41:44] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 15:41:44] Stopping weather
+[2024-02-20 15:41:44] New resource 'weather' loaded
+[2024-02-20 15:41:44] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:41:44] Resources: 7 loaded, 1 failed
+[2024-02-20 15:41:44] Starting weather
+[2024-02-20 15:42:04] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 15:42:04] Stopping weather
+[2024-02-20 15:42:04] New resource 'weather' loaded
+[2024-02-20 15:42:04] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:42:04] Resources: 7 loaded, 1 failed
+[2024-02-20 15:42:04] Starting weather
+[2024-02-20 15:42:19] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 15:42:19] Stopping weather
+[2024-02-20 15:42:19] New resource 'weather' loaded
+[2024-02-20 15:42:19] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:42:19] Resources: 7 loaded, 1 failed
+[2024-02-20 15:42:19] Starting weather
+[2024-02-20 15:42:41] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 15:42:41] Stopping weather
+[2024-02-20 15:42:41] New resource 'weather' loaded
+[2024-02-20 15:42:41] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:42:41] Resources: 7 loaded, 1 failed
+[2024-02-20 15:42:41] Starting weather
+[2024-02-20 15:43:23] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 15:43:23] Stopping weather
+[2024-02-20 15:43:23] New resource 'weather' loaded
+[2024-02-20 15:43:23] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:43:23] Resources: 7 loaded, 1 failed
+[2024-02-20 15:43:23] Starting weather
+[2024-02-20 15:43:43] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 15:43:43] Stopping weather
+[2024-02-20 15:43:43] New resource 'weather' loaded
+[2024-02-20 15:43:43] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:43:43] Resources: 7 loaded, 1 failed
+[2024-02-20 15:43:43] Starting weather
+[2024-02-20 15:43:50] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 15:43:50] Stopping weather
+[2024-02-20 15:43:50] New resource 'weather' loaded
+[2024-02-20 15:43:50] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:43:50] Resources: 7 loaded, 1 failed
+[2024-02-20 15:43:50] Starting weather
+[2024-02-20 15:44:26] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 15:44:26] Stopping weather
+[2024-02-20 15:44:26] New resource 'weather' loaded
+[2024-02-20 15:44:26] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:44:26] Resources: 7 loaded, 1 failed
+[2024-02-20 15:44:26] Starting weather
+[2024-02-20 15:44:44] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 15:44:44] Stopping weather
+[2024-02-20 15:44:44] New resource 'weather' loaded
+[2024-02-20 15:44:44] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:44:44] Resources: 7 loaded, 1 failed
+[2024-02-20 15:44:44] Starting weather
+[2024-02-20 15:49:41] New resource 'http' loaded
+[2024-02-20 15:49:41] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 15:49:41] Stopping weather
+[2024-02-20 15:49:41] New resource 'weather' loaded
+[2024-02-20 15:49:41] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:49:41] Resources: 8 loaded, 1 failed
+[2024-02-20 15:49:41] Starting weather
+[2024-02-20 15:49:41] ERROR: [addons]\weather\server.lua:25: exports: Call to non-running server resource (http) [string "?"]
+[2024-02-20 15:50:02] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:50:05] start: Requested by Console
+[2024-02-20 15:50:05] Starting http
+[2024-02-20 15:50:05] start: Resource 'http' started
+[2024-02-20 15:50:09] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:50:13] start: Requested by Console
+[2024-02-20 15:50:13] start: Resource is already running
+[2024-02-20 15:50:17] stop: Requested by Console
+[2024-02-20 15:50:17] stop: Resource stopping
+[2024-02-20 15:50:17] Stopping weather
+[2024-02-20 15:50:18] start: Requested by Console
+[2024-02-20 15:50:18] Starting weather
+[2024-02-20 15:50:18] start: Resource 'weather' started
+[2024-02-20 15:50:46] start: Requested by Console
+[2024-02-20 15:50:46] start: Resource is already running
+[2024-02-20 15:50:48] start: Requested by Console
+[2024-02-20 15:50:48] start: Resource is already running
+[2024-02-20 15:50:49] Resource 'http' changed while running, reloading and restarting
+[2024-02-20 15:50:49] Stopping http
+[2024-02-20 15:50:49] New resource 'http' loaded
+[2024-02-20 15:50:49] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:50:49] Resources: 8 loaded, 1 failed
+[2024-02-20 15:50:49] Starting http
+[2024-02-20 15:50:50] Erro ao solicitar a API: 403
+[2024-02-20 15:51:01] Resource 'http' changed while running, reloading and restarting
+[2024-02-20 15:51:01] Stopping http
+[2024-02-20 15:51:01] New resource 'http' loaded
+[2024-02-20 15:51:01] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:51:01] Resources: 8 loaded, 1 failed
+[2024-02-20 15:51:01] Starting http
+[2024-02-20 15:51:01] Erro ao solicitar a API: 403
+[2024-02-20 15:51:25] Resource 'http' changed while running, reloading and restarting
+[2024-02-20 15:51:25] Stopping http
+[2024-02-20 15:51:25] New resource 'http' loaded
+[2024-02-20 15:51:25] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:51:25] Resources: 8 loaded, 1 failed
+[2024-02-20 15:51:25] Starting http
+[2024-02-20 15:51:25] https://api.weatherapi.com/v1/current.json?q=Flint County&key=99daf59aedc54ca19d8174743242002q=Flint County&key=99daf59aedc54ca19d8174743242002q=Flint County&key=99daf59aedc54ca19d8174743242002q=Flint County&key=99daf59aedc54ca19d8174743242002
+[2024-02-20 15:51:26] Erro ao solicitar a API: 403
+[2024-02-20 15:52:16] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 15:52:16] Stopping weather
+[2024-02-20 15:52:16] New resource 'weather' loaded
+[2024-02-20 15:52:16] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:52:16] Resources: 8 loaded, 1 failed
+[2024-02-20 15:52:16] Starting weather
+[2024-02-20 15:52:16] https://api.weatherapi.com/v1/current.json?q=Flint County&key=99daf59aedc54ca19d8174743242002
+[2024-02-20 15:52:17] Resposta da API: {"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708454920,"localtime":"2024-02-20 18:48"},"current":{"last_updated_epoch":1708454700,"last_updated":"2024-02-20 18:45","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.5,"feelslike_f":41.9,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":25.4,"gust_kph":40.8}}
+[2024-02-20 15:56:25] ERROR: Resource 'http' has been removed while running! Stopping resource.
+[2024-02-20 15:56:25] Stopping http
+[2024-02-20 15:56:25] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 15:56:25] Stopping weather
+[2024-02-20 15:56:25] New resource 'weather' loaded
+[2024-02-20 15:56:25] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:56:25] Resources: 7 loaded, 1 failed
+[2024-02-20 15:56:25] Starting weather
+[2024-02-20 15:56:26] Resposta da API de Clima: {"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455301,"localtime":"2024-02-20 18:55"},"current":{"last_updated_epoch":1708454700,"last_updated":"2024-02-20 18:45","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.5,"feelslike_f":41.9,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":25.4,"gust_kph":40.8}}
+[2024-02-20 15:58:22] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 15:58:22] Stopping weather
+[2024-02-20 15:58:22] New resource 'weather' loaded
+[2024-02-20 15:58:22] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:58:22] Resources: 7 loaded, 1 failed
+[2024-02-20 15:58:22] Starting weather
+[2024-02-20 15:58:22] Resposta da API de Clima: {"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455301,"localtime":"2024-02-20 18:55"},"current":{"last_updated_epoch":1708454700,"last_updated":"2024-02-20 18:45","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.5,"feelslike_f":41.9,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":25.4,"gust_kph":40.8}}
+[2024-02-20 15:58:22] WARNING: [addons]\weather\server.lua:9: Bad argument @ 'triggerClientEvent' [Expected string at argument 1, got nil]
+[2024-02-20 15:59:48] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 15:59:48] Stopping weather
+[2024-02-20 15:59:48] New resource 'weather' loaded
+[2024-02-20 15:59:48] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:59:48] Resources: 7 loaded, 1 failed
+[2024-02-20 15:59:48] Starting weather
+[2024-02-20 15:59:48] WARNING: [addons]\weather\server.lua:36: Bad argument @ 'fetchRemote' [Expected string at argument 3, got resource]
+[2024-02-20 15:59:59] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 15:59:59] Stopping weather
+[2024-02-20 15:59:59] New resource 'weather' loaded
+[2024-02-20 15:59:59] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 15:59:59] Resources: 7 loaded, 1 failed
+[2024-02-20 15:59:59] Starting weather
+[2024-02-20 15:59:59] WARNING: [addons]\weather\server.lua:36: Bad argument @ 'fetchRemote' [Expected string at argument 3, got resource]
+[2024-02-20 16:00:26] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:00:26] Stopping weather
+[2024-02-20 16:00:26] New resource 'weather' loaded
+[2024-02-20 16:00:26] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:00:26] Resources: 7 loaded, 1 failed
+[2024-02-20 16:00:26] Starting weather
+[2024-02-20 16:00:27] Resposta da API de Clima: {"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455542,"localtime":"2024-02-20 18:59"},"current":{"last_updated_epoch":1708454700,"last_updated":"2024-02-20 18:45","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.5,"feelslike_f":41.9,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":25.4,"gust_kph":40.8}}
+[2024-02-20 16:00:54] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:00:54] Stopping weather
+[2024-02-20 16:00:55] New resource 'weather' loaded
+[2024-02-20 16:00:55] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:00:55] Resources: 7 loaded, 1 failed
+[2024-02-20 16:00:55] Starting weather
+[2024-02-20 16:00:55] Resposta da API de Clima: {"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455542,"localtime":"2024-02-20 18:59"},"current":{"last_updated_epoch":1708454700,"last_updated":"2024-02-20 18:45","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.5,"feelslike_f":41.9,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":25.4,"gust_kph":40.8}}
+[2024-02-20 16:01:32] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:01:32] Stopping weather
+[2024-02-20 16:01:32] New resource 'weather' loaded
+[2024-02-20 16:01:32] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:01:32] Resources: 7 loaded, 1 failed
+[2024-02-20 16:01:32] Starting weather
+[2024-02-20 16:01:32] Resposta da API de Clima: {"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455542,"localtime":"2024-02-20 18:59"},"current":{"last_updated_epoch":1708454700,"last_updated":"2024-02-20 18:45","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.5,"feelslike_f":41.9,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":25.4,"gust_kph":40.8}}
+[2024-02-20 16:02:06] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:02:06] Stopping weather
+[2024-02-20 16:02:06] New resource 'weather' loaded
+[2024-02-20 16:02:06] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:02:06] Resources: 7 loaded, 1 failed
+[2024-02-20 16:02:06] Starting weather
+[2024-02-20 16:02:06] Resposta da API de Clima: {"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455542,"localtime":"2024-02-20 18:59"},"current":{"last_updated_epoch":1708454700,"last_updated":"2024-02-20 18:45","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.5,"feelslike_f":41.9,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":25.4,"gust_kph":40.8}}
+[2024-02-20 16:02:41] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:02:41] Stopping weather
+[2024-02-20 16:02:41] New resource 'weather' loaded
+[2024-02-20 16:02:41] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:02:41] Resources: 7 loaded, 1 failed
+[2024-02-20 16:02:41] Starting weather
+[2024-02-20 16:02:41] Resposta da API de Clima: {"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455542,"localtime":"2024-02-20 18:59"},"current":{"last_updated_epoch":1708454700,"last_updated":"2024-02-20 18:45","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.5,"feelslike_f":41.9,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":25.4,"gust_kph":40.8}}
+[2024-02-20 16:02:41] WARNING: [addons]\weather\server.lua:9: Bad argument @ 'getPlayerName' [Expected player or console at argument 1, got resource]
+[2024-02-20 16:02:41] WARNING: [addons]\weather\server.lua:9: Bad argument @ 'outputChatBox' [Expected string at argument 1, got boolean (false)]
+[2024-02-20 16:03:22] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:03:22] Stopping weather
+[2024-02-20 16:03:22] New resource 'weather' loaded
+[2024-02-20 16:03:22] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:03:22] Resources: 7 loaded, 1 failed
+[2024-02-20 16:03:22] Starting weather
+[2024-02-20 16:03:22] Resposta da API de Clima: {"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455542,"localtime":"2024-02-20 18:59"},"current":{"last_updated_epoch":1708454700,"last_updated":"2024-02-20 18:45","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.5,"feelslike_f":41.9,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":25.4,"gust_kph":40.8}}
+[2024-02-20 16:03:41] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:03:41] Stopping weather
+[2024-02-20 16:03:41] New resource 'weather' loaded
+[2024-02-20 16:03:41] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:03:41] Resources: 7 loaded, 1 failed
+[2024-02-20 16:03:41] Starting weather
+[2024-02-20 16:03:42] Resposta da API de Clima: {"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455724,"localtime":"2024-02-20 19:02"},"current":{"last_updated_epoch":1708455600,"last_updated":"2024-02-20 19:00","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.9,"feelslike_f":42.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":22.9,"gust_kph":36.9}}
+[2024-02-20 16:04:12] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:04:12] Stopping weather
+[2024-02-20 16:04:12] New resource 'weather' loaded
+[2024-02-20 16:04:12] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:04:12] Resources: 7 loaded, 1 failed
+[2024-02-20 16:04:12] Starting weather
+[2024-02-20 16:04:12] Resposta da API de Clima: {"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455724,"localtime":"2024-02-20 19:02"},"current":{"last_updated_epoch":1708455600,"last_updated":"2024-02-20 19:00","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.9,"feelslike_f":42.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":22.9,"gust_kph":36.9}}
+[2024-02-20 16:04:12] WARNING: [addons]\weather\server.lua:9: Bad argument @ 'triggerClientEvent' [Expected element at argument 3, got string '{"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455724,"localtime":"2024-02-20 19:02"},"current":{"last_updated_epoch":1708455600,"last_updated":"2024-02-20 19:00","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.9,"feelslike_f":42.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":22.9,"gust_kph":36.9}}']
+[2024-02-20 16:04:41] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:04:41] Stopping weather
+[2024-02-20 16:04:41] New resource 'weather' loaded
+[2024-02-20 16:04:41] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:04:41] Resources: 7 loaded, 1 failed
+[2024-02-20 16:04:41] Starting weather
+[2024-02-20 16:04:41] Resposta da API de Clima: {"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455724,"localtime":"2024-02-20 19:02"},"current":{"last_updated_epoch":1708455600,"last_updated":"2024-02-20 19:00","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.9,"feelslike_f":42.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":22.9,"gust_kph":36.9}}
+[2024-02-20 16:04:41] WARNING: [addons]\weather\server.lua:9: Bad argument @ 'triggerClientEvent' [Expected element at argument 3, got string '{"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455724,"localtime":"2024-02-20 19:02"},"current":{"last_updated_epoch":1708455600,"last_updated":"2024-02-20 19:00","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.9,"feelslike_f":42.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":22.9,"gust_kph":36.9}}']
+[2024-02-20 16:04:55] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:04:55] Stopping weather
+[2024-02-20 16:04:55] New resource 'weather' loaded
+[2024-02-20 16:04:55] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:04:55] Resources: 7 loaded, 1 failed
+[2024-02-20 16:04:55] Starting weather
+[2024-02-20 16:04:55] Resposta da API de Clima: {"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455724,"localtime":"2024-02-20 19:02"},"current":{"last_updated_epoch":1708455600,"last_updated":"2024-02-20 19:00","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.9,"feelslike_f":42.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":22.9,"gust_kph":36.9}}
+[2024-02-20 16:04:55] WARNING: [addons]\weather\server.lua:9: Bad argument @ 'triggerClientEvent' [Expected element at argument 3, got string '{"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455724,"localtime":"2024-02-20 19:02"},"current":{"last_updated_epoch":1708455600,"last_updated":"2024-02-20 19:00","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.9,"feelslike_f":42.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":22.9,"gust_kph":36.9}}']
+[2024-02-20 16:05:42] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:05:42] Stopping weather
+[2024-02-20 16:05:42] New resource 'weather' loaded
+[2024-02-20 16:05:42] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:05:42] Resources: 7 loaded, 1 failed
+[2024-02-20 16:05:42] Starting weather
+[2024-02-20 16:05:42] Resposta da API de Clima: {"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455724,"localtime":"2024-02-20 19:02"},"current":{"last_updated_epoch":1708455600,"last_updated":"2024-02-20 19:00","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.9,"feelslike_f":42.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":22.9,"gust_kph":36.9}}
+[2024-02-20 16:05:42] WARNING: [addons]\weather\server.lua:10: Bad argument @ 'triggerClientEvent' [Expected element at argument 3, got string '{"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455724,"localtime":"2024-02-20 19:02"},"current":{"last_updated_epoch":1708455600,"last_updated":"2024-02-20 19:00","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.9,"feelslike_f":42.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":22.9,"gust_kph":36.9}}']
+[2024-02-20 16:06:01] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:06:01] Stopping weather
+[2024-02-20 16:06:01] New resource 'weather' loaded
+[2024-02-20 16:06:01] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:06:01] Resources: 7 loaded, 1 failed
+[2024-02-20 16:06:01] Starting weather
+[2024-02-20 16:06:01] Resposta da API de Clima: {"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455724,"localtime":"2024-02-20 19:02"},"current":{"last_updated_epoch":1708455600,"last_updated":"2024-02-20 19:00","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.9,"feelslike_f":42.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":22.9,"gust_kph":36.9}}
+[2024-02-20 16:06:01] WARNING: [addons]\weather\server.lua:10: Bad argument @ 'triggerClientEvent' [Expected element at argument 3, got string '{"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455724,"localtime":"2024-02-20 19:02"},"current":{"last_updated_epoch":1708455600,"last_updated":"2024-02-20 19:00","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.9,"feelslike_f":42.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":22.9,"gust_kph":36.9}}']
+[2024-02-20 16:06:31] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:06:31] Stopping weather
+[2024-02-20 16:06:31] New resource 'weather' loaded
+[2024-02-20 16:06:31] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:06:31] Resources: 7 loaded, 1 failed
+[2024-02-20 16:06:31] Starting weather
+[2024-02-20 16:06:31] Resposta da API de Clima: {"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455724,"localtime":"2024-02-20 19:02"},"current":{"last_updated_epoch":1708455600,"last_updated":"2024-02-20 19:00","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.9,"feelslike_f":42.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":22.9,"gust_kph":36.9}}
+[2024-02-20 16:06:31] WARNING: [addons]\weather\server.lua:10: Bad argument @ 'triggerClientEvent' [Expected element at argument 3, got string '{"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455724,"localtime":"2024-02-20 19:02"},"current":{"last_updated_epoch":1708455600,"last_updated":"2024-02-20 19:00","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.9,"feelslike_f":42.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":22.9,"gust_kph":36.9}}']
+[2024-02-20 16:06:44] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:06:44] Stopping weather
+[2024-02-20 16:06:44] New resource 'weather' loaded
+[2024-02-20 16:06:44] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:06:44] Resources: 7 loaded, 1 failed
+[2024-02-20 16:06:44] Starting weather
+[2024-02-20 16:06:45] Resposta da API de Clima: {"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455542,"localtime":"2024-02-20 18:59"},"current":{"last_updated_epoch":1708454700,"last_updated":"2024-02-20 18:45","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.5,"feelslike_f":41.9,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":25.4,"gust_kph":40.8}}
+[2024-02-20 16:06:45] WARNING: [addons]\weather\server.lua:10: Bad argument @ 'triggerClientEvent' [Expected element at argument 3, got string '{"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455542,"localtime":"2024-02-20 18:59"},"current":{"last_updated_epoch":1708454700,"last_updated":"2024-02-20 18:45","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.5,"feelslike_f":41.9,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":25.4,"gust_kph":40.8}}']
+[2024-02-20 16:07:28] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:07:28] Stopping weather
+[2024-02-20 16:07:28] New resource 'weather' loaded
+[2024-02-20 16:07:28] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:07:28] Resources: 7 loaded, 1 failed
+[2024-02-20 16:07:28] Starting weather
+[2024-02-20 16:07:28] WARNING: [addons]\weather\server.lua:8: Bad argument @ 'triggerClientEvent' [Expected element at argument 3, got string '{"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455542,"localtime":"2024-02-20 18:59"},"current":{"last_updated_epoch":1708454700,"last_updated":"2024-02-20 18:45","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.5,"feelslike_f":41.9,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":25.4,"gust_kph":40.8}}']
+[2024-02-20 16:08:08] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:08:08] Stopping weather
+[2024-02-20 16:08:08] New resource 'weather' loaded
+[2024-02-20 16:08:08] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:08:08] Resources: 7 loaded, 1 failed
+[2024-02-20 16:08:08] Starting weather
+[2024-02-20 16:08:08] WARNING: [addons]\weather\server.lua:8: Bad argument @ 'triggerClientEvent' [Expected element at argument 3, got string '{"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708455542,"localtime":"2024-02-20 18:59"},"current":{"last_updated_epoch":1708454700,"last_updated":"2024-02-20 18:45","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.5,"feelslike_f":41.9,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":25.4,"gust_kph":40.8}}']
+[2024-02-20 16:09:22] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:09:22] Stopping weather
+[2024-02-20 16:09:22] New resource 'weather' loaded
+[2024-02-20 16:09:22] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:09:22] Resources: 7 loaded, 1 failed
+[2024-02-20 16:09:22] Starting weather
+[2024-02-20 16:09:34] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:09:34] Stopping weather
+[2024-02-20 16:09:34] New resource 'weather' loaded
+[2024-02-20 16:09:34] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:09:34] Resources: 7 loaded, 1 failed
+[2024-02-20 16:09:34] Starting weather
+[2024-02-20 16:09:50] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:09:50] Stopping weather
+[2024-02-20 16:09:50] New resource 'weather' loaded
+[2024-02-20 16:09:50] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:09:50] Resources: 7 loaded, 1 failed
+[2024-02-20 16:09:50] Starting weather
+[2024-02-20 16:10:12] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:10:12] Stopping weather
+[2024-02-20 16:10:12] New resource 'weather' loaded
+[2024-02-20 16:10:12] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:10:12] Resources: 7 loaded, 1 failed
+[2024-02-20 16:10:12] Starting weather
+[2024-02-20 16:10:12] [ "{\"location\":{\"name\":\"Flint Hill\",\"region\":\"County Durham\",\"country\":\"United Kingdom\",\"lat\":54.89,\"lon\":-1.74,\"tz_id\":\"Europe\/London\",\"localtime_epoch\":1708456093,\"localtime\":\"2024-02-20 19:08\"},\"current\":{\"last_updated_epoch\":1708455600,\"last_updated\":\"2024-02-20 19:00\",\"temp_c\":9.0,\"temp_f\":48.2,\"is_day\":0,\"condition\":{\"text\":\"Partly cloudy\",\"icon\":\"\/\/cdn.weatherapi.com\/weather\/64x64\/night\/116.png\",\"code\":1003},\"wind_mph\":17.4,\"wind_kph\":28.1,\"wind_degree\":280,\"wind_dir\":\"W\",\"pressure_mb\":1013.0,\"pressure_in\":29.91,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":87,\"cloud\":25,\"feelslike_c\":5.9,\"feelslike_f\":42.5,\"vis_km\":10.0,\"vis_miles\":6.0,\"uv\":1.0,\"gust_mph\":22.9,\"gust_kph\":36.9}}" ]
+[2024-02-20 16:10:25] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:10:25] Stopping weather
+[2024-02-20 16:10:25] New resource 'weather' loaded
+[2024-02-20 16:10:25] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:10:25] Resources: 7 loaded, 1 failed
+[2024-02-20 16:10:25] Starting weather
+[2024-02-20 16:10:25] {"location":{"name":"Flint Hill","region":"County Durham","country":"United Kingdom","lat":54.89,"lon":-1.74,"tz_id":"Europe/London","localtime_epoch":1708456093,"localtime":"2024-02-20 19:08"},"current":{"last_updated_epoch":1708455600,"last_updated":"2024-02-20 19:00","temp_c":9.0,"temp_f":48.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":17.4,"wind_kph":28.1,"wind_degree":280,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"humidity":87,"cloud":25,"feelslike_c":5.9,"feelslike_f":42.5,"vis_km":10.0,"vis_miles":6.0,"uv":1.0,"gust_mph":22.9,"gust_kph":36.9}}
+[2024-02-20 16:10:43] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:10:43] Stopping weather
+[2024-02-20 16:10:43] New resource 'weather' loaded
+[2024-02-20 16:10:43] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:10:43] Resources: 7 loaded, 1 failed
+[2024-02-20 16:10:43] Starting weather
+[2024-02-20 16:11:27] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:11:27] Stopping weather
+[2024-02-20 16:11:27] New resource 'weather' loaded
+[2024-02-20 16:11:27] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:11:27] Resources: 7 loaded, 1 failed
+[2024-02-20 16:11:27] Starting weather
+[2024-02-20 16:11:41] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:11:41] Stopping weather
+[2024-02-20 16:11:41] New resource 'weather' loaded
+[2024-02-20 16:11:41] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:11:41] Resources: 7 loaded, 1 failed
+[2024-02-20 16:11:41] Starting weather
+[2024-02-20 16:11:56] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:11:56] Stopping weather
+[2024-02-20 16:11:56] New resource 'weather' loaded
+[2024-02-20 16:11:56] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:11:56] Resources: 7 loaded, 1 failed
+[2024-02-20 16:11:56] Starting weather
+[2024-02-20 16:12:07] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:12:07] Stopping weather
+[2024-02-20 16:12:07] New resource 'weather' loaded
+[2024-02-20 16:12:07] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:12:07] Resources: 7 loaded, 1 failed
+[2024-02-20 16:12:07] Starting weather
+[2024-02-20 16:12:53] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:12:53] Stopping weather
+[2024-02-20 16:12:53] New resource 'weather' loaded
+[2024-02-20 16:12:53] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:12:53] Resources: 7 loaded, 1 failed
+[2024-02-20 16:12:53] Starting weather
+[2024-02-20 16:13:49] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:13:49] Stopping weather
+[2024-02-20 16:13:49] New resource 'weather' loaded
+[2024-02-20 16:13:49] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:13:49] Resources: 7 loaded, 1 failed
+[2024-02-20 16:13:49] Starting weather
+[2024-02-20 16:14:37] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:14:37] Stopping weather
+[2024-02-20 16:14:37] New resource 'weather' loaded
+[2024-02-20 16:14:37] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:14:37] Resources: 7 loaded, 1 failed
+[2024-02-20 16:14:37] Starting weather
+[2024-02-20 16:15:14] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:15:14] Stopping weather
+[2024-02-20 16:15:14] New resource 'weather' loaded
+[2024-02-20 16:15:14] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:15:14] Resources: 7 loaded, 1 failed
+[2024-02-20 16:15:14] Starting weather
+[2024-02-20 16:15:43] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:15:43] Stopping weather
+[2024-02-20 16:15:43] New resource 'weather' loaded
+[2024-02-20 16:15:43] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:15:43] Resources: 7 loaded, 1 failed
+[2024-02-20 16:15:43] Starting weather
+[2024-02-20 16:16:32] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:16:32] Stopping weather
+[2024-02-20 16:16:32] New resource 'weather' loaded
+[2024-02-20 16:16:32] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:16:32] Resources: 7 loaded, 1 failed
+[2024-02-20 16:16:32] Starting weather
+[2024-02-20 16:25:08] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:25:08] Stopping weather
+[2024-02-20 16:25:08] New resource 'weather' loaded
+[2024-02-20 16:25:08] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:25:08] Resources: 7 loaded, 1 failed
+[2024-02-20 16:25:08] Starting weather
+[2024-02-20 16:26:21] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:26:21] Stopping weather
+[2024-02-20 16:26:21] New resource 'weather' loaded
+[2024-02-20 16:26:21] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:26:21] Resources: 7 loaded, 1 failed
+[2024-02-20 16:26:21] Starting weather
+[2024-02-20 16:26:44] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:26:44] Stopping weather
+[2024-02-20 16:26:44] New resource 'weather' loaded
+[2024-02-20 16:26:44] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:26:44] Resources: 7 loaded, 1 failed
+[2024-02-20 16:26:44] Starting weather
+[2024-02-20 16:26:44] {"location":{"name":"San Francisco (Bajio San Francisco)","region":"Chihuahua","country":"Mexico","lat":26.9,"lon":-107.07,"tz_id":"America/Chihuahua","localtime_epoch":1708457082,"localtime":"2024-02-20 13:24"},"current":{"last_updated_epoch":1708456500,"last_updated":"2024-02-20 13:15","temp_c":21.5,"temp_f":70.7,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":6.0,"wind_kph":9.7,"wind_degree":211,"wind_dir":"SSW","pressure_mb":1021.0,"pressure_in":30.15,"precip_mm":0.0,"precip_in":0.0,"humidity":6,"cloud":0,"feelslike_c":21.5,"feelslike_f":70.7,"vis_km":10.0,"vis_miles":6.0,"uv":6.0,"gust_mph":7.0,"gust_kph":11.2}}
+[2024-02-20 16:28:24] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:28:24] Stopping weather
+[2024-02-20 16:28:24] New resource 'weather' loaded
+[2024-02-20 16:28:24] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:28:24] Resources: 7 loaded, 1 failed
+[2024-02-20 16:28:24] Starting weather
+[2024-02-20 16:28:24] {"location":{"name":"Berkeley","region":"California","country":"United States of America","lat":37.87,"lon":-122.27,"tz_id":"America/Los_Angeles","localtime_epoch":1708457206,"localtime":"2024-02-20 11:26"},"current":{"last_updated_epoch":1708456500,"last_updated":"2024-02-20 11:15","temp_c":15.0,"temp_f":59.0,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":140,"wind_dir":"SE","pressure_mb":1018.0,"pressure_in":30.07,"precip_mm":0.08,"precip_in":0.0,"humidity":75,"cloud":75,"feelslike_c":14.0,"feelslike_f":57.3,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":13.5,"gust_kph":21.7}}
+[2024-02-20 16:29:02] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 16:29:02] Stopping weather
+[2024-02-20 16:29:02] New resource 'weather' loaded
+[2024-02-20 16:29:02] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 16:29:02] Resources: 7 loaded, 1 failed
+[2024-02-20 16:29:02] Starting weather
+[2024-02-20 16:29:02] {"location":{"name":"Berkeley","region":"California","country":"United States of America","lat":37.87,"lon":-122.27,"tz_id":"America/Los_Angeles","localtime_epoch":1708457206,"localtime":"2024-02-20 11:26"},"current":{"last_updated_epoch":1708456500,"last_updated":"2024-02-20 11:15","temp_c":15.0,"temp_f":59.0,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":140,"wind_dir":"SE","pressure_mb":1018.0,"pressure_in":30.07,"precip_mm":0.08,"precip_in":0.0,"humidity":75,"cloud":75,"feelslike_c":14.0,"feelslike_f":57.3,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":13.5,"gust_kph":21.7}}
+[2024-02-20 17:07:16] Resource 'weather' changed while running, reloading and restarting
+[2024-02-20 17:07:16] Stopping weather
+[2024-02-20 17:07:16] New resource 'weather' loaded
+[2024-02-20 17:07:16] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 17:07:16] Resources: 7 loaded, 1 failed
+[2024-02-20 17:07:16] Starting weather
+[2024-02-20 17:07:17] {"location":{"name":"Berkeley","region":"California","country":"United States of America","lat":37.87,"lon":-122.27,"tz_id":"America/Los_Angeles","localtime_epoch":1708459539,"localtime":"2024-02-20 12:05"},"current":{"last_updated_epoch":1708459200,"last_updated":"2024-02-20 12:00","temp_c":15.0,"temp_f":59.0,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":140,"wind_dir":"SE","pressure_mb":1018.0,"pressure_in":30.07,"precip_mm":0.07,"precip_in":0.0,"humidity":75,"cloud":75,"feelslike_c":14.2,"feelslike_f":57.6,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":17.0,"gust_kph":27.4}}
