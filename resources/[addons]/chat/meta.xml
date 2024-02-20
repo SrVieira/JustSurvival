@@ -3,4 +3,5 @@
 
     <!-- Scripts -->
     <script src="client.lua" type="client" cache="true" validate="true" />
+    <script src="server.lua" type="server" cache="true" validate="true" />
 </meta>
