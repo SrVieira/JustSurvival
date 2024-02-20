@@ -10803,3 +10803,63 @@
 [2024-02-19 15:22:58] Server stopped!
 [2024-02-19 15:22:58] Stopping resources.....
 [2024-02-19 15:22:58] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : |PT-BR| Just Survival - World in Chaos |APOCALIPSE|
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : .. 1.6/server/mods/deathmatch/logs/server.log
+= Maximum players  : 50
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : Medium
+==================================================================
+[2024-02-20 09:32:58] Compacting accounts database 'internal.db' ...
+[2024-02-20 09:32:59] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2024-02-20 09:33:02] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 09:33:02] Resources: 5 loaded, 1 failed
+[2024-02-20 09:33:02] Compacting database 'registry.db' ...
+[2024-02-20 09:33:03] Starting resources.....
+[2024-02-20 09:33:03] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2024-02-20 09:33:03] WARNING: <owner_email_address> not set
+[2024-02-20 09:33:03] Server started and is ready to accept connections!
+[2024-02-20 09:33:03] To stop the server, type 'shutdown' or press Ctrl-C
+[2024-02-20 09:33:03] Type 'help' for a list of commands.
+[2024-02-20 09:33:03] Querying MTA master server... success! (Auto detected IP:45.234.1.212)
+[2024-02-20 09:36:20] Server minclientversion is now 1.6.0-9.22388.0
+[2024-02-20 09:36:20] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-20 09:36:26] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-20 09:37:47] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-20 09:37:49] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-20 09:37:49] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-20 09:47:01] CHAT: PastorzinBR: AA
+[2024-02-20 10:05:57] CHAT: PastorzinBR: aa
+[2024-02-20 10:07:33] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-20 10:07:35] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-20 10:07:35] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-20 10:14:40] Resource 'Server' changed while running, reloading and restarting
+[2024-02-20 10:14:40] Stopping Server
+[2024-02-20 10:14:40] New resource 'Server' loaded
+[2024-02-20 10:14:40] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 10:14:40] Resources: 5 loaded, 1 failed
+[2024-02-20 10:14:40] Starting Server
+[2024-02-20 10:14:46] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-20 10:14:48] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-20 10:14:48] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-20 10:17:29] Resource 'Server' changed while running, reloading and restarting
+[2024-02-20 10:17:29] Stopping Server
+[2024-02-20 10:17:29] New resource 'Server' loaded
+[2024-02-20 10:17:29] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 10:17:29] Resources: 5 loaded, 1 failed
+[2024-02-20 10:17:29] Starting Server
+[2024-02-20 10:17:36] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-20 10:17:38] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-20 10:17:38] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-20 10:22:35] Resource 'Server' changed while running, reloading and restarting
+[2024-02-20 10:22:35] Stopping Server
+[2024-02-20 10:22:35] New resource 'Server' loaded
+[2024-02-20 10:22:35] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-20 10:22:35] Resources: 5 loaded, 1 failed
+[2024-02-20 10:22:35] Starting Server
