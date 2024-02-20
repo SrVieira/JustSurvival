@@ -1,0 +1,6 @@
+<meta>
+    <info author="Matheus Vieira" version="1.0" name="chat" description="Chat addon" type="script" />
+
+    <!-- Scripts -->
+    <script src="client.lua" type="client" cache="true" validate="true" />
+</meta>

@@ -6,6 +6,7 @@ end
 
 -- Temp
 function handleCheckPlayerJoin()
+    clearChatBox(source);
     local randomPos = getRandomSpawnByRegion("LOS SANTOS");
     spawnPlayer(source, randomPos[1], randomPos[2], randomPos[3], 0, 0, 0, 0);
     fadeCamera(source, true);
