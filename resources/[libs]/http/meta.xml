@@ -1,0 +1,9 @@
+<meta>
+    <info author="Matheus Vieira" version="1.0" name="Lib HTTP" description="Lib to http requests" type="script" />
+
+    <!-- Scripts -->
+    <script src="lib.lua" type="shared" cache="true" validate="true" />
+
+    <!-- Exports -->
+    <export function="fetchData" type="shared" http="true" />
+</meta>
