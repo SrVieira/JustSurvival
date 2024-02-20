@@ -1,0 +1,6 @@
+<meta>
+    <info author="Matheus Vieira" version="1.0" name="weather" description="Weather addon" type="script" />
+
+    <!-- Scripts -->
+    <script src="server.lua" type="server" cache="true" validate="true" />
+</meta>

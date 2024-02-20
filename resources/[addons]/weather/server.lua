@@ -1,0 +1,1 @@
+setMinuteDuration(60000);
