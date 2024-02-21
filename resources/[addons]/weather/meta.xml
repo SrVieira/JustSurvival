@@ -2,6 +2,7 @@
     <info author="Matheus Vieira" version="1.0" name="weather" description="Weather addon" type="script" />
 
     <!-- Scripts -->
+    <script src="weathers.lua" type="shared" cache="true" validate="true" />
     <script src="client.lua" type="client" cache="true" validate="true" />
     <script src="server.lua" type="server" cache="true" validate="true" />
 </meta>

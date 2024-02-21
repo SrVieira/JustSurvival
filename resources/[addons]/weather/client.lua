@@ -29,14 +29,17 @@ local function handleLoadWeather()
     end
 end
 addEventHandler("onClientResourceStart", root, handleLoadWeather);
-setTimer(handleLoadWeather, timeToUpdate, 0);
 
 function setWeatherToClient(data)
     if data then
         local temperature = data.current.temp_c;
         local weather = data.current.condition.code;
 
-        outputChatBox(temperature);
+        outputChatBox(weather)
+
+        setElementData(localPlayer, "weather", weather);
+        outputChatBox(weathers[weather][1]);
+        setWeather(weathers[weather][1]);
     end
 end
 addEvent("onSetClientWeather", true);
