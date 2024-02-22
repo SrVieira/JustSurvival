@@ -12008,3 +12008,9 @@
 [2024-02-22 12:06:23] ERROR: Problem with resource: runcode; Failed to link to ajax
 [2024-02-22 12:06:23] Resources: 7 loaded, 1 failed
 [2024-02-22 12:06:23] Starting hud
+[2024-02-22 12:11:34] Resource 'hud' changed while running, reloading and restarting
+[2024-02-22 12:11:34] Stopping hud
+[2024-02-22 12:11:34] New resource 'hud' loaded
+[2024-02-22 12:11:34] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-22 12:11:34] Resources: 7 loaded, 1 failed
+[2024-02-22 12:11:34] Starting hud

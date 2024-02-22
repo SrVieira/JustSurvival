@@ -7,7 +7,12 @@
 
     <!-- Tables -->
     <script src="tables/player_tables.lua" type="shared" cache="true" validate="true" />
+    <script src="tables/loot_tables.lua" type="shared" cache="true" validate="true" />
 
-    <!-- Handlers -->
-    <script src="handlers/spawns_player.lua" type="server" cache="true" validate="true" />
+    <!-- Handlers:Server -->
+    <script src="handlers/server/spawns_player.lua" type="server" cache="true" validate="true" />
+    <script src="handlers/server/spawns_loot.lua" type="server" cache="true" validate="true" />
+
+    <!-- Handlers:Client -->
+    <script src="handlers/client/interactions_loot.lua" type="client" cache="true" validate="true" />
 </meta>
