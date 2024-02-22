@@ -1,5 +1,3 @@
-local timeToUpdate = 43200000; -- 12 hours
-
 local function checkCurrentZone()
     local currentLocation = getElementData(localPlayer, "currentLocation") or nil;
     local currentWeather = getElementData(localPlayer, "currentWeather") or nil;
@@ -12,36 +10,23 @@ local function checkCurrentZone()
 end
 setTimer(checkCurrentZone, 1000, 0);
 
-local function setWeatherByZone(theKey, oldValue, newValue)
-    if (getElementType(source) == "player") and (theKey == "currentLocation") then
-        if newValue ~= "Unknown" and newValue ~= nil then
-            triggerServerEvent("onGetRealWeather", resourceRoot, localPlayer, newValue);
-        end
-    end
-end
-addEventHandler("onClientElementDataChange", root, setWeatherByZone);
+local function handleLoadWeather(theKey, oldValue, newValue)
+    local currentLocation = newValue;
 
-local function handleLoadWeather()
-    local currentLocation = getElementData(localPlayer, "currentLocation") or nil;
-    
     if currentLocation ~= nil or currentLocation ~= "unknown" then
-        triggerServerEvent("onGetRealWeather", resourceRoot, localPlayer, currentLocation);
+        triggerServerEvent("getCurrentWeatherByRegion", resourceRoot, localPlayer, currentLocation);
     end
 end
-addEventHandler("onClientResourceStart", root, handleLoadWeather);
+addEventHandler("onClientElementDataChange", root, handleLoadWeather);
 
-function setWeatherToClient(data)
-    if data then
-        local temperature = data.current.temp_c;
-        local weather = data.current.condition.code;
-
-        outputChatBox(weather)
-
-        setElementData(localPlayer, "weather", weather);
-        outputChatBox(weathers[weather][1]);
-        setWeather(weathers[weather][1]);
+function updateClientWeather(player, weatherData)
+    if (getElementData(localPlayer, "changedWeather") or false) then
+        setWeather(weatherData.weather);
+        setElementData(localPlayer, "changedWeather", true);
+    else
+        setWeatherBlended(weatherData.weather);
     end
 end
-addEvent("onSetClientWeather", true);
-addEventHandler("onSetClientWeather", root, setWeatherToClient);
+addEvent("updateClientWeather", true);
+addEventHandler("updateClientWeather", root, updateClientWeather);
 

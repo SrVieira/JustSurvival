@@ -1,18 +1,30 @@
 local apiKey = '99daf59aedc54ca19d8174743242002';
 local apiUrl = 'https://api.weatherapi.com/v1/current.json?';
+local weathersLoaded = {
+    ["Los Santos"] = { weather = nil, temperature = nil },
+    ["San Fierro"] = { weather = nil, temperature = nil },
+    ["Las Venturas"] = { weather = nil, temperature = nil },
+    ["Red County"] = { weather = nil, temperature = nil },
+    ["Bone County"] = { weather = nil, temperature = nil },
+    ["Flint County"] = { weather = nil, temperature = nil },
+    ["Whetstone"] = { weather = nil, temperature = nil },
+    ["Tierra Robada"] = { weather = nil, temperature = nil },
+};
+local timeToUpdateWeather = 43200000; -- 12 hours
 
 setMinuteDuration(60000);
 
-function handleResponse(response, error, player)
+local function handleResponse(response, error, zone)
     if error == 0 then
-        outputServerLog(response);
-        triggerClientEvent(player, "onSetClientWeather", resourceRoot, fromJSON(response));
+        local data = fromJSON(response);
+        weathersLoaded[zone].temperature = data.current.temp_c;
+        weathersLoaded[zone].weather = weathers[data.current.condition.code][1];
     else
         outputServerLog("Erro ao solicitar a API de Clima: " .. tostring(error));
     end
 end
 
-function getRealWeatherByZone(player, zone)
+local function generateWeatherByZone(zone)
     local newUrl = '';
 
     if zone == "Los Santos" then
@@ -32,9 +44,27 @@ function getRealWeatherByZone(player, zone)
     elseif zone == "Tierra Robada" then
         newUrl = apiUrl.."q=Ridgecrest&key="..apiKey;
     end
-    
-    fetchRemote(newUrl, handleResponse, "", false, player);
-end
-addEvent("onGetRealWeather", true);
-addEventHandler("onGetRealWeather", resourceRoot, getRealWeatherByZone);
 
+    fetchRemote(newUrl, handleResponse, "", false, zone);
+end
+
+local function generateAllWeathers()
+    generateWeatherByZone("Los Santos");
+    generateWeatherByZone("San Fierro");
+    generateWeatherByZone("Las Venturas");
+    generateWeatherByZone("Red County");
+    generateWeatherByZone("Bone County");
+    generateWeatherByZone("Flint County");
+    generateWeatherByZone("Whetstone");
+    generateWeatherByZone("Tierra Robada");   
+end
+addEventHandler("onResourceStart", getRootElement(), generateAllWeathers);
+setTimer(generateAllWeathers, timeToUpdateWeather, 0);
+
+function getCurrentWeatherByRegion(player, zone)
+    local weather = weathersLoaded[zone];
+
+    triggerClientEvent(player, "updateClientWeather", player, player, weather);    
+end
+addEvent("getCurrentWeatherByRegion", true);
+addEventHandler("getCurrentWeatherByRegion", getRootElement(), getCurrentWeatherByRegion);
