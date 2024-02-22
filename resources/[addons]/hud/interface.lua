@@ -13,8 +13,12 @@ local function disableOriginalHUD()
     setPlayerHudComponentVisible("wanted", false);
 end
 
+local function handleMoundHud()
+end
+
 local function handleLoadResource()
     disableOriginalHUD();
+    addEventHandler("onClientRender", getRootElement(), handleMoundHud);
 end
 addEventHandler("onClientResourceStart", getRootElement(), handleLoadResource);
 

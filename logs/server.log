@@ -11715,3 +11715,296 @@
 [2024-02-21 15:41:07] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
 [2024-02-21 15:41:08] Erro ao solicitar a API de Clima: 3
 [2024-02-21 15:41:09] {"location":{"name":"Los Angeles","region":"California","country":"United States of America","lat":34.05,"lon":-118.24,"tz_id":"America/Los_Angeles","localtime_epoch":1708540769,"localtime":"2024-02-21 10:39"},"current":{"last_updated_epoch":1708540200,"last_updated":"2024-02-21 10:30","temp_c":16.1,"temp_f":61.0,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":3.8,"wind_kph":6.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1021.0,"pressure_in":30.15,"precip_mm":0.27,"precip_in":0.01,"humidity":67,"cloud":0,"feelslike_c":16.1,"feelslike_f":61.0,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":8.3,"gust_kph":13.3}}
+[2024-02-21 17:49:54] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 17:49:54] Stopping weather
+[2024-02-21 17:49:54] New resource 'weather' loaded
+[2024-02-21 17:49:54] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 17:49:54] Resources: 7 loaded, 1 failed
+[2024-02-21 17:49:54] Starting weather
+[2024-02-21 17:49:54] SCRIPT ERROR: [addons]\weather\server.lua:4: '<name>' expected near 'nil'
+[2024-02-21 17:49:54] ERROR: Loading script failed: [addons]\weather\server.lua:4: '<name>' expected near 'nil'
+[2024-02-21 17:50:16] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 17:50:16] Stopping weather
+[2024-02-21 17:50:16] New resource 'weather' loaded
+[2024-02-21 17:50:16] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 17:50:16] Resources: 7 loaded, 1 failed
+[2024-02-21 17:50:16] Starting weather
+[2024-02-21 17:50:16] Erro ao solicitar a API de Clima: 3
+[2024-02-21 17:50:34] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 17:50:34] Stopping weather
+[2024-02-21 17:50:34] New resource 'weather' loaded
+[2024-02-21 17:50:34] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 17:50:34] Resources: 7 loaded, 1 failed
+[2024-02-21 17:50:34] Starting weather
+[2024-02-21 17:50:34] Erro ao solicitar a API de Clima: 3
+[2024-02-21 17:50:44] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 17:50:44] Stopping weather
+[2024-02-21 17:50:44] New resource 'weather' loaded
+[2024-02-21 17:50:44] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 17:50:44] Resources: 7 loaded, 1 failed
+[2024-02-21 17:50:44] Starting weather
+[2024-02-21 17:50:44] Erro ao solicitar a API de Clima: 3
+[2024-02-21 17:51:00] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 17:51:00] Stopping weather
+[2024-02-21 17:51:00] New resource 'weather' loaded
+[2024-02-21 17:51:00] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 17:51:00] Resources: 7 loaded, 1 failed
+[2024-02-21 17:51:01] Starting weather
+[2024-02-21 17:51:01] 
+[2024-02-21 17:51:01] Erro ao solicitar a API de Clima: 3
+[2024-02-21 17:51:17] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 17:51:17] Stopping weather
+[2024-02-21 17:51:17] New resource 'weather' loaded
+[2024-02-21 17:51:17] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 17:51:17] Resources: 7 loaded, 1 failed
+[2024-02-21 17:51:17] Starting weather
+[2024-02-21 17:51:17] https://api.weatherapi.com/v1/current.json?q=Los Angeles&key=99daf59aedc54ca19d8174743242002
+[2024-02-21 17:51:17] https://api.weatherapi.com/v1/current.json?q=San Francisco&key=99daf59aedc54ca19d8174743242002
+[2024-02-21 17:51:17] https://api.weatherapi.com/v1/current.json?q=Las Vegas&key=99daf59aedc54ca19d8174743242002
+[2024-02-21 17:51:17] https://api.weatherapi.com/v1/current.json?q=Modesto&key=99daf59aedc54ca19d8174743242002
+[2024-02-21 17:51:17] https://api.weatherapi.com/v1/current.json?q=89001&key=99daf59aedc54ca19d8174743242002
+[2024-02-21 17:51:17] https://api.weatherapi.com/v1/current.json?q=Berkeley&key=99daf59aedc54ca19d8174743242002
+[2024-02-21 17:51:17] https://api.weatherapi.com/v1/current.json?q=Yosemite&key=99daf59aedc54ca19d8174743242002
+[2024-02-21 17:51:17] https://api.weatherapi.com/v1/current.json?q=Ridgecrest&key=99daf59aedc54ca19d8174743242002
+[2024-02-21 17:51:17] {"location":{"name":"Los Angeles","region":"California","country":"United States of America","lat":34.05,"lon":-118.24,"tz_id":"America/Los_Angeles","localtime_epoch":1708548579,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":17.2,"temp_f":63.0,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":13.6,"wind_kph":22.0,"wind_degree":240,"wind_dir":"WSW","pressure_mb":1022.0,"pressure_in":30.17,"precip_mm":0.0,"precip_in":0.0,"humidity":65,"cloud":25,"feelslike_c":17.2,"feelslike_f":63.0,"vis_km":16.0,"vis_miles":9.0,"uv":5.0,"gust_mph":18.1,"gust_kph":29.2}}
+[2024-02-21 17:51:17] ERROR: [addons]\weather\server.lua:19: attempt to index field 'current' (a nil value)
+[2024-02-21 17:51:18] {"location":{"name":"San Francisco","region":"California","country":"United States of America","lat":37.78,"lon":-122.42,"tz_id":"America/Los_Angeles","localtime_epoch":1708548579,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":13.3,"temp_f":55.9,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":230,"wind_dir":"SW","pressure_mb":1023.0,"pressure_in":30.21,"precip_mm":0.0,"precip_in":0.0,"humidity":80,"cloud":75,"feelslike_c":13.0,"feelslike_f":55.3,"vis_km":16.0,"vis_miles":9.0,"uv":4.0,"gust_mph":11.4,"gust_kph":18.4}}
+[2024-02-21 17:51:18] {"location":{"name":"Las Vegas","region":"Nevada","country":"United States of America","lat":36.18,"lon":-115.14,"tz_id":"America/Los_Angeles","localtime_epoch":1708548580,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":15.0,"temp_f":59.0,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":5.6,"wind_kph":9.0,"wind_degree":200,"wind_dir":"SSW","pressure_mb":1018.0,"pressure_in":30.05,"precip_mm":0.03,"precip_in":0.0,"humidity":55,"cloud":75,"feelslike_c":15.0,"feelslike_f":59.0,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":10.1,"gust_kph":16.2}}
+[2024-02-21 17:51:18] {"location":{"name":"Modesto","region":"California","country":"United States of America","lat":37.64,"lon":-121.0,"tz_id":"America/Los_Angeles","localtime_epoch":1708548579,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":15.0,"temp_f":59.0,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":310,"wind_dir":"NW","pressure_mb":1022.0,"pressure_in":30.19,"precip_mm":0.0,"precip_in":0.0,"humidity":67,"cloud":0,"feelslike_c":15.1,"feelslike_f":59.2,"vis_km":16.0,"vis_miles":9.0,"uv":4.0,"gust_mph":13.9,"gust_kph":22.3}}
+[2024-02-21 17:51:19] {"location":{"name":"Alamo","region":"Nevada","country":"USA","lat":37.43,"lon":-115.48,"tz_id":"America/Los_Angeles","localtime_epoch":1708548580,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":8.4,"temp_f":47.2,"is_day":1,"condition":{"text":"Patchy light rain in area with thunder","icon":"//cdn.weatherapi.com/weather/64x64/day/386.png","code":1273},"wind_mph":6.3,"wind_kph":10.1,"wind_degree":248,"wind_dir":"WSW","pressure_mb":1015.0,"pressure_in":29.98,"precip_mm":0.33,"precip_in":0.01,"humidity":57,"cloud":86,"feelslike_c":6.6,"feelslike_f":43.9,"vis_km":10.0,"vis_miles":6.0,"uv":2.0,"gust_mph":7.2,"gust_kph":11.6}}
+[2024-02-21 17:51:19] {"location":{"name":"Berkeley","region":"California","country":"United States of America","lat":37.87,"lon":-122.27,"tz_id":"America/Los_Angeles","localtime_epoch":1708548580,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":13.9,"temp_f":57.0,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":8.1,"wind_kph":13.0,"wind_degree":160,"wind_dir":"SSE","pressure_mb":1023.0,"pressure_in":30.22,"precip_mm":0.0,"precip_in":0.0,"humidity":72,"cloud":75,"feelslike_c":13.8,"feelslike_f":56.8,"vis_km":16.0,"vis_miles":9.0,"uv":4.0,"gust_mph":12.5,"gust_kph":20.2}}
+[2024-02-21 17:51:19] {"location":{"name":"Yosemite","region":"Kentucky","country":"USA United States of America","lat":37.33,"lon":-84.93,"tz_id":"America/New_York","localtime_epoch":1708548581,"localtime":"2024-02-21 15:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 15:45","temp_c":17.0,"temp_f":62.6,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":220,"wind_dir":"SW","pressure_mb":1019.0,"pressure_in":30.1,"precip_mm":0.0,"precip_in":0.0,"humidity":32,"cloud":0,"feelslike_c":17.0,"feelslike_f":62.6,"vis_km":16.0,"vis_miles":9.0,"uv":5.0,"gust_mph":13.4,"gust_kph":21.5}}
+[2024-02-21 17:51:20] {"location":{"name":"Ridgecrest","region":"California","country":"United States of America","lat":35.62,"lon":-117.67,"tz_id":"America/Los_Angeles","localtime_epoch":1708548581,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":16.1,"temp_f":61.0,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":2.2,"wind_kph":3.6,"wind_degree":245,"wind_dir":"WSW","pressure_mb":1018.0,"pressure_in":30.06,"precip_mm":0.0,"precip_in":0.0,"humidity":46,"cloud":50,"feelslike_c":16.1,"feelslike_f":61.0,"vis_km":16.0,"vis_miles":9.0,"uv":4.0,"gust_mph":4.4,"gust_kph":7.1}}
+[2024-02-21 17:51:23] ERROR: [addons]\weather\server.lua:19: attempt to index field 'current' (a nil value)  [DUP x7]
+[2024-02-21 17:52:05] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 17:52:05] Stopping weather
+[2024-02-21 17:52:05] New resource 'weather' loaded
+[2024-02-21 17:52:05] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 17:52:05] Resources: 7 loaded, 1 failed
+[2024-02-21 17:52:05] Starting weather
+[2024-02-21 17:52:05] {"location":{"name":"Los Angeles","region":"California","country":"United States of America","lat":34.05,"lon":-118.24,"tz_id":"America/Los_Angeles","localtime_epoch":1708548579,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":17.2,"temp_f":63.0,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":13.6,"wind_kph":22.0,"wind_degree":240,"wind_dir":"WSW","pressure_mb":1022.0,"pressure_in":30.17,"precip_mm":0.0,"precip_in":0.0,"humidity":65,"cloud":25,"feelslike_c":17.2,"feelslike_f":63.0,"vis_km":16.0,"vis_miles":9.0,"uv":5.0,"gust_mph":18.1,"gust_kph":29.2}}
+[2024-02-21 17:52:05] ERROR: [addons]\weather\server.lua:19: attempt to index field 'current' (a nil value)
+[2024-02-21 17:52:05] {"location":{"name":"San Francisco","region":"California","country":"United States of America","lat":37.78,"lon":-122.42,"tz_id":"America/Los_Angeles","localtime_epoch":1708548579,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":13.3,"temp_f":55.9,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":230,"wind_dir":"SW","pressure_mb":1023.0,"pressure_in":30.21,"precip_mm":0.0,"precip_in":0.0,"humidity":80,"cloud":75,"feelslike_c":13.0,"feelslike_f":55.3,"vis_km":16.0,"vis_miles":9.0,"uv":4.0,"gust_mph":11.4,"gust_kph":18.4}}
+[2024-02-21 17:52:05] {"location":{"name":"Las Vegas","region":"Nevada","country":"United States of America","lat":36.18,"lon":-115.14,"tz_id":"America/Los_Angeles","localtime_epoch":1708548580,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":15.0,"temp_f":59.0,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":5.6,"wind_kph":9.0,"wind_degree":200,"wind_dir":"SSW","pressure_mb":1018.0,"pressure_in":30.05,"precip_mm":0.03,"precip_in":0.0,"humidity":55,"cloud":75,"feelslike_c":15.0,"feelslike_f":59.0,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":10.1,"gust_kph":16.2}}
+[2024-02-21 17:52:05] {"location":{"name":"Modesto","region":"California","country":"United States of America","lat":37.64,"lon":-121.0,"tz_id":"America/Los_Angeles","localtime_epoch":1708548579,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":15.0,"temp_f":59.0,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":310,"wind_dir":"NW","pressure_mb":1022.0,"pressure_in":30.19,"precip_mm":0.0,"precip_in":0.0,"humidity":67,"cloud":0,"feelslike_c":15.1,"feelslike_f":59.2,"vis_km":16.0,"vis_miles":9.0,"uv":4.0,"gust_mph":13.9,"gust_kph":22.3}}
+[2024-02-21 17:52:05] {"location":{"name":"Alamo","region":"Nevada","country":"USA","lat":37.43,"lon":-115.48,"tz_id":"America/Los_Angeles","localtime_epoch":1708548580,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":8.4,"temp_f":47.2,"is_day":1,"condition":{"text":"Patchy light rain in area with thunder","icon":"//cdn.weatherapi.com/weather/64x64/day/386.png","code":1273},"wind_mph":6.3,"wind_kph":10.1,"wind_degree":248,"wind_dir":"WSW","pressure_mb":1015.0,"pressure_in":29.98,"precip_mm":0.33,"precip_in":0.01,"humidity":57,"cloud":86,"feelslike_c":6.6,"feelslike_f":43.9,"vis_km":10.0,"vis_miles":6.0,"uv":2.0,"gust_mph":7.2,"gust_kph":11.6}}
+[2024-02-21 17:52:05] {"location":{"name":"Berkeley","region":"California","country":"United States of America","lat":37.87,"lon":-122.27,"tz_id":"America/Los_Angeles","localtime_epoch":1708548580,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":13.9,"temp_f":57.0,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":8.1,"wind_kph":13.0,"wind_degree":160,"wind_dir":"SSE","pressure_mb":1023.0,"pressure_in":30.22,"precip_mm":0.0,"precip_in":0.0,"humidity":72,"cloud":75,"feelslike_c":13.8,"feelslike_f":56.8,"vis_km":16.0,"vis_miles":9.0,"uv":4.0,"gust_mph":12.5,"gust_kph":20.2}}
+[2024-02-21 17:52:05] {"location":{"name":"Yosemite","region":"Kentucky","country":"USA United States of America","lat":37.33,"lon":-84.93,"tz_id":"America/New_York","localtime_epoch":1708548581,"localtime":"2024-02-21 15:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 15:45","temp_c":17.0,"temp_f":62.6,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":220,"wind_dir":"SW","pressure_mb":1019.0,"pressure_in":30.1,"precip_mm":0.0,"precip_in":0.0,"humidity":32,"cloud":0,"feelslike_c":17.0,"feelslike_f":62.6,"vis_km":16.0,"vis_miles":9.0,"uv":5.0,"gust_mph":13.4,"gust_kph":21.5}}
+[2024-02-21 17:52:05] {"location":{"name":"Ridgecrest","region":"California","country":"United States of America","lat":35.62,"lon":-117.67,"tz_id":"America/Los_Angeles","localtime_epoch":1708548581,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":16.1,"temp_f":61.0,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":2.2,"wind_kph":3.6,"wind_degree":245,"wind_dir":"WSW","pressure_mb":1018.0,"pressure_in":30.06,"precip_mm":0.0,"precip_in":0.0,"humidity":46,"cloud":50,"feelslike_c":16.1,"feelslike_f":61.0,"vis_km":16.0,"vis_miles":9.0,"uv":4.0,"gust_mph":4.4,"gust_kph":7.1}}
+[2024-02-21 17:52:11] ERROR: [addons]\weather\server.lua:19: attempt to index field 'current' (a nil value)  [DUP x7]
+[2024-02-21 17:52:49] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 17:52:49] Stopping weather
+[2024-02-21 17:52:49] New resource 'weather' loaded
+[2024-02-21 17:52:49] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 17:52:49] Resources: 7 loaded, 1 failed
+[2024-02-21 17:52:49] Starting weather
+[2024-02-21 17:52:49] {"location":{"name":"Los Angeles","region":"California","country":"United States of America","lat":34.05,"lon":-118.24,"tz_id":"America/Los_Angeles","localtime_epoch":1708548579,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":17.2,"temp_f":63.0,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":13.6,"wind_kph":22.0,"wind_degree":240,"wind_dir":"WSW","pressure_mb":1022.0,"pressure_in":30.17,"precip_mm":0.0,"precip_in":0.0,"humidity":65,"cloud":25,"feelslike_c":17.2,"feelslike_f":63.0,"vis_km":16.0,"vis_miles":9.0,"uv":5.0,"gust_mph":18.1,"gust_kph":29.2}}
+[2024-02-21 17:52:49] ERROR: [addons]\weather\server.lua:19: attempt to index field 'location' (a nil value)
+[2024-02-21 17:52:49] {"location":{"name":"San Francisco","region":"California","country":"United States of America","lat":37.78,"lon":-122.42,"tz_id":"America/Los_Angeles","localtime_epoch":1708548579,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":13.3,"temp_f":55.9,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":230,"wind_dir":"SW","pressure_mb":1023.0,"pressure_in":30.21,"precip_mm":0.0,"precip_in":0.0,"humidity":80,"cloud":75,"feelslike_c":13.0,"feelslike_f":55.3,"vis_km":16.0,"vis_miles":9.0,"uv":4.0,"gust_mph":11.4,"gust_kph":18.4}}
+[2024-02-21 17:52:49] {"location":{"name":"Las Vegas","region":"Nevada","country":"United States of America","lat":36.18,"lon":-115.14,"tz_id":"America/Los_Angeles","localtime_epoch":1708548580,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":15.0,"temp_f":59.0,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":5.6,"wind_kph":9.0,"wind_degree":200,"wind_dir":"SSW","pressure_mb":1018.0,"pressure_in":30.05,"precip_mm":0.03,"precip_in":0.0,"humidity":55,"cloud":75,"feelslike_c":15.0,"feelslike_f":59.0,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":10.1,"gust_kph":16.2}}
+[2024-02-21 17:52:49] {"location":{"name":"Modesto","region":"California","country":"United States of America","lat":37.64,"lon":-121.0,"tz_id":"America/Los_Angeles","localtime_epoch":1708548579,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":15.0,"temp_f":59.0,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":310,"wind_dir":"NW","pressure_mb":1022.0,"pressure_in":30.19,"precip_mm":0.0,"precip_in":0.0,"humidity":67,"cloud":0,"feelslike_c":15.1,"feelslike_f":59.2,"vis_km":16.0,"vis_miles":9.0,"uv":4.0,"gust_mph":13.9,"gust_kph":22.3}}
+[2024-02-21 17:52:49] {"location":{"name":"Alamo","region":"Nevada","country":"USA","lat":37.43,"lon":-115.48,"tz_id":"America/Los_Angeles","localtime_epoch":1708548580,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":8.4,"temp_f":47.2,"is_day":1,"condition":{"text":"Patchy light rain in area with thunder","icon":"//cdn.weatherapi.com/weather/64x64/day/386.png","code":1273},"wind_mph":6.3,"wind_kph":10.1,"wind_degree":248,"wind_dir":"WSW","pressure_mb":1015.0,"pressure_in":29.98,"precip_mm":0.33,"precip_in":0.01,"humidity":57,"cloud":86,"feelslike_c":6.6,"feelslike_f":43.9,"vis_km":10.0,"vis_miles":6.0,"uv":2.0,"gust_mph":7.2,"gust_kph":11.6}}
+[2024-02-21 17:52:49] {"location":{"name":"Berkeley","region":"California","country":"United States of America","lat":37.87,"lon":-122.27,"tz_id":"America/Los_Angeles","localtime_epoch":1708548580,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":13.9,"temp_f":57.0,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":8.1,"wind_kph":13.0,"wind_degree":160,"wind_dir":"SSE","pressure_mb":1023.0,"pressure_in":30.22,"precip_mm":0.0,"precip_in":0.0,"humidity":72,"cloud":75,"feelslike_c":13.8,"feelslike_f":56.8,"vis_km":16.0,"vis_miles":9.0,"uv":4.0,"gust_mph":12.5,"gust_kph":20.2}}
+[2024-02-21 17:52:49] {"location":{"name":"Yosemite","region":"Kentucky","country":"USA United States of America","lat":37.33,"lon":-84.93,"tz_id":"America/New_York","localtime_epoch":1708548581,"localtime":"2024-02-21 15:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 15:45","temp_c":17.0,"temp_f":62.6,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":220,"wind_dir":"SW","pressure_mb":1019.0,"pressure_in":30.1,"precip_mm":0.0,"precip_in":0.0,"humidity":32,"cloud":0,"feelslike_c":17.0,"feelslike_f":62.6,"vis_km":16.0,"vis_miles":9.0,"uv":5.0,"gust_mph":13.4,"gust_kph":21.5}}
+[2024-02-21 17:52:49] {"location":{"name":"Ridgecrest","region":"California","country":"United States of America","lat":35.62,"lon":-117.67,"tz_id":"America/Los_Angeles","localtime_epoch":1708548581,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":16.1,"temp_f":61.0,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":2.2,"wind_kph":3.6,"wind_degree":245,"wind_dir":"WSW","pressure_mb":1018.0,"pressure_in":30.06,"precip_mm":0.0,"precip_in":0.0,"humidity":46,"cloud":50,"feelslike_c":16.1,"feelslike_f":61.0,"vis_km":16.0,"vis_miles":9.0,"uv":4.0,"gust_mph":4.4,"gust_kph":7.1}}
+[2024-02-21 17:52:55] ERROR: [addons]\weather\server.lua:19: attempt to index field 'location' (a nil value)  [DUP x7]
+[2024-02-21 17:53:06] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 17:53:06] Stopping weather
+[2024-02-21 17:53:06] New resource 'weather' loaded
+[2024-02-21 17:53:06] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 17:53:06] Resources: 7 loaded, 1 failed
+[2024-02-21 17:53:06] Starting weather
+[2024-02-21 17:53:06] {"location":{"name":"Los Angeles","region":"California","country":"United States of America","lat":34.05,"lon":-118.24,"tz_id":"America/Los_Angeles","localtime_epoch":1708548579,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":17.2,"temp_f":63.0,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":13.6,"wind_kph":22.0,"wind_degree":240,"wind_dir":"WSW","pressure_mb":1022.0,"pressure_in":30.17,"precip_mm":0.0,"precip_in":0.0,"humidity":65,"cloud":25,"feelslike_c":17.2,"feelslike_f":63.0,"vis_km":16.0,"vis_miles":9.0,"uv":5.0,"gust_mph":18.1,"gust_kph":29.2}}
+[2024-02-21 17:53:06] {"location":{"name":"San Francisco","region":"California","country":"United States of America","lat":37.78,"lon":-122.42,"tz_id":"America/Los_Angeles","localtime_epoch":1708548579,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":13.3,"temp_f":55.9,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":6.9,"wind_kph":11.2,"wind_degree":230,"wind_dir":"SW","pressure_mb":1023.0,"pressure_in":30.21,"precip_mm":0.0,"precip_in":0.0,"humidity":80,"cloud":75,"feelslike_c":13.0,"feelslike_f":55.3,"vis_km":16.0,"vis_miles":9.0,"uv":4.0,"gust_mph":11.4,"gust_kph":18.4}}
+[2024-02-21 17:53:06] {"location":{"name":"Las Vegas","region":"Nevada","country":"United States of America","lat":36.18,"lon":-115.14,"tz_id":"America/Los_Angeles","localtime_epoch":1708548580,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":15.0,"temp_f":59.0,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":5.6,"wind_kph":9.0,"wind_degree":200,"wind_dir":"SSW","pressure_mb":1018.0,"pressure_in":30.05,"precip_mm":0.03,"precip_in":0.0,"humidity":55,"cloud":75,"feelslike_c":15.0,"feelslike_f":59.0,"vis_km":16.0,"vis_miles":9.0,"uv":3.0,"gust_mph":10.1,"gust_kph":16.2}}
+[2024-02-21 17:53:06] {"location":{"name":"Modesto","region":"California","country":"United States of America","lat":37.64,"lon":-121.0,"tz_id":"America/Los_Angeles","localtime_epoch":1708548579,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":15.0,"temp_f":59.0,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":310,"wind_dir":"NW","pressure_mb":1022.0,"pressure_in":30.19,"precip_mm":0.0,"precip_in":0.0,"humidity":67,"cloud":0,"feelslike_c":15.1,"feelslike_f":59.2,"vis_km":16.0,"vis_miles":9.0,"uv":4.0,"gust_mph":13.9,"gust_kph":22.3}}
+[2024-02-21 17:53:07] {"location":{"name":"Alamo","region":"Nevada","country":"USA","lat":37.43,"lon":-115.48,"tz_id":"America/Los_Angeles","localtime_epoch":1708548580,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":8.4,"temp_f":47.2,"is_day":1,"condition":{"text":"Patchy light rain in area with thunder","icon":"//cdn.weatherapi.com/weather/64x64/day/386.png","code":1273},"wind_mph":6.3,"wind_kph":10.1,"wind_degree":248,"wind_dir":"WSW","pressure_mb":1015.0,"pressure_in":29.98,"precip_mm":0.33,"precip_in":0.01,"humidity":57,"cloud":86,"feelslike_c":6.6,"feelslike_f":43.9,"vis_km":10.0,"vis_miles":6.0,"uv":2.0,"gust_mph":7.2,"gust_kph":11.6}}
+[2024-02-21 17:53:07] {"location":{"name":"Berkeley","region":"California","country":"United States of America","lat":37.87,"lon":-122.27,"tz_id":"America/Los_Angeles","localtime_epoch":1708548580,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":13.9,"temp_f":57.0,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":8.1,"wind_kph":13.0,"wind_degree":160,"wind_dir":"SSE","pressure_mb":1023.0,"pressure_in":30.22,"precip_mm":0.0,"precip_in":0.0,"humidity":72,"cloud":75,"feelslike_c":13.8,"feelslike_f":56.8,"vis_km":16.0,"vis_miles":9.0,"uv":4.0,"gust_mph":12.5,"gust_kph":20.2}}
+[2024-02-21 17:53:07] {"location":{"name":"Yosemite","region":"Kentucky","country":"USA United States of America","lat":37.33,"lon":-84.93,"tz_id":"America/New_York","localtime_epoch":1708548581,"localtime":"2024-02-21 15:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 15:45","temp_c":17.0,"temp_f":62.6,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":12.5,"wind_kph":20.2,"wind_degree":220,"wind_dir":"SW","pressure_mb":1019.0,"pressure_in":30.1,"precip_mm":0.0,"precip_in":0.0,"humidity":32,"cloud":0,"feelslike_c":17.0,"feelslike_f":62.6,"vis_km":16.0,"vis_miles":9.0,"uv":5.0,"gust_mph":13.4,"gust_kph":21.5}}
+[2024-02-21 17:53:07] {"location":{"name":"Ridgecrest","region":"California","country":"United States of America","lat":35.62,"lon":-117.67,"tz_id":"America/Los_Angeles","localtime_epoch":1708548581,"localtime":"2024-02-21 12:49"},"current":{"last_updated_epoch":1708548300,"last_updated":"2024-02-21 12:45","temp_c":16.1,"temp_f":61.0,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":2.2,"wind_kph":3.6,"wind_degree":245,"wind_dir":"WSW","pressure_mb":1018.0,"pressure_in":30.06,"precip_mm":0.0,"precip_in":0.0,"humidity":46,"cloud":50,"feelslike_c":16.1,"feelslike_f":61.0,"vis_km":16.0,"vis_miles":9.0,"uv":4.0,"gust_mph":4.4,"gust_kph":7.1}}
+[2024-02-21 17:53:36] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 17:53:36] Stopping weather
+[2024-02-21 17:53:36] New resource 'weather' loaded
+[2024-02-21 17:53:36] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 17:53:36] Resources: 7 loaded, 1 failed
+[2024-02-21 17:53:36] Starting weather
+[2024-02-21 17:53:36] ERROR: [addons]\weather\server.lua:19: attempt to index field 'current' (a nil value)
+[2024-02-21 17:53:42] ERROR: [addons]\weather\server.lua:19: attempt to index field 'current' (a nil value)  [DUP x7]
+[2024-02-21 17:53:53] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 17:53:53] Stopping weather
+[2024-02-21 17:53:53] New resource 'weather' loaded
+[2024-02-21 17:53:53] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 17:53:53] Resources: 7 loaded, 1 failed
+[2024-02-21 17:53:53] Starting weather
+[2024-02-21 17:53:53] 17.2
+[2024-02-21 17:53:53] 13.3
+[2024-02-21 17:53:53] 15
+[2024-02-21 17:53:53] 15
+[2024-02-21 17:53:53] 8.4
+[2024-02-21 17:53:53] 13.9
+[2024-02-21 17:53:53] 17
+[2024-02-21 17:53:54] 16.1
+[2024-02-21 17:54:08] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 17:54:08] Stopping weather
+[2024-02-21 17:54:08] New resource 'weather' loaded
+[2024-02-21 17:54:08] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 17:54:08] Resources: 7 loaded, 1 failed
+[2024-02-21 17:54:08] Starting weather
+[2024-02-21 17:54:08] 1003
+[2024-02-21 17:54:08] 1003
+[2024-02-21 17:54:08] 1003
+[2024-02-21 17:54:08] 1000
+[2024-02-21 17:54:08] 1273
+[2024-02-21 17:54:08] 1003
+[2024-02-21 17:54:08] 1000
+[2024-02-21 17:54:08] 1003
+[2024-02-21 17:58:04] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 17:58:04] Stopping weather
+[2024-02-21 17:58:04] New resource 'weather' loaded
+[2024-02-21 17:58:04] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 17:58:04] Resources: 7 loaded, 1 failed
+[2024-02-21 17:58:04] Starting weather
+[2024-02-21 18:04:39] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 18:04:39] Stopping weather
+[2024-02-21 18:04:39] New resource 'weather' loaded
+[2024-02-21 18:04:39] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 18:04:39] Resources: 7 loaded, 1 failed
+[2024-02-21 18:04:39] Starting weather
+[2024-02-21 18:04:48] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 18:04:48] Stopping weather
+[2024-02-21 18:04:48] New resource 'weather' loaded
+[2024-02-21 18:04:48] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 18:04:48] Resources: 7 loaded, 1 failed
+[2024-02-21 18:04:48] Starting weather
+[2024-02-21 18:05:06] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 18:05:06] Stopping weather
+[2024-02-21 18:05:06] New resource 'weather' loaded
+[2024-02-21 18:05:06] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 18:05:06] Resources: 7 loaded, 1 failed
+[2024-02-21 18:05:06] Starting weather
+[2024-02-21 18:05:23] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 18:05:23] Stopping weather
+[2024-02-21 18:05:23] New resource 'weather' loaded
+[2024-02-21 18:05:23] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 18:05:23] Resources: 7 loaded, 1 failed
+[2024-02-21 18:05:23] Starting weather
+[2024-02-21 18:05:35] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 18:05:35] Stopping weather
+[2024-02-21 18:05:35] New resource 'weather' loaded
+[2024-02-21 18:05:35] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 18:05:35] Resources: 7 loaded, 1 failed
+[2024-02-21 18:05:35] Starting weather
+[2024-02-21 18:06:04] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 18:06:04] Stopping weather
+[2024-02-21 18:06:04] New resource 'weather' loaded
+[2024-02-21 18:06:04] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 18:06:04] Resources: 7 loaded, 1 failed
+[2024-02-21 18:06:04] Starting weather
+[2024-02-21 18:07:59] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 18:07:59] Stopping weather
+[2024-02-21 18:07:59] New resource 'weather' loaded
+[2024-02-21 18:07:59] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 18:07:59] Resources: 7 loaded, 1 failed
+[2024-02-21 18:07:59] Starting weather
+[2024-02-21 18:08:07] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 18:08:07] Stopping weather
+[2024-02-21 18:08:07] New resource 'weather' loaded
+[2024-02-21 18:08:07] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 18:08:07] Resources: 7 loaded, 1 failed
+[2024-02-21 18:08:07] Starting weather
+[2024-02-21 18:08:13] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 18:08:13] Stopping weather
+[2024-02-21 18:08:13] New resource 'weather' loaded
+[2024-02-21 18:08:13] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 18:08:13] Resources: 7 loaded, 1 failed
+[2024-02-21 18:08:13] Starting weather
+[2024-02-21 18:08:30] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 18:08:30] Stopping weather
+[2024-02-21 18:08:30] New resource 'weather' loaded
+[2024-02-21 18:08:30] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 18:08:30] Resources: 7 loaded, 1 failed
+[2024-02-21 18:08:30] Starting weather
+[2024-02-21 18:09:07] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 18:09:07] Stopping weather
+[2024-02-21 18:09:07] New resource 'weather' loaded
+[2024-02-21 18:09:07] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 18:09:07] Resources: 7 loaded, 1 failed
+[2024-02-21 18:09:07] Starting weather
+[2024-02-21 18:11:22] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 18:11:22] Stopping weather
+[2024-02-21 18:11:22] New resource 'weather' loaded
+[2024-02-21 18:11:22] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 18:11:22] Resources: 7 loaded, 1 failed
+[2024-02-21 18:11:22] Starting weather
+[2024-02-21 18:17:46] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 18:17:46] Stopping weather
+[2024-02-21 18:17:46] New resource 'weather' loaded
+[2024-02-21 18:17:46] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 18:17:46] Resources: 7 loaded, 1 failed
+[2024-02-21 18:17:46] Starting weather
+[2024-02-21 18:17:52] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 18:17:52] Stopping weather
+[2024-02-21 18:17:52] New resource 'weather' loaded
+[2024-02-21 18:17:52] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 18:17:52] Resources: 7 loaded, 1 failed
+[2024-02-21 18:17:52] Starting weather
+[2024-02-21 18:18:15] Resource 'weather' changed while running, reloading and restarting
+[2024-02-21 18:18:15] Stopping weather
+[2024-02-21 18:18:15] New resource 'weather' loaded
+[2024-02-21 18:18:15] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-21 18:18:15] Resources: 7 loaded, 1 failed
+[2024-02-21 18:18:15] Starting weather
+[2024-02-22 11:09:48] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-22 11:09:51] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-22 11:09:52] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-22 11:16:05] Resource 'weather' changed while running, reloading and restarting
+[2024-02-22 11:16:05] Stopping weather
+[2024-02-22 11:16:05] New resource 'weather' loaded
+[2024-02-22 11:16:05] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-22 11:16:05] Resources: 7 loaded, 1 failed
+[2024-02-22 11:16:05] Starting weather
+[2024-02-22 11:16:10] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-22 11:16:12] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-22 11:16:12] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-22 11:18:08] Resource 'weather' changed while running, reloading and restarting
+[2024-02-22 11:18:08] Stopping weather
+[2024-02-22 11:18:08] New resource 'weather' loaded
+[2024-02-22 11:18:08] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-22 11:18:08] Resources: 7 loaded, 1 failed
+[2024-02-22 11:18:08] Starting weather
+[2024-02-22 11:18:16] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-22 11:18:18] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-22 11:18:18] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-22 11:19:25] Resource 'weather' changed while running, reloading and restarting
+[2024-02-22 11:19:25] Stopping weather
+[2024-02-22 11:19:25] New resource 'weather' loaded
+[2024-02-22 11:19:25] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-22 11:19:25] Resources: 7 loaded, 1 failed
+[2024-02-22 11:19:25] Starting weather
+[2024-02-22 11:21:08] Resource 'weather' changed while running, reloading and restarting
+[2024-02-22 11:21:08] Stopping weather
+[2024-02-22 11:21:08] New resource 'weather' loaded
+[2024-02-22 11:21:08] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-22 11:21:08] Resources: 7 loaded, 1 failed
+[2024-02-22 11:21:08] Starting weather
+[2024-02-22 11:24:31] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-22 11:24:33] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-22 11:24:33] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-22 12:06:01] Resource 'hud' changed while running, reloading and restarting
+[2024-02-22 12:06:01] Stopping hud
+[2024-02-22 12:06:01] New resource 'hud' loaded
+[2024-02-22 12:06:02] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-22 12:06:02] Resources: 7 loaded, 1 failed
+[2024-02-22 12:06:02] Starting hud
+[2024-02-22 12:06:16] Resource 'hud' changed while running, reloading and restarting
+[2024-02-22 12:06:16] Stopping hud
+[2024-02-22 12:06:16] New resource 'hud' loaded
+[2024-02-22 12:06:16] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-22 12:06:16] Resources: 7 loaded, 1 failed
+[2024-02-22 12:06:16] Starting hud
+[2024-02-22 12:06:23] Resource 'hud' changed while running, reloading and restarting
+[2024-02-22 12:06:23] Stopping hud
+[2024-02-22 12:06:23] New resource 'hud' loaded
+[2024-02-22 12:06:23] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-22 12:06:23] Resources: 7 loaded, 1 failed
+[2024-02-22 12:06:23] Starting hud
