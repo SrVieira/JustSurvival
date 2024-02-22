@@ -12014,3 +12014,34 @@
 [2024-02-22 12:11:34] ERROR: Problem with resource: runcode; Failed to link to ajax
 [2024-02-22 12:11:34] Resources: 7 loaded, 1 failed
 [2024-02-22 12:11:34] Starting hud
+[2024-02-22 12:16:05] Resource 'Server' changed while running, reloading and restarting
+[2024-02-22 12:16:05] Stopping Server
+[2024-02-22 12:16:05] New resource 'Server' loaded
+[2024-02-22 12:16:05] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-22 12:16:05] Resources: 7 loaded, 1 failed
+[2024-02-22 12:16:05] Starting Server
+[2024-02-22 12:21:22] Resource 'Server' changed while running, reloading and restarting
+[2024-02-22 12:21:22] Stopping Server
+[2024-02-22 12:21:22] New resource 'Server' loaded
+[2024-02-22 12:21:22] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-22 12:21:22] Resources: 7 loaded, 1 failed
+[2024-02-22 12:21:22] Starting Server
+[2024-02-22 12:21:22] ERROR: [base]\Server\handlers\spawns_loot.lua:4: attempt to index global 'lootSpawnPoints' (a nil value)
+[2024-02-22 12:21:39] Resource 'Server' changed while running, reloading and restarting
+[2024-02-22 12:21:39] Stopping Server
+[2024-02-22 12:21:39] New resource 'Server' loaded
+[2024-02-22 12:21:39] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-22 12:21:39] Resources: 7 loaded, 1 failed
+[2024-02-22 12:21:39] Starting Server
+[2024-02-22 12:32:25] Resource 'Server' changed while running, reloading and restarting
+[2024-02-22 12:32:25] Stopping Server
+[2024-02-22 12:32:25] New resource 'Server' loaded
+[2024-02-22 12:32:25] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-22 12:32:25] Resources: 7 loaded, 1 failed
+[2024-02-22 12:32:25] Starting Server
+[2024-02-22 12:32:52] Resource 'Server' changed while running, reloading and restarting
+[2024-02-22 12:32:52] Stopping Server
+[2024-02-22 12:32:52] New resource 'Server' loaded
+[2024-02-22 12:32:52] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-22 12:32:52] Resources: 7 loaded, 1 failed
+[2024-02-22 12:32:52] Starting Server

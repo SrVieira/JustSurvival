@@ -1,6 +1,6 @@
 function onClientColShapeHit(theElement, matchingDimension)
     if (theElement == localPlayer) then
-        outputChatBox("entrou")
+        outputChatBox(getElementData(source, "lootName"))
     end
 end
 addEventHandler("onClientColShapeHit", root, onClientColShapeHit);
