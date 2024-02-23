@@ -1,6 +1,12 @@
 function onClientColShapeHit(theElement, matchingDimension)
     if (theElement == localPlayer) then
-        outputChatBox(getElementData(source, "lootName"))
+        local sourceElement = getElementData(source, "lootName");
+        if sourceElement == "Loot" then
+            local itemsInLoot = getElementData(source, "itemsInLoot");
+            for k, item in pairs(itemsInLoot) do
+               local itemData = item.itemData;
+            end
+        end
     end
 end
 addEventHandler("onClientColShapeHit", root, onClientColShapeHit);

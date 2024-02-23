@@ -1,6 +1,9 @@
 <meta>
     <info author="Matheus Vieira" version="1.0" name="Server Base" description="Server base resource" type="gamemode" />
 
+    <!-- Utils -->
+    <script src="utils/math_util.lua" type="shared" cache="true" validate="true" />
+    
     <!-- Base -->
     <script src="variables.lua" type="shared" cache="true" validate="true" />
     <script src="settings.lua" type="server" cache="true" validate="true" />
