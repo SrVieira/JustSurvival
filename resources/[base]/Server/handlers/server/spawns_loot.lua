@@ -7,14 +7,12 @@ local function createLootObjects(col, group)
     local itemsInLoot = 1;
     local lootObjects = {};
 
-    while itemsInLoot < 3 do
-        for k, loot in ipairs(lootItems[group]) do
-            lootObjects[itemsInLoot] = createObject(loot[4], x+random(-1, 1), y+random(-1, 1), z + loot[6]);
-            setObjectScale(lootObjects[itemsInLoot], loot[5]);
-            setElementCollisionsEnabled(lootObjects[itemsInLoot], false);
-            setElementFrozen(lootObjects[itemsInLoot], true);
-            itemsInLoot = itemsInLoot + 1;
-        end
+    for k, loot in ipairs(lootItems[group]) do
+        lootObjects[itemsInLoot] = createObject(loot[4], x+random(-1, 1), y+random(-1, 1), z + loot[6]);
+        setObjectScale(lootObjects[itemsInLoot], loot[5]);
+        setElementCollisionsEnabled(lootObjects[itemsInLoot], false);
+        setElementFrozen(lootObjects[itemsInLoot], true);
+        itemsInLoot = itemsInLoot + 1;
     end
 end
 

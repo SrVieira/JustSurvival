@@ -8,4 +8,8 @@
     <!-- Models -->
     <file src="coke.dff" />
     <file src="coke.txd" />
+    <file src="pepsi.dff" />
+    <file src="pepsi.txd" />
+    <file src="mountain_dew.dff" />
+    <file src="mountain_dew.txd" />
 </meta>
