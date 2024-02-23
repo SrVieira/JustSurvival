@@ -12045,3 +12045,21 @@
 [2024-02-22 12:32:52] ERROR: Problem with resource: runcode; Failed to link to ajax
 [2024-02-22 12:32:52] Resources: 7 loaded, 1 failed
 [2024-02-22 12:32:52] Starting Server
+[2024-02-22 12:35:00] Resource 'Server' changed while running, reloading and restarting
+[2024-02-22 12:35:00] Stopping Server
+[2024-02-22 12:35:00] New resource 'Server' loaded
+[2024-02-22 12:35:00] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-22 12:35:00] Resources: 7 loaded, 1 failed
+[2024-02-22 12:35:00] Starting Server
+[2024-02-22 12:35:22] Resource 'Server' changed while running, reloading and restarting
+[2024-02-22 12:35:22] Stopping Server
+[2024-02-22 12:35:22] New resource 'Server' loaded
+[2024-02-22 12:35:22] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-22 12:35:22] Resources: 7 loaded, 1 failed
+[2024-02-22 12:35:22] Starting Server
+[2024-02-22 12:38:31] Resource 'Server' changed while running, reloading and restarting
+[2024-02-22 12:38:31] Stopping Server
+[2024-02-22 12:38:31] New resource 'Server' loaded
+[2024-02-22 12:38:32] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-22 12:38:32] Resources: 7 loaded, 1 failed
+[2024-02-22 12:38:32] Starting Server
