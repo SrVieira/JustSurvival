@@ -17,6 +17,7 @@ lootItems = {
         { "Mountain Dew", 1, 5, 2342, 1, 0.05 },
         { "Garrafa de Água", 1, 5, 2663, 0.5, 0.05 },
         { "Red Bull", 1, 5, 2683, 0.8, 0.15 },
+        { "Cantíl de Água", 1, 5, 2881, 1, 0.1 },
     }
 };
 

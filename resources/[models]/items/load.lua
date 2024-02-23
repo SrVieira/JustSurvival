@@ -27,3 +27,9 @@ txd = engineLoadTXD("redbull.txd", 2683);
 engineImportTXD(txd, 2683);
 dff = engineLoadDFF("redbull.dff", 2683);
 engineReplaceModel(dff, 2683);
+
+-- Canten
+txd = engineLoadTXD("canten.txd", 2881);
+engineImportTXD(txd, 2881);
+dff = engineLoadDFF("canten.dff", 2881);
+engineReplaceModel(dff, 2881);
