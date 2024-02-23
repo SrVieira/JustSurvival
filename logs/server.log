@@ -12063,3 +12063,138 @@
 [2024-02-22 12:38:32] ERROR: Problem with resource: runcode; Failed to link to ajax
 [2024-02-22 12:38:32] Resources: 7 loaded, 1 failed
 [2024-02-22 12:38:32] Starting Server
+[2024-02-23 10:24:19] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 10:24:19] Stopping Server
+[2024-02-23 10:24:20] New resource 'Server' loaded
+[2024-02-23 10:24:24] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 10:24:24] Resources: 7 loaded, 1 failed
+[2024-02-23 10:24:24] Starting Server
+[2024-02-23 10:27:48] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 10:27:48] Stopping Server
+[2024-02-23 10:27:48] New resource 'Server' loaded
+[2024-02-23 10:27:48] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 10:27:48] Resources: 7 loaded, 1 failed
+[2024-02-23 10:27:48] Starting Server
+[2024-02-23 10:27:48] WARNING: [base]\Server\handlers\server\spawns_loot.lua:8: Bad usage @ 'createObject' [Invalid model id]
+[2024-02-23 10:27:54] WARNING: [base]\Server\handlers\server\spawns_loot.lua:8: Bad usage @ 'createObject' [Invalid model id]  [DUP x2]
+[2024-02-23 10:28:15] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 10:28:15] Stopping Server
+[2024-02-23 10:28:15] New resource 'Server' loaded
+[2024-02-23 10:28:15] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 10:28:15] Resources: 7 loaded, 1 failed
+[2024-02-23 10:28:15] Starting Server
+[2024-02-23 10:33:55] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 10:33:55] Stopping Server
+[2024-02-23 10:33:55] New resource 'Server' loaded
+[2024-02-23 10:33:55] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 10:33:55] Resources: 7 loaded, 1 failed
+[2024-02-23 10:33:55] Starting Server
+[2024-02-23 10:33:55] WARNING: [base]\Server\handlers\server\spawns_loot.lua:8: Bad usage @ 'createObject' [Invalid model id]
+[2024-02-23 10:34:01] WARNING: [base]\Server\handlers\server\spawns_loot.lua:8: Bad usage @ 'createObject' [Invalid model id]  [DUP x2]
+[2024-02-23 10:34:17] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 10:34:17] Stopping Server
+[2024-02-23 10:34:17] New resource 'Server' loaded
+[2024-02-23 10:34:17] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 10:34:17] Resources: 7 loaded, 1 failed
+[2024-02-23 10:34:17] Starting Server
+[2024-02-23 10:34:17] WARNING: [base]\Server\handlers\server\spawns_loot.lua:8: Bad usage @ 'createObject' [Invalid model id]
+[2024-02-23 10:34:23] WARNING: [base]\Server\handlers\server\spawns_loot.lua:8: Bad usage @ 'createObject' [Invalid model id]  [DUP x2]
+[2024-02-23 10:34:35] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 10:34:35] Stopping Server
+[2024-02-23 10:34:35] New resource 'Server' loaded
+[2024-02-23 10:34:35] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 10:34:35] Resources: 7 loaded, 1 failed
+[2024-02-23 10:34:35] Starting Server
+[2024-02-23 10:47:12] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 10:47:12] Stopping Server
+[2024-02-23 10:47:12] New resource 'Server' loaded
+[2024-02-23 10:47:13] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 10:47:13] Resources: 7 loaded, 1 failed
+[2024-02-23 10:47:13] Starting Server
+[2024-02-23 10:47:31] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 10:47:31] Stopping Server
+[2024-02-23 10:47:31] New resource 'Server' loaded
+[2024-02-23 10:47:31] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 10:47:31] Resources: 7 loaded, 1 failed
+[2024-02-23 10:47:31] Starting Server
+[2024-02-23 10:47:48] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 10:47:48] Stopping Server
+[2024-02-23 10:47:48] New resource 'Server' loaded
+[2024-02-23 10:47:48] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 10:47:48] Resources: 7 loaded, 1 failed
+[2024-02-23 10:47:48] Starting Server
+[2024-02-23 10:48:34] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 10:48:34] Stopping Server
+[2024-02-23 10:48:34] New resource 'Server' loaded
+[2024-02-23 10:48:35] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 10:48:35] Resources: 7 loaded, 1 failed
+[2024-02-23 10:48:35] Starting Server
+[2024-02-23 10:49:37] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 10:49:37] Stopping Server
+[2024-02-23 10:49:37] New resource 'Server' loaded
+[2024-02-23 10:49:37] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 10:49:37] Resources: 7 loaded, 1 failed
+[2024-02-23 10:49:37] Starting Server
+[2024-02-23 10:49:37] ERROR: [base]\Server\handlers\server\spawns_loot.lua:10: attempt to index global 'item' (a nil value)
+[2024-02-23 10:56:32] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 10:56:32] Stopping Server
+[2024-02-23 10:56:32] New resource 'Server' loaded
+[2024-02-23 10:56:32] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 10:56:32] Resources: 7 loaded, 1 failed
+[2024-02-23 10:56:32] Starting Server
+[2024-02-23 10:58:25] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 10:58:25] Stopping Server
+[2024-02-23 10:58:25] New resource 'Server' loaded
+[2024-02-23 10:58:25] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 10:58:25] Resources: 7 loaded, 1 failed
+[2024-02-23 10:58:25] Starting Server
+[2024-02-23 10:58:25] ERROR: [base]\Server\handlers\server\spawns_loot.lua:11: attempt to index global 'objectItem' (a nil value)
+[2024-02-23 10:58:48] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 10:58:48] Stopping Server
+[2024-02-23 10:58:48] New resource 'Server' loaded
+[2024-02-23 10:58:49] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 10:58:49] Resources: 7 loaded, 1 failed
+[2024-02-23 10:58:49] Starting Server
+[2024-02-23 10:58:58] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 10:58:58] Stopping Server
+[2024-02-23 10:58:58] New resource 'Server' loaded
+[2024-02-23 10:58:58] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 10:58:58] Resources: 7 loaded, 1 failed
+[2024-02-23 10:58:58] Starting Server
+[2024-02-23 10:59:08] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 10:59:08] Stopping Server
+[2024-02-23 10:59:08] New resource 'Server' loaded
+[2024-02-23 10:59:08] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 10:59:08] Resources: 7 loaded, 1 failed
+[2024-02-23 10:59:08] Starting Server
+[2024-02-23 10:59:15] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 10:59:15] Stopping Server
+[2024-02-23 10:59:15] New resource 'Server' loaded
+[2024-02-23 10:59:15] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 10:59:15] Resources: 7 loaded, 1 failed
+[2024-02-23 10:59:15] Starting Server
+[2024-02-23 10:59:24] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 10:59:24] Stopping Server
+[2024-02-23 10:59:24] New resource 'Server' loaded
+[2024-02-23 10:59:24] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 10:59:24] Resources: 7 loaded, 1 failed
+[2024-02-23 10:59:24] Starting Server
+[2024-02-23 10:59:35] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 10:59:35] Stopping Server
+[2024-02-23 10:59:35] New resource 'Server' loaded
+[2024-02-23 10:59:35] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 10:59:35] Resources: 7 loaded, 1 failed
+[2024-02-23 10:59:35] Starting Server
+[2024-02-23 10:59:46] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 10:59:46] Stopping Server
+[2024-02-23 10:59:46] New resource 'Server' loaded
+[2024-02-23 10:59:46] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 10:59:46] Resources: 7 loaded, 1 failed
+[2024-02-23 10:59:46] Starting Server
+[2024-02-23 10:59:46] Erro ao solicitar a API de Clima: 502
+[2024-02-23 11:00:04] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 11:00:04] Stopping Server
+[2024-02-23 11:00:04] New resource 'Server' loaded
+[2024-02-23 11:00:04] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 11:00:04] Resources: 7 loaded, 1 failed
+[2024-02-23 11:00:04] Starting Server

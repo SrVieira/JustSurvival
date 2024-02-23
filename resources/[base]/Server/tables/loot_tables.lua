@@ -8,8 +8,10 @@ lootSpawnPoints = {
 };
 
 lootItems = {
-    -- Name, Loot Size, Spawn Chance, Object, Object Size
+    -- Name, Loot Size, Spawn Chance, Object, Object Size, Increase Z
     ["RESIDENTIAL"] = {
-        { "Caixa de Leite", 1, 5, 14752, 1 },
+        -- Drinks
+        { "Caixa de Leite", 1, 5, 2856, 1, 0 },
+        { "Coca-Cola", 1, 5, 2823, 1, 0.05 },
     }
 };

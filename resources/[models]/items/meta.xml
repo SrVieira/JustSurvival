@@ -1,0 +1,11 @@
+<meta>
+	<info author="Matheus Vieira" name="Items Models" description="All models to replace items objects" typ ="script" />
+	<download_priority_group>0</download_priority_group> 
+	
+    <!-- Scripts -->
+	<script src="load.lua" type="client" cache="false" />
+    
+    <!-- Models -->
+    <file src="coke.dff" />
+    <file src="coke.txd" />
+</meta>
