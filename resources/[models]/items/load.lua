@@ -21,3 +21,9 @@ txd = engineLoadTXD("water_bottle.txd", 2663);
 engineImportTXD(txd, 2663);
 dff = engineLoadDFF("water_bottle.dff", 2663);
 engineReplaceModel(dff, 2663);
+
+-- Red Bull
+txd = engineLoadTXD("redbull.txd", 2683);
+engineImportTXD(txd, 2683);
+dff = engineLoadDFF("redbull.dff", 2683);
+engineReplaceModel(dff, 2683);

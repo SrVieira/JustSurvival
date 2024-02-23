@@ -12296,3 +12296,91 @@
 [2024-02-23 13:24:50] ERROR: Problem with resource: runcode; Failed to link to ajax
 [2024-02-23 13:24:50] Resources: 8 loaded, 1 failed
 [2024-02-23 13:24:50] Starting Server
+[2024-02-23 13:29:24] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 13:29:24] Stopping Server
+[2024-02-23 13:29:24] New resource 'Server' loaded
+[2024-02-23 13:29:25] Resource 'items' changed while running, reloading and restarting
+[2024-02-23 13:29:25] Stopping items
+[2024-02-23 13:29:25] New resource 'items' loaded
+[2024-02-23 13:29:25] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 13:29:25] Resources: 8 loaded, 1 failed
+[2024-02-23 13:29:25] Starting Server
+[2024-02-23 13:29:25] Starting items
+[2024-02-23 13:39:21] Resource 'items' changed while running, reloading and restarting
+[2024-02-23 13:39:21] Stopping items
+[2024-02-23 13:39:21] New resource 'items' loaded
+[2024-02-23 13:39:21] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 13:39:21] Resources: 8 loaded, 1 failed
+[2024-02-23 13:39:21] Starting items
+[2024-02-23 13:39:39] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 13:39:39] Stopping Server
+[2024-02-23 13:39:39] New resource 'Server' loaded
+[2024-02-23 13:39:39] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 13:39:39] Resources: 8 loaded, 1 failed
+[2024-02-23 13:39:39] Starting Server
+[2024-02-23 13:40:06] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 13:40:06] Stopping Server
+[2024-02-23 13:40:06] New resource 'Server' loaded
+[2024-02-23 13:40:06] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 13:40:06] Resources: 8 loaded, 1 failed
+[2024-02-23 13:40:06] Starting Server
+[2024-02-23 13:40:23] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 13:40:23] Stopping Server
+[2024-02-23 13:40:23] New resource 'Server' loaded
+[2024-02-23 13:40:23] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 13:40:23] Resources: 8 loaded, 1 failed
+[2024-02-23 13:40:23] Starting Server
+[2024-02-23 13:46:04] Resource 'items' changed while running, reloading and restarting
+[2024-02-23 13:46:04] Stopping items
+[2024-02-23 13:46:04] New resource 'items' loaded
+[2024-02-23 13:46:04] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 13:46:04] Resources: 8 loaded, 1 failed
+[2024-02-23 13:46:04] Starting items
+[2024-02-23 13:46:31] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 13:46:31] Stopping Server
+[2024-02-23 13:46:31] New resource 'Server' loaded
+[2024-02-23 13:46:32] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 13:46:32] Resources: 8 loaded, 1 failed
+[2024-02-23 13:46:32] Starting Server
+[2024-02-23 13:52:30] Resource 'items' changed while running, reloading and restarting
+[2024-02-23 13:52:30] Stopping items
+[2024-02-23 13:52:30] New resource 'items' loaded
+[2024-02-23 13:52:30] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 13:52:30] Resources: 8 loaded, 1 failed
+[2024-02-23 13:52:30] Starting items
+[2024-02-23 13:53:09] Resource 'items' changed while running, reloading and restarting
+[2024-02-23 13:53:09] Stopping items
+[2024-02-23 13:53:09] New resource 'items' loaded
+[2024-02-23 13:53:09] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 13:53:09] Resources: 8 loaded, 1 failed
+[2024-02-23 13:53:09] Starting items
+[2024-02-23 13:57:51] Resource 'items' changed while running, reloading and restarting
+[2024-02-23 13:57:51] Stopping items
+[2024-02-23 13:57:51] New resource 'items' loaded
+[2024-02-23 13:57:51] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 13:57:51] Resources: 8 loaded, 1 failed
+[2024-02-23 13:57:51] Starting items
+[2024-02-23 14:01:38] Resource 'items' changed while running, reloading and restarting
+[2024-02-23 14:01:38] Stopping items
+[2024-02-23 14:01:38] New resource 'items' loaded
+[2024-02-23 14:01:38] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 14:01:38] Resources: 8 loaded, 1 failed
+[2024-02-23 14:01:38] Starting items
+[2024-02-23 14:05:12] Resource 'items' changed while running, reloading and restarting
+[2024-02-23 14:05:12] Stopping items
+[2024-02-23 14:05:12] New resource 'items' loaded
+[2024-02-23 14:05:12] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 14:05:12] Resources: 8 loaded, 1 failed
+[2024-02-23 14:05:12] Starting items
+[2024-02-23 14:06:57] Resource 'items' changed while running, reloading and restarting
+[2024-02-23 14:06:57] Stopping items
+[2024-02-23 14:06:58] New resource 'items' loaded
+[2024-02-23 14:06:58] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 14:06:58] Resources: 8 loaded, 1 failed
+[2024-02-23 14:06:58] Starting items
+[2024-02-23 14:07:21] Resource 'items' changed while running, reloading and restarting
+[2024-02-23 14:07:21] Stopping items
+[2024-02-23 14:07:21] New resource 'items' loaded
+[2024-02-23 14:07:21] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 14:07:21] Resources: 8 loaded, 1 failed
+[2024-02-23 14:07:21] Starting items
