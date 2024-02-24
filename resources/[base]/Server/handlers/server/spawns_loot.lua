@@ -66,5 +66,6 @@ end
 local function createLootSpawnPoints()
     lootPointsCols = {};
     createLootPoint("RESIDENTIAL");
+    createLootPoint("INDUSTRIAL");
 end
 addEventHandler("onResourceStart", getRootElement(), createLootSpawnPoints);
