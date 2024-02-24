@@ -3,10 +3,13 @@
 
     <!-- Utils -->
     <script src="utils/math_util.lua" type="shared" cache="true" validate="true" />
-    
+
     <!-- Base -->
     <script src="variables.lua" type="shared" cache="true" validate="true" />
     <script src="settings.lua" type="server" cache="true" validate="true" />
+
+    <!-- Tables -->
+    <script src="functions/dx_functions.lua" type="client" cache="true" validate="true" />
 
     <!-- Tables -->
     <script src="tables/player_tables.lua" type="shared" cache="true" validate="true" />
