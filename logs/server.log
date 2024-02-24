@@ -12905,3 +12905,34 @@
 [2024-02-23 18:33:41] ERROR: Problem with resource: runcode; Failed to link to ajax
 [2024-02-23 18:33:41] Resources: 8 loaded, 1 failed
 [2024-02-23 18:33:41] Starting Server
+[2024-02-23 18:36:21] Resource 'Server' changed while running, reloading and restarting
+[2024-02-23 18:36:21] Stopping Server
+[2024-02-23 18:36:21] New resource 'Server' loaded
+[2024-02-23 18:36:22] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-23 18:36:22] Resources: 8 loaded, 1 failed
+[2024-02-23 18:36:22] Starting Server
+[2024-02-24 11:12:25] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 11:13:10] Resource 'Server' changed while running, reloading and restarting
+[2024-02-24 11:13:10] Stopping Server
+[2024-02-24 11:13:10] New resource 'Server' loaded
+[2024-02-24 11:13:11] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 11:13:11] Resources: 8 loaded, 1 failed
+[2024-02-24 11:13:11] Starting Server
+[2024-02-24 11:13:11] SCRIPT ERROR: [base]\Server\tables\loot_tables.lua:9: '}' expected (to close '{' at line 3) near '{'
+[2024-02-24 11:13:11] ERROR: Loading script failed: [base]\Server\tables\loot_tables.lua:9: '}' expected (to close '{' at line 3) near '{'
+[2024-02-24 11:13:11] ERROR: [base]\Server\handlers\server\spawns_loot.lua:35: attempt to index global 'lootSpawnPoints' (a nil value)
+[2024-02-24 11:13:14] Resource 'Server' changed while running, reloading and restarting
+[2024-02-24 11:13:14] Stopping Server
+[2024-02-24 11:13:14] New resource 'Server' loaded
+[2024-02-24 11:13:15] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 11:13:15] Resources: 8 loaded, 1 failed
+[2024-02-24 11:13:15] Starting Server
+[2024-02-24 11:13:15] SCRIPT ERROR: [base]\Server\tables\loot_tables.lua:9: '}' expected (to close '{' at line 3) near '{'
+[2024-02-24 11:13:17] ERROR: Loading script failed: [base]\Server\tables\loot_tables.lua:9: '}' expected (to close '{' at line 3) near '{'
+[2024-02-24 11:13:17] ERROR: [base]\Server\handlers\server\spawns_loot.lua:35: attempt to index global 'lootSpawnPoints' (a nil value)
+[2024-02-24 11:13:20] Resource 'Server' changed while running, reloading and restarting
+[2024-02-24 11:13:20] Stopping Server
+[2024-02-24 11:13:20] New resource 'Server' loaded
+[2024-02-24 11:13:21] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 11:13:21] Resources: 8 loaded, 1 failed
+[2024-02-24 11:13:21] Starting Server
