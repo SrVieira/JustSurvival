@@ -33,3 +33,9 @@ txd = engineLoadTXD("canten.txd", 2881);
 engineImportTXD(txd, 2881);
 dff = engineLoadDFF("canten.dff", 2881);
 engineReplaceModel(dff, 2881);
+
+-- Beans Can
+txd = engineLoadTXD("beans_can.txd", 1485);
+engineImportTXD(txd, 1485);
+dff = engineLoadDFF("beans_can.dff", 1485);
+engineReplaceModel(dff, 1485);

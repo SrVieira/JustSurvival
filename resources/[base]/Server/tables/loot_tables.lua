@@ -59,6 +59,8 @@ lootItems = {
         { "Red Bull", 1, 5, 2683, 0.8, 0.15 },
         { "Cantíl de Água", 1, 5, 2881, 1, 0.1 },
         -- Foods
+        { "Lata de Feijão (Fechada)", 1, 4, 1485, 1.5, 0.1 },
+        { "Lata de Feijão (Aberta)", 1, 3, 1485, 1.5, 0.1 },
     },
     ["INDUSTRIAL"] = {
         -- Drinks
