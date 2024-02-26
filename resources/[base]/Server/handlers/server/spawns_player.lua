@@ -11,5 +11,7 @@ function handleCheckPlayerJoin()
     spawnPlayer(source, randomPos[1], randomPos[2], randomPos[3], 0, 0, 0, 0);
     fadeCamera(source, true);
     setCameraTarget(source, source);
+    setElementData(source, "isLogged", true);
+    setElementData(source, "isDead", false);
 end
 addEventHandler("onPlayerJoin", getRootElement(), handleCheckPlayerJoin);

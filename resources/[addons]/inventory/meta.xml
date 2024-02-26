@@ -1,0 +1,6 @@
+<meta>
+    <info author="Matheus Vieira" version="1.0" name="Inventory" description="Inventory addon" type="script" />=
+
+    <!-- Scripts -->
+    <script src="inventory_client.lua" type="client" cache="true" validate="true" />
+</meta>
