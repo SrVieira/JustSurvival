@@ -1,5 +1,6 @@
 local fonts = {
 	['TitleInventory'] = dxCreateFont("fonts/teko_regular.ttf", 18),
+	['SubTitleInventory'] = dxCreateFont("fonts/teko_regular.ttf", 14),
 };
 
 function dxDrawBorderedRectangle(x,y,w,h,border_size,color,postgui)
