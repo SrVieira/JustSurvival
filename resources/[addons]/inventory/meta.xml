@@ -6,7 +6,6 @@
 
     <!-- UI -->
     <file src="ui/empty_armor.png" />
-    <file src="ui/empty_backpack.png" />
     <file src="ui/empty_binoculars.png" />
     <file src="ui/empty_compass.png" />
     <file src="ui/empty_gps.png" />
