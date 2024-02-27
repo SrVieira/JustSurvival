@@ -1,9 +1,13 @@
 <meta>
     <info author="Matheus Vieira" version="1.0" name="DX Lib" description="DX Library to create UI" type="script" />=
 
+    <!-- Fonts -->
+    <file src="fonts/teko_regular.ttf" />
+
     <!-- Scripts -->
     <script src="dx_client.lua" type="client" cache="true" validate="true" />
 
     <!-- Exports -->
     <export function="dxDrawBorderedRectangle" type="client" http="true" />
+    <export function="dxCustomDrawText" type="client" http="true" />
 </meta>

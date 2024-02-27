@@ -3,4 +3,18 @@
 
     <!-- Scripts -->
     <script src="inventory_client.lua" type="client" cache="true" validate="true" />
+
+    <!-- UI -->
+    <file src="ui/empty_armor.png" />
+    <file src="ui/empty_backpack.png" />
+    <file src="ui/empty_binoculars.png" />
+    <file src="ui/empty_compass.png" />
+    <file src="ui/empty_gps.png" />
+    <file src="ui/empty_hand.png" />
+    <file src="ui/empty_helmet.png" />
+    <file src="ui/empty_map.png" />
+    <file src="ui/empty_mask.png" />
+    <file src="ui/empty_radio.png" />
+    <file src="ui/empty_shoes.png" />
+    <file src="ui/empty_sword.png" />
 </meta>

@@ -1,3 +1,7 @@
+local fonts = {
+	['TitleInventory'] = dxCreateFont("fonts/teko_regular.ttf", 18),
+};
+
 function dxDrawBorderedRectangle(x,y,w,h,border_size,color,postgui)
 	if postgui == nil then postgui = true end
 	
@@ -12,4 +16,8 @@ function dxDrawBorderedRectangle(x,y,w,h,border_size,color,postgui)
 	dxDrawRectangle(x, y-border_size, -border_size, h+(border_size*2), tocolor(r2, g2, b2, a2), postgui)
 	dxDrawRectangle(x+w, y-border_size, border_size, h+(border_size*2), tocolor(r2, g2, b2, a2), postgui)
 	dxDrawRectangle(x, y, w, h, tocolor(r, g, b, a), postgui)
+end
+
+function dxCustomDrawText(text, left, top, right, bottom, color, font, alignX, alignY)
+	dxDrawText(text, left, top, right, bottom, color, 1.00, fonts[font], alignX, alignY, true);
 end
