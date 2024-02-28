@@ -15,3 +15,13 @@ function handleCheckPlayerJoin()
     setElementData(source, "isDead", false);
 end
 addEventHandler("onPlayerJoin", getRootElement(), handleCheckPlayerJoin);
+
+function pegaritem(sourcePlayer, commandName, ...)
+    local itemName = table.concat({...}, " ");
+    if itemName ~= "" then
+        setElementData(sourcePlayer, itemName, 1);
+    else
+        outputChatBox("Por favor, especifique o nome do item.", sourcePlayer);
+    end
+end
+addCommandHandler("pegaritem", pegaritem);

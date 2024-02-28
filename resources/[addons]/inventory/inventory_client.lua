@@ -19,8 +19,8 @@ local inventory = {
 
 local function renderIconSlot(x, y, slotName)
 	exports.dx:dxDrawBorderedRectangle(x, y, 30, 30, 1, {255, 255, 255, 25}, false);
-	if inventory[slotName] then
-		outputChatBox(slotName);
+	if getElementData(localPlayer, slotName) and getElementData(localPlayer, slotName) > 0 then
+		dxDrawImage(x, y, 30, 30, "items/"..slotName..".png", 0, 0, 0, tocolor(255, 255, 255, 255), false);
 	else
 		dxDrawImage(x, y, 30, 30, "ui/empty_"..slotName..".png", 0, 0, 0, tocolor(255, 255, 255, 255), false);
 	end	

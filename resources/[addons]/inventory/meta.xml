@@ -16,4 +16,10 @@
     <file src="ui/empty_radio.png" />
     <file src="ui/empty_shoes.png" />
     <file src="ui/empty_sword.png" />
+
+    <!-- ITEMS -->
+    <file src="items/gps.png" />
+    <file src="items/map.png" />
+    <file src="items/compass.png" />
+    <file src="items/binoculars.png" />
 </meta>
