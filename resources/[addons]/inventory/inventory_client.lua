@@ -9,7 +9,12 @@ local inventoryTarget = dxCreateRenderTarget(232, screenH, true);
 local inventory = {
     visible = false,
     header1 = 'Equipamento',
-	hasBackpack = nil,
+	backpack = nil,
+	primaryWeapon = nil,
+	secondaryWeapon = nil,
+	vest = nil,
+	shirt = nil,
+	pants = nil,
 };
 
 local function renderIconSlot(x, y, slotName)
@@ -46,36 +51,29 @@ local function renderInventoryGUI()
 		renderIconSlot(112, 62, "map"); -- Map
 		renderIconSlot(148, 62, "compass"); -- Compass
 
-		-- Primary Weapon
-		exports.dx:dxDrawBorderedRectangle(0, 102, 232, 20, 1, {100, 100, 100, 225}, false);
-		exports.dx:dxDrawBorderedRectangle(0, 124, 232, 80, 1, {100, 100, 100, 125}, false);
-		exports.dx:dxCustomDrawText('SKS BLACK', 4, 102, 232, 124, tocolor(255, 255, 255, 255), 'SubTitleInventory', "left", "center");
+		-- Variáveis para controlar a posição Y dos próximos itens
+		local nextYBoxA = 102
+		local nextYBoxB = 124
 
-		-- Secondary Weapon
-		exports.dx:dxDrawBorderedRectangle(0, 209, 232, 20, 1, {100, 100, 100, 225}, false);
-		exports.dx:dxDrawBorderedRectangle(0, 231, 232, 80, 1, {100, 100, 100, 125}, false);
-		exports.dx:dxCustomDrawText('WTF WEAPON', 4, 209, 232, 231, tocolor(255, 255, 255, 255), 'SubTitleInventory', "left", "center");
+		-- Função para renderizar um slot e atualizar as variáveis de posição Y
+		local function renderSlot(itemExists, height)
+			if itemExists then
+				exports.dx:dxDrawBorderedRectangle(0, nextYBoxA, 232, 20, 1, {100, 100, 100, 225}, false);
+				exports.dx:dxDrawBorderedRectangle(0, nextYBoxB, 232, height, 1, {100, 100, 100, 125}, false);
+				exports.dx:dxCustomDrawText(itemExists, 4, nextYBoxA, 232, nextYBoxB, tocolor(255, 255, 255, 255), 'SubTitleInventory', "left", "center");
+				nextYBoxA = nextYBoxA + height + 27
+				nextYBoxB = nextYBoxB + height + 27
+			end
+		end
 
-		-- Vest
-		exports.dx:dxDrawBorderedRectangle(0, 316, 232, 20, 1, {100, 100, 100, 225}, false);
-		exports.dx:dxDrawBorderedRectangle(0, 338, 232, 68, 1, {100, 100, 100, 125}, false);
-		exports.dx:dxCustomDrawText('UK ASSAULT VEST', 4, 316, 232, 338, tocolor(255, 255, 255, 200), 'SubTitleInventory', "left", "center");
-
-		-- Shirt
-		exports.dx:dxDrawBorderedRectangle(0, 411, 232, 20, 1, {100, 100, 100, 225}, false);
-		exports.dx:dxDrawBorderedRectangle(0, 433, 232, 68, 1, {100, 100, 100, 125}, false);
-		exports.dx:dxCustomDrawText('TACTICAL JACKET', 4, 411, 232, 433, tocolor(255, 255, 255, 200), 'SubTitleInventory', "left", "center");
-
-		-- Pants
-		exports.dx:dxDrawBorderedRectangle(0, 506, 232, 20, 1, {100, 100, 100, 225}, false);
-		exports.dx:dxDrawBorderedRectangle(0, 528, 232, 68, 1, {100, 100, 100, 125}, false);
-		exports.dx:dxCustomDrawText('BLUE PANTS', 4, 506, 232, 528, tocolor(255, 255, 255, 200), 'SubTitleInventory', "left", "center");
-
-		-- Backpack
-		exports.dx:dxDrawBorderedRectangle(0, 601, 232, 20, 1, {100, 100, 100, 225}, false);
-		exports.dx:dxDrawBorderedRectangle(0, 623, 232, 120, 1, {100, 100, 100, 125}, false);
-		exports.dx:dxCustomDrawText('MOCHILA DE ASSALTO', 4, 601, 232, 623, tocolor(255, 255, 255, 200), 'SubTitleInventory', "left", "center");
-				
+		-- Renderizar os slots e atualizar as variáveis de posição Y
+		renderSlot(inventory.primaryWeapon, 80)
+		renderSlot(inventory.secondaryWeapon, 80)
+		renderSlot(inventory.vest, 68)
+		renderSlot(inventory.shirt, 68)
+		renderSlot(inventory.pants, 68)
+		renderSlot(inventory.backpack, 120)
+			
 		dxSetRenderTarget();
 	end
 end
