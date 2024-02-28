@@ -12936,3 +12936,2096 @@
 [2024-02-24 11:13:21] ERROR: Problem with resource: runcode; Failed to link to ajax
 [2024-02-24 11:13:21] Resources: 8 loaded, 1 failed
 [2024-02-24 11:13:21] Starting Server
+[2024-02-24 13:15:27] Resource 'Server' changed while running, reloading and restarting
+[2024-02-24 13:15:27] Stopping Server
+[2024-02-24 13:15:27] ERROR: Couldn't find script functions/dx_functions.lua for resource Server
+[2024-02-24 13:15:27] Loading of resource 'Server' failed
+[2024-02-24 13:15:31] ERROR: Problem with resource: Server; Couldn't find script functions/dx_functions.lua for resource Server
+[2024-02-24 13:15:31] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 13:15:31] Resources: 7 loaded, 2 failed
+[2024-02-24 13:15:43] Resource 'Server' changed, reloading
+[2024-02-24 13:15:43] New resource 'Server' loaded
+[2024-02-24 13:15:44] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 13:15:44] Resources: 8 loaded, 1 failed
+[2024-02-24 13:15:46] start: Requested by Console
+[2024-02-24 13:15:46] Starting Server
+[2024-02-24 13:15:46] start: Resource 'Server' started
+[2024-02-24 13:16:38] start: Requested by Console
+[2024-02-24 13:16:38] start: Resource is already running
+[2024-02-24 13:16:40] Resource 'Server' changed while running, reloading and restarting
+[2024-02-24 13:16:40] Stopping Server
+[2024-02-24 13:16:40] New resource 'Server' loaded
+[2024-02-24 13:16:41] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 13:16:41] Resources: 8 loaded, 1 failed
+[2024-02-24 13:16:41] Starting Server
+[2024-02-24 13:16:57] Resource 'Server' changed while running, reloading and restarting
+[2024-02-24 13:16:57] Stopping Server
+[2024-02-24 13:16:57] New resource 'Server' loaded
+[2024-02-24 13:16:57] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 13:16:57] Resources: 8 loaded, 1 failed
+[2024-02-24 13:16:57] Starting Server
+[2024-02-24 13:19:56] Resource 'Server' changed while running, reloading and restarting
+[2024-02-24 13:19:56] Stopping Server
+[2024-02-24 13:19:56] New resource 'Server' loaded
+[2024-02-24 13:19:56] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 13:19:56] Resources: 8 loaded, 1 failed
+[2024-02-24 13:19:56] Starting Server
+[2024-02-24 13:22:25] Resource 'Server' changed while running, reloading and restarting
+[2024-02-24 13:22:25] Stopping Server
+[2024-02-24 13:22:25] New resource 'Server' loaded
+[2024-02-24 13:22:25] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 13:22:25] Resources: 8 loaded, 1 failed
+[2024-02-24 13:22:25] Starting Server
+[2024-02-24 13:24:52] Resource 'Server' changed while running, reloading and restarting
+[2024-02-24 13:24:52] Stopping Server
+[2024-02-24 13:24:52] New resource 'Server' loaded
+[2024-02-24 13:24:52] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 13:24:52] Resources: 8 loaded, 1 failed
+[2024-02-24 13:24:52] Starting Server
+[2024-02-24 13:27:04] Resource 'Server' changed while running, reloading and restarting
+[2024-02-24 13:27:04] Stopping Server
+[2024-02-24 13:27:04] New resource 'Server' loaded
+[2024-02-24 13:27:04] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 13:27:04] Resources: 8 loaded, 1 failed
+[2024-02-24 13:27:04] Starting Server
+[2024-02-24 13:30:35] Resource 'Server' changed while running, reloading and restarting
+[2024-02-24 13:30:35] Stopping Server
+[2024-02-24 13:30:35] New resource 'Server' loaded
+[2024-02-24 13:30:36] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 13:30:36] Resources: 8 loaded, 1 failed
+[2024-02-24 13:30:36] Starting Server
+[2024-02-24 13:31:10] Resource 'Server' changed while running, reloading and restarting
+[2024-02-24 13:31:10] Stopping Server
+[2024-02-24 13:31:10] New resource 'Server' loaded
+[2024-02-24 13:31:10] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 13:31:10] Resources: 8 loaded, 1 failed
+[2024-02-24 13:31:10] Starting Server
+[2024-02-24 13:31:38] Resource 'Server' changed while running, reloading and restarting
+[2024-02-24 13:31:38] Stopping Server
+[2024-02-24 13:31:38] New resource 'Server' loaded
+[2024-02-24 13:31:38] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 13:31:38] Resources: 8 loaded, 1 failed
+[2024-02-24 13:31:38] Starting Server
+[2024-02-24 13:35:37] Resource 'Server' changed while running, reloading and restarting
+[2024-02-24 13:35:37] Stopping Server
+[2024-02-24 13:35:37] New resource 'Server' loaded
+[2024-02-24 13:35:37] Resource 'items' changed while running, reloading and restarting
+[2024-02-24 13:35:37] Stopping items
+[2024-02-24 13:35:37] New resource 'items' loaded
+[2024-02-24 13:35:37] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 13:35:37] Resources: 8 loaded, 1 failed
+[2024-02-24 13:35:37] Starting Server
+[2024-02-24 13:35:37] Starting items
+[2024-02-24 13:36:22] Resource 'Server' changed while running, reloading and restarting
+[2024-02-24 13:36:22] Stopping Server
+[2024-02-24 13:36:22] New resource 'Server' loaded
+[2024-02-24 13:36:23] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 13:36:23] Resources: 8 loaded, 1 failed
+[2024-02-24 13:36:23] Starting Server
+[2024-02-24 13:36:33] Resource 'Server' changed while running, reloading and restarting
+[2024-02-24 13:36:33] Stopping Server
+[2024-02-24 13:36:33] New resource 'Server' loaded
+[2024-02-24 13:36:34] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 13:36:34] Resources: 8 loaded, 1 failed
+[2024-02-24 13:36:34] Starting Server
+[2024-02-24 13:52:49] Resource 'Server' changed while running, reloading and restarting
+[2024-02-24 13:52:49] Stopping Server
+[2024-02-24 13:52:49] New resource 'Server' loaded
+[2024-02-24 13:52:49] ERROR: Couldn't find script inventory-client.lua for resource inventory
+[2024-02-24 13:52:49] Loading of resource 'inventory' failed
+[2024-02-24 13:52:49] ERROR: Problem with resource: inventory; Couldn't find script inventory-client.lua for resource inventory
+[2024-02-24 13:52:49] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 13:52:49] Resources: 8 loaded, 2 failed
+[2024-02-24 13:52:49] Starting Server
+[2024-02-24 13:52:57] Resource 'inventory' changed, reloading
+[2024-02-24 13:52:57] New resource 'inventory' loaded
+[2024-02-24 13:52:57] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 13:52:57] Resources: 9 loaded, 1 failed
+[2024-02-24 13:53:01] start: Requested by Console
+[2024-02-24 13:53:01] start: Resource is already running
+[2024-02-24 13:53:12] start: Requested by Console
+[2024-02-24 13:53:12] Starting inventory
+[2024-02-24 13:53:12] start: Resource 'Inventory' started
+[2024-02-24 13:53:18] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-24 13:53:24] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-24 13:53:24] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-24 14:01:05] start: Requested by Console
+[2024-02-24 14:01:05] start: Resource is already running
+[2024-02-24 14:01:07] Resource 'Server' changed while running, reloading and restarting
+[2024-02-24 14:01:07] Stopping Server
+[2024-02-24 14:01:07] New resource 'Server' loaded
+[2024-02-24 14:01:07] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-24 14:01:07] Stopping inventory
+[2024-02-24 14:01:07] New resource 'inventory' loaded
+[2024-02-24 14:01:07] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 14:01:07] Resources: 9 loaded, 1 failed
+[2024-02-24 14:01:07] Starting Server
+[2024-02-24 14:01:07] Starting inventory
+[2024-02-24 14:01:23] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-24 14:01:23] Stopping inventory
+[2024-02-24 14:01:23] New resource 'inventory' loaded
+[2024-02-24 14:01:23] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 14:01:23] Resources: 9 loaded, 1 failed
+[2024-02-24 14:01:23] Starting inventory
+[2024-02-24 14:02:30] Resource 'Server' changed while running, reloading and restarting
+[2024-02-24 14:02:30] Stopping Server
+[2024-02-24 14:02:30] New resource 'Server' loaded
+[2024-02-24 14:02:31] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-24 14:02:31] Stopping inventory
+[2024-02-24 14:02:31] New resource 'inventory' loaded
+[2024-02-24 14:02:31] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 14:02:31] Resources: 9 loaded, 1 failed
+[2024-02-24 14:02:31] Starting Server
+[2024-02-24 14:02:31] Starting inventory
+[2024-02-24 14:05:48] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-24 14:05:48] Stopping inventory
+[2024-02-24 14:05:48] ERROR: Couldn't find script blur_box/c_main.lua for resource inventory
+[2024-02-24 14:05:48] Loading of resource 'inventory' failed
+[2024-02-24 14:05:48] ERROR: Problem with resource: inventory; Couldn't find script blur_box/c_main.lua for resource inventory
+[2024-02-24 14:05:48] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 14:05:48] Resources: 8 loaded, 2 failed
+[2024-02-24 14:05:56] Resource 'inventory' changed, reloading
+[2024-02-24 14:05:56] New resource 'inventory' loaded
+[2024-02-24 14:05:56] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 14:05:56] Resources: 9 loaded, 1 failed
+[2024-02-24 14:06:00] start: Requested by Console
+[2024-02-24 14:06:00] Starting inventory
+[2024-02-24 14:06:00] start: Resource 'Inventory' started
+[2024-02-24 14:06:10] start: Requested by Console
+[2024-02-24 14:06:10] start: Resource is already running
+[2024-02-24 14:06:30] start: Requested by Console
+[2024-02-24 14:06:30] start: Resource is already running
+[2024-02-24 14:06:33] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-24 14:06:33] Stopping inventory
+[2024-02-24 14:06:33] New resource 'inventory' loaded
+[2024-02-24 14:06:33] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 14:06:33] Resources: 9 loaded, 1 failed
+[2024-02-24 14:06:33] Starting inventory
+[2024-02-24 14:09:54] New resource 'dx' loaded
+[2024-02-24 14:09:54] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-24 14:09:54] Stopping inventory
+[2024-02-24 14:09:54] New resource 'inventory' loaded
+[2024-02-24 14:09:54] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 14:09:54] Resources: 10 loaded, 1 failed
+[2024-02-24 14:09:54] Starting inventory
+[2024-02-24 14:10:04] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-24 14:10:04] Stopping inventory
+[2024-02-24 14:10:04] New resource 'inventory' loaded
+[2024-02-24 14:10:04] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 14:10:04] Resources: 10 loaded, 1 failed
+[2024-02-24 14:10:04] Starting inventory
+[2024-02-24 14:10:38] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-24 14:10:38] Stopping inventory
+[2024-02-24 14:10:38] New resource 'inventory' loaded
+[2024-02-24 14:10:38] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 14:10:38] Resources: 10 loaded, 1 failed
+[2024-02-24 14:10:38] Starting inventory
+[2024-02-24 14:11:09] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-24 14:11:09] Stopping inventory
+[2024-02-24 14:11:09] New resource 'inventory' loaded
+[2024-02-24 14:11:09] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 14:11:09] Resources: 10 loaded, 1 failed
+[2024-02-24 14:11:09] Starting inventory
+[2024-02-24 14:11:39] Resource 'dx' changed, reloading
+[2024-02-24 14:11:39] New resource 'dx' loaded
+[2024-02-24 14:11:39] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 14:11:39] Resources: 10 loaded, 1 failed
+[2024-02-24 14:15:10] Resource 'dx' changed, reloading
+[2024-02-24 14:15:10] New resource 'dx' loaded
+[2024-02-24 14:15:10] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 14:15:10] Resources: 10 loaded, 1 failed
+[2024-02-24 14:25:04] start: Requested by Console
+[2024-02-24 14:25:04] Resource 'dx' changed, reloading and starting
+[2024-02-24 14:25:04] Starting dx
+[2024-02-24 14:25:04] start: Resource 'dx' started
+[2024-02-24 14:42:43] start: Requested by Console
+[2024-02-24 14:42:43] start: Resource is already running
+[2024-02-24 14:42:44] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 14:42:57] Resource 'dx' changed while running, reloading and restarting
+[2024-02-24 14:42:57] Stopping dx
+[2024-02-24 14:42:57] New resource 'dx' loaded
+[2024-02-24 14:42:57] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 14:42:57] Resources: 10 loaded, 1 failed
+[2024-02-24 14:42:57] Starting dx
+[2024-02-24 14:44:21] Resource 'dx' changed while running, reloading and restarting
+[2024-02-24 14:44:21] Stopping dx
+[2024-02-24 14:44:21] New resource 'dx' loaded
+[2024-02-24 14:44:21] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-24 14:44:21] Stopping inventory
+[2024-02-24 14:44:21] New resource 'inventory' loaded
+[2024-02-24 14:44:21] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-24 14:44:21] Resources: 10 loaded, 1 failed
+[2024-02-24 14:44:21] Starting dx
+[2024-02-24 14:44:21] Starting inventory
+[2024-02-26 00:36:41] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-26 10:30:11] Resource 'dx' changed while running, reloading and restarting
+[2024-02-26 10:30:11] Stopping dx
+[2024-02-26 10:30:11] New resource 'dx' loaded
+[2024-02-26 10:30:11] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-26 10:30:11] Stopping inventory
+[2024-02-26 10:30:11] New resource 'inventory' loaded
+[2024-02-26 10:30:12] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-26 10:30:12] Resources: 10 loaded, 1 failed
+[2024-02-26 10:30:12] Starting dx
+[2024-02-26 10:30:12] Starting inventory
+[2024-02-26 10:32:28] Resource 'dx' changed while running, reloading and restarting
+[2024-02-26 10:32:28] Stopping dx
+[2024-02-26 10:32:28] New resource 'dx' loaded
+[2024-02-26 10:32:28] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-26 10:32:28] Resources: 10 loaded, 1 failed
+[2024-02-26 10:32:28] Starting dx
+[2024-02-26 10:34:13] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 09:53:05] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 10:55:46] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-27 10:55:55] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-27 12:11:17] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 12:11:17] Stopping inventory
+[2024-02-27 12:11:18] New resource 'inventory' loaded
+[2024-02-27 12:11:21] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 12:11:21] Resources: 10 loaded, 1 failed
+[2024-02-27 12:11:21] Starting inventory
+[2024-02-27 12:11:41] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 12:11:41] Stopping inventory
+[2024-02-27 12:11:41] New resource 'inventory' loaded
+[2024-02-27 12:11:41] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 12:11:41] Resources: 10 loaded, 1 failed
+[2024-02-27 12:11:41] Starting inventory
+[2024-02-27 12:44:48] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 12:44:48] Stopping inventory
+[2024-02-27 12:44:49] New resource 'inventory' loaded
+[2024-02-27 12:44:49] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 12:44:49] Resources: 10 loaded, 1 failed
+[2024-02-27 12:44:49] Starting inventory
+[2024-02-27 12:53:39] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 12:53:39] Stopping inventory
+[2024-02-27 12:53:39] New resource 'inventory' loaded
+[2024-02-27 12:53:39] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 12:53:39] Resources: 10 loaded, 1 failed
+[2024-02-27 12:53:39] Starting inventory
+[2024-02-27 12:53:48] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 12:53:48] Stopping inventory
+[2024-02-27 12:53:48] New resource 'inventory' loaded
+[2024-02-27 12:53:48] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 12:53:48] Resources: 10 loaded, 1 failed
+[2024-02-27 12:53:48] Starting inventory
+[2024-02-27 12:54:02] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 12:54:02] Stopping inventory
+[2024-02-27 12:54:02] New resource 'inventory' loaded
+[2024-02-27 12:54:02] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 12:54:02] Resources: 10 loaded, 1 failed
+[2024-02-27 12:54:02] Starting inventory
+[2024-02-27 12:54:09] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 12:54:09] Stopping inventory
+[2024-02-27 12:54:09] New resource 'inventory' loaded
+[2024-02-27 12:54:09] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 12:54:09] Resources: 10 loaded, 1 failed
+[2024-02-27 12:54:09] Starting inventory
+[2024-02-27 12:54:19] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 12:54:19] Stopping inventory
+[2024-02-27 12:54:19] New resource 'inventory' loaded
+[2024-02-27 12:54:19] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 12:54:19] Resources: 10 loaded, 1 failed
+[2024-02-27 12:54:19] Starting inventory
+[2024-02-27 12:54:30] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 12:54:30] Stopping inventory
+[2024-02-27 12:54:30] New resource 'inventory' loaded
+[2024-02-27 12:54:30] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 12:54:30] Resources: 10 loaded, 1 failed
+[2024-02-27 12:54:30] Starting inventory
+[2024-02-27 12:54:42] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 12:54:42] Stopping inventory
+[2024-02-27 12:54:42] New resource 'inventory' loaded
+[2024-02-27 12:54:42] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 12:54:42] Resources: 10 loaded, 1 failed
+[2024-02-27 12:54:42] Starting inventory
+[2024-02-27 14:02:14] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:02:14] Stopping inventory
+[2024-02-27 14:02:14] New resource 'inventory' loaded
+[2024-02-27 14:02:14] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:02:14] Resources: 10 loaded, 1 failed
+[2024-02-27 14:02:14] Starting inventory
+[2024-02-27 14:02:25] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:02:25] Stopping inventory
+[2024-02-27 14:02:25] New resource 'inventory' loaded
+[2024-02-27 14:02:25] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:02:25] Resources: 10 loaded, 1 failed
+[2024-02-27 14:02:25] Starting inventory
+[2024-02-27 14:02:33] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:02:33] Stopping inventory
+[2024-02-27 14:02:33] New resource 'inventory' loaded
+[2024-02-27 14:02:33] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:02:33] Resources: 10 loaded, 1 failed
+[2024-02-27 14:02:33] Starting inventory
+[2024-02-27 14:02:40] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:02:40] Stopping inventory
+[2024-02-27 14:02:40] New resource 'inventory' loaded
+[2024-02-27 14:02:40] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:02:40] Resources: 10 loaded, 1 failed
+[2024-02-27 14:02:40] Starting inventory
+[2024-02-27 14:03:16] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:03:16] Stopping inventory
+[2024-02-27 14:03:16] New resource 'inventory' loaded
+[2024-02-27 14:03:16] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:03:16] Resources: 10 loaded, 1 failed
+[2024-02-27 14:03:16] Starting inventory
+[2024-02-27 14:03:24] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:03:24] Stopping inventory
+[2024-02-27 14:03:24] New resource 'inventory' loaded
+[2024-02-27 14:03:24] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:03:24] Resources: 10 loaded, 1 failed
+[2024-02-27 14:03:24] Starting inventory
+[2024-02-27 14:03:40] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:03:40] Stopping inventory
+[2024-02-27 14:03:40] New resource 'inventory' loaded
+[2024-02-27 14:03:40] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:03:40] Resources: 10 loaded, 1 failed
+[2024-02-27 14:03:40] Starting inventory
+[2024-02-27 14:03:47] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:03:47] Stopping inventory
+[2024-02-27 14:03:47] New resource 'inventory' loaded
+[2024-02-27 14:03:47] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:03:47] Resources: 10 loaded, 1 failed
+[2024-02-27 14:03:47] Starting inventory
+[2024-02-27 14:03:54] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:03:54] Stopping inventory
+[2024-02-27 14:03:54] New resource 'inventory' loaded
+[2024-02-27 14:03:54] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:03:54] Resources: 10 loaded, 1 failed
+[2024-02-27 14:03:54] Starting inventory
+[2024-02-27 14:04:05] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:04:05] Stopping inventory
+[2024-02-27 14:04:05] New resource 'inventory' loaded
+[2024-02-27 14:04:05] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:04:05] Resources: 10 loaded, 1 failed
+[2024-02-27 14:04:05] Starting inventory
+[2024-02-27 14:04:19] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:04:19] Stopping inventory
+[2024-02-27 14:04:19] New resource 'inventory' loaded
+[2024-02-27 14:04:19] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:04:19] Resources: 10 loaded, 1 failed
+[2024-02-27 14:04:19] Starting inventory
+[2024-02-27 14:08:19] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:08:19] Stopping inventory
+[2024-02-27 14:08:19] New resource 'inventory' loaded
+[2024-02-27 14:08:19] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:08:19] Resources: 10 loaded, 1 failed
+[2024-02-27 14:08:19] Starting inventory
+[2024-02-27 14:09:05] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:09:05] Stopping inventory
+[2024-02-27 14:09:05] New resource 'inventory' loaded
+[2024-02-27 14:09:05] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:09:05] Resources: 10 loaded, 1 failed
+[2024-02-27 14:09:05] Starting inventory
+[2024-02-27 14:09:20] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:09:20] Stopping inventory
+[2024-02-27 14:09:20] New resource 'inventory' loaded
+[2024-02-27 14:09:20] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:09:20] Resources: 10 loaded, 1 failed
+[2024-02-27 14:09:20] Starting inventory
+[2024-02-27 14:09:34] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:09:34] Stopping inventory
+[2024-02-27 14:09:34] New resource 'inventory' loaded
+[2024-02-27 14:09:34] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:09:34] Resources: 10 loaded, 1 failed
+[2024-02-27 14:09:34] Starting inventory
+[2024-02-27 14:09:48] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:09:48] Stopping inventory
+[2024-02-27 14:09:48] New resource 'inventory' loaded
+[2024-02-27 14:09:48] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:09:48] Resources: 10 loaded, 1 failed
+[2024-02-27 14:09:49] Starting inventory
+[2024-02-27 14:10:07] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:10:07] Stopping inventory
+[2024-02-27 14:10:07] New resource 'inventory' loaded
+[2024-02-27 14:10:07] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:10:07] Resources: 10 loaded, 1 failed
+[2024-02-27 14:10:07] Starting inventory
+[2024-02-27 14:10:21] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:10:21] Stopping inventory
+[2024-02-27 14:10:21] New resource 'inventory' loaded
+[2024-02-27 14:10:21] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:10:21] Resources: 10 loaded, 1 failed
+[2024-02-27 14:10:21] Starting inventory
+[2024-02-27 14:10:33] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:10:33] Stopping inventory
+[2024-02-27 14:10:33] New resource 'inventory' loaded
+[2024-02-27 14:10:33] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:10:33] Resources: 10 loaded, 1 failed
+[2024-02-27 14:10:33] Starting inventory
+[2024-02-27 14:10:42] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:10:42] Stopping inventory
+[2024-02-27 14:10:42] New resource 'inventory' loaded
+[2024-02-27 14:10:42] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:10:42] Resources: 10 loaded, 1 failed
+[2024-02-27 14:10:42] Starting inventory
+[2024-02-27 14:10:49] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:10:49] Stopping inventory
+[2024-02-27 14:10:49] New resource 'inventory' loaded
+[2024-02-27 14:10:49] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:10:49] Resources: 10 loaded, 1 failed
+[2024-02-27 14:10:49] Starting inventory
+[2024-02-27 14:10:53] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:10:53] Stopping inventory
+[2024-02-27 14:10:53] New resource 'inventory' loaded
+[2024-02-27 14:10:53] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:10:53] Resources: 10 loaded, 1 failed
+[2024-02-27 14:10:53] Starting inventory
+[2024-02-27 14:11:37] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:11:37] Stopping inventory
+[2024-02-27 14:11:37] New resource 'inventory' loaded
+[2024-02-27 14:11:38] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:11:38] Resources: 10 loaded, 1 failed
+[2024-02-27 14:11:38] Starting inventory
+[2024-02-27 14:11:47] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:11:47] Stopping inventory
+[2024-02-27 14:11:47] New resource 'inventory' loaded
+[2024-02-27 14:11:47] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:11:47] Resources: 10 loaded, 1 failed
+[2024-02-27 14:11:47] Starting inventory
+[2024-02-27 14:12:03] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:12:03] Stopping inventory
+[2024-02-27 14:12:03] New resource 'inventory' loaded
+[2024-02-27 14:12:03] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:12:03] Resources: 10 loaded, 1 failed
+[2024-02-27 14:12:03] Starting inventory
+[2024-02-27 14:12:10] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:12:10] Stopping inventory
+[2024-02-27 14:12:10] New resource 'inventory' loaded
+[2024-02-27 14:12:10] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:12:10] Resources: 10 loaded, 1 failed
+[2024-02-27 14:12:10] Starting inventory
+[2024-02-27 14:12:33] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:12:33] Stopping inventory
+[2024-02-27 14:12:33] New resource 'inventory' loaded
+[2024-02-27 14:12:33] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:12:33] Resources: 10 loaded, 1 failed
+[2024-02-27 14:12:33] Starting inventory
+[2024-02-27 14:13:52] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:13:52] Stopping inventory
+[2024-02-27 14:13:52] New resource 'inventory' loaded
+[2024-02-27 14:13:52] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:13:52] Resources: 10 loaded, 1 failed
+[2024-02-27 14:13:52] Starting inventory
+[2024-02-27 14:13:59] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:13:59] Stopping inventory
+[2024-02-27 14:13:59] New resource 'inventory' loaded
+[2024-02-27 14:13:59] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:13:59] Resources: 10 loaded, 1 failed
+[2024-02-27 14:13:59] Starting inventory
+[2024-02-27 14:14:08] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:14:08] Stopping inventory
+[2024-02-27 14:14:08] New resource 'inventory' loaded
+[2024-02-27 14:14:08] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:14:08] Resources: 10 loaded, 1 failed
+[2024-02-27 14:14:08] Starting inventory
+[2024-02-27 14:14:15] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:14:15] Stopping inventory
+[2024-02-27 14:14:15] New resource 'inventory' loaded
+[2024-02-27 14:14:15] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:14:15] Resources: 10 loaded, 1 failed
+[2024-02-27 14:14:15] Starting inventory
+[2024-02-27 14:14:24] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:14:24] Stopping inventory
+[2024-02-27 14:14:24] New resource 'inventory' loaded
+[2024-02-27 14:14:24] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:14:24] Resources: 10 loaded, 1 failed
+[2024-02-27 14:14:24] Starting inventory
+[2024-02-27 14:15:03] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:15:03] Stopping inventory
+[2024-02-27 14:15:03] New resource 'inventory' loaded
+[2024-02-27 14:15:03] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:15:03] Resources: 10 loaded, 1 failed
+[2024-02-27 14:15:03] Starting inventory
+[2024-02-27 14:15:37] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:15:37] Stopping inventory
+[2024-02-27 14:15:37] New resource 'inventory' loaded
+[2024-02-27 14:15:37] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:15:37] Resources: 10 loaded, 1 failed
+[2024-02-27 14:15:37] Starting inventory
+[2024-02-27 14:16:29] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:16:29] Stopping inventory
+[2024-02-27 14:16:30] New resource 'inventory' loaded
+[2024-02-27 14:16:30] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:16:30] Resources: 10 loaded, 1 failed
+[2024-02-27 14:16:30] Starting inventory
+[2024-02-27 14:17:41] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:17:41] Stopping inventory
+[2024-02-27 14:17:41] New resource 'inventory' loaded
+[2024-02-27 14:17:41] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:17:41] Resources: 10 loaded, 1 failed
+[2024-02-27 14:17:41] Starting inventory
+[2024-02-27 14:18:14] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:18:14] Stopping inventory
+[2024-02-27 14:18:14] New resource 'inventory' loaded
+[2024-02-27 14:18:14] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:18:14] Resources: 10 loaded, 1 failed
+[2024-02-27 14:18:14] Starting inventory
+[2024-02-27 14:18:22] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:18:22] Stopping inventory
+[2024-02-27 14:18:22] New resource 'inventory' loaded
+[2024-02-27 14:18:22] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:18:22] Resources: 10 loaded, 1 failed
+[2024-02-27 14:18:22] Starting inventory
+[2024-02-27 14:18:33] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:18:33] Stopping inventory
+[2024-02-27 14:18:33] New resource 'inventory' loaded
+[2024-02-27 14:18:33] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:18:33] Resources: 10 loaded, 1 failed
+[2024-02-27 14:18:33] Starting inventory
+[2024-02-27 14:18:38] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:18:38] Stopping inventory
+[2024-02-27 14:18:39] New resource 'inventory' loaded
+[2024-02-27 14:18:39] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:18:39] Resources: 10 loaded, 1 failed
+[2024-02-27 14:18:39] Starting inventory
+[2024-02-27 14:18:45] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:18:45] Stopping inventory
+[2024-02-27 14:18:45] New resource 'inventory' loaded
+[2024-02-27 14:18:45] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:18:45] Resources: 10 loaded, 1 failed
+[2024-02-27 14:18:45] Starting inventory
+[2024-02-27 14:18:51] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:18:51] Stopping inventory
+[2024-02-27 14:18:51] New resource 'inventory' loaded
+[2024-02-27 14:18:51] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:18:51] Resources: 10 loaded, 1 failed
+[2024-02-27 14:18:51] Starting inventory
+[2024-02-27 14:21:26] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:21:26] Stopping inventory
+[2024-02-27 14:21:26] New resource 'inventory' loaded
+[2024-02-27 14:21:26] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:21:26] Resources: 10 loaded, 1 failed
+[2024-02-27 14:21:26] Starting inventory
+[2024-02-27 14:22:12] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:22:12] Stopping inventory
+[2024-02-27 14:22:12] New resource 'inventory' loaded
+[2024-02-27 14:22:12] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:22:12] Resources: 10 loaded, 1 failed
+[2024-02-27 14:22:12] Starting inventory
+[2024-02-27 14:22:37] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:22:37] Stopping inventory
+[2024-02-27 14:22:37] New resource 'inventory' loaded
+[2024-02-27 14:22:37] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:22:37] Resources: 10 loaded, 1 failed
+[2024-02-27 14:22:37] Starting inventory
+[2024-02-27 14:23:34] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:23:34] Stopping inventory
+[2024-02-27 14:23:34] New resource 'inventory' loaded
+[2024-02-27 14:23:34] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:23:34] Resources: 10 loaded, 1 failed
+[2024-02-27 14:23:34] Starting inventory
+[2024-02-27 14:25:29] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:25:29] Stopping inventory
+[2024-02-27 14:25:29] New resource 'inventory' loaded
+[2024-02-27 14:25:29] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:25:29] Resources: 10 loaded, 1 failed
+[2024-02-27 14:25:29] Starting inventory
+[2024-02-27 14:26:35] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:26:35] Stopping inventory
+[2024-02-27 14:26:36] New resource 'inventory' loaded
+[2024-02-27 14:26:36] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:26:36] Resources: 10 loaded, 1 failed
+[2024-02-27 14:26:36] Starting inventory
+[2024-02-27 14:28:31] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:28:31] Stopping inventory
+[2024-02-27 14:28:31] New resource 'inventory' loaded
+[2024-02-27 14:28:31] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:28:31] Resources: 10 loaded, 1 failed
+[2024-02-27 14:28:31] Starting inventory
+[2024-02-27 14:29:51] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:29:51] Stopping inventory
+[2024-02-27 14:29:51] New resource 'inventory' loaded
+[2024-02-27 14:29:51] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:29:51] Resources: 10 loaded, 1 failed
+[2024-02-27 14:29:51] Starting inventory
+[2024-02-27 14:29:55] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:30:32] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:30:32] Stopping inventory
+[2024-02-27 14:30:32] New resource 'inventory' loaded
+[2024-02-27 14:30:32] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:30:32] Resources: 10 loaded, 1 failed
+[2024-02-27 14:30:32] Starting inventory
+[2024-02-27 14:31:52] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:31:52] Stopping inventory
+[2024-02-27 14:31:52] New resource 'inventory' loaded
+[2024-02-27 14:31:52] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:31:52] Resources: 10 loaded, 1 failed
+[2024-02-27 14:31:52] Starting inventory
+[2024-02-27 14:32:50] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:32:50] Stopping inventory
+[2024-02-27 14:32:50] New resource 'inventory' loaded
+[2024-02-27 14:32:50] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:32:50] Resources: 10 loaded, 1 failed
+[2024-02-27 14:32:50] Starting inventory
+[2024-02-27 14:33:16] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:33:16] Stopping inventory
+[2024-02-27 14:33:16] New resource 'inventory' loaded
+[2024-02-27 14:33:16] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:33:16] Resources: 10 loaded, 1 failed
+[2024-02-27 14:33:16] Starting inventory
+[2024-02-27 14:35:02] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:35:02] Stopping inventory
+[2024-02-27 14:35:02] New resource 'inventory' loaded
+[2024-02-27 14:35:02] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:35:02] Resources: 10 loaded, 1 failed
+[2024-02-27 14:35:02] Starting inventory
+[2024-02-27 14:36:59] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:36:59] Stopping inventory
+[2024-02-27 14:36:59] New resource 'inventory' loaded
+[2024-02-27 14:36:59] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:36:59] Resources: 10 loaded, 1 failed
+[2024-02-27 14:36:59] Starting inventory
+[2024-02-27 14:39:05] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:39:05] Stopping inventory
+[2024-02-27 14:39:05] New resource 'inventory' loaded
+[2024-02-27 14:39:05] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:39:05] Resources: 10 loaded, 1 failed
+[2024-02-27 14:39:05] Starting inventory
+[2024-02-27 14:40:48] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:40:48] Stopping inventory
+[2024-02-27 14:40:48] New resource 'inventory' loaded
+[2024-02-27 14:40:48] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:40:48] Resources: 10 loaded, 1 failed
+[2024-02-27 14:40:48] Starting inventory
+[2024-02-27 14:42:56] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:42:56] Stopping inventory
+[2024-02-27 14:42:56] ERROR: Couldn't find file ui/empty_binoculars.png for resource inventory
+[2024-02-27 14:42:56] Loading of resource 'inventory' failed
+[2024-02-27 14:42:56] ERROR: Problem with resource: inventory; Couldn't find file ui/empty_binoculars.png for resource inventory
+[2024-02-27 14:42:56] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:42:56] Resources: 9 loaded, 2 failed
+[2024-02-27 14:43:44] Resource 'inventory' changed, reloading
+[2024-02-27 14:43:44] ERROR: Couldn't find file ui/empty_radio.png for resource inventory
+[2024-02-27 14:43:44] Loading of resource 'inventory' failed
+[2024-02-27 14:43:44] ERROR: Problem with resource: inventory; Couldn't find file ui/empty_radio.png for resource inventory
+[2024-02-27 14:43:44] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:43:44] Resources: 9 loaded, 2 failed
+[2024-02-27 14:43:58] Resource 'inventory' changed, reloading
+[2024-02-27 14:43:58] New resource 'inventory' loaded
+[2024-02-27 14:43:58] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:43:58] Resources: 10 loaded, 1 failed
+[2024-02-27 14:44:01] start: Requested by Console
+[2024-02-27 14:44:01] Starting inventory
+[2024-02-27 14:44:01] start: Resource 'inventory' started
+[2024-02-27 14:45:41] start: Requested by Console
+[2024-02-27 14:45:41] start: Resource is already running
+[2024-02-27 14:45:42] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:45:42] Stopping inventory
+[2024-02-27 14:45:42] New resource 'inventory' loaded
+[2024-02-27 14:45:42] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:45:42] Resources: 10 loaded, 1 failed
+[2024-02-27 14:45:42] WARNING: File 'ui/empty_radio.png' in resource 'inventory' is invalid.
+[2024-02-27 14:45:42] Starting inventory
+[2024-02-27 14:45:54] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:46:24] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:46:24] Stopping inventory
+[2024-02-27 14:46:24] New resource 'inventory' loaded
+[2024-02-27 14:46:24] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:46:24] Resources: 10 loaded, 1 failed
+[2024-02-27 14:46:24] Starting inventory
+[2024-02-27 14:47:38] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:47:38] Stopping inventory
+[2024-02-27 14:47:38] New resource 'inventory' loaded
+[2024-02-27 14:47:38] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:47:38] Resources: 10 loaded, 1 failed
+[2024-02-27 14:47:38] Starting inventory
+[2024-02-27 14:48:34] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:48:34] Stopping inventory
+[2024-02-27 14:48:34] New resource 'inventory' loaded
+[2024-02-27 14:48:34] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:48:34] Resources: 10 loaded, 1 failed
+[2024-02-27 14:48:34] Starting inventory
+[2024-02-27 14:49:31] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:49:31] Stopping inventory
+[2024-02-27 14:49:31] New resource 'inventory' loaded
+[2024-02-27 14:49:31] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:49:31] Resources: 10 loaded, 1 failed
+[2024-02-27 14:49:31] Starting inventory
+[2024-02-27 14:50:34] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:50:34] Stopping inventory
+[2024-02-27 14:50:34] New resource 'inventory' loaded
+[2024-02-27 14:50:34] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:50:34] Resources: 10 loaded, 1 failed
+[2024-02-27 14:50:34] Starting inventory
+[2024-02-27 14:51:10] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:51:10] Stopping inventory
+[2024-02-27 14:51:10] New resource 'inventory' loaded
+[2024-02-27 14:51:10] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:51:10] Resources: 10 loaded, 1 failed
+[2024-02-27 14:51:10] Starting inventory
+[2024-02-27 14:53:30] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:53:30] Stopping inventory
+[2024-02-27 14:53:30] New resource 'inventory' loaded
+[2024-02-27 14:53:30] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:53:30] Resources: 10 loaded, 1 failed
+[2024-02-27 14:53:30] Starting inventory
+[2024-02-27 14:53:48] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:53:48] Stopping inventory
+[2024-02-27 14:53:48] New resource 'inventory' loaded
+[2024-02-27 14:53:48] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:53:48] Resources: 10 loaded, 1 failed
+[2024-02-27 14:53:48] Starting inventory
+[2024-02-27 14:54:43] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:54:43] Stopping inventory
+[2024-02-27 14:54:43] New resource 'inventory' loaded
+[2024-02-27 14:54:43] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:54:43] Resources: 10 loaded, 1 failed
+[2024-02-27 14:54:43] Starting inventory
+[2024-02-27 14:55:04] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 14:55:04] Stopping inventory
+[2024-02-27 14:55:04] New resource 'inventory' loaded
+[2024-02-27 14:55:04] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 14:55:04] Resources: 10 loaded, 1 failed
+[2024-02-27 14:55:04] Starting inventory
+[2024-02-27 15:00:37] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:00:37] Stopping inventory
+[2024-02-27 15:00:38] New resource 'inventory' loaded
+[2024-02-27 15:00:38] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:00:38] Resources: 10 loaded, 1 failed
+[2024-02-27 15:00:38] Starting inventory
+[2024-02-27 15:00:55] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:00:55] Stopping inventory
+[2024-02-27 15:00:55] New resource 'inventory' loaded
+[2024-02-27 15:00:55] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:00:55] Resources: 10 loaded, 1 failed
+[2024-02-27 15:00:55] Starting inventory
+[2024-02-27 15:01:01] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:01:01] Stopping inventory
+[2024-02-27 15:01:02] New resource 'inventory' loaded
+[2024-02-27 15:01:02] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:01:02] Resources: 10 loaded, 1 failed
+[2024-02-27 15:01:02] Starting inventory
+[2024-02-27 15:01:11] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:01:11] Stopping inventory
+[2024-02-27 15:01:11] New resource 'inventory' loaded
+[2024-02-27 15:01:11] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:01:11] Resources: 10 loaded, 1 failed
+[2024-02-27 15:01:11] Starting inventory
+[2024-02-27 15:01:36] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:01:36] Stopping inventory
+[2024-02-27 15:01:36] New resource 'inventory' loaded
+[2024-02-27 15:01:36] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:01:36] Resources: 10 loaded, 1 failed
+[2024-02-27 15:01:36] Starting inventory
+[2024-02-27 15:02:21] Resource 'dx' changed while running, reloading and restarting
+[2024-02-27 15:02:21] Stopping dx
+[2024-02-27 15:02:21] New resource 'dx' loaded
+[2024-02-27 15:02:21] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:02:21] Stopping inventory
+[2024-02-27 15:02:21] New resource 'inventory' loaded
+[2024-02-27 15:02:21] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:02:21] Resources: 10 loaded, 1 failed
+[2024-02-27 15:02:21] Starting dx
+[2024-02-27 15:02:21] Starting inventory
+[2024-02-27 15:02:30] Resource 'dx' changed while running, reloading and restarting
+[2024-02-27 15:02:30] Stopping dx
+[2024-02-27 15:02:30] New resource 'dx' loaded
+[2024-02-27 15:02:30] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:02:30] Resources: 10 loaded, 1 failed
+[2024-02-27 15:02:30] Starting dx
+[2024-02-27 15:03:02] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:03:02] Stopping inventory
+[2024-02-27 15:03:02] New resource 'inventory' loaded
+[2024-02-27 15:03:02] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:03:02] Resources: 10 loaded, 1 failed
+[2024-02-27 15:03:02] Starting inventory
+[2024-02-27 15:03:09] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:03:09] Stopping inventory
+[2024-02-27 15:03:09] New resource 'inventory' loaded
+[2024-02-27 15:03:09] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:03:09] Resources: 10 loaded, 1 failed
+[2024-02-27 15:03:09] Starting inventory
+[2024-02-27 15:03:20] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:03:20] Stopping inventory
+[2024-02-27 15:03:20] New resource 'inventory' loaded
+[2024-02-27 15:03:20] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:03:20] Resources: 10 loaded, 1 failed
+[2024-02-27 15:03:20] Starting inventory
+[2024-02-27 15:03:25] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:03:25] Stopping inventory
+[2024-02-27 15:03:25] New resource 'inventory' loaded
+[2024-02-27 15:03:25] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:03:25] Resources: 10 loaded, 1 failed
+[2024-02-27 15:03:25] Starting inventory
+[2024-02-27 15:03:32] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:03:32] Stopping inventory
+[2024-02-27 15:03:32] New resource 'inventory' loaded
+[2024-02-27 15:03:32] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:03:32] Resources: 10 loaded, 1 failed
+[2024-02-27 15:03:32] Starting inventory
+[2024-02-27 15:03:37] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:03:37] Stopping inventory
+[2024-02-27 15:03:38] New resource 'inventory' loaded
+[2024-02-27 15:03:38] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:03:38] Resources: 10 loaded, 1 failed
+[2024-02-27 15:03:38] Starting inventory
+[2024-02-27 15:03:45] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:03:45] Stopping inventory
+[2024-02-27 15:03:45] New resource 'inventory' loaded
+[2024-02-27 15:03:45] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:03:45] Resources: 10 loaded, 1 failed
+[2024-02-27 15:03:45] Starting inventory
+[2024-02-27 15:03:58] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:03:58] Stopping inventory
+[2024-02-27 15:03:58] New resource 'inventory' loaded
+[2024-02-27 15:03:58] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:03:58] Resources: 10 loaded, 1 failed
+[2024-02-27 15:03:58] Starting inventory
+[2024-02-27 15:04:06] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:04:06] Stopping inventory
+[2024-02-27 15:04:06] New resource 'inventory' loaded
+[2024-02-27 15:04:06] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:04:06] Resources: 10 loaded, 1 failed
+[2024-02-27 15:04:06] Starting inventory
+[2024-02-27 15:06:04] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:06:04] Stopping inventory
+[2024-02-27 15:06:04] New resource 'inventory' loaded
+[2024-02-27 15:06:04] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:06:04] Resources: 10 loaded, 1 failed
+[2024-02-27 15:06:04] Starting inventory
+[2024-02-27 15:06:17] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:06:17] Stopping inventory
+[2024-02-27 15:06:17] New resource 'inventory' loaded
+[2024-02-27 15:06:18] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:06:18] Resources: 10 loaded, 1 failed
+[2024-02-27 15:06:18] Starting inventory
+[2024-02-27 15:06:24] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:06:24] Stopping inventory
+[2024-02-27 15:06:24] New resource 'inventory' loaded
+[2024-02-27 15:06:24] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:06:24] Resources: 10 loaded, 1 failed
+[2024-02-27 15:06:24] Starting inventory
+[2024-02-27 15:06:32] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:06:32] Stopping inventory
+[2024-02-27 15:06:32] New resource 'inventory' loaded
+[2024-02-27 15:06:32] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:06:32] Resources: 10 loaded, 1 failed
+[2024-02-27 15:06:32] Starting inventory
+[2024-02-27 15:06:40] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:06:40] Stopping inventory
+[2024-02-27 15:06:40] New resource 'inventory' loaded
+[2024-02-27 15:06:40] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:06:40] Resources: 10 loaded, 1 failed
+[2024-02-27 15:06:40] Starting inventory
+[2024-02-27 15:06:47] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:06:47] Stopping inventory
+[2024-02-27 15:06:47] New resource 'inventory' loaded
+[2024-02-27 15:06:47] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:06:47] Resources: 10 loaded, 1 failed
+[2024-02-27 15:06:47] Starting inventory
+[2024-02-27 15:06:54] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:06:54] Stopping inventory
+[2024-02-27 15:06:54] New resource 'inventory' loaded
+[2024-02-27 15:06:54] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:06:54] Resources: 10 loaded, 1 failed
+[2024-02-27 15:06:54] Starting inventory
+[2024-02-27 15:07:03] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:07:03] Stopping inventory
+[2024-02-27 15:07:03] New resource 'inventory' loaded
+[2024-02-27 15:07:03] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:07:03] Resources: 10 loaded, 1 failed
+[2024-02-27 15:07:03] Starting inventory
+[2024-02-27 15:07:36] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:07:52] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:07:52] Stopping inventory
+[2024-02-27 15:07:52] New resource 'inventory' loaded
+[2024-02-27 15:07:52] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:07:52] Resources: 10 loaded, 1 failed
+[2024-02-27 15:07:52] Starting inventory
+[2024-02-27 15:08:01] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:08:01] Stopping inventory
+[2024-02-27 15:08:01] New resource 'inventory' loaded
+[2024-02-27 15:08:01] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:08:01] Resources: 10 loaded, 1 failed
+[2024-02-27 15:08:01] Starting inventory
+[2024-02-27 15:08:41] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:08:41] Stopping inventory
+[2024-02-27 15:08:41] New resource 'inventory' loaded
+[2024-02-27 15:08:41] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:08:41] Resources: 10 loaded, 1 failed
+[2024-02-27 15:08:41] Starting inventory
+[2024-02-27 15:08:49] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:08:49] Stopping inventory
+[2024-02-27 15:08:49] New resource 'inventory' loaded
+[2024-02-27 15:08:49] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:08:49] Resources: 10 loaded, 1 failed
+[2024-02-27 15:08:49] Starting inventory
+[2024-02-27 15:08:58] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:08:58] Stopping inventory
+[2024-02-27 15:08:58] New resource 'inventory' loaded
+[2024-02-27 15:08:58] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:08:58] Resources: 10 loaded, 1 failed
+[2024-02-27 15:08:58] Starting inventory
+[2024-02-27 15:09:06] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:09:06] Stopping inventory
+[2024-02-27 15:09:06] New resource 'inventory' loaded
+[2024-02-27 15:09:06] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:09:06] Resources: 10 loaded, 1 failed
+[2024-02-27 15:09:06] Starting inventory
+[2024-02-27 15:09:10] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:09:10] Stopping inventory
+[2024-02-27 15:09:10] New resource 'inventory' loaded
+[2024-02-27 15:09:10] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:09:10] Resources: 10 loaded, 1 failed
+[2024-02-27 15:09:10] Starting inventory
+[2024-02-27 15:51:56] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:51:56] Stopping inventory
+[2024-02-27 15:51:56] New resource 'inventory' loaded
+[2024-02-27 15:51:56] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:51:56] Resources: 10 loaded, 1 failed
+[2024-02-27 15:51:56] Starting inventory
+[2024-02-27 15:53:12] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:53:12] Stopping inventory
+[2024-02-27 15:53:12] New resource 'inventory' loaded
+[2024-02-27 15:53:12] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:53:12] Resources: 10 loaded, 1 failed
+[2024-02-27 15:53:12] Starting inventory
+[2024-02-27 15:53:58] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:53:58] Stopping inventory
+[2024-02-27 15:53:58] New resource 'inventory' loaded
+[2024-02-27 15:53:58] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:53:58] Resources: 10 loaded, 1 failed
+[2024-02-27 15:53:58] Starting inventory
+[2024-02-27 15:54:10] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:54:10] Stopping inventory
+[2024-02-27 15:54:10] New resource 'inventory' loaded
+[2024-02-27 15:54:10] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:54:10] Resources: 10 loaded, 1 failed
+[2024-02-27 15:54:10] Starting inventory
+[2024-02-27 15:55:15] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:55:15] Stopping inventory
+[2024-02-27 15:55:15] New resource 'inventory' loaded
+[2024-02-27 15:55:15] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:55:15] Resources: 10 loaded, 1 failed
+[2024-02-27 15:55:15] Starting inventory
+[2024-02-27 15:57:05] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:57:05] Stopping inventory
+[2024-02-27 15:57:05] New resource 'inventory' loaded
+[2024-02-27 15:57:05] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:57:05] Resources: 10 loaded, 1 failed
+[2024-02-27 15:57:05] Starting inventory
+[2024-02-27 15:57:53] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:57:53] Stopping inventory
+[2024-02-27 15:57:53] New resource 'inventory' loaded
+[2024-02-27 15:57:54] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:57:54] Resources: 10 loaded, 1 failed
+[2024-02-27 15:57:54] Starting inventory
+[2024-02-27 15:58:26] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:58:26] Stopping inventory
+[2024-02-27 15:58:26] New resource 'inventory' loaded
+[2024-02-27 15:58:26] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:58:26] Resources: 10 loaded, 1 failed
+[2024-02-27 15:58:26] Starting inventory
+[2024-02-27 15:59:41] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:59:41] Stopping inventory
+[2024-02-27 15:59:41] New resource 'inventory' loaded
+[2024-02-27 15:59:41] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:59:41] Resources: 10 loaded, 1 failed
+[2024-02-27 15:59:41] Starting inventory
+[2024-02-27 15:59:51] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:59:51] Stopping inventory
+[2024-02-27 15:59:51] New resource 'inventory' loaded
+[2024-02-27 15:59:51] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:59:51] Resources: 10 loaded, 1 failed
+[2024-02-27 15:59:51] Starting inventory
+[2024-02-27 15:59:58] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 15:59:58] Stopping inventory
+[2024-02-27 15:59:58] New resource 'inventory' loaded
+[2024-02-27 15:59:58] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 15:59:58] Resources: 10 loaded, 1 failed
+[2024-02-27 15:59:58] Starting inventory
+[2024-02-27 16:00:04] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 16:00:04] Stopping inventory
+[2024-02-27 16:00:04] New resource 'inventory' loaded
+[2024-02-27 16:00:04] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 16:00:04] Resources: 10 loaded, 1 failed
+[2024-02-27 16:00:04] Starting inventory
+[2024-02-27 16:00:29] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 16:00:29] Stopping inventory
+[2024-02-27 16:00:29] New resource 'inventory' loaded
+[2024-02-27 16:00:29] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 16:00:29] Resources: 10 loaded, 1 failed
+[2024-02-27 16:00:29] Starting inventory
+[2024-02-27 16:01:08] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 16:01:08] Stopping inventory
+[2024-02-27 16:01:08] New resource 'inventory' loaded
+[2024-02-27 16:01:08] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 16:01:08] Resources: 10 loaded, 1 failed
+[2024-02-27 16:01:08] Starting inventory
+[2024-02-27 16:01:26] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 16:01:26] Stopping inventory
+[2024-02-27 16:01:26] New resource 'inventory' loaded
+[2024-02-27 16:01:27] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 16:01:27] Resources: 10 loaded, 1 failed
+[2024-02-27 16:01:27] Starting inventory
+[2024-02-27 16:01:38] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 16:01:38] Stopping inventory
+[2024-02-27 16:01:38] New resource 'inventory' loaded
+[2024-02-27 16:01:38] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 16:01:38] Resources: 10 loaded, 1 failed
+[2024-02-27 16:01:38] Starting inventory
+[2024-02-27 16:01:48] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 16:01:48] Stopping inventory
+[2024-02-27 16:01:48] New resource 'inventory' loaded
+[2024-02-27 16:01:48] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 16:01:48] Resources: 10 loaded, 1 failed
+[2024-02-27 16:01:48] Starting inventory
+[2024-02-27 16:02:00] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 16:02:00] Stopping inventory
+[2024-02-27 16:02:00] New resource 'inventory' loaded
+[2024-02-27 16:02:00] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 16:02:00] Resources: 10 loaded, 1 failed
+[2024-02-27 16:02:00] Starting inventory
+[2024-02-27 16:02:10] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 16:02:10] Stopping inventory
+[2024-02-27 16:02:10] New resource 'inventory' loaded
+[2024-02-27 16:02:10] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 16:02:10] Resources: 10 loaded, 1 failed
+[2024-02-27 16:02:10] Starting inventory
+[2024-02-27 16:02:22] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 16:02:22] Stopping inventory
+[2024-02-27 16:02:22] New resource 'inventory' loaded
+[2024-02-27 16:02:22] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 16:02:22] Resources: 10 loaded, 1 failed
+[2024-02-27 16:02:22] Starting inventory
+[2024-02-27 16:02:28] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 16:02:28] Stopping inventory
+[2024-02-27 16:02:28] New resource 'inventory' loaded
+[2024-02-27 16:02:28] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 16:02:28] Resources: 10 loaded, 1 failed
+[2024-02-27 16:02:28] Starting inventory
+[2024-02-27 16:36:43] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 16:36:43] Stopping inventory
+[2024-02-27 16:36:43] New resource 'inventory' loaded
+[2024-02-27 16:36:43] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 16:36:43] Resources: 10 loaded, 1 failed
+[2024-02-27 16:36:43] Starting inventory
+[2024-02-27 16:37:07] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 16:37:07] Stopping inventory
+[2024-02-27 16:37:07] New resource 'inventory' loaded
+[2024-02-27 16:37:07] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 16:37:07] Resources: 10 loaded, 1 failed
+[2024-02-27 16:37:07] Starting inventory
+[2024-02-27 16:38:07] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 16:38:07] Stopping inventory
+[2024-02-27 16:38:07] New resource 'inventory' loaded
+[2024-02-27 16:38:07] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 16:38:07] Resources: 10 loaded, 1 failed
+[2024-02-27 16:38:07] Starting inventory
+[2024-02-27 16:38:20] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 16:38:20] Stopping inventory
+[2024-02-27 16:38:20] New resource 'inventory' loaded
+[2024-02-27 16:38:20] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 16:38:20] Resources: 10 loaded, 1 failed
+[2024-02-27 16:38:20] Starting inventory
+[2024-02-27 16:38:46] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 16:38:46] Stopping inventory
+[2024-02-27 16:38:46] New resource 'inventory' loaded
+[2024-02-27 16:38:46] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 16:38:46] Resources: 10 loaded, 1 failed
+[2024-02-27 16:38:46] Starting inventory
+[2024-02-27 16:39:01] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 16:39:01] Stopping inventory
+[2024-02-27 16:39:01] New resource 'inventory' loaded
+[2024-02-27 16:39:01] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 16:39:01] Resources: 10 loaded, 1 failed
+[2024-02-27 16:39:01] Starting inventory
+[2024-02-27 17:03:38] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:03:38] Stopping inventory
+[2024-02-27 17:03:38] New resource 'inventory' loaded
+[2024-02-27 17:03:38] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:03:38] Resources: 10 loaded, 1 failed
+[2024-02-27 17:03:38] Starting inventory
+[2024-02-27 17:03:56] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:03:56] Stopping inventory
+[2024-02-27 17:03:56] New resource 'inventory' loaded
+[2024-02-27 17:03:56] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:03:56] Resources: 10 loaded, 1 failed
+[2024-02-27 17:03:56] Starting inventory
+[2024-02-27 17:04:08] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:04:08] Stopping inventory
+[2024-02-27 17:04:08] New resource 'inventory' loaded
+[2024-02-27 17:04:08] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:04:08] Resources: 10 loaded, 1 failed
+[2024-02-27 17:04:08] Starting inventory
+[2024-02-27 17:04:24] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:04:24] Stopping inventory
+[2024-02-27 17:04:24] New resource 'inventory' loaded
+[2024-02-27 17:04:24] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:04:24] Resources: 10 loaded, 1 failed
+[2024-02-27 17:04:24] Starting inventory
+[2024-02-27 17:04:51] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:04:51] Stopping inventory
+[2024-02-27 17:04:51] New resource 'inventory' loaded
+[2024-02-27 17:04:51] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:04:51] Resources: 10 loaded, 1 failed
+[2024-02-27 17:04:51] Starting inventory
+[2024-02-27 17:05:07] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:05:07] Stopping inventory
+[2024-02-27 17:05:07] New resource 'inventory' loaded
+[2024-02-27 17:05:07] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:05:07] Resources: 10 loaded, 1 failed
+[2024-02-27 17:05:07] Starting inventory
+[2024-02-27 17:07:10] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:07:10] Stopping inventory
+[2024-02-27 17:07:10] New resource 'inventory' loaded
+[2024-02-27 17:07:10] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:07:10] Resources: 10 loaded, 1 failed
+[2024-02-27 17:07:10] Starting inventory
+[2024-02-27 17:09:12] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:09:12] Stopping inventory
+[2024-02-27 17:09:12] New resource 'inventory' loaded
+[2024-02-27 17:09:12] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:09:12] Resources: 10 loaded, 1 failed
+[2024-02-27 17:09:12] Starting inventory
+[2024-02-27 17:11:49] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:11:49] Stopping inventory
+[2024-02-27 17:11:49] New resource 'inventory' loaded
+[2024-02-27 17:11:49] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:11:49] Resources: 10 loaded, 1 failed
+[2024-02-27 17:11:49] Starting inventory
+[2024-02-27 17:12:21] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:12:21] Stopping inventory
+[2024-02-27 17:12:21] New resource 'inventory' loaded
+[2024-02-27 17:12:21] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:12:21] Resources: 10 loaded, 1 failed
+[2024-02-27 17:12:21] Starting inventory
+[2024-02-27 17:13:23] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:13:23] Stopping inventory
+[2024-02-27 17:13:23] New resource 'inventory' loaded
+[2024-02-27 17:13:24] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:13:24] Resources: 10 loaded, 1 failed
+[2024-02-27 17:13:24] Starting inventory
+[2024-02-27 17:13:39] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:13:39] Stopping inventory
+[2024-02-27 17:13:39] New resource 'inventory' loaded
+[2024-02-27 17:13:39] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:13:39] Resources: 10 loaded, 1 failed
+[2024-02-27 17:13:39] Starting inventory
+[2024-02-27 17:13:48] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:13:48] Stopping inventory
+[2024-02-27 17:13:48] New resource 'inventory' loaded
+[2024-02-27 17:13:48] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:13:48] Resources: 10 loaded, 1 failed
+[2024-02-27 17:13:48] Starting inventory
+[2024-02-27 17:13:59] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:13:59] Stopping inventory
+[2024-02-27 17:13:59] New resource 'inventory' loaded
+[2024-02-27 17:13:59] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:13:59] Resources: 10 loaded, 1 failed
+[2024-02-27 17:13:59] Starting inventory
+[2024-02-27 17:14:05] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:14:05] Stopping inventory
+[2024-02-27 17:14:05] New resource 'inventory' loaded
+[2024-02-27 17:14:05] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:14:05] Resources: 10 loaded, 1 failed
+[2024-02-27 17:14:05] Starting inventory
+[2024-02-27 17:14:15] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:14:15] Stopping inventory
+[2024-02-27 17:14:15] New resource 'inventory' loaded
+[2024-02-27 17:14:15] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:14:15] Resources: 10 loaded, 1 failed
+[2024-02-27 17:14:15] Starting inventory
+[2024-02-27 17:14:33] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:14:33] Stopping inventory
+[2024-02-27 17:14:33] New resource 'inventory' loaded
+[2024-02-27 17:14:33] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:14:33] Resources: 10 loaded, 1 failed
+[2024-02-27 17:14:33] Starting inventory
+[2024-02-27 17:14:45] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:14:45] Stopping inventory
+[2024-02-27 17:14:45] New resource 'inventory' loaded
+[2024-02-27 17:14:45] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:14:45] Resources: 10 loaded, 1 failed
+[2024-02-27 17:14:45] Starting inventory
+[2024-02-27 17:15:02] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:15:02] Stopping inventory
+[2024-02-27 17:15:02] New resource 'inventory' loaded
+[2024-02-27 17:15:02] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:15:02] Resources: 10 loaded, 1 failed
+[2024-02-27 17:15:02] Starting inventory
+[2024-02-27 17:15:57] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:15:57] Stopping inventory
+[2024-02-27 17:15:57] New resource 'inventory' loaded
+[2024-02-27 17:15:57] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:15:57] Resources: 10 loaded, 1 failed
+[2024-02-27 17:15:57] Starting inventory
+[2024-02-27 17:17:08] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:17:08] Stopping inventory
+[2024-02-27 17:17:08] New resource 'inventory' loaded
+[2024-02-27 17:17:08] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:17:08] Resources: 10 loaded, 1 failed
+[2024-02-27 17:17:08] Starting inventory
+[2024-02-27 17:17:19] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:17:19] Stopping inventory
+[2024-02-27 17:17:19] New resource 'inventory' loaded
+[2024-02-27 17:17:19] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:17:19] Resources: 10 loaded, 1 failed
+[2024-02-27 17:17:19] Starting inventory
+[2024-02-27 17:19:15] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:19:15] Stopping inventory
+[2024-02-27 17:19:15] New resource 'inventory' loaded
+[2024-02-27 17:19:15] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:19:15] Resources: 10 loaded, 1 failed
+[2024-02-27 17:19:15] Starting inventory
+[2024-02-27 17:20:13] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:20:13] Stopping inventory
+[2024-02-27 17:20:13] New resource 'inventory' loaded
+[2024-02-27 17:20:13] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:20:13] Resources: 10 loaded, 1 failed
+[2024-02-27 17:20:13] Starting inventory
+[2024-02-27 17:20:19] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-27 17:20:19] Stopping inventory
+[2024-02-27 17:20:19] New resource 'inventory' loaded
+[2024-02-27 17:20:19] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-27 17:20:19] Resources: 10 loaded, 1 failed
+[2024-02-27 17:20:19] Starting inventory
+[2024-02-27 17:54:55] QUIT: PastorzinBR left the game [Quit] 
+[2024-02-28 14:21:02] CONNECT: PastorzinBR connected (IP: 26.167.70.106  Serial: 07EBF62706BF9D1DB5454CEE445866F3  Version: 1.6.0-9.22388.0)
+[2024-02-28 14:21:09] JOIN: PastorzinBR joined the game (IP: 26.167.70.106)
+[2024-02-28 14:29:25] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:29:25] Stopping inventory
+[2024-02-28 14:29:25] New resource 'inventory' loaded
+[2024-02-28 14:29:27] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:29:27] Resources: 10 loaded, 1 failed
+[2024-02-28 14:29:28] Starting inventory
+[2024-02-28 14:30:26] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:30:26] Stopping inventory
+[2024-02-28 14:30:26] New resource 'inventory' loaded
+[2024-02-28 14:30:26] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:30:26] Resources: 10 loaded, 1 failed
+[2024-02-28 14:30:26] Starting inventory
+[2024-02-28 14:31:05] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:31:05] Stopping inventory
+[2024-02-28 14:31:05] New resource 'inventory' loaded
+[2024-02-28 14:31:05] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:31:05] Resources: 10 loaded, 1 failed
+[2024-02-28 14:31:05] Starting inventory
+[2024-02-28 14:32:16] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:32:16] Stopping inventory
+[2024-02-28 14:32:16] New resource 'inventory' loaded
+[2024-02-28 14:32:16] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:32:16] Resources: 10 loaded, 1 failed
+[2024-02-28 14:32:16] Starting inventory
+[2024-02-28 14:32:47] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:32:47] Stopping inventory
+[2024-02-28 14:32:47] New resource 'inventory' loaded
+[2024-02-28 14:32:47] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:32:47] Resources: 10 loaded, 1 failed
+[2024-02-28 14:32:47] Starting inventory
+[2024-02-28 14:33:06] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:33:06] Stopping inventory
+[2024-02-28 14:33:06] New resource 'inventory' loaded
+[2024-02-28 14:33:06] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:33:06] Resources: 10 loaded, 1 failed
+[2024-02-28 14:33:06] Starting inventory
+[2024-02-28 14:33:42] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:33:42] Stopping inventory
+[2024-02-28 14:33:42] New resource 'inventory' loaded
+[2024-02-28 14:33:42] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:33:42] Resources: 10 loaded, 1 failed
+[2024-02-28 14:33:42] Starting inventory
+[2024-02-28 14:33:54] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:33:54] Stopping inventory
+[2024-02-28 14:33:54] New resource 'inventory' loaded
+[2024-02-28 14:33:54] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:33:54] Resources: 10 loaded, 1 failed
+[2024-02-28 14:33:54] Starting inventory
+[2024-02-28 14:34:20] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:34:20] Stopping inventory
+[2024-02-28 14:34:20] New resource 'inventory' loaded
+[2024-02-28 14:34:20] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:34:20] Resources: 10 loaded, 1 failed
+[2024-02-28 14:34:20] Starting inventory
+[2024-02-28 14:34:52] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:34:52] Stopping inventory
+[2024-02-28 14:34:52] New resource 'inventory' loaded
+[2024-02-28 14:34:52] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:34:52] Resources: 10 loaded, 1 failed
+[2024-02-28 14:34:52] Starting inventory
+[2024-02-28 14:35:31] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:35:31] Stopping inventory
+[2024-02-28 14:35:31] New resource 'inventory' loaded
+[2024-02-28 14:35:32] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:35:32] Resources: 10 loaded, 1 failed
+[2024-02-28 14:35:32] Starting inventory
+[2024-02-28 14:35:42] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:35:42] Stopping inventory
+[2024-02-28 14:35:42] New resource 'inventory' loaded
+[2024-02-28 14:35:42] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:35:42] Resources: 10 loaded, 1 failed
+[2024-02-28 14:35:42] Starting inventory
+[2024-02-28 14:36:19] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:36:19] Stopping inventory
+[2024-02-28 14:36:19] New resource 'inventory' loaded
+[2024-02-28 14:36:19] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:36:19] Resources: 10 loaded, 1 failed
+[2024-02-28 14:36:19] Starting inventory
+[2024-02-28 14:36:32] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:36:32] Stopping inventory
+[2024-02-28 14:36:32] New resource 'inventory' loaded
+[2024-02-28 14:36:32] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:36:32] Resources: 10 loaded, 1 failed
+[2024-02-28 14:36:32] Starting inventory
+[2024-02-28 14:36:40] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:36:40] Stopping inventory
+[2024-02-28 14:36:40] New resource 'inventory' loaded
+[2024-02-28 14:36:40] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:36:40] Resources: 10 loaded, 1 failed
+[2024-02-28 14:36:40] Starting inventory
+[2024-02-28 14:36:46] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:36:46] Stopping inventory
+[2024-02-28 14:36:46] New resource 'inventory' loaded
+[2024-02-28 14:36:46] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:36:46] Resources: 10 loaded, 1 failed
+[2024-02-28 14:36:46] Starting inventory
+[2024-02-28 14:39:35] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:39:35] Stopping inventory
+[2024-02-28 14:39:35] New resource 'inventory' loaded
+[2024-02-28 14:39:35] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:39:35] Resources: 10 loaded, 1 failed
+[2024-02-28 14:39:35] Starting inventory
+[2024-02-28 14:39:59] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:39:59] Stopping inventory
+[2024-02-28 14:39:59] New resource 'inventory' loaded
+[2024-02-28 14:39:59] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:39:59] Resources: 10 loaded, 1 failed
+[2024-02-28 14:39:59] Starting inventory
+[2024-02-28 14:40:18] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:40:18] Stopping inventory
+[2024-02-28 14:40:18] New resource 'inventory' loaded
+[2024-02-28 14:40:18] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:40:18] Resources: 10 loaded, 1 failed
+[2024-02-28 14:40:18] Starting inventory
+[2024-02-28 14:40:45] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:40:45] Stopping inventory
+[2024-02-28 14:40:46] New resource 'inventory' loaded
+[2024-02-28 14:40:46] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:40:46] Resources: 10 loaded, 1 failed
+[2024-02-28 14:40:46] Starting inventory
+[2024-02-28 14:40:58] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:40:58] Stopping inventory
+[2024-02-28 14:40:58] New resource 'inventory' loaded
+[2024-02-28 14:40:58] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:40:58] Resources: 10 loaded, 1 failed
+[2024-02-28 14:40:58] Starting inventory
+[2024-02-28 14:41:11] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:41:11] Stopping inventory
+[2024-02-28 14:41:11] New resource 'inventory' loaded
+[2024-02-28 14:41:11] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:41:11] Resources: 10 loaded, 1 failed
+[2024-02-28 14:41:11] Starting inventory
+[2024-02-28 14:41:28] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:41:28] Stopping inventory
+[2024-02-28 14:41:28] New resource 'inventory' loaded
+[2024-02-28 14:41:28] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:41:28] Resources: 10 loaded, 1 failed
+[2024-02-28 14:41:28] Starting inventory
+[2024-02-28 14:42:15] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:42:15] Stopping inventory
+[2024-02-28 14:42:15] New resource 'inventory' loaded
+[2024-02-28 14:42:16] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:42:16] Resources: 10 loaded, 1 failed
+[2024-02-28 14:42:16] Starting inventory
+[2024-02-28 14:42:24] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:42:24] Stopping inventory
+[2024-02-28 14:42:24] New resource 'inventory' loaded
+[2024-02-28 14:42:24] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:42:24] Resources: 10 loaded, 1 failed
+[2024-02-28 14:42:24] Starting inventory
+[2024-02-28 14:42:36] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:42:36] Stopping inventory
+[2024-02-28 14:42:36] New resource 'inventory' loaded
+[2024-02-28 14:42:36] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:42:36] Resources: 10 loaded, 1 failed
+[2024-02-28 14:42:36] Starting inventory
+[2024-02-28 14:42:57] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:42:57] Stopping inventory
+[2024-02-28 14:42:57] New resource 'inventory' loaded
+[2024-02-28 14:42:58] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:42:58] Resources: 10 loaded, 1 failed
+[2024-02-28 14:42:58] Starting inventory
+[2024-02-28 14:43:15] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:43:15] Stopping inventory
+[2024-02-28 14:43:15] New resource 'inventory' loaded
+[2024-02-28 14:43:15] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:43:15] Resources: 10 loaded, 1 failed
+[2024-02-28 14:43:15] Starting inventory
+[2024-02-28 14:43:29] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:43:29] Stopping inventory
+[2024-02-28 14:43:29] New resource 'inventory' loaded
+[2024-02-28 14:43:29] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:43:29] Resources: 10 loaded, 1 failed
+[2024-02-28 14:43:29] Starting inventory
+[2024-02-28 14:43:38] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:43:38] Stopping inventory
+[2024-02-28 14:43:38] New resource 'inventory' loaded
+[2024-02-28 14:43:38] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:43:38] Resources: 10 loaded, 1 failed
+[2024-02-28 14:43:38] Starting inventory
+[2024-02-28 14:43:53] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:43:53] Stopping inventory
+[2024-02-28 14:43:53] New resource 'inventory' loaded
+[2024-02-28 14:43:53] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:43:53] Resources: 10 loaded, 1 failed
+[2024-02-28 14:43:53] Starting inventory
+[2024-02-28 14:44:03] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:44:03] Stopping inventory
+[2024-02-28 14:44:03] New resource 'inventory' loaded
+[2024-02-28 14:44:03] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:44:03] Resources: 10 loaded, 1 failed
+[2024-02-28 14:44:03] Starting inventory
+[2024-02-28 14:44:11] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:44:11] Stopping inventory
+[2024-02-28 14:44:11] New resource 'inventory' loaded
+[2024-02-28 14:44:11] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:44:11] Resources: 10 loaded, 1 failed
+[2024-02-28 14:44:11] Starting inventory
+[2024-02-28 14:44:22] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:44:22] Stopping inventory
+[2024-02-28 14:44:22] New resource 'inventory' loaded
+[2024-02-28 14:44:22] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:44:22] Resources: 10 loaded, 1 failed
+[2024-02-28 14:44:22] Starting inventory
+[2024-02-28 14:44:31] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:44:31] Stopping inventory
+[2024-02-28 14:44:31] New resource 'inventory' loaded
+[2024-02-28 14:44:31] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:44:31] Resources: 10 loaded, 1 failed
+[2024-02-28 14:44:31] Starting inventory
+[2024-02-28 14:44:46] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:44:46] Stopping inventory
+[2024-02-28 14:44:46] New resource 'inventory' loaded
+[2024-02-28 14:44:46] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:44:46] Resources: 10 loaded, 1 failed
+[2024-02-28 14:44:46] Starting inventory
+[2024-02-28 14:44:55] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:44:55] Stopping inventory
+[2024-02-28 14:44:55] New resource 'inventory' loaded
+[2024-02-28 14:44:56] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:44:56] Resources: 10 loaded, 1 failed
+[2024-02-28 14:44:56] Starting inventory
+[2024-02-28 14:52:22] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:52:22] Stopping inventory
+[2024-02-28 14:52:22] New resource 'inventory' loaded
+[2024-02-28 14:52:22] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:52:22] Resources: 10 loaded, 1 failed
+[2024-02-28 14:52:22] Starting inventory
+[2024-02-28 14:52:29] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:52:29] Stopping inventory
+[2024-02-28 14:52:29] New resource 'inventory' loaded
+[2024-02-28 14:52:30] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:52:30] Resources: 10 loaded, 1 failed
+[2024-02-28 14:52:30] Starting inventory
+[2024-02-28 14:52:50] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:52:50] Stopping inventory
+[2024-02-28 14:52:50] New resource 'inventory' loaded
+[2024-02-28 14:52:50] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:52:50] Resources: 10 loaded, 1 failed
+[2024-02-28 14:52:51] Starting inventory
+[2024-02-28 14:53:24] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:53:24] Stopping inventory
+[2024-02-28 14:53:24] New resource 'inventory' loaded
+[2024-02-28 14:53:24] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:53:24] Resources: 10 loaded, 1 failed
+[2024-02-28 14:53:24] Starting inventory
+[2024-02-28 14:53:37] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:53:37] Stopping inventory
+[2024-02-28 14:53:37] New resource 'inventory' loaded
+[2024-02-28 14:53:37] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:53:37] Resources: 10 loaded, 1 failed
+[2024-02-28 14:53:37] Starting inventory
+[2024-02-28 14:53:45] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:53:45] Stopping inventory
+[2024-02-28 14:53:45] New resource 'inventory' loaded
+[2024-02-28 14:53:45] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:53:45] Resources: 10 loaded, 1 failed
+[2024-02-28 14:53:45] Starting inventory
+[2024-02-28 14:53:52] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:53:52] Stopping inventory
+[2024-02-28 14:53:52] New resource 'inventory' loaded
+[2024-02-28 14:53:52] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:53:52] Resources: 10 loaded, 1 failed
+[2024-02-28 14:53:52] Starting inventory
+[2024-02-28 14:53:58] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:53:58] Stopping inventory
+[2024-02-28 14:53:58] New resource 'inventory' loaded
+[2024-02-28 14:53:58] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:53:58] Resources: 10 loaded, 1 failed
+[2024-02-28 14:53:58] Starting inventory
+[2024-02-28 14:54:08] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:54:08] Stopping inventory
+[2024-02-28 14:54:08] New resource 'inventory' loaded
+[2024-02-28 14:54:08] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:54:08] Resources: 10 loaded, 1 failed
+[2024-02-28 14:54:08] Starting inventory
+[2024-02-28 14:54:27] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:54:27] Stopping inventory
+[2024-02-28 14:54:27] New resource 'inventory' loaded
+[2024-02-28 14:54:27] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:54:27] Resources: 10 loaded, 1 failed
+[2024-02-28 14:54:27] Starting inventory
+[2024-02-28 14:54:47] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:54:47] Stopping inventory
+[2024-02-28 14:54:47] New resource 'inventory' loaded
+[2024-02-28 14:54:47] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:54:47] Resources: 10 loaded, 1 failed
+[2024-02-28 14:54:47] Starting inventory
+[2024-02-28 14:56:04] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:56:23] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:56:23] Stopping inventory
+[2024-02-28 14:56:23] New resource 'inventory' loaded
+[2024-02-28 14:56:23] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:56:23] Resources: 10 loaded, 1 failed
+[2024-02-28 14:56:23] Starting inventory
+[2024-02-28 14:57:00] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:57:00] Stopping inventory
+[2024-02-28 14:57:00] New resource 'inventory' loaded
+[2024-02-28 14:57:00] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:57:00] Resources: 10 loaded, 1 failed
+[2024-02-28 14:57:00] Starting inventory
+[2024-02-28 14:57:08] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:57:08] Stopping inventory
+[2024-02-28 14:57:08] New resource 'inventory' loaded
+[2024-02-28 14:57:08] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:57:08] Resources: 10 loaded, 1 failed
+[2024-02-28 14:57:08] Starting inventory
+[2024-02-28 14:57:20] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:57:20] Stopping inventory
+[2024-02-28 14:57:21] New resource 'inventory' loaded
+[2024-02-28 14:57:21] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:57:21] Resources: 10 loaded, 1 failed
+[2024-02-28 14:57:21] Starting inventory
+[2024-02-28 14:57:29] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:57:29] Stopping inventory
+[2024-02-28 14:57:29] New resource 'inventory' loaded
+[2024-02-28 14:57:29] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:57:29] Resources: 10 loaded, 1 failed
+[2024-02-28 14:57:29] Starting inventory
+[2024-02-28 14:57:39] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:57:39] Stopping inventory
+[2024-02-28 14:57:39] New resource 'inventory' loaded
+[2024-02-28 14:57:39] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:57:39] Resources: 10 loaded, 1 failed
+[2024-02-28 14:57:39] Starting inventory
+[2024-02-28 14:57:51] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:57:51] Stopping inventory
+[2024-02-28 14:57:52] New resource 'inventory' loaded
+[2024-02-28 14:57:52] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:57:52] Resources: 10 loaded, 1 failed
+[2024-02-28 14:57:52] Starting inventory
+[2024-02-28 14:58:22] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:58:22] Stopping inventory
+[2024-02-28 14:58:23] New resource 'inventory' loaded
+[2024-02-28 14:58:23] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:58:23] Resources: 10 loaded, 1 failed
+[2024-02-28 14:58:23] Starting inventory
+[2024-02-28 14:58:34] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 14:58:34] Stopping inventory
+[2024-02-28 14:58:34] New resource 'inventory' loaded
+[2024-02-28 14:58:34] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 14:58:34] Resources: 10 loaded, 1 failed
+[2024-02-28 14:58:34] Starting inventory
+[2024-02-28 14:58:44] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:00:20] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:00:20] Stopping inventory
+[2024-02-28 15:00:20] New resource 'inventory' loaded
+[2024-02-28 15:00:20] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:00:20] Resources: 10 loaded, 1 failed
+[2024-02-28 15:00:20] Starting inventory
+[2024-02-28 15:00:55] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:00:55] Stopping inventory
+[2024-02-28 15:00:56] New resource 'inventory' loaded
+[2024-02-28 15:00:56] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:00:56] Resources: 10 loaded, 1 failed
+[2024-02-28 15:00:56] Starting inventory
+[2024-02-28 15:01:30] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:01:30] Stopping inventory
+[2024-02-28 15:01:30] New resource 'inventory' loaded
+[2024-02-28 15:01:30] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:01:30] Resources: 10 loaded, 1 failed
+[2024-02-28 15:01:30] Starting inventory
+[2024-02-28 15:01:40] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:01:40] Stopping inventory
+[2024-02-28 15:01:40] New resource 'inventory' loaded
+[2024-02-28 15:01:40] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:01:40] Resources: 10 loaded, 1 failed
+[2024-02-28 15:01:40] Starting inventory
+[2024-02-28 15:02:03] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:02:03] Stopping inventory
+[2024-02-28 15:02:03] New resource 'inventory' loaded
+[2024-02-28 15:02:03] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:02:03] Resources: 10 loaded, 1 failed
+[2024-02-28 15:02:03] Starting inventory
+[2024-02-28 15:02:28] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:02:28] Stopping inventory
+[2024-02-28 15:02:28] New resource 'inventory' loaded
+[2024-02-28 15:02:29] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:02:29] Resources: 10 loaded, 1 failed
+[2024-02-28 15:02:29] Starting inventory
+[2024-02-28 15:02:39] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:02:39] Stopping inventory
+[2024-02-28 15:02:40] New resource 'inventory' loaded
+[2024-02-28 15:02:40] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:02:40] Resources: 10 loaded, 1 failed
+[2024-02-28 15:02:40] Starting inventory
+[2024-02-28 15:02:51] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:02:51] Stopping inventory
+[2024-02-28 15:02:51] New resource 'inventory' loaded
+[2024-02-28 15:02:51] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:02:51] Resources: 10 loaded, 1 failed
+[2024-02-28 15:02:51] Starting inventory
+[2024-02-28 15:03:14] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:03:14] Stopping inventory
+[2024-02-28 15:03:14] New resource 'inventory' loaded
+[2024-02-28 15:03:14] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:03:14] Resources: 10 loaded, 1 failed
+[2024-02-28 15:03:14] Starting inventory
+[2024-02-28 15:03:36] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:03:36] Stopping inventory
+[2024-02-28 15:03:36] New resource 'inventory' loaded
+[2024-02-28 15:03:36] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:03:36] Resources: 10 loaded, 1 failed
+[2024-02-28 15:03:36] Starting inventory
+[2024-02-28 15:03:56] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:03:56] Stopping inventory
+[2024-02-28 15:03:56] New resource 'inventory' loaded
+[2024-02-28 15:03:56] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:03:56] Resources: 10 loaded, 1 failed
+[2024-02-28 15:03:56] Starting inventory
+[2024-02-28 15:04:11] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:04:11] Stopping inventory
+[2024-02-28 15:04:11] New resource 'inventory' loaded
+[2024-02-28 15:04:11] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:04:11] Resources: 10 loaded, 1 failed
+[2024-02-28 15:04:11] Starting inventory
+[2024-02-28 15:04:27] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:04:27] Stopping inventory
+[2024-02-28 15:04:27] New resource 'inventory' loaded
+[2024-02-28 15:04:27] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:04:27] Resources: 10 loaded, 1 failed
+[2024-02-28 15:04:27] Starting inventory
+[2024-02-28 15:06:01] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:06:01] Stopping inventory
+[2024-02-28 15:06:01] New resource 'inventory' loaded
+[2024-02-28 15:06:01] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:06:01] Resources: 10 loaded, 1 failed
+[2024-02-28 15:06:01] Starting inventory
+[2024-02-28 15:06:17] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:06:17] Stopping inventory
+[2024-02-28 15:06:17] New resource 'inventory' loaded
+[2024-02-28 15:06:17] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:06:17] Resources: 10 loaded, 1 failed
+[2024-02-28 15:06:17] Starting inventory
+[2024-02-28 15:07:01] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:07:01] Stopping inventory
+[2024-02-28 15:07:01] New resource 'inventory' loaded
+[2024-02-28 15:07:01] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:07:01] Resources: 10 loaded, 1 failed
+[2024-02-28 15:07:01] Starting inventory
+[2024-02-28 15:07:21] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:07:21] Stopping inventory
+[2024-02-28 15:07:21] New resource 'inventory' loaded
+[2024-02-28 15:07:21] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:07:22] Resources: 10 loaded, 1 failed
+[2024-02-28 15:07:22] Starting inventory
+[2024-02-28 15:07:37] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:07:37] Stopping inventory
+[2024-02-28 15:07:37] New resource 'inventory' loaded
+[2024-02-28 15:07:37] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:07:37] Resources: 10 loaded, 1 failed
+[2024-02-28 15:07:37] Starting inventory
+[2024-02-28 15:07:55] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:07:55] Stopping inventory
+[2024-02-28 15:07:55] New resource 'inventory' loaded
+[2024-02-28 15:07:55] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:07:55] Resources: 10 loaded, 1 failed
+[2024-02-28 15:07:55] Starting inventory
+[2024-02-28 15:08:09] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:08:09] Stopping inventory
+[2024-02-28 15:08:09] New resource 'inventory' loaded
+[2024-02-28 15:08:09] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:08:09] Resources: 10 loaded, 1 failed
+[2024-02-28 15:08:09] Starting inventory
+[2024-02-28 15:09:44] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:09:44] Stopping inventory
+[2024-02-28 15:09:45] New resource 'inventory' loaded
+[2024-02-28 15:09:45] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:09:45] Resources: 10 loaded, 1 failed
+[2024-02-28 15:09:45] Starting inventory
+[2024-02-28 15:10:17] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:10:17] Stopping inventory
+[2024-02-28 15:10:17] New resource 'inventory' loaded
+[2024-02-28 15:10:17] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:10:17] Resources: 10 loaded, 1 failed
+[2024-02-28 15:10:17] Starting inventory
+[2024-02-28 15:10:32] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:10:32] Stopping inventory
+[2024-02-28 15:10:32] New resource 'inventory' loaded
+[2024-02-28 15:10:32] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:10:32] Resources: 10 loaded, 1 failed
+[2024-02-28 15:10:32] Starting inventory
+[2024-02-28 15:10:51] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:10:51] Stopping inventory
+[2024-02-28 15:10:51] New resource 'inventory' loaded
+[2024-02-28 15:10:51] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:10:51] Resources: 10 loaded, 1 failed
+[2024-02-28 15:10:51] Starting inventory
+[2024-02-28 15:11:10] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:11:10] Stopping inventory
+[2024-02-28 15:11:10] New resource 'inventory' loaded
+[2024-02-28 15:11:10] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:11:10] Resources: 10 loaded, 1 failed
+[2024-02-28 15:11:10] Starting inventory
+[2024-02-28 15:11:22] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:11:22] Stopping inventory
+[2024-02-28 15:11:23] New resource 'inventory' loaded
+[2024-02-28 15:11:23] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:11:23] Resources: 10 loaded, 1 failed
+[2024-02-28 15:11:23] Starting inventory
+[2024-02-28 15:11:36] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:11:36] Stopping inventory
+[2024-02-28 15:11:36] New resource 'inventory' loaded
+[2024-02-28 15:11:36] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:11:36] Resources: 10 loaded, 1 failed
+[2024-02-28 15:11:36] Starting inventory
+[2024-02-28 15:12:01] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:12:01] Stopping inventory
+[2024-02-28 15:12:02] New resource 'inventory' loaded
+[2024-02-28 15:12:02] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:12:02] Resources: 10 loaded, 1 failed
+[2024-02-28 15:12:02] Starting inventory
+[2024-02-28 15:12:13] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:12:13] Stopping inventory
+[2024-02-28 15:12:13] New resource 'inventory' loaded
+[2024-02-28 15:12:13] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:12:13] Resources: 10 loaded, 1 failed
+[2024-02-28 15:12:13] Starting inventory
+[2024-02-28 15:12:52] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:12:52] Stopping inventory
+[2024-02-28 15:12:52] New resource 'inventory' loaded
+[2024-02-28 15:12:52] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:12:52] Resources: 10 loaded, 1 failed
+[2024-02-28 15:12:52] Starting inventory
+[2024-02-28 15:13:06] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:13:06] Stopping inventory
+[2024-02-28 15:13:06] New resource 'inventory' loaded
+[2024-02-28 15:13:06] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:13:06] Resources: 10 loaded, 1 failed
+[2024-02-28 15:13:06] Starting inventory
+[2024-02-28 15:13:15] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:13:15] Stopping inventory
+[2024-02-28 15:13:15] New resource 'inventory' loaded
+[2024-02-28 15:13:15] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:13:15] Resources: 10 loaded, 1 failed
+[2024-02-28 15:13:15] Starting inventory
+[2024-02-28 15:13:24] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:13:24] Stopping inventory
+[2024-02-28 15:13:24] New resource 'inventory' loaded
+[2024-02-28 15:13:24] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:13:24] Resources: 10 loaded, 1 failed
+[2024-02-28 15:13:24] Starting inventory
+[2024-02-28 15:13:31] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:13:31] Stopping inventory
+[2024-02-28 15:13:31] New resource 'inventory' loaded
+[2024-02-28 15:13:31] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:13:31] Resources: 10 loaded, 1 failed
+[2024-02-28 15:13:31] Starting inventory
+[2024-02-28 15:13:45] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:13:45] Stopping inventory
+[2024-02-28 15:13:45] New resource 'inventory' loaded
+[2024-02-28 15:13:45] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:13:45] Resources: 10 loaded, 1 failed
+[2024-02-28 15:13:45] Starting inventory
+[2024-02-28 15:14:32] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:14:32] Stopping inventory
+[2024-02-28 15:14:32] New resource 'inventory' loaded
+[2024-02-28 15:14:32] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:14:32] Resources: 10 loaded, 1 failed
+[2024-02-28 15:14:32] Starting inventory
+[2024-02-28 15:14:42] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:14:42] Stopping inventory
+[2024-02-28 15:14:42] New resource 'inventory' loaded
+[2024-02-28 15:14:42] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:14:42] Resources: 10 loaded, 1 failed
+[2024-02-28 15:14:42] Starting inventory
+[2024-02-28 15:15:16] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:15:16] Stopping inventory
+[2024-02-28 15:15:16] New resource 'inventory' loaded
+[2024-02-28 15:15:16] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:15:16] Resources: 10 loaded, 1 failed
+[2024-02-28 15:15:16] Starting inventory
+[2024-02-28 15:15:27] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:15:27] Stopping inventory
+[2024-02-28 15:15:27] New resource 'inventory' loaded
+[2024-02-28 15:15:27] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:15:27] Resources: 10 loaded, 1 failed
+[2024-02-28 15:15:27] Starting inventory
+[2024-02-28 15:15:45] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:15:45] Stopping inventory
+[2024-02-28 15:15:46] New resource 'inventory' loaded
+[2024-02-28 15:15:46] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:15:46] Resources: 10 loaded, 1 failed
+[2024-02-28 15:15:46] Starting inventory
+[2024-02-28 15:16:02] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:16:02] Stopping inventory
+[2024-02-28 15:16:02] New resource 'inventory' loaded
+[2024-02-28 15:16:02] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:16:02] Resources: 10 loaded, 1 failed
+[2024-02-28 15:16:02] Starting inventory
+[2024-02-28 15:16:19] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:16:19] Stopping inventory
+[2024-02-28 15:16:19] New resource 'inventory' loaded
+[2024-02-28 15:16:19] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:16:19] Resources: 10 loaded, 1 failed
+[2024-02-28 15:16:19] Starting inventory
+[2024-02-28 15:16:37] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:16:37] Stopping inventory
+[2024-02-28 15:16:38] New resource 'inventory' loaded
+[2024-02-28 15:16:38] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:16:38] Resources: 10 loaded, 1 failed
+[2024-02-28 15:16:38] Starting inventory
+[2024-02-28 15:18:08] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:18:08] Stopping inventory
+[2024-02-28 15:18:08] New resource 'inventory' loaded
+[2024-02-28 15:18:08] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:18:08] Resources: 10 loaded, 1 failed
+[2024-02-28 15:18:08] Starting inventory
+[2024-02-28 15:18:36] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:18:36] Stopping inventory
+[2024-02-28 15:18:36] New resource 'inventory' loaded
+[2024-02-28 15:18:36] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:18:36] Resources: 10 loaded, 1 failed
+[2024-02-28 15:18:36] Starting inventory
+[2024-02-28 15:19:15] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:19:15] Stopping inventory
+[2024-02-28 15:19:15] New resource 'inventory' loaded
+[2024-02-28 15:19:15] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:19:15] Resources: 10 loaded, 1 failed
+[2024-02-28 15:19:15] Starting inventory
+[2024-02-28 15:19:26] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:19:26] Stopping inventory
+[2024-02-28 15:19:26] New resource 'inventory' loaded
+[2024-02-28 15:19:27] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:19:27] Resources: 10 loaded, 1 failed
+[2024-02-28 15:19:27] Starting inventory
+[2024-02-28 15:19:49] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:19:49] Stopping inventory
+[2024-02-28 15:19:49] New resource 'inventory' loaded
+[2024-02-28 15:19:49] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:19:49] Resources: 10 loaded, 1 failed
+[2024-02-28 15:19:49] Starting inventory
+[2024-02-28 15:19:58] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:19:58] Stopping inventory
+[2024-02-28 15:19:58] New resource 'inventory' loaded
+[2024-02-28 15:19:58] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:19:58] Resources: 10 loaded, 1 failed
+[2024-02-28 15:19:58] Starting inventory
+[2024-02-28 15:20:05] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:20:05] Stopping inventory
+[2024-02-28 15:20:05] New resource 'inventory' loaded
+[2024-02-28 15:20:05] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:20:05] Resources: 10 loaded, 1 failed
+[2024-02-28 15:20:05] Starting inventory
+[2024-02-28 15:20:28] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:20:28] Stopping inventory
+[2024-02-28 15:20:29] New resource 'inventory' loaded
+[2024-02-28 15:20:29] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:20:29] Resources: 10 loaded, 1 failed
+[2024-02-28 15:20:29] Starting inventory
+[2024-02-28 15:20:37] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:20:37] Stopping inventory
+[2024-02-28 15:20:37] New resource 'inventory' loaded
+[2024-02-28 15:20:37] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:20:37] Resources: 10 loaded, 1 failed
+[2024-02-28 15:20:37] Starting inventory
+[2024-02-28 15:20:51] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:20:51] Stopping inventory
+[2024-02-28 15:20:51] New resource 'inventory' loaded
+[2024-02-28 15:20:51] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:20:51] Resources: 10 loaded, 1 failed
+[2024-02-28 15:20:51] Starting inventory
+[2024-02-28 15:21:21] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:21:21] Stopping inventory
+[2024-02-28 15:21:21] New resource 'inventory' loaded
+[2024-02-28 15:21:21] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:21:21] Resources: 10 loaded, 1 failed
+[2024-02-28 15:21:21] Starting inventory
+[2024-02-28 15:22:22] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:22:22] Stopping inventory
+[2024-02-28 15:22:22] New resource 'inventory' loaded
+[2024-02-28 15:22:22] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:22:22] Resources: 10 loaded, 1 failed
+[2024-02-28 15:22:22] Starting inventory
+[2024-02-28 15:25:09] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:25:09] Stopping inventory
+[2024-02-28 15:25:09] New resource 'inventory' loaded
+[2024-02-28 15:25:09] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:25:09] Resources: 10 loaded, 1 failed
+[2024-02-28 15:25:09] Starting inventory
+[2024-02-28 15:33:46] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:33:46] Stopping inventory
+[2024-02-28 15:33:46] New resource 'inventory' loaded
+[2024-02-28 15:33:46] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:33:46] Resources: 10 loaded, 1 failed
+[2024-02-28 15:33:46] Starting inventory
+[2024-02-28 15:34:01] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:34:01] Stopping inventory
+[2024-02-28 15:34:01] New resource 'inventory' loaded
+[2024-02-28 15:34:01] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:34:01] Resources: 10 loaded, 1 failed
+[2024-02-28 15:34:01] Starting inventory
+[2024-02-28 15:35:35] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:35:35] Stopping inventory
+[2024-02-28 15:35:35] New resource 'inventory' loaded
+[2024-02-28 15:35:35] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:35:35] Resources: 10 loaded, 1 failed
+[2024-02-28 15:35:35] Starting inventory
+[2024-02-28 15:35:44] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:35:44] Stopping inventory
+[2024-02-28 15:35:44] New resource 'inventory' loaded
+[2024-02-28 15:35:44] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:35:44] Resources: 10 loaded, 1 failed
+[2024-02-28 15:35:44] Starting inventory
+[2024-02-28 15:36:34] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:36:34] Stopping inventory
+[2024-02-28 15:36:34] New resource 'inventory' loaded
+[2024-02-28 15:36:34] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:36:34] Resources: 10 loaded, 1 failed
+[2024-02-28 15:36:34] Starting inventory
+[2024-02-28 15:36:50] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:36:50] Stopping inventory
+[2024-02-28 15:36:51] New resource 'inventory' loaded
+[2024-02-28 15:36:51] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:36:51] Resources: 10 loaded, 1 failed
+[2024-02-28 15:36:51] Starting inventory
+[2024-02-28 15:37:07] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:37:07] Stopping inventory
+[2024-02-28 15:37:07] New resource 'inventory' loaded
+[2024-02-28 15:37:07] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:37:07] Resources: 10 loaded, 1 failed
+[2024-02-28 15:37:07] Starting inventory
+[2024-02-28 15:37:38] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:37:38] Stopping inventory
+[2024-02-28 15:37:38] New resource 'inventory' loaded
+[2024-02-28 15:37:38] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:37:38] Resources: 10 loaded, 1 failed
+[2024-02-28 15:37:38] Starting inventory
+[2024-02-28 15:38:09] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:38:09] Stopping inventory
+[2024-02-28 15:38:09] New resource 'inventory' loaded
+[2024-02-28 15:38:09] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:38:09] Resources: 10 loaded, 1 failed
+[2024-02-28 15:38:09] Starting inventory
+[2024-02-28 15:39:56] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:40:04] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:40:04] Stopping inventory
+[2024-02-28 15:40:04] New resource 'inventory' loaded
+[2024-02-28 15:40:04] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:40:04] Resources: 10 loaded, 1 failed
+[2024-02-28 15:40:04] Starting inventory
+[2024-02-28 15:40:13] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:40:13] Stopping inventory
+[2024-02-28 15:40:13] New resource 'inventory' loaded
+[2024-02-28 15:40:13] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:40:13] Resources: 10 loaded, 1 failed
+[2024-02-28 15:40:13] Starting inventory
+[2024-02-28 15:40:20] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:40:20] Stopping inventory
+[2024-02-28 15:40:20] New resource 'inventory' loaded
+[2024-02-28 15:40:20] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:40:20] Resources: 10 loaded, 1 failed
+[2024-02-28 15:40:20] Starting inventory
+[2024-02-28 15:40:29] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:40:29] Stopping inventory
+[2024-02-28 15:40:29] New resource 'inventory' loaded
+[2024-02-28 15:40:29] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:40:29] Resources: 10 loaded, 1 failed
+[2024-02-28 15:40:29] Starting inventory
+[2024-02-28 15:40:34] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:40:40] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:40:44] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:41:21] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:41:21] Stopping inventory
+[2024-02-28 15:41:21] New resource 'inventory' loaded
+[2024-02-28 15:41:21] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:41:21] Resources: 10 loaded, 1 failed
+[2024-02-28 15:41:21] Starting inventory
+[2024-02-28 15:42:05] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:42:05] Stopping inventory
+[2024-02-28 15:42:06] New resource 'inventory' loaded
+[2024-02-28 15:42:06] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:42:06] Resources: 10 loaded, 1 failed
+[2024-02-28 15:42:06] Starting inventory
+[2024-02-28 15:42:50] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:42:50] Stopping inventory
+[2024-02-28 15:42:50] New resource 'inventory' loaded
+[2024-02-28 15:42:50] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:42:50] Resources: 10 loaded, 1 failed
+[2024-02-28 15:42:51] Starting inventory
+[2024-02-28 15:43:19] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:43:19] Stopping inventory
+[2024-02-28 15:43:19] New resource 'inventory' loaded
+[2024-02-28 15:43:19] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:43:19] Resources: 10 loaded, 1 failed
+[2024-02-28 15:43:19] Starting inventory
+[2024-02-28 15:43:39] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:43:39] Stopping inventory
+[2024-02-28 15:43:39] New resource 'inventory' loaded
+[2024-02-28 15:43:39] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:43:39] Resources: 10 loaded, 1 failed
+[2024-02-28 15:43:39] Starting inventory
+[2024-02-28 15:43:49] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:43:49] Stopping inventory
+[2024-02-28 15:43:49] New resource 'inventory' loaded
+[2024-02-28 15:43:49] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:43:49] Resources: 10 loaded, 1 failed
+[2024-02-28 15:43:49] Starting inventory
+[2024-02-28 15:44:06] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:44:06] Stopping inventory
+[2024-02-28 15:44:06] New resource 'inventory' loaded
+[2024-02-28 15:44:06] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:44:06] Resources: 10 loaded, 1 failed
+[2024-02-28 15:44:06] Starting inventory
+[2024-02-28 15:44:20] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:44:20] Stopping inventory
+[2024-02-28 15:44:20] New resource 'inventory' loaded
+[2024-02-28 15:44:20] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:44:20] Resources: 10 loaded, 1 failed
+[2024-02-28 15:44:20] Starting inventory
+[2024-02-28 15:44:28] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:44:28] Stopping inventory
+[2024-02-28 15:44:28] New resource 'inventory' loaded
+[2024-02-28 15:44:28] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:44:28] Resources: 10 loaded, 1 failed
+[2024-02-28 15:44:28] Starting inventory
+[2024-02-28 15:44:43] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:44:43] Stopping inventory
+[2024-02-28 15:44:43] New resource 'inventory' loaded
+[2024-02-28 15:44:43] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:44:43] Resources: 10 loaded, 1 failed
+[2024-02-28 15:44:43] Starting inventory
+[2024-02-28 15:44:59] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:44:59] Stopping inventory
+[2024-02-28 15:44:59] New resource 'inventory' loaded
+[2024-02-28 15:44:59] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:44:59] Resources: 10 loaded, 1 failed
+[2024-02-28 15:44:59] Starting inventory
+[2024-02-28 15:45:18] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:45:18] Stopping inventory
+[2024-02-28 15:45:18] New resource 'inventory' loaded
+[2024-02-28 15:45:19] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:45:19] Resources: 10 loaded, 1 failed
+[2024-02-28 15:45:19] Starting inventory
+[2024-02-28 15:45:28] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:45:28] Stopping inventory
+[2024-02-28 15:45:28] New resource 'inventory' loaded
+[2024-02-28 15:45:28] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:45:28] Resources: 10 loaded, 1 failed
+[2024-02-28 15:45:28] Starting inventory
+[2024-02-28 15:45:41] Resource 'inventory' changed while running, reloading and restarting
+[2024-02-28 15:45:41] Stopping inventory
+[2024-02-28 15:45:42] New resource 'inventory' loaded
+[2024-02-28 15:45:42] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2024-02-28 15:45:42] Resources: 10 loaded, 1 failed
+[2024-02-28 15:45:42] Starting inventory
